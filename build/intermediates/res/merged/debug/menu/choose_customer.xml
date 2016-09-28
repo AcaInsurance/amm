@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+	    android:id="@+id/menu_search"
+	    android:icon="@drawable/search"
+	    android:title="Search"
+	    android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.widget.SearchView"/>
+   	
+    <item
+        android:id="@+id/action_add"
+        android:showAsAction="always"
+        android:icon="@drawable/addcustomer"
+        android:title="Tambah">
+    </item>
+
+</menu> 

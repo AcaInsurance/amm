@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:layout_gravity="left"
+				android:text="User ID lain telah terdaftar untuk device ini. Klik tombol dibawah untuk menginisialisasi user id baru, semua data yang tersimpan dalam device akan dihapus termasuk SPPA"
+				android:textSize="@dimen/font_large"
+				/>
+                      
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+           	<Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:minWidth="200dp"
+	             android:background="@drawable/infobutton"
+	             android:padding="10dp"
+	             android:text="Remove Old User ID"
+	             android:textColor="@color/Red"
+	             android:textStyle="bold" />
+           	
+            <Button
+	             android:id="@+id/dlgCancel"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginRight="20dp"
+	             android:background="@drawable/infobutton"
+	             android:padding="10dp"
+	             android:text="Cancel"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+           </LinearLayout>
+      </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>

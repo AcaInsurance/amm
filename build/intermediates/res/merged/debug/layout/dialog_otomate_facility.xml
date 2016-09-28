@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+        
+        
+		<TableLayout
+         	android:layout_width="match_parent"
+         	android:layout_height="wrap_content"
+         	android:stretchColumns="*"
+         	android:shrinkColumns="*">
+
+        	
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp" >
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	       		    android:padding="15dp"
+	                android:text="01. Mobil Pengganti - Memberikan kendaraan sebagai pengganti kendaraan tertanggung yang sedang diperbaiki di bengkel" />
+
+			</TableRow>
+           
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp">
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	            	android:padding="15dp"
+	                android:text="02. Road Side Assistance ( Perbaikan Darurat ) - Memperbaiki kendaraan tertanggung di tempat apabila mengalami mogok" />
+
+			</TableRow>
+			
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp">
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	            	android:padding="15dp"
+	                android:text="03. Mobil Derek - Mengirimkan mobil derek ke lokasi dan mengantarkannya ke tujuan" />
+
+			</TableRow>
+			
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp">
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	            	android:padding="15dp"
+	                android:text="04. Mobile Claim - Penyelesaikan klaim secara langsung di tempat tertanggung" />
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp" >
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	            	android:padding="15dp"
+	                android:text="05. Valet Service - Jasa pengambilan dan pengantaran kendaraan pada saat kendaraan masuk/keluar bengkel" />
+
+			</TableRow>
+			
+			
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp" >
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	            	android:padding="15dp"
+	                android:text="06. Hotline Service - Layanan Call Center 24 jam di 021-31999100" />
+
+			</TableRow>
+			
+			
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp" >
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	            	android:padding="15dp"
+	                android:text="07. Garansi Perbaikan - Jaminan perbaikan maksimal 6 bulan" />
+
+			</TableRow>
+			
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp" >
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	            	android:padding="15dp"
+	                android:text="08. Ambulan - Mengirimkan mobil ambulan ke lokasi apabila terdapat korban jiwa untuk dikirimkan ke Rumah Sakit terdekat" />
+
+			</TableRow>
+			
+			<TableRow
+				android:id="@+id/tableRow2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#FFFFFF"
+	            android:layout_margin="1dp" >
+	              
+	   			<TextView
+					android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	        	    android:padding="15dp"
+	                android:text="09. New For Old - Apabila terjadi kehilangan atau kerugian total khusus untuk kendaraan 100% baru yang berusia ≤ 6 bulan terhitung sejak tanggal pemberian kendaraan yang dipertanggungkan maka ganti rugi yang diberikan adalah sesuai dengan harga baru kendaraan pada saat terjadinya kehilangan dengan setinggi-tingginya sebesar nilai pertanggungan yang tercantum pada polis" />
+
+			</TableRow>
+			 
+      	</TableLayout>
+		<Button
+             android:id="@+id/dlgOK"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             android:layout_gravity="center_horizontal"
+             android:padding="10dp"
+             android:text="OK"
+             android:textColor="@color/White"
+             android:textStyle="bold" />
+	</LinearLayout>
+    	
+    </ScrollView>
+
+</RelativeLayout>

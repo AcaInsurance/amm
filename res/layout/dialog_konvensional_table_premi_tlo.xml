@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_gravity="center_horizontal"
+    >
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >        
+        
+    	<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="vertical"
+    	     >
+ 
+   	        <TextView 
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" 
+               android:text="Pertanggungan TLO"
+               android:textStyle="bold"  
+               android:background="@color/White"
+               style="@style/TextView_Cell_Grid"
+               />
+            
+           <HorizontalScrollView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:fillViewport="true"
+	            android:background="@color/White"
+	            >
+	            
+               
+    	<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="vertical"
+    	     >
+
+    		<TableLayout
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:background="@drawable/cellgrid"
+    		    android:stretchColumns="*" >
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content" >
+
+		               <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center"
+    		            android:text="Kategori"
+    		            android:textStyle="bold"  
+    		            android:background="@drawable/cellgrid"
+    		            />
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center"
+    		            android:text="Uang Pertanggungan" 
+    		            android:textStyle="bold" 
+    		            android:background="@drawable/cellgrid"/>
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:layout_span="3"
+    		            android:gravity="center_horizontal"
+    		            android:text="Wilayah 1"
+    		            android:textStyle="bold" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content" >
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:background="@drawable/cellgrid"
+    		            android:gravity="center_horizontal"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:background="@drawable/cellgrid"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Bawah"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Tengah"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Atas"
+    		            android:textStyle="bold" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 1" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0 s/d Rp125.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.47%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.52%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.56%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 2" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp126.000.000 s/d Rp200.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.44%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.49%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.53%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 3" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp201.000.000 s/d Rp400.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.29%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.32%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.35%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 4" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp401.000.000 s/d Rp800.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.25%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.28%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.30%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 5" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Lebih dari Rp800.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.20%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.22%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.24%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 6" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Truk &amp; Pick up, semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.53%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.59%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.64%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 7" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Bus, semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.18%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.20%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.22%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow03"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 8" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Roda 2 Semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="1.76%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="1.94%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="2.11%" />
+    		    </TableRow>
+    		</TableLayout>
+
+    		<TableLayout
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:background="@drawable/cellgrid"
+    		    android:stretchColumns="*"
+    		    android:layout_marginTop="50dp"
+    		     >
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content" >
+      			  <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center"
+    		            android:text="Kategori"
+    		            android:textStyle="bold"  
+    		            android:background="@drawable/cellgrid"
+    		            />
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center"
+    		            android:text="Uang Pertanggungan" 
+    		            android:textStyle="bold" 
+    		            android:background="@drawable/cellgrid"/>
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:layout_span="3"
+    		            android:gravity="center_horizontal"
+    		            android:text="Wilayah 2"
+    		            android:textStyle="bold" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content" >
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:background="@drawable/cellgrid"
+    		            android:gravity="center_horizontal"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:background="@drawable/cellgrid"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Bawah"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Tengah"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Atas"
+    		            android:textStyle="bold" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 1" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0 s/d Rp125.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.65%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.72%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.78%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 2" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp126.000.000 s/d Rp200.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.44%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.49%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.53%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 3" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp201.000.000 s/d Rp400.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.29%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.32%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.35%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 4" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp401.000.000 s/d Rp800.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.25%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.28%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.30%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 5" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Lebih dari Rp800.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.20%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.22%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.24%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 6" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Truk &amp; Pick up, semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="1.05%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="1.16%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="1.26%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 7" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Bus, semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.18%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.20%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.22%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow02"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 8" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Roda 2 Semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="1.76%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="1.94%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="2.11%" />
+    		    </TableRow>
+    		</TableLayout>
+
+    		<TableLayout
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:background="@drawable/cellgrid"
+    		    android:stretchColumns="*" 
+    		    android:layout_marginTop="50dp"
+    		    >
+
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content" >
+
+  		            <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center"
+    		            android:text="Kategori"
+    		            android:textStyle="bold"  
+    		            android:background="@drawable/cellgrid"
+    		            />
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center"
+    		            android:text="Uang Pertanggungan" 
+    		            android:textStyle="bold" 
+    		            android:background="@drawable/cellgrid"/>
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:layout_span="3"
+    		            android:gravity="center_horizontal"
+    		            android:text="Wilayah 3"
+    		            android:textStyle="bold" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content" >
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:background="@drawable/cellgrid"
+    		            android:gravity="center_horizontal"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:background="@drawable/cellgrid"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Bawah"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Tengah"
+    		            android:textStyle="bold" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="wrap_content"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Batas Atas"
+    		            android:textStyle="bold" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 1" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0 s/d Rp125.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.36%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.40%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.43%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 2" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp126.000.000 s/d Rp200.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.31%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.34%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.37%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 3" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp201.000.000 s/d Rp400.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.29%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.32%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.35%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 4" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Rp401.000.000 s/d Rp800.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.25%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.28%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.30%" />
+    		    </TableRow>
+
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 5" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Lebih dari Rp800.000.000" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.20%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.22%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.24%" />
+    		    </TableRow>
+    		    
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 6" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Truk &amp; Pick up, semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.49%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.54%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.59%" />
+    		    </TableRow>
+    		    
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 7" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Bus, semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.18%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.20%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.22%" />
+    		    </TableRow>
+    		    <TableRow
+    		        android:id="@+id/TableRow01"
+    		        android:layout_width="fill_parent"
+    		        android:layout_height="wrap_content"
+    		        android:background="#FFFFFF" >
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="180dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="left"
+    		            android:text="Kategori 8" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="Roda 2 Semua uang pertanggungan" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.67%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.74%" />
+
+    		        <TextView
+    		            style="@style/TextView_Cell_Grid"
+    		            android:layout_width="96dp"
+    		            android:layout_height="match_parent"
+    		            android:gravity="center_horizontal"
+    		            android:text="0.80%" />
+    		    </TableRow>
+    		</TableLayout> 
+    	    </LinearLayout>
+		</HorizontalScrollView>
+		
+    	    <Button
+    	        android:id="@+id/dlgOK"
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center_horizontal"
+    	        android:layout_margin="20dp"
+    	        android:background="@drawable/infobutton"
+    	        android:drawableLeft="@drawable/ok"
+    	        android:padding="10dp"
+    	        android:text="OK"
+    	        android:textColor="@color/White"
+    	        android:textStyle="bold" />
+    	</LinearLayout>
+	</ScrollView>
+	
+</RelativeLayout>

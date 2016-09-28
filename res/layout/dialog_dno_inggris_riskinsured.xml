@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="ACA  will pay Loss on behalf of the Director to the extent that the Director has not been provided with any indemnification or payment by a Company or from any form of insurance policy of whatever type."
+                />
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	  android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="Loss means any Defence Costs, or any other amounts including damages, judgements and settlements, (which include punitive and exemplary damages where insurable under the applicable law which is most favourable to a Director) and civil and administrative fines for which the Director is legally liable on account of a Claim and which have been consented to in writing by Underwriter. "
+                />
+            
+              
+             
+             <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           		 android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="Loss shall not include any criminal fines or penalties, and any amounts attributable to taxes or tax arrears."
+				/>
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+       	         android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:textStyle="bold"
+                 android:text="Coverage Extension" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+            	 android:background="@color/White"
+         	     android:padding="15dp"
+               	 android:layout_margin="1dp"
+                 android:text="1. Management wrongful act coverage" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+         		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="2. Employment Practice Coverage " />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+           		 android:padding="15dp"
+            	 android:background="@color/White"
+            	android:layout_margin="1dp"
+                 android:text="3. Defence cost in relation with investigation" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          	     android:padding="15dp"
+            	 android:background="@color/White"
+            	 android:layout_margin="1dp"
+                 android:text="4. Defence cost in relation with Pollution" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="1dp"
+          	     android:padding="15dp"
+            	 android:background="@color/White"
+                 android:text="5. Emergency defence cost 10% (In the event of emergency, legal representative can be appointed by insured without prior approval from insurer)" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+            	android:layout_margin="1dp"
+          	     android:padding="15dp"
+            	 android:background="@color/White"
+                 android:text="6. Defence cost will be paid in advance. This will be the advantage of individual policy where in corporate D\u0026O Policy the defense cost will be paid by the corporate firs, and will be reimbursed by the insurer later on." />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+                 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="7. Health and safety in workplace" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:background="@color/White"
+            	 android:layout_margin="1dp"
+                 android:text="8. Libel and slander coverage" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+             	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="9. Heirs and Estates Coverage" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="10. Asset coverage" />
+                 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="11. Coverage will be automatically given for 30 days for new form or merger company" />
+             
+             
+             <!--  KONDISI JAMINAN -->
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:textStyle="bold"
+             	 android:text="Coverage Condition" />     
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="1. In the event the policy is not renewed, the insured has a right to propose an extension for claim reporting period, subject to additional premium." />    
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="2. This policy will continue to provide legal support and will end by the time there is a final court decisions (inkracht)" />    
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="3. With the continuity nature of the policy, if there is a missreported claim , then the renewal policy will be responsible to respond. Subject to the policy itself is constantly renewed in ACA" />    
+             
+              <!--  RESIKO TIDAK DIJAMIN  -->
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:textStyle="bold"
+             	 android:text="Excluded Risk" />     
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="1. Claims / circumstances of claim arise prior to policy inception date"/>
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="2. Bodily injury / Material Damage. This exclusion do not apply to mental disturbance . shock / trauma that arises from employment practice and libel / slender"	/> 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="3. Any relation with Initial Public Offering and other valuable document / security transaction." />    
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="4. Law suit arises from controlling share holder (share holder with share above 20%)" />    
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="5. Unapropriate conduct , including criminal act is excluded prior to final court decision (inkracht), legal support from the policy still applies until such final court decision take place. ACA reserve all right to recollect all legal cost that has been paid after the final court decision (inkracht)." />    
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="6. Absolute exclusion for any activities related to corruption, gratuities and or improper financial transactions." />    
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="7. Professional legal responsibility" />    
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="8. Investment Banking" />    
+             	 
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="9. Money Laundering" />    
+                        
+             
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="10. Liablity that is spesifically regulated in a contract but there is no higher law that regulate such matter." />    
+             	 	 
+               <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="11. Fullfilment of the court order" />    
+             	 
+               
+                <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="12. Tax related" />    
+             	 
+                
+                 <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="13. Uninsurable subject matter" />    
+             	 
+                   <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="14. Over due compensation for a period of notification based on contract or law " />    
+             	 
+                     <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="15. All Legal rights coming from or in connection with employment contract , in relation between employee and their employer (This exclusion do not apply for lawsuit regarding employment practice)" />    
+             	 
+                <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="16. Every increase taken into consideration or price that has been paid for security in a merger or acquisition transactions" />    
+             	 
+                <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="17. Liability in relation with wages, social security (jamsostek), employee benefit and any othe cubject that already regulated by law" />    
+              
+               <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="18. War" 
+             	 />
+                    
+		<Button
+             android:id="@+id/dlgOK"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             android:layout_gravity="center_horizontal"
+             android:padding="10dp"
+             android:text="OK"
+             android:textColor="@color/White"
+             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    	
+    	<LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+        
+			<TableLayout
+				android:layout_width="match_parent"
+	         	android:layout_height="wrap_content"
+	         	android:stretchColumns="*">
+	
+				<TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:padding="15dp" >
+	                 
+	      		<TextView
+	          		android:layout_width="96dp"
+	    			android:layout_height="match_parent"
+	              	android:gravity="center_horizontal"
+	         		android:text="Jenis Risiko"
+	              	android:textStyle="bold"/>
+	                 
+				<TextView
+	       			android:layout_width="96dp"
+            		android:layout_height="match_parent"
+	     			android:gravity="center_horizontal"
+	            	android:text="Batas Penggantian"
+	              	android:textStyle="bold" />
+	                
+				<TextView
+	       			android:layout_width="96dp"
+	        		android:layout_height="match_parent"
+	           		android:gravity="center_horizontal"
+	           		android:text="Risiko Sendiri"
+	              	android:textStyle="bold" />
+			</TableRow>
+	           	
+				<TableRow
+	                 android:id="@+id/tableRow1"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content"
+	                 android:background="#FFFFFF"
+	                 android:layout_margin="1dp"
+	                 android:padding="15dp" >
+	                 
+	                 <TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Komprehensif / Total Loss Only" />
+	                 
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="100% JNP" />
+	                
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Rp. 200.000" />
+	                  
+	           	</TableRow>
+	              
+	           	<TableRow
+	                 android:id="@+id/tableRow1"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content"
+	                 android:background="#FFFFFF"
+	                 android:layout_margin="1dp"
+	                 android:padding="15dp" >
+	                 
+	                 <TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Kerusuhan, Huru Hara, Terorisme dan Sabotase" />
+	                 
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="100% JNP" />
+	                
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Rp. 200.000" />
+	                  
+	           	</TableRow>
+	           	
+	           	
+	           	<TableRow
+	                 android:id="@+id/tableRow1"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content"
+	                 android:background="#FFFFFF"
+	                 android:layout_margin="1dp"
+	                 android:padding="15dp" >
+	                 
+	                 <TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Banjir" />
+	                 
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="100% JNP" />
+	                
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Rp. 200.000" />
+	                  
+	           	</TableRow>
+	           	
+	           	
+	           	<TableRow
+	                 android:id="@+id/tableRow1"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content"
+	                 android:background="#FFFFFF"
+	                 android:layout_margin="1dp"
+	                 android:padding="15dp" >
+	                 
+	                 <TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Gempa Bumi" />
+	                 
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="100% JNP" />
+	                
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Rp. 200.000" />
+	                  
+	           	</TableRow>
+	           	
+	           	
+	           	<TableRow
+	                 android:id="@+id/tableRow1"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content"
+	                 android:background="#FFFFFF"
+	                 android:layout_margin="1dp"
+	                 android:padding="15dp"  >
+	                 
+	                 <TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Tanggung Jawab Hukum terhadap Pihak Ketiga" />
+	                 
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Maks. 20 juta / kejadian" />
+	                
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Tidak Ada" />
+	                  
+	           	</TableRow>
+	           	
+	           	
+	           	
+	           	<TableRow
+	                 android:id="@+id/tableRow1"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content"
+	                 android:background="#FFFFFF"
+	                 android:layout_margin="1dp"
+	                 android:padding="15dp"  >
+	                 
+	                 <TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Kecelakaan Diri Pengemudi dan Penumpang (Death Only)" />
+	                 
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="10 juta/orang (maks. 7 orang)" />
+	                
+					<TextView
+	                     android:layout_width="96dp"
+	                     android:layout_height="match_parent"
+	                     android:gravity="center_horizontal"
+	                     android:text="Tidak Ada" />
+	                  
+	           	</TableRow>
+	
+	            
+	         </TableLayout>
+		
+		
+		<Button
+             android:id="@+id/dlgOK"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             android:layout_gravity="center_horizontal"
+             android:padding="10dp"
+             android:text="OK"
+             android:textColor="@color/White"
+             android:textStyle="bold" />
+		
+    	</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

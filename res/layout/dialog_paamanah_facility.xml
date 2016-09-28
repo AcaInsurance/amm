@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            	android:padding="15dp"
+            	android:textStyle="bold"
+				android:text="Golongan / Kelas A :"
+				   />
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="Orang-orang yang melakukan pekerjaan di kantor atau sering tinggal / berada di kantor seperti : direktur, akuntan, sekretaris, karyawan administrasi dan sejenisnya."
+                />
+            
+             <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            	android:padding="15dp"
+            	android:textStyle="bold"
+				android:text="Golongan / Kelas B :"
+				   />
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="Orang-orang dari kelas A yang sering bepergian / dinas luar, seperti : bagian penjualan (salesman), ibu rumah tangga, pimpinan proyek, manager atau karyawan lapangan yang tidak terlibat langsung dalam proses pekerjaan tersebut dan sejenisnya."
+                />
+            
+             <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            	android:padding="15dp"
+            	android:textStyle="bold"
+				android:text="Golongan / Kelas C :"
+				   />
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="Orang-orang yang dalam pekerjaannya memerlukan alat-alat atau sarana lainnya untuk mendukung kegiatannya, seperti : dokter gigi, ahli bedah, paramedis, penjual, sopir, mekanik, petugas laboratorium atau manajer lapangan yang terlibat langsung dalam proses pekerjaan tersebut dan sejenisnya."
+                />
+            
+            
+              
+		<Button
+             android:id="@+id/dlgOK"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             android:layout_gravity="center_horizontal"
+             android:padding="10dp"
+             android:text="OK"
+             android:textColor="@color/White"
+             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

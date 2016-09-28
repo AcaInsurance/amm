@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" 
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+	        android:id="@+id/row1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"  >
+	        
+            <TextView
+	            android:id="@+id/txtProductionPolicyNo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="No Polis"
+	            android:layout_alignParentLeft="true"
+	            android:textColor="@color/White"
+	            android:textSize="18dp"
+	            android:textStyle="bold"  >
+	        </TextView>
+	        <TextView
+	            android:id="@+id/txtProductionCustomerName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Nama Nasabah"
+	            android:layout_below="@+id/txtProductionPolicyNo"
+	            android:layout_toLeftOf="@+id/btnSyncPolis"
+	            android:textColor="@color/White"
+	            android:textSize="18dp"
+	            android:maxLines="1"
+	            android:textStyle="bold"
+	            android:layout_alignParentLeft="true" >
+	        </TextView>
+	        
+	        <TextView
+	            android:id="@+id/txtProductionProduct"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/White"
+	            android:layout_below="@+id/txtProductionCustomerName" 
+	            android:textSize="18dp"
+	            android:maxLines="1"
+	            android:textStyle="bold"
+	            android:layout_alignParentLeft="true" >
+	        </TextView>
+	        
+	         <TextView
+	            android:id="@+id/txtProductionExpDate"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"	       
+	            android:textColor="@color/White"
+	            android:layout_below="@+id/txtProductionProduct" 
+	            android:textSize="18dp"
+	            android:maxLines="1"
+	            android:textStyle="bold"
+	            android:layout_alignParentLeft="true"   >
+	        </TextView>
+	        
+	        <ImageView
+	            android:id="@+id/btnSyncPolis"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+		    	android:background="@drawable/buttonpressed"
+	            android:padding="5dp"
+	            android:src="@drawable/renewal" />
+	        
+	        
+        </RelativeLayout>            
+        
+
+            
+ 	</LinearLayout>
+
+</RelativeLayout>

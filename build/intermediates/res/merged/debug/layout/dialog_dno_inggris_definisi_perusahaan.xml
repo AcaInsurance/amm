@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+       
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="1. Domiciled in INDONESIA"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="2. Not listed on any Stock Exchange OR any stock exchange outside INDONESIA"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="3. Derives less than 25% of its turnover from the United States of America"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="4. Has less than 25% of tangible assets (and in any event no more than USD 50,000,000) located in the United States of America"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="5. At the Inception of this Policy, has a positive net worth/equity and  no fall in the equity by more than 50% from that of previous year"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="6. Is not an Investment Bank, Corporate Finance House or a Mortgage/Stock/Prime Broker"
+				/>
+            
+               <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="7. Does not engage (as its primary business) in the manufacture or sale of either Tobacco or Asbestos products"
+				/>
+               
+			  <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp" 
+          		 android:textStyle="bold"
+				android:text="at which a Directorship is held."
+				/>
+            
+            
+            
+             <Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="100dp"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/ok"
+	             android:layout_gravity="center_horizontal"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>

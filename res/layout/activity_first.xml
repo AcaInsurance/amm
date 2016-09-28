@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".FirstActivity"
+    android:background="@drawable/abg" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/horizontalScrollView1"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp" />
+    
+    <HorizontalScrollView 
+        android:id="@+id/horizontalScrollView1"
+    	android:layout_width="fill_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_alignParentBottom="true"
+	   	android:layout_centerHorizontal="true"
+    	android:fillViewport="true"
+    	android:scrollbars="none">
+        
+        <LinearLayout
+	        android:id="@+id/actionbar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+
+	       <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginRight="18dp"
+	            android:onClick="btnChooseCustomerClick"
+	            android:clickable="true" >
+	
+	            <ImageView
+	                android:id="@+id/btnCustomer"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/buttonpressed"
+	                android:src="@drawable/customer"
+	                android:onClick="btnChooseCustomerClick" />
+	            
+	        </RelativeLayout>
+	        
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginRight="18dp"
+	            android:onClick="btnProductClick"
+	            android:clickable="true" >
+	
+	            <ImageView
+	                android:id="@+id/btnProduct"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/buttonpressed"
+	                android:src="@drawable/product"
+	                android:onClick="btnProductClick" />
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginRight="18dp"
+	            android:onClick="btnSPPAClick"
+	            android:clickable="true" >
+	
+	            <ImageButton
+	                android:id="@+id/btnSPPA"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/buttonpressed"
+	                android:src="@drawable/sppa"
+	                android:onClick="btnSPPAClick" />
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginRight="18dp"
+	            android:onClick="btnSyncClick"
+	            android:clickable="true" >
+	
+	            <ImageButton
+	                android:id="@+id/btnSync"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/buttonpressed"
+	                android:src="@drawable/sync"
+	                android:onClick="btnSyncClick"  />
+	        </RelativeLayout>
+	        
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginRight="12dp"
+	            android:onClick="btnNewsClick"
+	            android:clickable="true" >
+	
+	            <ImageButton
+	                android:id="@+id/btnN"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/buttonpressed"
+	                android:src="@drawable/news"
+	                android:onClick="btnNewsClick" />
+	        </RelativeLayout>
+	        
+	        
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginRight="12dp"
+	            android:onClick="btnMoreClick"
+	            android:clickable="true" >
+	
+	            <ImageButton
+	                android:id="@+id/btnM"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/buttonpressed"
+	                android:src="@drawable/more"
+	                android:onClick="btnMoreClick" />
+	        </RelativeLayout>
+	        
+	        
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginRight="12dp"
+	            android:onClick="btnMyProfileClick"
+	            android:clickable="true" >
+	
+	            <ImageButton
+	                android:id="@+id/btnL"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/buttonpressed"
+	                android:src="@drawable/profile1"
+	                android:onClick="btnMyProfileClick" />
+	        </RelativeLayout>
+	        
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginRight="12dp"
+	            android:onClick="btnLogoutClick"
+	            android:clickable="true" 
+	            android:visibility="gone"
+	            >
+	
+	            <ImageButton
+	                android:id="@+id/btnL"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:background="@drawable/buttonpressed"
+	                android:src="@drawable/logout"
+	                android:onClick="btnLogoutClick" />
+	        </RelativeLayout>
+        
+    	</LinearLayout>
+        
+    </HorizontalScrollView>
+    
+
+</RelativeLayout>

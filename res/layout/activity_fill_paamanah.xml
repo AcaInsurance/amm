@@ -1,0 +1,863 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:gravity="center"
+    tools:context=".FillOtomateActivity" >
+
+    <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+		        android:background="@drawable/buttonpressed"
+	            android:onClick="btnHomeClick"
+	            android:layout_alignParentLeft="true"  />
+            
+            <com.aca.amm.CustomTextViewBold
+	            android:id="@+id/lblTitle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/btnHome"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:padding="10dp"
+	            android:text="PA Amanah"
+	            android:textColor="@color/AMMC" 
+	            android:clickable="true"
+	            android:textSize="18sp"
+	            android:textStyle="bold" />
+            
+           	<ImageView
+	            android:id="@+id/btnDelete"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/delete_photo"
+	            android:clickable="true"
+		        android:background="@drawable/buttonpressed"
+	            android:onClick="btnDeleteClick"
+	            android:layout_alignParentRight="true"  />
+           	
+        </RelativeLayout>
+        
+        
+    </RelativeLayout>
+
+       <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+   		 android:background="@drawable/abg" 
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@+id/layFooter"
+        >
+        
+           
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"  >
+        	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+                <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:text="ID/No Nasabah"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White"/>
+                
+                <EditText
+                    android:id="@+id/txtCustomerNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+	            	android:enabled="false"
+	                android:layout_weight="0.5"
+                    android:background="@drawable/edittext"
+                    android:hint="ID/No Nasabah"
+                    android:padding="7dp">
+                </EditText>
+
+                </TableRow>
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:text="Nama Nasabah"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White"/>
+                
+                <EditText
+                    android:id="@+id/txtCustomerName"
+	                android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+	                android:layout_weight="0.5"
+                    android:background="@drawable/edittext"
+                    android:hint="Nama Nasabah"
+                    android:padding="7dp"
+                    android:enabled="false" >
+                </EditText>
+                </TableRow>
+                
+               <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:text=""
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White"/>
+                    
+                <Button
+			        android:id="@+id/btnChooseCustomer"
+			        android:layout_marginTop="20px"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="0.5"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center"
+			        android:background="@drawable/infobutton"
+			        android:padding="5dp"
+			        android:text="Pilih"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnChooseCustomerClick" />
+
+                
+               </TableRow>
+                
+            </TableLayout>
+          <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+            
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                <TextView
+	                android:layout_width="0dp"
+	                android:layout_weight="0.5"
+	                android:layout_height="match_parent"
+	                android:text="Ahli Waris ke-1 - Nama Lengkap"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnama1"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:hint="Nama lengkap"
+	                android:layout_weight="0.5"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  />
+	            
+	            </TableRow>
+	            
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.5"
+	                android:text="Ahli Waris ke-1 - Hubungan"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txthubungan1"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:hint="Hubungan dengan Ahli Waris"
+	                android:layout_weight="0.5"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp" />
+ 
+	            </TableRow>
+	            
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.5"
+	                android:text="Ahli Waris ke-1 - Alamat / No Telp"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtalamat1"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:inputType="textMultiLine"
+	                android:hint="Alamat/No Telepon"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  />
+          	 
+	            </TableRow>
+	            
+	        </TableLayout>	
+            
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+                <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.5"
+	                android:text="Ahli Waris ke-2 - Nama Lengkap"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnama2"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:inputType="text|textMultiLine"
+	                android:singleLine="false"
+	                android:hint="Nama lengkap"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  />
+	            
+	            </TableRow>
+	            
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.5"
+	                android:text="Ahli Waris ke-2 - Hubungan"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txthubungan2"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:inputType="textMultiLine"
+	                android:hint="Hubungan dengan Ahli Waris"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  />
+
+	            </TableRow>
+	            
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.5"
+	                android:text="Ahli Waris ke-2 - Alamat / No Telp "
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtalamat2"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:inputType="textMultiLine"
+	                android:hint="Alamat/No Telepon"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp" />
+	            
+	            </TableRow>
+	            
+			</TableLayout>
+			
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+              
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+                <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Ahli Waris ke-3 - Nama Lengkap"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnama3"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:layout_weight="0.5"
+	                android:hint="Nama lengkap"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  />
+	            
+	            </TableRow>
+	            
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Ahli Waris ke-3 - Hubungan"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txthubungan3"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:layout_weight="0.5"
+	                android:hint="Hubungan dengan Ahli Waris"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  />
+	            </TableRow>
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Ahli Waris ke-3 - Alamat / No Telp"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtalamat3"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:inputType="textMultiLine"
+	                android:background="@drawable/edittext"
+	                android:hint="Alamat/No Telepon"
+      				android:padding="7dp"  />
+	            
+		       </TableRow>
+    		</TableLayout>
+    		<TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+                <TextView
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+	                android:layout_weight="0.5"
+					android:text="Mulai Asuransi"
+					android:textColor="@color/White" />
+                
+                <EditText
+	                android:id="@+id/txtfromdate"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:hint="Mulai Asuransi"
+	                android:layout_weight="0.5"
+	                android:inputType="date"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp" />
+                
+                </TableRow>
+                 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+        	    <TextView
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:text="Akhir Asuransi"
+	                android:layout_weight="0.5"
+					android:textColor="@color/White" />
+        	    
+        	    <EditText
+	                android:id="@+id/txttodate"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:hint="Akhir Asuransi"
+	                android:inputType="date" 
+	                android:layout_weight="0.5"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp" />
+	            </TableRow>
+	            
+                 </TableLayout>
+                 <TableLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginBottom="5dp"
+	                android:background="@drawable/sectionbg"
+	                android:padding="10dp"  >
+	             <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+        	    
+        	    <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Besar Nilai Pertanggungan"
+        	        android:layout_span="2"
+        	        android:visibility="gone"
+	                android:layout_weight="1"
+	                android:textColor="@color/White" />
+                </TableRow>
+        	    <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+        	    <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="fill_parent"
+	                android:layout_weight="0.50"
+	                android:text="- Meninggal Dunia dan Cacat Tetap (akibat Kecelakaan)"
+	                android:textColor="@color/White" />
+        	    
+        	    <LinearLayout 
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.50"
+        	        >
+	        	    <EditText
+		                android:id="@+id/txtNilaiPertanggungan"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:hint="0.00"
+		                android:gravity="right"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp"  />
+        	    
+        	    </LinearLayout>
+            	</TableRow>
+            	 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+        		 <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="fill_parent"
+	                android:layout_weight="1.0"
+	                android:text="- Manfaat Biaya Pengobatan akibat kecelakaan(10% dari Nilai Pertanggungan)"
+	                android:textColor="@color/White" />
+        	    
+	            </TableRow>
+	             <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:text="- Santunan Duka (akibat Kecelakaan)(10% dari Nilai Pertanggungan)"
+	                android:textColor="@color/White"  />
+            	</TableRow>
+                 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.5"
+	                android:text="Jenis Plan"
+	                android:textColor="@color/White"  />
+	            
+	            <LinearLayout
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="0.5"
+				    android:orientation="vertical" >
+				    <RadioGroup
+				        android:id="@+id/rbgPlan"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content" 
+				        android:orientation="vertical">
+				        <RadioButton
+				            android:id="@+id/rboPlan1"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="Kelas A" 
+				            android:checked="true"
+				            android:textColor="@color/White" />
+				        <RadioButton
+				            android:id="@+id/rboPlan2"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="Kelas B"
+				            android:textColor="@color/White" />
+				        <RadioButton
+				            android:id="@+id/rboPlan3"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:text="Kelas C"
+				            android:textColor="@color/White" />
+				    </RadioGroup>
+				</LinearLayout>
+	           </TableRow>
+             </TableLayout>
+             
+    		<TableLayout
+               	android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+               	
+               	<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	                
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Rate"
+		                android:textColor="@color/White"  />
+	
+	            	<EditText
+		                android:id="@+id/txtRate"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+               
+	     		</TableRow>
+	             
+          		<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            	
+	            	<TextView
+			       		android:layout_width="0dp"
+			         	android:layout_height="match_parent"
+			         	android:text="Premi"
+		                android:layout_weight="0.5"
+			         	android:textColor="@color/White"  />
+	            
+	           		<EditText
+		                android:id="@+id/txtPremi"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:layout_weight="0.5"
+		                android:text="0.00"
+		                android:enabled="false"
+		                android:gravity="right"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp"  />
+            	</TableRow>
+                
+          		<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone"
+            		android:id="@+id/trDiscPct">
+	              	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.5"
+		                android:text="Diskon %"
+		                android:textColor="@color/White"  />
+		
+		 			<EditText
+		                android:id="@+id/txtDiscountPct"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:hint="0.00"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+           		</TableRow>
+				
+				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone"
+            		android:id="@+id/trDisc">
+			 			
+	              	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.5"
+		                android:text="Diskon"
+		                android:textColor="@color/White"  />
+
+		            <EditText
+		                android:id="@+id/txtDiscount"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:hint="0.00"
+		                android:text="0.00"
+		                android:enabled="false"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+           		</TableRow> 
+          		
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	           		<TextView
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+				   		android:text="Biaya Polis"
+		                android:layout_weight="0.5"
+				   		android:textColor="@color/White"  />
+	           	
+        	    	<EditText
+		                android:id="@+id/txtBiayaPolis"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:text="0.00"
+		                android:enabled="false"
+		                android:layout_weight="0.5"
+		                android:gravity="right"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp"  />
+   				</TableRow>
+   				
+   				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	               	<TextView
+		            	android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Biaya Materai"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White" />
+
+            		<EditText
+		                android:id="@+id/txtMaterai"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+		        
+	      		</TableRow>
+              	
+              	<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+            		
+         			<TextView
+				      	android:layout_width="0dp"
+				       	android:layout_height="wrap_content"
+				       	android:text="Total"
+		                android:layout_weight="0.5"
+				       	android:textColor="@color/White"  />   	
+        	    	
+	         		<EditText
+		                android:id="@+id/txtTotal"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:text="0.00" 
+		                android:enabled="false"
+		                android:layout_weight="0.5"
+		                android:gravity="right"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+ 				</TableRow>
+			</TableLayout>
+            
+        	<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            android:layout_marginTop="5dp">
+                
+                 <Button
+			        android:id="@+id/btnPrev"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="wrap_content"
+			        android:minWidth="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableLeft="@drawable/back"
+			        android:padding="10dp"
+			        android:text="Back"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnBackClick"
+			        android:layout_marginRight="5dp" />
+	            
+	            <Button
+			        android:id="@+id/btnNext"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="wrap_content"
+			        android:minWidth="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableRight="@drawable/next"
+			        android:padding="10dp"
+			        android:text="Next"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnNextClick" />
+        
+            </LinearLayout>
+        
+	     </LinearLayout>
+    </ScrollView>
+    
+	</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+    </RelativeLayout>
+
+</RelativeLayout>

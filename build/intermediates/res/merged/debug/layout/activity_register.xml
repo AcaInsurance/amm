@@ -1,0 +1,452 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/abg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity" >
+    
+     <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick"  />
+
+        </RelativeLayout>
+        
+        <com.aca.amm.CustomTextViewBold
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layTitle2"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Register Username"
+            android:textColor="@color/AMMC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter"
+        android:padding="5dp"
+        android:layout_marginTop="10dp" >
+        
+        	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+                 >
+                
+            
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp" 
+           		 android:background="@drawable/sectionbg"
+           		  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Name"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtNama"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+	                    android:padding="7dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	            	    android:hint="Name"
+	                    android:inputType="textCapWords|textMultiLine"
+	                    
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                   
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone"
+            		>
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="ID"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtID"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="KTP / Passport"
+	                    android:padding="7dp"
+	                    android:inputType="textCapCharacters|textMultiLine"
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                   
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_gravity="center_vertical"
+		                android:text="Handphone"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <LinearLayout 
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.5"
+	                    android:orientation="horizontal"
+	                    android:layout_marginRight="5dp"
+	                    >
+	                    <Spinner 
+	                        android:id="@+id/txtPhoneCode"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="fill_parent" 
+	                        android:spinnerMode="dropdown" 
+		                    android:hint="62"
+		                    android:background="@drawable/edittext"
+		                    
+	                        />
+		                <EditText
+		                    android:id="@+id/txtPhoneNumber"
+		                    android:layout_width="fill_parent"
+		                    android:layout_height="fill_parent"
+		                    android:singleLine="true" 
+		                    android:background="@drawable/edittext"
+		                    android:hint="Mobile Phone Number"
+		                    android:padding="7dp"
+		                    android:inputType="phone"
+		                    android:digits="0123456789"
+		                    >
+		                </EditText>
+	                
+	                </LinearLayout>
+
+                </TableRow>
+                
+                   
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Email"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtEmail"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	        
+	                    android:hint="Example@test.com"
+	                    android:padding="7dp"
+	                    android:inputType="textEmailAddress|textMultiLine"
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                  <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Confirm Email"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtConfirmEmail"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"		                
+	                    android:background="@drawable/edittext"
+	            		
+	                    android:hint="Example@test.com"
+	                    android:padding="7dp"
+	                    android:inputType="textEmailAddress|textMultiLine"
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Username"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtUserName"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	            		
+	                    android:hint="Username"
+	                    android:padding="7dp"
+	                    android:inputType="textCapWords|textMultiLine"
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Password"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtPassword"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	            		
+	            		android:inputType="textPassword|textMultiLine"
+	                    android:hint="Password"
+	                    android:padding="7dp"
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                
+                    
+                 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Confirm Password"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtConfirmPassword"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext" 
+	            		android:inputType="textPassword|textMultiLine"
+	                    android:hint="Confirm Password"
+	                    android:padding="7dp">
+	                </EditText>
+
+                </TableRow>
+                
+                 
+                 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Bank Name"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <Spinner 
+	                    android:id="@+id/txtBankName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" 
+		                android:layout_weight="0.5"
+	                    android:layout_marginRight="5dp"
+                        android:spinnerMode="dropdown" 
+	                    android:hint="Bank Name"
+	                    android:background="@drawable/edittext"  
+                        /> 
+
+                </TableRow>
+                
+                 
+                 
+                 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Bank Account"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtBankAccount"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext" 
+	                    android:hint="Bank Account"
+	                    android:padding="7dp">
+	                </EditText>
+
+                </TableRow>
+                
+                 
+                 
+                 
+                
+             </TableLayout>
+                
+               
+		    <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            android:layout_marginTop="5dp">
+                
+                 <Button
+			        android:id="@+id/btnCancel"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton" 
+			        android:padding="10dp"
+			        android:text="Cancel"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:layout_marginRight="5dp" />
+	            
+	            <Button
+			        android:id="@+id/btnRegister"
+			        android:layout_marginTop="20dp"
+			        android:minWidth="100dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton" 
+			        android:padding="10dp"
+			        android:text="Register"
+			        android:textStyle="bold"
+			        android:textColor="@color/White" />
+                
+            </LinearLayout>
+          </LinearLayout>     
+        </ScrollView>
+        
+    
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+    
+
+</RelativeLayout>

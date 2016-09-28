@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\libs\ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d6e6d14301616c866b7eff210ece6579299417ec">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.5.8-jar-with-dependencies_1d845ad09baac34b23a6d85249ab11e1e2115f00.jar" />
+    </item>
+    <item
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0596ba8fc9684e6518b3977c270bdb10cffeb535">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\instant-run_7eb194a3dc9514d9e75516ad6626d4861c7079a8.jar" />
+    </item>
+    <item
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\libs\joda-time-2.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\joda-time-2.3_e6e7de305d056dc58198a6f4ad84a84563919c28.jar" />
+    </item>
+    <item
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4668030745d4740452fcebc8acb2491bbf7b26fb">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3766a92a6ee0e8ffb860f0eaa35cdf1982a28def.jar" />
+    </item>
+    <item
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\android-support-v4_be46033a92ddff7edfa285bc65e6e52edb898d00.jar" />
+    </item>
+
+</items>

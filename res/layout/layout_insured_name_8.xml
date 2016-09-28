@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout android:id="@+id/sectionInsured8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TableLayout  
+       android:layout_width="fill_parent"
+       android:layout_height="match_parent"
+       android:layout_marginBottom="5dp"
+       android:background="@drawable/sectionbg"
+       android:padding="10dp"  >
+        <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+         
+              <TextView
+	               android:layout_width="0dp"
+	               android:layout_height="wrap_content"
+	               android:text="Cover"
+	               android:layout_weight="0.5"
+	               android:textColor="@color/White" />
+	              
+              <LinearLayout 
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.5"
+                  android:orientation="horizontal"
+                  >
+	              <Switch
+	                  android:id="@+id/swInsured8"
+	                  android:layout_width="wrap_content"
+	                  android:layout_height="wrap_content"
+	                  android:textOn="Ya"
+	                  android:textOff="Tidak"
+	                  android:gravity="left"
+	                />
+               </LinearLayout>
+			</TableRow> 
+			
+	
+            <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+         
+              <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Nama tertanggung"
+               android:layout_weight="0.5"
+               android:textColor="@color/White" />
+              
+              
+            <EditText android:id="@+id/txtNamaTertanggung8"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:hint="Nama Lengkap"
+               android:layout_weight="0.5"
+               android:padding="7dp"
+               android:background="@drawable/edittext"
+               
+                /> 
+			</TableRow> 
+	
+             <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+         	 	android:weightSum="1.0"
+         		android:layout_width="0dp">
+         
+              <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Tanggal Lahir"
+               android:layout_weight="0.5"
+               android:textColor="@color/White" />
+              
+              
+                  <EditText android:id="@+id/txtDOB8"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:hint="Tanggal Lahir"
+               android:layout_weight="0.5"
+               android:padding="7dp"
+               android:background="@drawable/edittext"
+               
+                /> 
+			</TableRow> 
+	
+                <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+         
+              <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Passport"
+               android:layout_weight="0.5"
+               android:textColor="@color/White" />
+              
+              
+              <EditText android:id="@+id/txtPassport8"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:hint="No. Passport"
+               android:layout_weight="0.5"
+               android:padding="7dp"
+               style="@style/TextView_Passport"
+               android:background="@drawable/edittext"
+               
+                /> 
+		</TableRow> 
+	</TableLayout>
+
+
+</LinearLayout>

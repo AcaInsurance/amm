@@ -1,0 +1,604 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerActivity"
+    android:background="@drawable/abg">
+
+     <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick" />
+
+        </RelativeLayout>
+        
+        <com.example.amm.CustomTextViewBold
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layTitle2"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Tambah Nasabah"
+            android:textColor="@color/AMMC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+     
+	<ScrollView
+    	android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter"
+        android:padding="5dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+		    <LinearLayout
+		        android:id="@+id/customer1"
+		        android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical"
+            	android:layout_marginBottom="5dp"
+            	android:padding="5dp">
+		        
+		        <TextView
+			 			android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+			            android:text="Nama"
+			            android:textColor="@color/White"/>
+		        
+		        <EditText
+		             	android:id="@+id/txtName"
+		     			android:layout_width="match_parent"
+		     			android:layout_height="wrap_content"
+		         		android:inputType="text|textCapCharacters|textPersonName"
+		         		android:hint="Nama calon nasabah"
+		         		android:background="@drawable/editexttop"
+	        			android:padding="15dp" />
+		        
+		    </LinearLayout>
+		    
+		    
+		    <LinearLayout
+		        android:id="@+id/customer2"
+		        android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical"
+            	android:layout_marginBottom="5dp">
+		        
+		        
+		    </LinearLayout>
+		    
+		    
+		    <LinearLayout 
+				android:id="@+id/customer1"
+		        android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical"
+            	android:layout_marginBottom="5dp">
+		        
+		        <LinearLayout 
+					android:id="@+id/customer11"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+            	
+			        <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Nama"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewtop"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+			        	
+			        <EditText
+		             	android:id="@+id/txtName"
+		     			android:layout_width="match_parent"
+		     			android:layout_height="wrap_content"
+		         		android:inputType="text|textCapCharacters|textPersonName"
+		         		android:hint="Nama calon nasabah"
+		         		android:background="@drawable/editexttop"
+	        			android:padding="15dp" />
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+					android:id="@+id/customer12"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+			        
+		            <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="No. HP"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		            
+			        <EditText
+			   		    android:id="@+id/txtMobile"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="phone"
+			   		    android:hint="Nomor handphone"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp" />
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+					android:id="@+id/customer13"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+			        
+		            <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="E-mail"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		            
+			        <EditText
+			   		    android:id="@+id/txtEmail"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="textEmailAddress"
+			   		    android:hint="Alamat E-mail"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp" />
+		        
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+					android:id="@+id/customer14"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+		        
+		            <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Tgl. Lahir"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		            
+			        <EditText
+			   		    android:id="@+id/txtDOB"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="date"
+			   		    android:hint="Tanggal Lahir"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp"  />
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+					android:id="@+id/customer15"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+			        
+		            <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Tempat Lahir"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		            
+			        <EditText
+			   		    android:id="@+id/txtPOB"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="textCapCharacters"
+			   		    android:hint="Tempat Lahir"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp"  />
+		        </LinearLayout>
+		        
+		         <LinearLayout 
+					android:id="@+id/customer16"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+			        
+		             <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="No. ID"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewbottom"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		             
+			        <EditText
+			   		    android:id="@+id/txtIDNo"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="text"
+			   		    android:hint="Nomor KTP / SIM / Passport"
+		         		android:background="@drawable/edittextbottom"
+	        			android:padding="15dp"  />
+		        </LinearLayout>
+		        
+		    </LinearLayout>
+		    
+
+		  	<LinearLayout 
+				android:id="@+id/customer2"
+		        android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical"
+            	android:layout_marginBottom="5dp">   
+		   		
+		  	   	<LinearLayout 
+					android:id="@+id/customer21"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+			        
+		  	     	<TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Alamat"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewtop"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		  	         
+		  	        <EditText
+			   		    android:id="@+id/txtAddress"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="text|textCapCharacters"
+			   		    android:hint="Alamat"
+		         		android:background="@drawable/editexttop"
+	        			android:padding="15dp" />
+			   	</LinearLayout>
+		  	    
+		  	  	<LinearLayout 
+					android:id="@+id/customer22"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+		  	        
+		  	        <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="RT"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		  	        
+		  	        <EditText
+			   		    android:id="@+id/txtRT"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="textCapCharacters"
+			   		    android:hint="RT"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp" />
+		  	          
+	         	</LinearLayout>
+		  	     
+		  	    <LinearLayout
+		  	        android:id="@+id/customer23"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+		  	        
+		  	        <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="RW"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		  	        
+		  	        <EditText
+			   		    android:id="@+id/txtRW"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="textCapCharacters"
+			   		    android:hint="RW"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp" />
+		  	        
+		  	  	</LinearLayout>
+		  	    
+		  	 	<LinearLayout
+		  	        android:id="@+id/customer24"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+		  	        
+		  	 	    <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Kelurahaan"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		  	 	    
+		  	 	    <EditText
+			   		    android:id="@+id/txtKelurahan"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		   	android:inputType="textCapCharacters"
+			   		    android:hint="Kelurahaan"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp" />	
+        			
+		  	  	</LinearLayout>
+		  	  	
+		  	 	<LinearLayout
+		  	        android:id="@+id/customer25"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+		  	 	    
+		  	 	    <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Kecamatan"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		  	 	    
+		  	 	    <EditText
+			   		    android:id="@+id/txtKecamatan"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="textCapCharacters"
+			   		    android:hint="Kecamatan"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp" />
+		  	 	    
+		  	  	</LinearLayout>
+		  	  	
+		  	 	
+		  	 	<LinearLayout 
+					android:id="@+id/customer26"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+                    
+                    <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Kota/Propinsi"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+                    
+                    <Spinner
+		                android:id="@+id/spinnerPropinsi"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:hint="Kota/Propinsi"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp" />
+                    
+		  		</LinearLayout>
+		  	 	
+		  	 	<LinearLayout
+		  	        android:id="@+id/customer27"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+		  	 	    
+		  	 	    <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Kode Pos"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewbottom"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+		  	 	    
+		  	 	    <EditText
+			   		    android:id="@+id/txtPostalCode"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content"
+			   		    android:inputType="textCapCharacters"
+			   		    android:hint="Kode Pos"
+		         		android:background="@drawable/edittextbottom"
+	        			android:padding="15dp" />
+		  	 	    
+		  	  	</LinearLayout>
+
+			</LinearLayout>
+		        
+		   		
+            <LinearLayout 
+				android:id="@+id/customer3"
+		        android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical"
+            	android:layout_marginBottom="5dp">       
+                
+                <LinearLayout 
+					android:id="@+id/customer31"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+		  	 	    
+                    <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="No. Telp"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewtop"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+                    
+                    <EditText
+			   		    android:id="@+id/txtPhone"
+			   		    android:layout_width="match_parent"
+			   		    android:layout_height="wrap_content" 
+			   		    android:inputType="phone"
+			   		    android:hint="Nomor Telphone"
+		         		android:background="@drawable/editexttop"
+	        			android:padding="15dp" />
+                    
+		  		</LinearLayout>
+		  	 	
+                <LinearLayout 
+					android:id="@+id/customer32"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+                    
+                    <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Perkerjaan"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewmiddle"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+                    
+                     <Spinner
+		                android:id="@+id/spinnerOccupation"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:hint="Perkerjaan"
+		         		android:background="@drawable/edittextmiddle"
+	        			android:padding="15dp" />
+                    
+		  		</LinearLayout>
+		  		
+                
+                <LinearLayout 
+					android:id="@+id/customer33"
+			        android:layout_width="match_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="horizontal">
+                    
+                    <TextView
+			 			android:layout_width="200dp"
+	                    android:layout_height="wrap_content"
+			            android:text="Bidang Usaha"
+			            android:textColor="@color/White"
+			            android:background="@drawable/textviewbottom"
+	        			android:padding="15dp"
+	        			android:textSize="18sp"/>
+                    
+                    <Spinner
+		                android:id="@+id/spinnerBusiness"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:hint="Bidang Usaha"
+		         		android:background="@drawable/edittextbottom"
+	        			android:padding="15dp" />
+                    
+		  		</LinearLayout>
+		  		
+			</LinearLayout>
+			
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            android:layout_marginTop="5dp">
+                
+                <Button
+			        android:id="@+id/btnPrev"
+			        android:layout_marginTop="20px"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="left|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableLeft="@drawable/back"
+			        android:padding="10dp"
+			        android:text="Back"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnBackClick"
+			        android:layout_marginRight="5dp" />
+	            
+	            <Button
+			        android:id="@+id/btnNext"
+			        android:layout_marginTop="20px"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="left|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableLeft="@drawable/next"
+			        android:padding="10dp"
+			        android:text="Next"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnNextClick" />
+                
+            </LinearLayout>
+            
+         </LinearLayout>
+   	
+    </ScrollView>
+    
+     
+   	<RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

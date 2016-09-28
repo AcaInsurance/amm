@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:layout_gravity="left"
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Red"
+				android:text="Apakah anda yakin ingin menghapus user id yang lama ? Semua data termasuk sppa pada device akan dihapus"
+				/>
+          
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:layout_gravity="left"
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:text="Enter current password:"
+				/>
+            
+              <EditText android:id="@+id/edCurrentPassword"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@drawable/edittext"
+            	 android:textSize="@dimen/font_normal"
+            	 android:textColor="@color/Black"
+            	 android:inputType="textPassword"
+            	 android:hint="Password"
+				/>
+            
+         </LinearLayout>
+          
+          <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+           	<Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:minWidth="100dp"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+           	
+            <Button
+	             android:id="@+id/dlgCancel"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:minWidth="100dp"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:padding="10dp"
+	             android:text="Cancel"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+           </LinearLayout>
+           
+      </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>

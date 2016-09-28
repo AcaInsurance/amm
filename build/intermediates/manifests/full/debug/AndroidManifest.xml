@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aca.amm"
+    android:versionCode="38"
+    android:versionName="3.9" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <supports-screens />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.aca.amm.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aca.amm.FirstActivity"
+            android:label="@string/title_activity_first"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.CustomerActivity"
+            android:label="@string/title_activity_customer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseProductActivity"
+            android:label="@string/title_activity_choos_product"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseCustomerActivity"
+            android:label="@string/title_activity_choose_customer"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+        <activity
+            android:name="com.aca.amm.ConfirmActivity"
+            android:label="@string/title_activity_confirm"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ReadTCActivity"
+            android:label="@string/title_activity_read_tc"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillOtomateActivity"
+            android:label="@string/title_activity_fill_otomate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillAsriActivity"
+            android:label="@string/title_activity_fill_asri"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillTravelActivity"
+            android:label="@string/title_activity_fill_travel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.SignatureActivity"
+            android:label="@string/title_activity_signature"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillTravelDomActivity"
+            android:label="@string/title_activity_fill_travel_dom"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillMedisafe"
+            android:label="@string/title_activity_fill_medisafe"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillExecutiveActivity"
+            android:label="@string/title_activity_fill_executive"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillTokoActivity"
+            android:label="@string/title_activity_fill_toko"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillOtomateSyariahActivity"
+            android:label="@string/title_activity_fill_otomate_syariah"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillAsriSyariahActivity"
+            android:label="@string/title_activity_fill_asri_syariah"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillPAAmanahActivity"
+            android:label="@string/title_activity_fill_paamanah"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ReadNewsActivity"
+            android:label="@string/title_activity_read_tc"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.RenewalActivity"
+            android:label="@string/title_activity_renewal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.SPPAActivity"
+            android:label="@string/title_activity_sppa"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.SyncActivity"
+            android:label="@string/title_activity_sync"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoOtomateActivity"
+            android:label="@string/title_activity_info_otomate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoAsriActivity"
+            android:label="@string/title_activity_info_asri"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoAsriSyariahActivity"
+            android:label="@string/title_activity_info_asri_syriah"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoOtomateSyariahActivity"
+            android:label="@string/title_activity_info_otomate_syariah"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoMedisafeActivity"
+            android:label="@string/title_activity_info_medisafe"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoPAAmanahActivity"
+            android:label="@string/title_activity_info_paamanah"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoTokoActivity"
+            android:label="@string/title_activity_info_toko"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoTravelActivity"
+            android:label="@string/title_activity_info_travel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoTravelDomActivity"
+            android:label="@string/title_activity_info_travel_dom"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoExecutiveActivity"
+            android:label="@string/title_activity_info_executive"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.CaptureSignature"
+            android:label="@string/title_activity_capture_signature"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.MoreActivity"
+            android:label="@string/title_activity_more"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.SyncIncompleteActivity"
+            android:label="@string/title_activity_sync_incomplete" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.SyncUnsyncActivity"
+            android:label="@string/title_activity_sync_unsync" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.SyncUnpaidActivity"
+            android:label="@string/title_activity_sync_unpaid" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.PaidSPPAActivity"
+            android:label="@string/title_activity_paid_sppa"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseCustomerForBuyActivity"
+            android:label="@string/title_activity_choose_customer_for_buy"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+        <activity
+            android:name="com.aca.amm.PhotoListActivity"
+            android:label="@string/title_activity_photo_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.PhotoTakeActivity"
+            android:label="@string/title_activity_photo_take"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.UploadPhotoActivity"
+            android:label="@string/title_activity_upload_photo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ContactUsActivity"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.Aaaaaa"
+            android:label="@string/title_activity_aaaaaa" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoACAMobilActivity"
+            android:label="@string/title_activity_info_acamobil" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillACAMobilActivity"
+            android:label="@string/title_activity_fill_acamobil" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillCargoActivity"
+            android:label="@string/title_activity_fill_cargo" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoCargoActivity"
+            android:label="@string/title_activity_info_cargo" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseVesselNameActivity"
+            android:label="@string/title_activity_choose_vessel_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseVesselTypeActivity"
+            android:label="@string/title_activity_choose_vessel_type"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseProvinceActivity"
+            android:label="@string/title_activity_choose_province" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseCountryActivity"
+            android:label="@string/title_activity_choose_country" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseCarBrandActivity"
+            android:label="@string/title_activity_choose_car_brand" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseCarTypeActivity"
+            android:label="@string/title_activity_choose_car_type" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseCarBrandSyariahActivity"
+            android:label="@string/title_activity_choose_car_brand" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ChooseCarTypeSyariahActivity"
+            android:label="@string/title_activity_choose_car_type" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.TabbedActivity"
+            android:label="@string/title_activity_tabbed" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoWellWomanActivity"
+            android:label="@string/title_activity_info_well_woman" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillWellWomanActivity"
+            android:label="@string/title_activity_fill_well_woman" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillDNOActivity"
+            android:label="@string/title_activity_fill_dno" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoDNOActivity"
+            android:label="@string/title_activity_info_dno" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.ControlNormalActivity"
+            android:label="Control Activity" >
+        </activity>
+
+        <service
+            android:name="com.aca.amm.SampleService"
+            android:enabled="true" />
+        <service
+            android:name="com.aca.amm.TaskService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.aca.amm.AlarmReceiver"
+            android:process=":remote" >
+        </receiver>
+        <receiver
+            android:name="com.aca.amm.AlarmReceiver"
+            android:process=":remote" >
+        </receiver>
+
+        <activity
+            android:name="com.aca.amm.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.RegisterOrLoginActivity"
+            android:label="@string/title_activity_register_or_login" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.MyProfileActivity"
+            android:label="@string/title_activity_my_profile"
+            android:parentActivityName="com.aca.amm.FirstActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aca.amm.FirstActivity" />
+        </activity>
+        <activity
+            android:name="com.aca.amm.FragmentTestActivity"
+            android:label="@string/title_activity_fragment_test" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillKonvensionalActivity"
+            android:label="@string/title_activity_fill_comprehensive" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.InfoKonvensionalActivity"
+            android:label="@string/title_activity_info_konvensional" >
+        </activity>
+        <activity
+            android:name="com.aca.amm.FillInsuredGroupActivity"
+            android:label="@string/title_activity_fill_insured_group" >
+        </activity>
+    </application>
+
+</manifest>

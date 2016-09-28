@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="ACA akan menjamin kerugian yang diderita oleh Direktur, sesuai dengan kondisi yang dijamin dalam Polis D\u0026O ini. Dengan kondisi Direktur tersebut belum dibayarkan atau di ganti kerugiannya oleh Perusahaan, ataupun oleh Polis asuransi dalam bentuk apapun."
+                />
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	  android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="Definisi kerugian dalam Polis adalah setiap  Biaya Pembelaan, atau setiap jumlah lainnya termasuk ganti rugi, putusan dan penyelesaian (termasuk ganti rugi yang menjerakan atau menghukum apabila dapat diasuransikan berdasarkan ketentuan hukum yang berlaku yang berpihak kepada Direktur) dan denda perdata dan tata usaha dimana Direktur tersebut secara hukum bertanggung jawab karena Klaim dan telah disetujui terlebih dahulu secara tertulis oleh Penanggung."
+                />
+            
+             <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           		 android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="Kerugian tidak termasuk setiap denda atau penalti pidana dan setiap jumlah yang berasal dari pajak atau tunggakan pajak."
+				/>
+             
+           
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+       	         android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:textStyle="bold"
+                 android:text="Perluasan Jaminan" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+            	 android:background="@color/White"
+         	     android:padding="15dp"
+               	 android:layout_margin="1dp"
+                 android:text="1. Jaminan atas kesalahan manajemen" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+         		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="2. Jaminan atas masalah Ketenagakerjaan" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+           		 android:padding="15dp"
+            	 android:background="@color/White"
+            	android:layout_margin="1dp"
+                 android:text="3. Jaminan atas Biaya Pembelaan/ Hukum terkait Investigasi" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          	     android:padding="15dp"
+            	 android:background="@color/White"
+            	 android:layout_margin="1dp"
+                 android:text="4. Jaminan atas Biaya Pembelaan/Hukum terkait Polusi" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="1dp"
+          	     android:padding="15dp"
+            	 android:background="@color/White"
+                 android:text="5. Jaminan atas Biaya Pembelaan/Hukum darurat 10% (pengacara dapat ditunjuk tanpa persetujuan terlebih dahulu dari Penanggung, dalam keadaan darurat)" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+            	android:layout_margin="1dp"
+          	     android:padding="15dp"
+            	 android:background="@color/White"
+                 android:text="6. Jaminan atas permintaan pembayaran biaya pembelaan di muka. Hal ini merupakan keunggulan dari polis individual dimana pada polis Director and Officer perusahaan biaya pembelaan dibayar lebih dulu oleh tertanggung dan ditagihkan ke Penanggung  secara reimbursement." />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+                 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="7. Jaminan atas Kesehatan dan Keselamatan di tempat kerja " />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:background="@color/White"
+            	 android:layout_margin="1dp"
+                 android:text="8. Jaminan atas Pencemaran Nama Baik" />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+             	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="9. Jaminan terhadap Ahli Waris " />
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="10. Jaminan Pembebasan asset" />
+                 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+                 android:text="11. Jaminan otomatis berlaku selama 30 hari untuk jabatan di perusahaan yang baru diakuisisi atau dibentuk atau di anak perusahaan yang didivestasi" />
+             
+             
+             <!--  KONDISI JAMINAN -->
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:textStyle="bold"
+             	 android:text="Kondisi Jaminan" />     
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="1. Bila polis tidak diperpanjang, maka tertanggung berhak mengajukan perpanjangan masa pelaporan klaim dengan membayar premi tambahan" />    
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="2. Polis ini tetap memberikan bantuan hukum sampai adanya putusan yang memiliki kekuatan hukum tetap (inkracht) " />    
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="3. Bila polis ini tetap diperpanjang di ACA, ada kejadian / potensi klaim / klaim yang secara tidak sengaja lupa dilaporkan oleh tertanggung, maka polis perpanjangan akan mengakomodasinya" />    
+             
+              <!--  RESIKO TIDAK DIJAMIN  -->
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:textStyle="bold"
+             	 android:text="Resiko tidak dijamin" />     
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="1. Klaim / potensi klaim yang sudah terjadi sebelum periode polis dimulai"/>
+             	 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="2. Cedera Badan/ Kerusakan Harta Benda. Pengecualian ini tidak berlaku untuk gangguan mental / shock/ trauma yang timbul dari urusan ketenagakerjaan dan akibat pencemaran nama baik "	/> 
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="3. Terkait dengan Penawaran Perdana saham dan transaksi surat berharga" />    
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="4. Tuntutan dari pemegang saham pengendali (pihak yang memiliki saham diatas 20%)" />    
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="5. Tindakan Tercela, termasuk tindakan criminal dikecualikan setelah inkracht, namun sebelum itu masih dapat bantuan hukum sampai dinyatakan inkracht .  Setelah inkracht maka ACA berhak untuk menarik apa yang sudah dibayarkan.  Khusus untuk tindakan korupsi,pengelapan uang, dikecualikan secara absolut." />    
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="6. Tanggung jawab hukum  profesi" />    
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="7. Perbankan Investasi" />    
+             
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="8. Pencucian uang" />    
+             	 
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="9. Tanggung jawab untuk apa yang secara khusus diatur didalam kontrak namun tidak diatur oleh ketentuan hukum yang lebih tinggi. Dengan kata lain hal-hal yang bila tidak adanya kontrak diatur oleh ketentuan hukum yang lebih tinggi dijamin oleh polis" />    
+                        
+             
+              <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="10. Upaya memenuhi perintah pengadilan terkait hal yang harus dilakukan atau yang tidak boleh dilakukan" />    
+             	 	 
+               <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="11. Pajak" />    
+             	 
+               
+                <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="12. Hal-hal yang tidak dapat diasuransikan" />    
+             	 
+                
+                 <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="13. Kompensasi yang jatuh tempo untuk jangka waktu pemberitahuan berdasarkan kontrak atau undang-undang" />    
+             	 
+                   <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="14. Seluruh hal yang mana Orang yang Dipertanggungkan menyatakan berhak untuk mendapatkan sesuatu terkait dengan kontrak kerja mereka dengan perusahaan mereka bekerja (pengecualian ini tidak berlaku untuk tuntutan terkait ketenagakerjaan) " />    
+             	 
+                     <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="15. Setiap kenaikan yang tengah dalam pertimbangan atau harga yang dibayarkan untuk sekuritas dalam transaksi merger dan akuisisi" />    
+             	 
+                       <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="16. Tuntutan terkait upah, jamsostek, santunan pekerja lainnya yang sudah diatur oleh ketentuan hukum" />    
+             	 
+                         <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+             	 android:text="17. Perang" />    
+              
+		<Button
+             android:id="@+id/dlgOK"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             android:layout_gravity="center_horizontal"
+             android:padding="10dp"
+             android:text="OK"
+             android:textColor="@color/White"
+             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

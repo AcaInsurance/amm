@@ -1,0 +1,131 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=5176, tid=4820
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_67-b01) (build )
+# Java VM: Java HotSpot(TM) Client VM (24.65-b04 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0168c400):  JavaThread "Unknown thread" [_thread_in_vm, id=4820, stack(0x015f0000,0x01640000)]
+
+Stack: [0x015f0000,0x01640000],  sp=0x0163f324,  free space=316k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x190494]
+V  [jvm.dll+0x18a116]
+V  [jvm.dll+0x35d7a]
+V  [jvm.dll+0x35e06]
+V  [jvm.dll+0x4465d]
+V  [jvm.dll+0x4490e]
+V  [jvm.dll+0x92f8a]
+V  [jvm.dll+0x9333b]
+V  [jvm.dll+0x13fa31]
+V  [jvm.dll+0x1626fc]
+V  [jvm.dll+0xc9d6f]
+C  [javaw.exe+0x13ce]
+C  [javaw.exe+0x1e40]
+C  [javaw.exe+0xa601]
+C  [javaw.exe+0xa68b]
+C  [kernel32.dll+0x4ee1c]
+C  [ntdll.dll+0x637eb]
+C  [ntdll.dll+0x637be]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0168c400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4820, stack(0x015f0000,0x01640000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.103 loading class 0x0150beb0 done
+Event: 0.103 loading class 0x0150b940 done
+Event: 0.103 loading class 0x0150b920
+Event: 0.103 loading class 0x01512c90
+Event: 0.103 loading class 0x01512c90 done
+Event: 0.103 loading class 0x01512cc0
+Event: 0.103 loading class 0x01512cc0 done
+Event: 0.103 loading class 0x01512cf0
+Event: 0.103 loading class 0x01512cf0 done
+Event: 0.103 loading class 0x0150b920 done
+
+
+Dynamic libraries:
+0x00250000 - 0x0027f000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x76e90000 - 0x76fcc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76a30000 - 0x76b04000 	C:\Windows\system32\kernel32.dll
+0x74f80000 - 0x74fcb000 	C:\Windows\system32\KERNELBASE.dll
+0x76b60000 - 0x76c00000 	C:\Windows\system32\ADVAPI32.dll
+0x75460000 - 0x7550c000 	C:\Windows\system32\msvcrt.dll
+0x77020000 - 0x77039000 	C:\Windows\SYSTEM32\sechost.dll
+0x75930000 - 0x759d2000 	C:\Windows\system32\RPCRT4.dll
+0x75510000 - 0x755d9000 	C:\Windows\system32\USER32.dll
+0x76b10000 - 0x76b5e000 	C:\Windows\system32\GDI32.dll
+0x76fe0000 - 0x76fea000 	C:\Windows\system32\LPK.dll
+0x76c40000 - 0x76cdd000 	C:\Windows\system32\USP10.dll
+0x73b10000 - 0x73cae000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll
+0x76900000 - 0x76957000 	C:\Windows\system32\SHLWAPI.dll
+0x75640000 - 0x7565f000 	C:\Windows\system32\IMM32.DLL
+0x76960000 - 0x76a2c000 	C:\Windows\system32\MSCTF.dll
+0x62ec0000 - 0x62f7f000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x6ad40000 - 0x6b0c8000 	C:\Program Files\Java\jre7\bin\client\jvm.dll
+0x6fe80000 - 0x6fe87000 	C:\Windows\system32\WSOCK32.dll
+0x76c00000 - 0x76c35000 	C:\Windows\system32\WS2_32.dll
+0x76fd0000 - 0x76fd6000 	C:\Windows\system32\NSI.dll
+0x71780000 - 0x717b2000 	C:\Windows\system32\WINMM.dll
+0x75c00000 - 0x75c05000 	C:\Windows\system32\PSAPI.DLL
+0x6c1c0000 - 0x6c1cc000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x6b2c0000 - 0x6b2e0000 	C:\Program Files\Java\jre7\bin\java.dll
+0x6b2a0000 - 0x6b2b3000 	C:\Program Files\Java\jre7\bin\zip.dll
+0x6fe90000 - 0x6ff7b000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:D:\Android Java\android-sdk\platforms\android-18\android.jar 
+java_command: org.kobjects.crypt.Crypt
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_10
+CLASSPATH=C:\Program files\Java\jdk1.7.0_10; C:\Program Files\Java\jdk1.7.0_10\bin;
+PATH=C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\PROGRA~1\IBM\CLIENT~1;C:\PROGRA~1\IBM\CLIENT~1\Shared;C:\PROGRA~1\IBM\CLIENT~1\Emulator;;C:\Program files\Java\jdk1.7.0_10\bin;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;D:\Android Java\eclipse;
+USERNAME=stok
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, erms, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 3503588k(1298300k free), swap 7005424k(4662732k free)
+
+vm_info: Java HotSpot(TM) Client VM (24.65-b04) for windows-x86 JRE (1.7.0_67-b01), built on Jul 25 2014 10:20:53 by "java_re" with unknown MS VC++:1600
+
+time: Fri Oct 10 15:14:43 2014
+elapsed time: 0 seconds
+

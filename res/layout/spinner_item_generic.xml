@@ -1,0 +1,23 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+        
+        <TextView 
+            android:id="@+id/spinnerGenericCode"
+            android:text="XXX"
+            android:visibility="gone" />
+        
+        <TextView 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:id="@+id/spinnerGenericDesc"
+            android:padding="7dp"             
+            android:text="XXX" />
+    </TableRow>
+</TableLayout>

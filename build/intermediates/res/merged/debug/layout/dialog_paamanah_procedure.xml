@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="1. Kerusuhan, Pemogokan dan Huru Hara (RSCC)"
+                />
+            
+              
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="2. Pembunuhan atau Penyerangan"
+                />
+            
+              
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="3. Tenggelam dan Mati Lemas"
+                />
+            
+             <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="4. Keracunan Makanan atau Minuman"
+                />
+             
+              <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="5. Resiko Sepeda Motor"
+                />
+              
+               <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="6. Pembajakan"
+                />
+               
+                <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+         	 	android:padding="15dp"
+            	android:background="@color/White"
+            	android:layout_margin="1dp"
+				android:text="7. Banjir, Bencana Alam dan Hilang"
+                />
+            
+            
+            
+              
+		<Button
+             android:id="@+id/dlgOK"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             android:layout_gravity="center_horizontal"
+             android:padding="10dp"
+             android:text="OK"
+             android:textColor="@color/White"
+             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

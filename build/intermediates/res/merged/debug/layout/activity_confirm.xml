@@ -1,0 +1,447 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmActivity" >
+
+    <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick" />
+
+            
+        </RelativeLayout>
+        
+        
+        <com.aca.amm.CustomTextViewBold
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layTitle2"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Konfirmasi"
+            android:textColor="@color/AMMC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+   		 android:background="@drawable/abg" 
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@+id/layFooter"
+        >
+        
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"  >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+          <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                <TextView 
+	                    android:id="@+id/lblNama"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+			            android:text="Nama"
+			            android:textColor="@color/White"/>
+
+	                <TextView
+	                    android:id="@+id/lblNamatxt"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+	                    android:layout_alignParentRight="true"
+	                    android:enabled="false"
+			            android:textColor="@color/White"
+	                    android:padding="7dp" >
+	                    <requestFocus />
+	                </TextView>
+	           </TableRow>
+                
+          		<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                 
+	                <TextView 
+	                    android:id="@+id/lblProduct"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text="Produk"
+			            android:layout_weight="0.5"
+			            android:textColor="@color/White"/>
+	                    
+	                <TextView
+	                    android:id="@+id/lblProducttxt"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentRight="true"
+			            android:textColor="@color/White"
+			            android:layout_weight="0.5"
+	                    android:enabled="false"
+	                    android:padding="7dp"
+	                    android:text=""/>
+	          	</TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+           			<TextView
+                        android:id="@+id/lblPeriode"
+                     	android:layout_width="0dp"
+                     	android:layout_height="wrap_content"
+            			android:layout_weight="0.5"
+                        android:text="Mulai Asuransi"
+                        android:textColor="@color/White" />
+
+                     <TextView
+                         android:id="@+id/lblPeriodetxt"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+			             android:layout_weight="0.5"
+   			             android:textColor="@color/White"
+                         android:enabled="false"
+                         android:padding="7dp"
+                         android:text=""/>
+				</TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                     
+                  	<TextView
+						android:id="@+id/lblPeriode2"
+                      	android:layout_width="0dp"
+                      	android:layout_height="wrap_content"
+          			  	android:layout_weight="0.5"
+                      	android:text="Akhir Asuransi"
+                      	android:textColor="@color/White"/>
+
+                   <TextView
+                     	android:id="@+id/lblPeriodetxt2"
+                       	android:layout_width="0dp"
+                       	android:layout_height="wrap_content"
+                       	android:textColor="@color/White"
+	             	   	android:layout_weight="0.5"
+                       	android:enabled="false"
+                       	android:padding="7dp"
+                       	android:text=""/>
+
+				</TableRow>
+			</TableLayout>
+                     
+  			<TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+  			    <TableRow 
+  			        android:id="@+id/tRowPremiUS"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+            		android:visibility="gone"
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                     
+	                <TextView 
+	                    android:id="@+id/lblPremiDollar"
+			            android:layout_width="0dp"
+			            android:layout_weight="0.5"
+			            android:layout_height="wrap_content"
+			            android:text="Premi (US$)"
+			            android:textColor="@color/White" />
+	                    
+	                <TextView 
+	                    android:id="@+id/lblPremiDollartxt"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text=""
+			            android:layout_weight="0.5"
+	                    android:gravity="right"
+			            android:enabled="false"
+			       		android:textColor="@color/White"
+			            android:padding="7dp"/>
+				</TableRow>
+                
+  			    <TableRow 
+  			        android:id="@+id/tRowPremiNoIDR"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+            		android:visibility="gone"
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                     
+	                <TextView 
+	                    android:id="@+id/lblPremiNoIDR"
+			            android:layout_width="0dp"
+			            android:layout_weight="0.5"
+			            android:layout_height="wrap_content"
+			            android:text="Premi"
+			            android:textColor="@color/White" />
+	                    
+	                <TextView 
+	                    android:id="@+id/txtPremiNoIDR"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text=""
+			            android:layout_weight="0.5"
+	                    android:gravity="right"
+			            android:enabled="false"
+			       		android:textColor="@color/White"
+			            android:padding="7dp"/>
+				</TableRow>
+				
+  			    	    
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                     
+	                <TextView 
+	                    android:id="@+id/lblPremi"
+			            android:layout_width="0dp"
+			            android:layout_weight="0.5"
+			            android:layout_height="wrap_content"
+			            android:text="Premi(IDR)"
+			            android:textColor="@color/White" />
+	                    
+	                <TextView 
+	                    android:id="@+id/lblPremitxt"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text=""
+			            android:layout_weight="0.5"
+	                    android:gravity="right"
+			            android:enabled="false"
+			       		android:textColor="@color/White"
+			            android:padding="7dp"/>
+				</TableRow>
+                
+               	<TableRow 
+               	    android:id="@+id/trDisc"
+	           		android:layout_height="wrap_content"
+	           		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+	           		android:layout_width="0dp">    
+		               
+	                <TextView 
+	                    android:id="@+id/lblDiskon"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text="Diskon"
+			            android:layout_weight="0.5"
+			            android:textColor="@color/White" />
+	                    
+	                <TextView 
+	                    android:id="@+id/lblDiskontxt"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text=""
+			            android:enabled="false"
+			            android:layout_weight="0.5"
+	                    android:gravity="right"
+			            android:textColor="@color/White"
+			            android:padding="7dp"/>
+	               
+				</TableRow>
+                
+     			<TableRow 
+	           		android:layout_height="wrap_content"
+	           		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+	           		android:layout_width="0dp"
+	           		android:visibility="gone">    
+               
+	                <TextView 
+	                    android:id="@+id/lblMaterial"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text="Materai"
+			            android:layout_weight="0.5"
+			            android:textColor="@color/White" />
+	                    
+	                <TextView 
+	                    android:id="@+id/lblMaterialtxt"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text=""
+			            android:enabled="false"
+	                    android:gravity="right"
+			            android:layout_weight="0.5"
+			            android:textColor="@color/White"
+			            android:padding="7dp"/>
+	                  
+				</TableRow>
+                
+    			<TableRow 
+	           		android:layout_height="wrap_content"
+	           		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+	           		android:layout_width="0dp">    
+               
+	                <TextView 
+	                    android:id="@+id/lblTotal"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text="Total(IDR)"
+			            android:layout_weight="0.5"
+			            android:textColor="@color/White" />
+	                    
+	                <TextView 
+	                    android:id="@+id/lblTotaltxt"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text=""
+			            android:layout_weight="0.5"
+			            android:enabled="false"
+	                    android:gravity="right"
+			            android:textColor="@color/White"
+			            android:padding="7dp"/>
+	                </TableRow>
+                
+             	<TableRow 
+	           		android:layout_height="wrap_content"
+	           		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+	           		android:layout_width="0dp"
+	           		android:visibility="gone">    
+               
+	                <TextView 
+	                    android:id="@+id/lblCatatan"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text="Catatan"
+			            android:textColor="@color/White"
+			            android:layout_weight="0.5" />
+	                    
+	                <TextView 
+	                    android:id="@+id/lblCatatantxt"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:text=""
+			            android:lines="5"
+			            android:layout_weight="0.5"
+			            android:textColor="@color/White"
+			            android:enabled="false"
+			            android:padding="7dp"/>
+				</TableRow>
+	                
+			</TableLayout>
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            android:layout_marginTop="5dp">
+                
+                 <Button
+			        android:id="@+id/btnPrev"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			       	android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableLeft="@drawable/back"
+			        android:padding="10dp"
+			        android:text="Back"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnBackClick"
+			        android:layout_marginRight="5dp" />
+	            
+	            <Button
+			        android:id="@+id/btnNext"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableRight="@drawable/next"
+			        android:padding="10dp"
+			        android:text="Next"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnNextClick" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

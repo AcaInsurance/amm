@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+    	<LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+        
+			<TableLayout
+	         	android:layout_width="match_parent"
+	         	android:layout_height="wrap_content"
+	         	android:stretchColumns="*"
+	         	android:shrinkColumns="*">
+
+			    <TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:padding="15dp" >
+					
+		      		<TextView
+		          		android:layout_width="96dp"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="Hubungi hotline ACA di 021-31999100 "
+		              	android:textStyle="bold"
+		              	android:textSize="24sp"/>
+				</TableRow>
+         
+      		</TableLayout>
+		
+		
+			<Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="100dp"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/ok"
+	             android:layout_gravity="center_horizontal"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+		
+    	</LinearLayout>
+    
+    </ScrollView>
+    
+</RelativeLayout>

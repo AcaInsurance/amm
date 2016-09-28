@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreActivity" 
+    >
+
+    <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick" />
+
+        </RelativeLayout>
+        
+        <com.aca.amm.CustomTextViewBold
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layTitle2"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Layanan Lainnya"
+            android:textColor="@color/AMMC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter"
+  		android:background="@drawable/abg"
+		
+  		android:layout_centerVertical="true"
+  	>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+        	android:gravity="center"
+             >
+            
+            <ImageView
+		        android:id="@+id/btnACAShop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:clickable="true"
+		        android:onClick="btnACAShopClick"
+		        android:src="@drawable/acashop"
+		        android:layout_marginTop="20dp" />
+        
+        	<ImageView
+		        android:id="@+id/btnMitraACA"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:clickable="true"
+		        android:onClick="btnMitraACAClick"
+		        android:src="@drawable/mitraca" />
+        	
+        	<ImageView
+		        android:id="@+id/btnKlikACA"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:clickable="true"
+		        android:onClick="btnKlikACAClick"
+		        android:src="@drawable/klikaca" />
+        	
+        	<ImageView
+		        android:id="@+id/btnContactUs"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:clickable="true"
+		        android:onClick="btnContactUs"
+		        android:src="@drawable/contactus" />
+        	
+        	<ImageView
+		        android:id="@+id/btnPolicyWording"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:clickable="true"
+		        android:onClick="btnPolicyWording"
+		        android:src="@drawable/policywording" />
+        	
+      	</LinearLayout>
+    </ScrollView>
+    
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

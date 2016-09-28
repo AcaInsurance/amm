@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+     
+    	<LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+    	
+    		<TextView
+          		android:layout_width="wrap_content"
+    			android:layout_height="match_parent" 
+         		android:text="Hal hal Penting (International)"
+				android:padding="15dp" 
+              	android:textStyle="bold"/>
+   	    		
+    		
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:text="1. Pada saat berlakunya Asuransi ini, Tertanggung harus dalam keadaan sehat, siap untuk berpergian dan sama sekali tidak menyadari adanya keadaan yang dapat menyebabkan pembatalan atau gangguan pada perjalanan. Jika Tertanggung tidak memenuhi ketentuan tersebut, maka klaim tidak dapat diproses lebih lanjut."
+				android:padding="15dp" 
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+              	/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp" 
+              	android:text="2. Batasan Usia : 1 hingga 85 tahun pada saat keberangkatan untuk Travel Safe International."
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+              	/>
+         
+			
+			<HorizontalScrollView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:fillViewport="true"
+				>
+			<TableLayout
+				android:layout_width="wrap_content"
+	         	android:layout_height="wrap_content"
+	         	android:stretchColumns="*" 
+	         	>
+	
+				<TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content" >
+	                 
+		      		<TextView
+		          		android:layout_width="wrap_content"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="Batasan Usia"
+		            	android:background="@drawable/cellgrid" 
+						android:padding="15dp" 
+		              	android:textStyle="bold"/>
+		                 
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Santunan kematian dan santuanan lainnya"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp" 
+		              	android:textStyle="bold" />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Biaya Medis"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp" 
+		              	android:textStyle="bold" />
+				 
+				</TableRow>
+				
+				<TableRow
+		  			android:id="@+id/tableRow1" 
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content" >
+	                 
+		      		<TextView
+		          		android:layout_width="wrap_content"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="70 – 74"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"  />
+		                 
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="50%"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="20%"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+				 
+				</TableRow>
+				<TableRow
+		  			android:id="@+id/tableRow1" 
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content" >
+	                 
+		      		<TextView
+		          		android:layout_width="wrap_content"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="75 – 85"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"  />
+		                 
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="50%"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Tidak Dijamin"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+				 
+				</TableRow>
+	         </TableLayout>
+	         
+	         </HorizontalScrollView>
+	         
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp" 
+              	android:text="3. Apabila Tertanggung berusia 70-85 tahun, akan dikenakan loading premi sebesar 50%."
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+              	/>
+			
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="4. Keluarga berarti Tertanggung beserta dengan pasangan Tertanggung dan hingga maksimum 3 anak Tertanggung yang berusia antara 1 tahun sampai 18 tahun atau hingga 23 tahun jika anak tersebut masih berstatus pelajar penuh dan belum menikah."
+              	/>
+			
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="5. Polis Keluarga :"
+              	/>
+			
+			
+			<HorizontalScrollView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				
+				
+				>
+			<TableLayout
+				android:layout_width="wrap_content"
+	         	android:layout_height="wrap_content"
+	         	android:stretchColumns="*" 
+	         	>
+	
+				<TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content"  
+					>
+	                 
+		      		<TextView
+		          		android:layout_width="wrap_content"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="Anggota Keluarga"
+						android:padding="15dp" 
+		            	android:background="@drawable/cellgrid"
+		              	android:textStyle="bold"/>
+		                 
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Batas Usia"
+						android:padding="15dp" 						
+		            	android:background="@drawable/cellgrid"
+		              	android:textStyle="bold" />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Evakuasi dan Repratiasi Medis"
+						android:padding="15dp" 
+		            	android:background="@drawable/cellgrid"
+		              	android:textStyle="bold" />
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Santunan lainnya"			
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp" 
+		              	android:textStyle="bold" />
+				 
+				</TableRow>
+				
+				<TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content"  
+					
+					>
+	                 
+		      		<TextView
+		          		android:layout_width="wrap_content"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="Suami/Istri (Tertanggung Utama)"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"  />
+		                 
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="max 85 tahun"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal" 
+		            	android:text="Tidak Terbatas"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal" 
+		            	android:text="100%"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+				 
+				</TableRow>
+				
+				<TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content"  
+					
+					>
+	                 
+		      		<TextView
+		          		android:layout_width="wrap_content"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="Suami/Istri (Pasangan)"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"  />
+		                 
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="max 85 tahun"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal" 
+		            	android:text="Tidak Terbatas"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal" 
+		            	android:text="50%"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+				 
+				
+				</TableRow>
+					
+				<TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="wrap_content"
+					android:layout_height="wrap_content"  
+					
+					>
+	                 
+		      		<TextView
+		          		android:layout_width="wrap_content"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="Anak Ke-1,2,3"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"  />
+		                 
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="1-18 tahun (max 23 tahun jika berstatus pelajar penuh dan belum menikah)"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal" 
+		            	android:text="Tidak Terbatas"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+					
+					<TextView
+		       			android:layout_width="wrap_content"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal" 
+		            	android:text="25%"
+		            	android:background="@drawable/cellgrid"
+						android:padding="15dp"   />
+				 
+				</TableRow>
+				
+				</TableLayout>
+				</HorizontalScrollView>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="6. Apabila polis dibatalkan, maka Tertanggung akan dikenakan biaya sebesar 25% dari premi yang sudah dibayarkan."
+              	/>
+			
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="7. Untuk Travel Safe International, peride maksimum asuransi untuk polis satu kali perjalanan (single trip) adalah 180 hari dan polis tahunan adalah 90 hari per perjalanan. Sedangkan untuk Travel Safe Domestik, periode maksimum untuk satu kali perjalanan (single trip) adalah 90 hari."
+              	/>
+			
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="8. Rute sekali perjalanan / One way tidak dijamin."
+              	/>
+			
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="9. Polis tahunan hanya berlaku untuk program VIP \u0026 Executive. Program Asuransi akan menjamin tanpa pembatasan jumlah perjalanan yang akan dilakukan dalam 1 tahun."              	
+				/>
+         
+						
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="10. Program Asuransi ini hanya berlaku untuk warga negara Indonesia atau warga negara asing yang memiliki KITAS atau ijin untuk tinggal sementara di Indonesia."              	
+				/>
+         
+			
+							
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:layout_marginTop="1dp"
+				android:textStyle="bold"
+				android:text="Pengecualian Umum*****"
+				/>
+         
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.1"
+				/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.2"
+				/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.3"
+				/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.4"
+				/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.5"
+				/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.6"
+				/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.7"
+				/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.8"
+				/>
+			
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.9"
+				/>
+						
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.10"
+				/>
+						
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.11"
+				/>
+						
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.12"
+				/>
+						
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"  
+				android:background="@color/White"
+				android:layout_marginTop="1dp"
+				android:text="@string/travelsafe.message.pengecualian.13"
+				/>
+						
+			<TextView
+          		android:layout_width="match_parent"
+    			android:layout_height="wrap_content" 
+         		android:padding="15dp"   
+				android:layout_marginTop="1dp"
+				android:text="***** Pengecualian ini adalah ringkasan dari Pengecualian Umum pada Polis Asuransi."
+				android:textStyle="bold"
+				/>
+			
+			
+		
+			 
+		<Button
+             android:id="@+id/dlgOK"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             android:layout_gravity="center_horizontal"
+             android:padding="10dp"
+             android:text="OK"
+             android:textColor="@color/White"
+             android:textStyle="bold" />
+		
+    </LinearLayout>
+     
+    </ScrollView>
+    
+    
+    
+
+</RelativeLayout>

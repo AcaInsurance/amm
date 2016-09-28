@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="1. Kerugian atas barang-barang yang diangkut dari satu tempat ke tempat lain yang disebabkan oleh tergelincirnya alat angkut atau keluar dari rel"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="2. Khusus alat angkut berupa kapal laut, kerugian yang dialami pemilik barang yang disebabkan oleh kebakaran, kandas, tenggelam, atau terbaliknya alat angkut dengan obyek lain selain air"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="3. Bahan baku atau kepentingan lain"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="4. Pembongkaran barang di pelabuhan darurat"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="5. Peristiwa general average: pembuangan atau terlemparnya barang ke laut"
+				/>
+            
+            
+              <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="6. Gempa bumi"
+				/>
+              
+                <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="7. Letusan gunung berapi, petir dan sejenisnya"
+				/>
+                
+                      
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+       	         android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:textStyle="bold"
+                 android:text="Risiko tidak dijamin" />
+             
+              <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="1. Kerugian atau kerusakan yang disebabkan oleh kesengajaan tertanggung"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="2 .Kondisi yang normal seperti kebocoran, susut berat atau susut isi, robek, aus"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="3. Pengepakan yang tidak standar"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="4. Alat angkut tidak layak beroperasi"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="5. Perang dan sejenisnya"
+				/>
+            
+            
+              <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="6. Pemogokan buruh, kekacauan, dan sebagainya"
+				/>
+              
+              
+             <Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="100dp"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/ok"
+	             android:layout_gravity="center_horizontal"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>

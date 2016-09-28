@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoOtomateActivity" >
+
+    <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:background="@drawable/buttonpressed"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick" />
+
+        </RelativeLayout>
+        
+        <com.aca.amm.CustomTextViewBold
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layTitle2"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Otomate"
+            android:textColor="@color/AMMC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+    
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" 
+	    android:background="@drawable/abg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnRate"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/infobutton"
+                android:drawableLeft="@drawable/rate"
+                android:gravity="left|center_vertical"
+                android:onClick="btnRateClick"
+                android:padding="1dp"
+                android:text="Rate/Tarif"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnInsuredRisk"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/infobutton"
+                android:drawableLeft="@drawable/riskcovered"
+                android:gravity="left|center_vertical"
+                android:onClick="btnInsuredRiskClick"
+                android:padding="1dp"
+                android:text="Rate &amp; Resiko Dijamin"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnFacility"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/infobutton"
+                android:drawableLeft="@drawable/facility"
+                android:gravity="left|center_vertical"
+                android:onClick="btnFacilityClick"
+                android:padding="1dp"
+                android:text="Fasilitas Tambahan"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnProcedureClaim"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/infobutton"
+                android:drawableLeft="@drawable/claim"
+                android:gravity="left|center_vertical"
+                android:onClick="btnProcedureClaimClick"
+                android:padding="1dp"
+                android:text="Prosedur Klaim"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnBuy"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/infobutton"
+                android:drawableLeft="@drawable/buy_now"
+                android:gravity="left|center_vertical"
+                android:onClick="btnBuyClick"
+                android:padding="1dp"
+                android:text="Beli"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+   			<ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:padding="10dp"
+               android:src="@drawable/logootomate" />
+        </LinearLayout>
+        
+    </ScrollView>
+    
+   
+    
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

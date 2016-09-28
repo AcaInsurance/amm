@@ -1,0 +1,698 @@
+[
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_vessel_type.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_vessel_type.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_konvensional_perluasan.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_konvensional_perluasan.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_executive.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_executive.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_customer.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_popup_menu.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_popup_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_item.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\viewpager_item.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_travelsafe_int_insured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_travelsafe_int_insured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sync.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_sync.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_15.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_15.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_14.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_14.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sync_unsync.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_sync_unsync.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_toko_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_toko_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_konvensional.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_konvensional.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_well_woman.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_well_woman.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_medisafe.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_medisafe.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_syariah_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_syariah_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_syariah_rate.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_syariah_rate.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_travel_safe_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_travel_safe_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_asri_syariah.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_asri_syariah.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_executive_safe_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_executive_safe_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_remove_userid_confirmation.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_remove_userid_confirmation.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_medisafe_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_medisafe_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_cargo_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_cargo_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_customer_for_buy.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_customer_for_buy.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_cargo_dijamin.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_cargo_dijamin.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_executive_safe_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_executive_safe_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment_test.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fragment_test.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_more.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_more.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_travel_dom.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_travel_dom.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_asri_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_asri_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\searchable.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\searchable.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_13.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_13.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\row_section.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\row_section.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dno_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_dno_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_photo.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_photo.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_acamobil.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_acamobil.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tabbed.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_tabbed.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_asri_syariah_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_asri_syariah_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_travel_safe_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_travel_safe_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_production.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_production.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_2.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_2.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_travel_safe_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_travel_safe_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_asri.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_asri.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\custom_spinner_item.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\custom_spinner_item.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_12.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_12.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_vessel_name.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_vessel_name.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_konvensional_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_konvensional_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_change_password.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_change_password.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_3.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_3.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_acamobil_rate.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_acamobil_rate.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_read_news.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_read_news.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_paamanah.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_paamanah.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_otomate.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_otomate.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dno_inggris_dokumen.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_dno_inggris_dokumen.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dno_definisi_perusahaan.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_dno_definisi_perusahaan.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sync_unpaid.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_sync_unpaid.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_vessel_name.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_vessel_name.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_rate.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_rate.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item_generic.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\spinner_item_generic.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_otomate.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_otomate.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_travel_dom_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_travel_dom_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_edit.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_customer_edit.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\search_layout.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\search_layout.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_travel_dom_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_travel_dom_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_travel_dom_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_travel_dom_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_well_woman_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_well_woman_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sppa.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_sppa.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\row_item.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\row_item.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_news.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_news.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_country.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_country.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_9.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_9.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_asri_syariah.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_asri_syariah.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_well_woman_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_well_woman_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_dno.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_dno.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_konvensional_table_premi_tlo.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_konvensional_table_premi_tlo.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sync_incomplete.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_sync_incomplete.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_acamobil_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_acamobil_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_province.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_province.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dno_inggris_definisi_perusahaan.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_dno_inggris_definisi_perusahaan.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_asri_syariah_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_asri_syariah_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_otomate_syariah.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_otomate_syariah.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_dno_inggris.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_dno_inggris.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_paamanah.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_paamanah.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_travel_dom.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_travel_dom.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_travel.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_travel.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_toko.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_toko.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_or_login.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_register_or_login.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_first.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_confirm.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_confirm.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_sync_incomplete.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_sync_incomplete.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_6.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_6.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_acamobil_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_acamobil_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_asri.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_asri.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dno_inggris_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_dno_inggris_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signature.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_signature.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_konvensional_choose_product.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_konvensional_choose_product.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_insured_group.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_insured_group.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_forgot_password.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_forgot_password.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_dno.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_dno.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_list.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_photo_list.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_customer.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_customer.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dno_choose_language.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_dno_choose_language.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_konvensional_choose_truk.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_konvensional_choose_truk.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_10.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_10.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_information_all.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_information_all.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_sync_unpaid.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_sync_unpaid.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_otomate_syariah.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_otomate_syariah.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_acamobil.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_acamobil.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_choose_customer.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_choose_customer.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tabbed_dummy.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\fragment_tabbed_dummy.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_acamobil_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_acamobil_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_vessel_type.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_vessel_type.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_toko_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_toko_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_konvensional.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_konvensional.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload_photo.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_upload_photo.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_paid_sppa.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_paid_sppa.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nav_drawer.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_5.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_5.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\row_insured_name.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\row_insured_name.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\aatravelsafe_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\aatravelsafe_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_8.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_8.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_toko.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_toko.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_asri_syariah_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_asri_syariah_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_paamanah_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_paamanah_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_sync.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_sync.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_asri_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_asri_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_medisafe_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_medisafe_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_konvensional_table_premi_komprehensive.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_konvensional_table_premi_komprehensive.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_take.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_photo_take.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\custom_drawer_item.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\custom_drawer_item.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_profile.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_my_profile.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_news.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_well_woman.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_well_woman.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\labeled_text_edit.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\labeled_text_edit.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_asri_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_asri_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_customer.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_customer.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_cargo.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_cargo.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_cargo_factors.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_cargo_factors.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_paamanah_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_paamanah_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_product.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_product.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_paamanah_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_paamanah_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_choose_customer.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_choose_customer.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_car_brand.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_car_brand.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_11.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_11.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dno_dokumen.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_dno_dokumen.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_syariah_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_syariah_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_cargo.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_cargo.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_syariah_facility.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_syariah_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_list_item.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_7.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_7.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_well_woman_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_well_woman_riskinsured.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_4.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_4.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_executive.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_executive.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture_signature.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_capture_signature.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_change_username.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_change_username.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_1.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_1.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_us.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_contact_us.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_medisafe_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_medisafe_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_sync_unsync.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_sync_unsync.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_medisafe.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_medisafe.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_remove_userid.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_remove_userid.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_travel.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_travel.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\row_view.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\row_view.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_car_type.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_car_type.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_executive_safe_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_executive_safe_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_alphabet.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_alphabet.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_toko_procedure.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_toko_procedure.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_contact_us.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\list_item_contact_us.xml"
+    }
+]

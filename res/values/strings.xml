@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ACA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="info_aca">Untuk info lebih detail, hubungi kami di 02131999100 atau mengirimkan email di cust-aca@aca.co.id</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+    <string name="title_activity_choos_product">ChoosProductActivity</string>
+    <string name="title_activity_choose_customer">ChooseCustomerActivity</string>
+    <string name="title_activity_confirm">ConfirmActivity</string>
+    <string name="title_activity_read_tc">ReadTCActivity</string>
+    <string name="title_activity_fill_otomate">FillOtomateActivity</string>
+    <string name="title_activity_fill_asri">FillAsriActivity</string>
+    <string name="title_activity_fill_travel">FillTravelActivity</string>
+    <string name="title_activity_signature">SignatureActivity</string>
+    <string name="title_activity_fill_travel_dom">FillTravelDomActivity</string>
+    <string name="title_activity_fill_medisafe">FillMedisafe</string>
+    <string name="title_activity_fill_executive">FillExecutiveActivity</string>
+    <string name="title_activity_fill_toko">FillTokoActivity</string>
+    <string name="title_activity_fill_otomate_syariah">FillOtomateSyariahActivity</string>
+    <string name="title_activity_fill_asri_syariah">FillAsriSyariahActivity</string>
+    <string name="title_activity_fill_paamanah">FillPAAmanahActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_renewal">RenewalActivity</string>
+    <string name="title_activity_sppa">SPPAActivity</string>
+    <string name="title_activity_sync">SyncActivity</string>
+    <string name="title_activity_info_otomate">InfoOtomateActivity</string>
+    <string name="title_activity_capture_signature">CaptureSignature</string>
+    <string name="search_hint">Cari</string>
+    <string name="app_label">AMM</string>
+    <string name="sync_message_init">First time initialization.\n It may takes few minutes depend on your internet connection.\n Please wait..</string>
+    <string name="sync_message_not_init">Synchronize data is in progress..</string>
+    <string name="cargo_message_warranties">1. Standard Proffesional Packing\n2. Selling Permit from Port Authority (if shipment by ship)\n3. Approved and/or Licensed Land Conveyance by Authority (Shipment by Land Transport)\n4. Sea Worthyness and/or Road Worthyness</string>
+    <string name="cargo_message_special_condition">- Excluding Shipment by Wooden Vessel, LCT, Tug Embarge\n- Excluding Rush, Oxidation, and Discolouration\n- Excluding Mechanical and Electrical Derangement\n- Excluding Denting, Scratching\n- Excluding Loss/Damage cause by Own Driver</string>
+
+    <string-array name="vehicle_merk">
+        <item>BMW</item>
+        <item>Daihatsu</item>
+        <item>Honda</item>
+        <item>Nissan</item>
+        <item>Suzuki</item>
+        <item>Toyota</item>
+    </string-array>
+    <string-array name="vehicle_type">
+        <item>Seri 3</item>
+        <item>Seri 5</item>
+        <item>Seri 6</item>
+        <item>Seri 7</item>
+        <item>Seri X</item>
+        <item>Lain-lain</item>
+    </string-array>
+
+    <string name="title_activity_info_asri">InfoASRIActivity</string>
+    <string name="title_activity_info_asri_syriah">InfoAsriSyriahActivity</string>
+    <string name="title_activity_info_otomate_syariah">InfoOtomateSyariahActivity</string>
+    <string name="title_activity_info_medisafe">InfoMedisafeActivity</string>
+    <string name="title_activity_info_paamanah">InfoPAAmanahActivity</string>
+    <string name="title_activity_info_toko">InfoTokoActivity</string>
+    <string name="title_activity_info_travel">InfoTravelActivity</string>
+    <string name="title_activity_info_travel_dom">InfoTravelDomActivity</string>
+    <string name="title_activity_info_executive">InfoExecutiveActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_sync_incomplete">SyncIncompleteActivity</string>
+    <string name="title_activity_sync_unsync">SyncUnsyncActivity</string>
+    <string name="title_activity_sync_unpaid">SyncUnpaidActivity</string>
+    <string name="title_activity_paid_sppa">PaidSPPAActivity</string>
+    <string name="title_activity_slproduct_otomate_syariah">SLProductOtomateSyariah</string>
+    <string name="title_activity_choose_customer_for_buy">ChooseCustomerForBuyActivity</string>
+    <string name="title_activity_photo_list">PhotoListActivity</string>
+    <string name="title_activity_photo_take">PhotoTakeActivity</string>
+    <string name="title_activity_upload_photo">UploadPhotoActivity</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="title_activity_aaaaaa">Aaaaaa</string>
+    <string name="title_activity_info_acamobil">InfoACAMobilActivity</string>
+    <string name="title_activity_fill_acamobil">FillACAMobilActivity</string>
+    <string name="title_activity_fill_cargo">FillCargoActivity</string>
+    <string name="title_activity_info_cargo">InfoCargoActivity</string>
+    <string name="title_activity_choose_vessel_name">ChooseVesselNameActivity</string>
+    <string name="title_activity_choose_vessel_type">ChooseVesselTypeActivity</string>
+    <string name="title_activity_choose_province">ChooseProvinceActivity</string>
+    <string name="title_activity_choose_country">ChooseCountryActivity</string>
+    <string name="title_activity_choose_car_brand">ChooseCarBrandActivity</string>
+    <string name="title_activity_choose_car_type">ChooseCarTypeActivity</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_info_well_woman">InfoWellWomanActivity</string>
+    <string name="title_activity_fill_well_woman">FillWellWomanActivity</string>
+    <string name="title_activity_fill_dno">FillDNOActivity</string>
+    <string name="title_activity_info_dno">InfoDNOActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_register_or_login">RegisterOrLoginActivity</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="title_activity_fragment_test">FragmentTestActivity</string>
+    <string name="vessel.name">vessel name</string>
+    <string name="vessel.code">vessel code</string>
+    <string name="title_activity_fill_comprehensive">FillKonvensionalActivity</string>
+    <string name="title_activity_info_konvensional">InfoKonvensionalActivity</string>
+    <string name="travelsafe.message.benefit.1"><b>1. Kematian dan Cacat Tetap</b>\nPerlindungan terhadap Resiko Kematian dan Cacat Tetap Akibat Kecelakaan</string>
+    <string name="travelsafe.message.benefit.2"><b>2. Biaya-biaya Medis (akibat sakit/kecelakaan)</b>\nPenggantian Atas Biaya-Biaya Medis yang dikeluarkan Tertanggung untuk Mendapatkan Perawatan Medis yang Dibutuhkan Akibat Sakit/Kecelakaan</string>
+    <string name="travelsafe.message.benefit.3"><b>3. Biaya Medis Lanjutan di Indonesia</b>\nPenggantian atas Biaya-Biaya Medis Lanjutan yang Dikeluarkan Tertanggung untuk Mendapatkan Perawatan Medis yang Dibutuhkan Akibat Sakit atau Kecelakaan yang Terjadi Selama di Luar Negeri</string>
+    <string name="travelsafe.message.benefit.4"><b>4. Evakuasi Medis Darurat \u0026 Repatriasi****</b>\nPengaturan dan Pembiayaan Evakuasi dan Repatriasi, apabila Tertanggung Mengalami Keadaan Darurat Medis Selama Berada di Luar Negeri</string>
+    <string name="travelsafe.message.benefit.5"><b>5. Repatriasi Jenazah****</b>\nPengaturan dan Pembiayaan Repatriasi untuk memulangkan Jenazah Tertanggung kembali ke Indonesia</string>
+    <string name="travelsafe.message.benefit.6"><b>6. Kunjungan Kerabat****</b>\nMenanggung Biaya Tiket Perjalanan \u0026 Akomodasi yang Diperlukan bagi satu orang kerabat/teman untuk Mengunjungi Tertanggung yang Sedang Dirawat di Rumah Sakit di Luar Negeri</string>
+    <string name="travelsafe.message.benefit.7"><b>7. Penjagaan Anak****</b>\nMenanggung Biaya Tiket Perjalanan \u0026 Akomodasi yang Diperlukan Bagi satu orang kerabat/teman untuk Membawa Anak Tertanggung Kembali ke Indonesia</string>
+    <string name="travelsafe.message.benefit.8"><b>8. Santunan Harian Rumah Sakit</b>\nMemberikan Santunan Harian Rawat Inap jika Tertanggung dirawat di Rumah Sakit di Luar Negeri</string>
+    <string name="travelsafe.message.benefit.9"><b>9. Biaya Perjalanan Darurat</b>\nMemberikan penggantian Biaya Perjalanan \u0026 Akomodasi Tambahan Akibat Kecelakaan atau Sakit</string>
+    <string name="travelsafe.message.benefit.inconvenience.1"><b>1. Kehilangan Bagasi dan Barang Pribadi</b>\nMemberikan Jaminan atas Kehilangan atau Kerusakan Bagasi dan Harta Benda Pribadi</string>
+    <string name="travelsafe.message.benefit.inconvenience.2"><b>2. Santunan Uang Tunai Karena Pencurian atau Perampokan</b>\nPenggantian berupa Santunan Uang Tunai apabila Tertanggung kehilangan uang akibat pencopetan, pencurian atau perampokan selama berada di Luar Negeri</string>
+    <string name="travelsafe.message.benefit.inconvenience.3"><b>3. Kehilangan Dokumen Perjalanan</b>\nMemberikan Penggantian atas Biaya Dokumen Perjalanan yang hilang atau rusak selama Tertanggung berada di Luar Negeri</string>
+    <string name="travelsafe.message.benefit.inconvenience.4"><b>4. Penundaan Penerbangan</b>\nMemberikan Santunan Uang Tunai akibat Penundaan Penerbangan</string>
+    <string name="travelsafe.message.benefit.inconvenience.5"><b>5. Ketinggalan Penerbangan Lanjutan</b>\nMemberikan Santunan Uang Tunai akibat Ketinggalan Penerbangan Lanjutan di Luar Negeri</string>
+    <string name="travelsafe.message.benefit.inconvenience.6"><b>6. Keterlambatan Bagasi</b>\nMemberikan Penggantian atas Keterlambatan Bagasi</string>
+    <string name="travelsafe.message.benefit.inconvenience.7"><b>7. Kehilangan Deposit dan Pembatalan Perjalanan</b>\nMemberikan Penggantian Biaya Uang Muka Perjalanan \u0026 Akomodasi yang tidak dapat dikembalikan dalam batas waktu 30 hari sebelum dimulainya Perjalanan</string>
+    <string name="travelsafe.message.benefit.inconvenience.8"><b>8. Pengurangan Perjalanan</b>\nMemberikan Penggantian Biaya Uang Muka Perjalanan \u0026 Akomodasi yang tidak Dapat dikembalikan.</string>
+    <string name="travelsafe.message.benefit.inconvenience.9"><b>9. Penundaan Perjalanan</b>\nMemberikan Penggantian Biaya Uang Muka Perjalanan \u0026 Akomodasi yang Tidak Dapat Dikembalikan Akibat Penundaan Perjalanan</string>
+    <string name="travelsafe.message.benefit.inconvenience.10"><b>10. Tanggung Jawab Hukum Terhadap Pihak Ketiga</b>\nMemberikan bantuan hukum kepada Tertanggung akibat adanya tuntutan dari Pihak Ketiga</string>
+    <string name="travelsafe.message.benefit.inconvenience.11"><b>11. Pembajakan</b>\nMemberikan Santunan Uang Tunai apabila sarana pengangkutan yang digunakan dibajak</string>
+    <string name="travelsafe.message.benefit.inconvenience.12"><b>12. Perpanjangan Polis Otomatis</b>\nMemberikan Perpanjangan otomatis Periode Polis sampai dengan 7 hari kepada Tertanggung tanpa dikenakan biaya tambahan</string>
+    <string name="travelsafe.message.pengecualian.1">1. Perang, revolusi, peraturan pemerintah, dll.</string>
+    <string name="travelsafe.message.pengecualian.2">2. Terorisme dan sabotase</string>
+    <string name="travelsafe.message.pengecualian.3">3. Nuklir, radiasi, radio aktif, dll</string>
+    <string name="travelsafe.message.pengecualian.4">4. Tindakan kriminal atau tindakan melawan hukum</string>
+    <string name="travelsafe.message.pengecualian.5">5. Olahraga profesional dan berbahaya, balapan, naik gunung, dll</string>
+    <string name="travelsafe.message.pengecualian.6">6. Setiap cedera atau sakit yang berhubungan dengan kehamilan atau kelahiran</string>
+    <string name="travelsafe.message.pengecualian.7">7. Segala upaya bunuh diri atau melukai diri sendiri secara sengaja</string>
+    <string name="travelsafe.message.pengecualian.8">8. Penyakit kelamin, AIDS atau penyakit yang berhubungan dengan AIDS</string>
+    <string name="travelsafe.message.pengecualian.9">9. Alkohol dan penyalahgunaan obat-obatan</string>
+    <string name="travelsafe.message.pengecualian.10">10. Semua kondisi kesehatan yang sudah ada sebelumnya (Pre-Existing Condition)</string>
+    <string name="travelsafe.message.pengecualian.11">11. Gangguan mental dan saraf</string>
+    <string name="travelsafe.message.pengecualian.12">12. Medical check up</string>
+    <string name="travelsafe.message.pengecualian.13">13. DLL</string>
+    <string name="traveldom.message.fasilitas.1"><b>1. Kematian \u0026 Cacat Tetap akibat Kecelakaan</b>\nPerlindungan terhadap risiko Kematian dan Cacat Tetap akibat Kecelakaan dengan nilai hingga sebesar 100% dari Nilai Pertanggungan</string>
+    <string name="traveldom.message.fasilitas.2"><b>2. Biaya-Biaya Medis akibat Kecelakaan</b>\nPenggantian atas biaya-biaya medis yang dikeluarkan Tertanggung untuk mendapatkan perawatan medis yang dibutuhkan akibat Kecelakaan, hingga batas maksimum manfaat sesuai dengan plan yang dipilih.</string>
+    <string name="traveldom.message.fasilitas.3"><b>3. Evaluasi Medis Darurat dan Repatriasi Medis***</b>\nPengaturan dan penggantian biaya evakuasi dan repratriasi oleh BLUE DOT Assistance apabila Tertanggung mengalami keadaan darurat medis dan sesuai dengan anjuran dari dokter BLUE DOT Assistance, sehingga Tertanggung perlu segera mendapatkan perawatan medis, memindahkan ke Rumah Sakit atau klinik terdekat yang mampu memberikan perawatan yang sesuai dengan kondisi Tertanggung dan bila perlu memulangkan ke lokasi tempat tinggal resmi Tertanggung</string>
+    <string name="traveldom.message.fasilitas.4"><b>4. Repatriasi Jenazah***</b>\nPengaturan dan penggantian biaya repatriasi oleh BLUE DOT Assistance untuk memulangkan jenazah Tertanggung kembali ke tempat tinggal resminya, termasuk penyediaan rumah duka lokal, perawatan jenazah, pengurusan dokumen yang diperlukan, memperoleh semua izin hukum, pembelian kantung jenazah atau peti jenazah yang sederhana dan pengangkutan jenazah ke rumah duka di tempat tinggal resminya, apabila Tertanggung meninggal dunia selama dalam perjalanan.</string>
+    <string name="traveldom.message.fasilitas.5"><b>5. Kehilangan Deposit atau Pembatalan Perjalanan</b>\nPenggantian atas kehilangan deposit /uang muka atau biaya-biaya yang telah dibayar di muka oleh Tertanggung terkait dengan rencana perjalanannya, karena harus membatalkan perjalanan akibat Tertanggung atau keluarga dekat Tertanggung sakit atau meninggal dunia</string>
+    <string name="traveldom.message.fasilitas.6"><b>6. Kehilangan Bagasi dan Barang Pribadi</b>\nPenggantian sesuai nilai sebenarnya atas kehilangan atau biaya-biaya perbaikan yang dikeluarkan atas bagasi, dan barang-barang pribadi yang hilang atau rusak selama Tertanggung melakukan perjalanan.</string>
+    <string name="konvensional.message.perluasan.1">1. Angin Topan, Badai, Hujan Es, Banjir dan atau Tanah Longsor</string>
+    <string name="konvensional.message.perluasan.2">2. Gempa Bumi, Tsunami dan atau Letusan Gunung Berapi</string>
+    <string name="konvensional.message.perluasan.3">3. Huru-hara</string>
+    <string name="konvensional.message.perluasan.4">4. Terorisme dan Sabotase</string>
+    <string name="konvensional.message.perluasan.5a">5. Tanggung Jawab Hukum terhadap Pihak Ketiga (Kendaraan Penumpang dan Sepeda Motor)</string>
+    <string name="konvensional.message.perluasan.5b">  Tanggung Jawab Hukum terhadap Pihak Ketiga (Kendaraan Niaga, Truk dan Bus)</string>
+    <string name="konvensional.message.perluasan.6">6. Kecelakaan Diri untuk Penumpang </string>
+    <string name="konvensional.message.perluasan.7">7. Tanggung Jawab Hukum terhadap Penumpang</string>
+    <string name="konvensional.message.table.premi.jaminan.1">1. Wilayah 1: Sumatera dan Kepulauannya</string>
+    <string name="konvensional.message.table.premi.jaminan.2">2. Wilayah 2: Jakarta, Banten dan Jabar</string>
+    <string name="konvensional.message.table.premi.jaminan.3">3. Wilayah 3: Selain Wilayah 1 dan Wilayah 2</string>
+    <string name="otomate.message.dokumenklaim.header.1">1. Kerusakan ringan</string>
+    <string name="otomate.message.dokumenklaim.header.2">2. Kerusakan berat ( CTL )</string>
+    <string name="otomate.message.dokumenklaim.header.3">3. Kehilangan atau kerusakan total</string>
+    <string name="otomate.message.dokumenklaim.header.4">4. Tuntutan pihak ketiga</string>
+    <string name="otomate.message.dokumenklaim.detail.1.a">	a. Mengisi LKKB ( Laporan Kecelakaan Kendaraan Bermotor )</string>
+    <string name="otomate.message.dokumenklaim.detail.1.b">	b. Fotocopy polis</string>
+    <string name="otomate.message.dokumenklaim.detail.1.c">	c. Fotocopy STNK kendaraan</string>
+    <string name="otomate.message.dokumenklaim.detail.1.d">	d. Fotocopy SIM Pengemudi</string>
+    <string name="otomate.message.dokumenklaim.detail.2.a">a. Mengisi LKKB ( Laporan Kecelakaan Kendaraan Bermotor )</string>
+    <string name="otomate.message.dokumenklaim.detail.2.b">b. Polis asli dan bukti asli pembayaan premi</string>
+    <string name="otomate.message.dokumenklaim.detail.2.c">c. STNK asli kendaraan</string>
+    <string name="otomate.message.dokumenklaim.detail.2.d">d. Fotocopy SIM pengemudi</string>
+    <string name="otomate.message.dokumenklaim.detail.2.e">e. BPKB asli</string>
+    <string name="otomate.message.dokumenklaim.detail.2.f">f. Faktur kendaraan</string>
+    <string name="otomate.message.dokumenklaim.detail.2.g">g. Surat keterangan kepolisian</string>
+    <string name="otomate.message.dokumenklaim.detail.2.h">h. Kunci kontak</string>
+    <string name="otomate.message.dokumenklaim.detail.3.a">a. Mengisi LKKB ( Laporan Kecelakaan Kendaraan Bermotor )</string>
+    <string name="otomate.message.dokumenklaim.detail.3.b">b. Polis asli dan bukti asli pembayaan premi</string>
+    <string name="otomate.message.dokumenklaim.detail.3.c">c. STNK asli kendaraan</string>
+    <string name="otomate.message.dokumenklaim.detail.3.d">d. Fotocopy SIM pengemudi</string>
+    <string name="otomate.message.dokumenklaim.detail.3.e">e. BPKB asli</string>
+    <string name="otomate.message.dokumenklaim.detail.3.f">f. Faktur kendaraan</string>
+    <string name="otomate.message.dokumenklaim.detail.3.g">g. Surat keterangan kepolisian</string>
+    <string name="otomate.message.dokumenklaim.detail.3.h">h. Kunci kontak</string>
+    <string name="otomate.message.dokumenklaim.detail.3.i">i. Surat subrogasi</string>
+    <string name="otomate.message.dokumenklaim.detail.3.j">j. Surat blokir ( utnuk kehilangan )</string>
+    <string name="otomate.message.dokumenklaim.detail.4.a">a. Mengisi LKKB ( Laporan Kecelakaan Kendaraan Bermotor )</string>
+    <string name="otomate.message.dokumenklaim.detail.4.b">b. Fotocopy STNK kendaraan</string>
+    <string name="otomate.message.dokumenklaim.detail.4.c">c. Fotocopy SIM pengemudi</string>
+    <string name="otomate.message.dokumenklaim.detail.4.d">d. Surat keterangan kepolisian</string>
+    <string name="otomate.message.dokumenklaim.detail.4.e">e. Surat musyawarah</string>
+    <string name="otomate.message.dokumenklaim.detail.4.f">f. Surat pernyataan tidak memiliki Asuransi</string>
+    <string name="title_activity_fill_insured_group">FillInsuredGroupActivity</string>
+
+</resources>

@@ -1,0 +1,273 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity" >
+    
+     <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick" />
+
+        </RelativeLayout>
+        
+        <com.aca.amm.CustomTextViewBold
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layTitle2"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="My Profile"
+            android:textColor="@color/AMMC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+     
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+   		 android:background="@drawable/abg" 
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@+id/layFooter"
+        >
+        
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp" >
+        
+        	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+                 >
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp" 
+           		 android:background="@drawable/sectionbg"
+           		  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Name"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtNama"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+	                    android:padding="7dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	            	    android:hint="Name"
+	                    android:inputType="textCapWords|textMultiLine"
+	                    
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+               
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Handphone"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtPhoneNumber"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="Mobile Phone Number"
+	                    android:padding="7dp"
+	                    android:inputType="phone|textMultiLine"
+	                    android:digits="0123456789"
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                   
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Email"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtEmail"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	        
+	                    android:hint="Example@test.com"
+	                    android:padding="7dp"
+	                    android:inputType="textEmailAddress|textMultiLine"
+	                    >
+	                </EditText>
+
+                </TableRow>
+                
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Username"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtUserName"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="Username"
+	                    android:padding="7dp"
+	                    android:inputType="textCapWords|textMultiLine"
+	                    >
+	                </EditText>
+
+                </TableRow>
+              
+            </TableLayout>
+               
+		    <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_marginTop="5dp">
+                
+                <Button
+			        android:id="@+id/btnChangeUsername"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:background="@drawable/infobutton" 
+			        android:padding="10dp"
+			        android:text="Change Username"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnChangeUsernameClick"
+			        />
+	            
+                
+                 <Button
+			        android:id="@+id/btnChangePassword"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:background="@drawable/infobutton" 
+			        android:padding="10dp"
+			        android:text="Change Password"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnChangePasswordClick"
+			        />
+	            
+	            <Button
+			        android:id="@+id/btnSignOut"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:background="@drawable/infobutton" 
+			        android:padding="10dp"
+			        android:text="Sign Out"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnSignOutClick"
+			         />
+                
+            </LinearLayout>
+           
+		    </LinearLayout>
+        </ScrollView>
+       </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+    
+
+</RelativeLayout>

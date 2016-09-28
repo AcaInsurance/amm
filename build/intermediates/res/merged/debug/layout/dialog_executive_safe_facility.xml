@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+	            
+			<TableLayout
+	         	android:layout_width="match_parent"
+	         	android:layout_height="wrap_content"
+	         	android:stretchColumns="*"
+	         	android:shrinkColumns="*">
+		
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		          		android:padding="15dp"
+		                android:text="01. Kematian dan Cacat Tetap  - Perlindungan terhadap risiko Kematian dan Cacat Tetap akibat Kecelakaan hinggasebesar 100% dari Nilai Pokok Pertanggungan." />
+	
+				</TableRow>
+	           
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp">
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		          		android:padding="15dp"
+		                android:text="02. Biaya-Biaya Medis - Penggantianatas biaya-biaya medis yang dikeluarkan Tertanggunguntuk mendapatkan perawatan medis yang dibutuhkanakibat Kecelakaan, hingga batas maksimum manfaat sesuaidengan plan yang dipilih." />
+	
+				</TableRow>
+				
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		          		android:padding="15dp"
+		                android:text="03. Evaluasi MedisDarurat dan Repatriasi - Pengaturandan penggantian biaya evakuasi danrepratriasi oleh BLUE DOT Assistance apabila Tertanggungmengalami keadaan darurat medis, sehinggaperlu untuk segera mendapatkan perawatanmedis, memindahkan ke Rumah Sakitatau klinik terdekat dan bilaperlu memulangkan ke lokasi tempattinggal resmi Tertanggung." />
+	
+				</TableRow>
+				
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		          		android:padding="15dp"
+		                android:text="04. Kunjungan Kerabat - Pengaturandan penggantian biaya tiket perjalananserta biaya akomodasi di hotel hinggasebesar US$ 150.00 / hariselama periode 5 hari berturut-turut untuk 1 (satu) orang kerabat mengunjungi Tertanggung yang sedang di rawat di RumahSakit lebih dari 10 hari dandinyatakan secara medis belum diizinkanuntuk kembali ke tempat tinggalnya." />
+	
+				</TableRow>
+	
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		          		android:padding="15dp"
+		                android:text="05. Penjagaan Anak - Pengaturandan penggantian biaya tiket perjalananserta biaya akomodasi di hotel hinggasebesar US$ 150.00 / hariselama periode 5 hari berturut-turut untuk 1 (satu) orang kerabat untuk membawaanak Tertanggung yang ikut serta dalamperjalanan kembali ke tempat tinggalnya, jika Tertanggung di rawat di Rumah Sakit dantidak ada orang dewasa yang menemanianak-anak tersebut kembali ke tempattinggalnya." />
+	
+				</TableRow>
+				
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		          		android:padding="15dp"
+		                android:text="06. Kehilangan Deposit atau Pembatalan Perjalanan - Perlindungan ataskehilangan deposit /uangmuka atau biaya-biaya yang telah dibayardi muka oleh Tertanggung, karenaharus membatalkan perjalanan akibat sakitatau keluarga dekat Tertanggung sakitatau meninggal dunia." />
+	
+				</TableRow>
+				
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		          		android:padding="15dp"
+		                android:text="07. Kehilangan Bagasi dan Barang Pribadi - Perlindungan sesuai nilai sebenarnya atau biaya-biaya perbaikan yang dikeluarkan atas bagasi, dan barang-barang pribadi dalam koper yang hilang atau rusak selama tertanggung melakukan perjalanan." />
+	
+				</TableRow>
+				
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		          		android:padding="15dp"
+		                android:text="08. Kematian SelainAkibat Kecelakaan - Perlindunganterhadap risiko akibat apapun selainKecelakaan sebesar 10% dari  Nilai Pokok Pertanggungan, yang ditanggung oleh PT. Asuransi Jiwa Central Asia Raya (CAR)." />
+	
+				</TableRow>
+				 
+	      	</TableLayout>
+			<Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="100dp"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/ok"
+	             android:layout_gravity="center_horizontal"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+		</LinearLayout>
+    	
+    </ScrollView>
+
+</RelativeLayout>

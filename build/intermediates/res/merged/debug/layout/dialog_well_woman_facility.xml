@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+              <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:textStyle="bold"
+            	android:text="Batas Usia"
+            	
+            	 />
+              
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				 android:text="Peserta yang dapat mengikuti program Wellwoman adalah wanita dengan batasan usia diatas 18 tahun dan dibawah 64 tahun (perlindungan terakhir sampai dengan usia maksimal 65 tahun)."
+				/>
+            
+           <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:textStyle="bold"
+            	android:text="Masa Tunggu"
+            	
+            	 />
+              
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				 android:text="Masa tunggu pengajuan klaim diberlakukan kepada peserta selama 90 (sembilan puluh) hari sejak tanggal efektif polis."
+				/>
+            
+             <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"
+            	android:textStyle="bold"
+            	android:text="Pengecualian Polis"
+            	
+            	 />
+             <!--  PENGECUALIAN POLIS -->
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				 android:text="Wellwoman tidak akan memberikan santunan jika berkaitan dengan hal-hal dibawah ini :"
+				/>
+            
+               <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				 android:text="1. Pre-sel ganas atau tumor yang belum terdiagnosa kanker namun bisa berkembang menjadi kanker (contoh : thrombocyrhaemia dan polcycythaemia rebra vera), carcinoma-in-situ didaerah manapun selain payudara."
+				/>
+               
+              <TextView 
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:text="2. Peserta terdiagnosa kanker di organ kewanitaan sebelum mengikuti program Wellwoman (Pre-existing conditions)."
+				 />
+            
+               <TextView 
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:text="3. Pengajuan santunan Wellwoman diberikan pada periode masa tunggu."
+				 />
+                      
+               <TextView 
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:text="4. Kondisi-kondisi yang terjadi sebagai akibat alkohol atau obat-obatan terlarang yang tidak diresepkan oleh dokter dan tidak digunakan untuk mengobati kecanduan dalam penyalahgunaan obat-obat terlarang."
+				 />
+                         
+               <TextView 
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:text="5. Kondisi-kondisi yang terjadi sebagai akibat operasi elektif"
+				 />
+                            
+              <TextView 
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:text="6. Kondisi hasil dari luka yang ditimbulkan sendiri atau karena kelalaian tertanggung."
+				 />
+                               
+             <TextView 
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:text="7. Tertanggung menolak untuk mengikuti saran/kebijakan medis atau rekomendasi yang beralasan dari dokter/tenaga ahli memiliki izin praktek secara medis."
+				 />
+                                  
+              <TextView 
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+            	 android:text="8. Tertanggung tinggal/menetap diluar Indonesia selama lebih dari 3(tiga) bulan berturut-turut."
+				 />
+            
+             	<Button
+		             android:id="@+id/dlgOK"
+		             android:layout_width="100dp"
+		             android:layout_height="wrap_content"
+		             android:layout_margin="20dp"
+		             android:background="@drawable/infobutton"
+		             android:drawableLeft="@drawable/ok"
+		             android:layout_gravity="center_horizontal"
+		             android:padding="10dp"
+		             android:text="OK"
+		             android:textColor="@color/White"
+		             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>

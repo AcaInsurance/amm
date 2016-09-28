@@ -1,0 +1,993 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FillCargoActivity"
+     >
+
+  <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+			<ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick"
+	            android:layout_alignParentLeft="true"  />
+            
+			<com.aca.amm.CustomTextViewBold
+	            android:id="@+id/lblTitle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/btnHome"
+	            android:layout_toLeftOf="@+id/btnDelete"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:padding="10dp"
+	            android:text="Cargo"
+	            android:textColor="@color/AMMC"
+	            android:clickable="true"
+	            android:textSize="18sp"
+	            android:textStyle="bold" />
+			
+			<ImageView
+	            android:id="@+id/btnDelete"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/delete_photo"
+	            android:clickable="true"
+	            android:onClick="btnDeleteClick"
+	            android:layout_alignParentRight="true"  />
+        </RelativeLayout>
+       
+    </RelativeLayout>
+    
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+   		 android:background="@drawable/abg" 
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@+id/layFooter"
+        >
+   <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter"
+        android:padding="5dp"
+        android:layout_marginTop="10dp" >
+        
+        	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+               <TableLayout
+                   android:layout_width="fill_parent"
+                	android:layout_height="match_parent"
+                	android:layout_marginBottom="5dp"
+                	android:background="@drawable/sectionbg"
+                	android:padding="10dp"  >
+                
+                   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="ID/No Nasabah"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtCustomerNo"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	            		android:enabled="false"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="ID/No Nasabah"
+	                    android:padding="7dp">
+	                </EditText>
+
+                </TableRow>
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Nama Nasabah"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtCustomerName"
+		                android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="Nama Nasabah"
+	                    android:padding="7dp"
+	                    android:enabled="false" >
+	                </EditText>
+                </TableRow>
+                
+               <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text=""
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+	                <Button
+				        android:id="@+id/btnChooseCustomer"
+				        android:layout_marginTop="20px"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="0.5"
+				        android:layout_gravity="center_horizontal"
+				        android:gravity="center"
+				        android:background="@drawable/infobutton"
+				        android:padding="5dp"
+				        android:text="Pilih"
+				        android:textStyle="bold"
+				        android:textColor="@color/White"
+				        android:onClick="btnChooseCustomerClick" />
+               </TableRow>
+           	</TableLayout>
+           	
+               
+        	<TableLayout 
+        	    android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp">
+        	    
+        	    <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView android:id="@+id/vesselType"
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Vessel Type"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                  
+                     <Spinner
+		                android:id="@+id/spinVesselType"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:background="@drawable/edittext"/>
+
+               </TableRow>
+               
+      
+        	    <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView android:id="@+id/vesselName"
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Vessel Name"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<AutoCompleteTextView
+		                android:id="@+id/txtVesselName"
+		                android:hint="Nama / Plat"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" 
+	      				android:completionThreshold="1"
+	      				android:dropDownVerticalOffset="20dp"
+	      				android:textColor="@color/Black"
+	      				
+	      				
+	      				/>
+
+               	</TableRow>
+               
+        	 
+        	   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Vessel Weight"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtVesselWeight" 
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittextdisabled"
+	      				android:padding="7dp" />
+
+               </TableRow>
+               
+        	   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Vessel Year"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtVesselYear" 
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittextdisabled"
+	      				android:padding="7dp" />
+
+               </TableRow>
+        	    
+        	</TableLayout>
+        	
+        	
+        	
+        	<TableLayout 
+        	    android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"
+            		android:visibility="gone">
+        	    
+        	    <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Printed Vessel Type"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                    <EditText
+		                android:id="@+id/txtPrintedVesselType"
+		                android:hint="Tipe Vessel"
+		                android:enabled="false"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+
+               </TableRow>
+               
+        	
+        	</TableLayout>
+        	
+        	
+        	
+        	
+        	<TableLayout 
+        	    android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp">
+        	    
+        	    <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Policy Type"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                    <Spinner
+		                android:id="@+id/spinnerPolicyType"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext" />
+
+               </TableRow>
+               
+        	    <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Voyage No"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtVoyageNo"
+		                android:hint="No Voyage"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+
+               </TableRow>
+               
+        	   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="BL No"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtBLNo"
+		                android:hint="No. BL"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+
+               </TableRow>
+               
+        	   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="LC No."
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtLCNo"
+		                android:hint="No. LC"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+
+               </TableRow>
+               
+        	   
+        	   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Interest Details"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtInterestDetails"
+		                android:hint="Informasi Barang"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+        	   </TableRow>
+        	   
+        	   
+        	   
+        	   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Warranties"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<TextView
+		                android:id="@+id/txtConditionWarranties"
+		                android:hint="Kondisi dan Warranty"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp"
+	      				android:text="@string/cargo_message_warranties"
+	      				 />
+
+               </TableRow>
+               
+        	      <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Special Condition"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<TextView
+		                android:id="@+id/txtConditionWarranties"
+		                android:hint="Kondisi dan Warranty"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp"
+	      				android:text="@string/cargo_message_special_condition"
+	      				 />
+
+               </TableRow>
+               
+        	   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Voyage From"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtVoyageFrom"
+		                android:hint="Perjalanan Dari"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+
+               </TableRow>
+               
+        	   <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Voyage To"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtVoyageTo"
+		                android:hint="Sampai"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+
+               </TableRow>
+        	    
+        	    <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+                        android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Transhipment (Within Indonesian Territories)"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                    
+                   	<EditText
+		                android:id="@+id/txtTranshipment"
+		                android:hint="Transhipment"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="textCapCharacters|textMultiLine"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+
+               </TableRow>
+        	</TableLayout>
+        	
+		     <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+	       	    
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">    
+            		
+            		<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Est. Time Dept."
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White" />
+			    
+			    	<EditText
+		                android:id="@+id/txtfromdate"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:hint="Tanggal Berangkat"
+		                android:layout_weight="0.5"
+		                android:inputType="date"
+		                android:background="@drawable/edittext"
+						android:padding="7dp">
+	            	</EditText>
+	            	
+	        	</TableRow>
+			    
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Currency"
+		                android:textColor="@color/White"  />
+	
+               		<Spinner
+		                android:id="@+id/spinnerCurrency"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext" />
+	       		</TableRow>
+	       		
+                 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Sum Insured"
+		                android:textColor="@color/White"  />
+	
+	            	<EditText
+		                android:id="@+id/txtSI"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number|textMultiLine"
+		                android:hint="0"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+               
+	       		</TableRow>
+	       		
+                  <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Deductible"
+		                android:textColor="@color/White"  />
+	
+	            	<EditText
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textMultiLine"
+		                android:hint="0"
+		                android:text="0.5% of Total Sum Insured"
+		                android:enabled="false"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+               
+	       		</TableRow>
+	       		
+                  
+	       		
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Rate"
+		                android:textColor="@color/White"  />
+	
+	            	<EditText
+		                android:id="@+id/txtRate"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"  
+		                android:hint="0"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+               
+	       		</TableRow>
+				
+				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Premi"
+		                android:textColor="@color/White"  />
+	
+		            <EditText
+		                android:id="@+id/txtPremi"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:text="0"
+		                android:layout_weight="0.5"
+		                android:gravity="right"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+
+	             </TableRow>
+	             
+			  	 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Premi IDR"
+		                android:textColor="@color/White"  />
+	
+	               <TextView
+		                android:id="@+id/txtExchangeRate"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:text="IDR"
+		                android:layout_weight="0.1"
+		                android:gravity="right" 
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" 
+	        			android:visibility="gone"
+	        			/> 
+	        			
+	                    
+		            <EditText
+		                android:id="@+id/txtExchangePremi"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:text="0"
+		                android:layout_weight="0.5"
+		                android:gravity="right"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+
+	             </TableRow>
+	             
+					
+					
+				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+              		
+              		<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Diskon %"
+		                android:textColor="@color/White"  />
+	
+	            	<EditText
+		                android:id="@+id/txtDiscountPct"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:hint="0.00"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+	           	</TableRow>
+				
+				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	              	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Diskon"   
+		                
+		                android:textColor="@color/White"  />
+	
+		            <EditText
+		                android:id="@+id/txtDiscount"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:hint="0.00"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+	           	</TableRow>
+				  
+				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	              	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Biaya Polis"
+		                android:textColor="@color/White"  />
+	
+		            <EditText
+		                android:id="@+id/txtPolicyCost"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:text="0.00"
+		                android:enabled="false"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+	   			</TableRow>
+	   			
+				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	               <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Biaya Materai"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White" />
+	
+		            <EditText
+		                android:id="@+id/txtMaterai"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+	             </TableRow>
+				 
+				 <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+					<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Total IDR"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"  />
+	
+		            <EditText
+		                android:id="@+id/txtTotal"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:hint="0"
+		                android:layout_weight="0.5"
+		                android:gravity="right"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />  
+              	
+	           	</TableRow>
+         	</TableLayout>
+        	
+        	<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            android:layout_marginTop="5dp">
+                
+                 <Button
+			        android:id="@+id/btnPrev"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableLeft="@drawable/back"
+			        android:padding="10dp"
+			        android:text="Back"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnBackClick"
+			        android:layout_marginRight="5dp" />
+	            
+	            <Button
+			        android:id="@+id/btnNext"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableRight="@drawable/next"
+			        android:padding="10dp"
+			        android:text="Next"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnNextClick" />
+                
+            </LinearLayout>
+               
+    	</LinearLayout>
+ 	</ScrollView>
+ 	
+	</LinearLayout>
+   <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+         <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+    
+ </RelativeLayout>

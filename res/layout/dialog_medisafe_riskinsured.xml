@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+       
+    	<LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+	    	
+    	    
+                
+   		<TextView
+       		android:layout_width="match_parent"
+ 			android:layout_height="match_parent"
+      		android:text="Satuan mata uang dalam Rupiah"
+           	android:textStyle="bold"
+           	android:padding="15dp"
+           	/>
+    		
+    	    
+  	     <HorizontalScrollView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+			 android:fillViewport="true"
+            >
+            
+        
+			<TableLayout
+				android:layout_width="wrap_content"
+	         	android:layout_height="wrap_content"
+	         	android:stretchColumns="*">
+		
+		   
+			    <TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					 >
+	                 
+		      		<TextView
+		          		android:layout_width="96dp"
+		    			android:layout_height="match_parent"
+		              	android:gravity="center_horizontal"
+		         		android:text="Risiko"
+		              	android:textStyle="bold"
+		              	style="@style/TextView_Cell_Grid"/>
+		                 
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Jasmine"
+		              	android:textStyle="bold"		              	
+		              	style="@style/TextView_Cell_Grid" />
+					
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Orchid"
+		              	android:textStyle="bold"		              	 
+		              	style="@style/TextView_Cell_Grid"/>
+					
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="Rose"
+		              	android:textStyle="bold"		              	 
+		              	style="@style/TextView_Cell_Grid"/>
+					
+				</TableRow>
+				
+			    <TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					 >
+	                 
+		      		<TextView
+		          		android:layout_width="wrap_content"
+		    			android:layout_height="match_parent"
+		    			android:maxWidth="150dp" 
+		              	style="@style/TextView_Cell_Grid"
+		         		android:text="Rawat Inap dirumah sakit per hari ( max 90 hari )"
+		              	/>
+		                 
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="150.000"		              	
+		              	style="@style/TextView_Cell_Grid" />
+					
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="350.000"		              	 
+		              	style="@style/TextView_Cell_Grid"/>
+					
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="500.000"
+		              	
+		              	style="@style/TextView_Cell_Grid" />
+					
+				</TableRow>
+				
+			    <TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					 >
+	                 
+		      		<TextView
+		          		android:layout_width="96dp"
+		    			android:layout_height="match_parent" 
+		         		android:text="Pembedahan"		              	
+		              	style="@style/TextView_Cell_Grid"/>
+		                 
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="3.000.000"
+		              	
+		              	style="@style/TextView_Cell_Grid" />
+					
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="7.000.000"		              	 
+		              	style="@style/TextView_Cell_Grid"/>
+					
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="10.000.000"             	 
+		              	style="@style/TextView_Cell_Grid"
+		              	 />
+					
+				</TableRow>
+				
+			    <TableRow
+		  			android:id="@+id/tableRow1"
+		            android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					 >
+	                 
+		      		<TextView
+		          		android:layout_width="96dp"
+		    			android:layout_height="match_parent" 
+		         		android:text="Perawatan rumah sakit lainnya ( max )"		              	
+		              	style="@style/TextView_Cell_Grid"
+		              	/>
+		                 
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="1.500.000"
+		              	
+		              	style="@style/TextView_Cell_Grid" />
+					
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="3.500.000"
+		              	 
+		              	style="@style/TextView_Cell_Grid"/>
+					
+					<TextView
+		       			android:layout_width="96dp"
+	            		android:layout_height="match_parent"
+		     			android:gravity="center_horizontal"
+		            	android:text="5.000.000"
+		              	 
+		              	style="@style/TextView_Cell_Grid"/>
+					
+				</TableRow>
+				
+			</TableLayout>
+		
+			
+					
+		
+    	</HorizontalScrollView>
+		
+  	     
+		<Button
+             android:id="@+id/dlgOK"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:background="@drawable/infobutton"
+             android:drawableLeft="@drawable/ok"
+             android:layout_gravity="center_horizontal"
+             android:padding="10dp"
+             android:text="OK"
+             android:textColor="@color/White"
+              />
+
+    </LinearLayout>
+    </ScrollView>
+    
+    
+    
+    
+
+</RelativeLayout>

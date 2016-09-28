@@ -1,0 +1,656 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseProductActivity">
+
+    <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:background="@drawable/buttonpressed"
+	            android:onClick="btnHomeClick" />
+
+            
+        </RelativeLayout>
+        
+        
+        <com.aca.amm.CustomTextViewBold
+            android:id="@+id/lblTitle"            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layTitle2"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="Pilih Produk"
+            android:textColor="@color/AMMC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+   		 android:background="@drawable/abg" 
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@+id/layFooter"
+        >
+        
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp" >
+ 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+   		
+		    <LinearLayout
+		        android:id="@+id/row1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"  >
+		        
+		        <RelativeLayout
+		      	    android:layout_width="match_parent"
+		      	    android:layout_height="wrap_content"
+		      	    android:clickable="true"
+		      	    android:onClick="btnOtomateClick" >
+		
+			        <ImageButton
+			            android:id="@+id/btnOtomate"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:onClick="btnOtomateClick"
+			            android:src="@drawable/otomate"
+			            android:background="@drawable/buttonpressed" />
+
+			       	<com.aca.amm.CustomTextViewBold	       	    
+			       	    android:id="@+id/btnOtomateDescription"
+			       	    android:layout_width="wrap_content"
+			       	    android:layout_height="wrap_content"
+			       	    android:layout_centerVertical="true"
+			       	    android:layout_toRightOf="@+id/btnOtomate"
+			       	    android:padding="10dp"
+			       	    android:text="Asuransi Kendaraan Otomate"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+		
+		       	</RelativeLayout>
+		        
+		        
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:id="@+id/row2"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp">
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnASRIClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnASRI"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnASRIClick"
+		                android:src="@drawable/asri" />
+		
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnASRIDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnASRI"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Rumah Idaman"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    
+		    
+		    <LinearLayout
+		        android:id="@+id/row3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:visibility="gone">
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnOfficeClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnToko"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnOfficeClick"
+		                android:src="@drawable/toko" />
+
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnTokoDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnToko"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Toko Idaman"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+
+		        </RelativeLayout>
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:id="@+id/row4"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnTravelClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnTravel"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnTravelClick"
+		                android:src="@drawable/travel" />
+		
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnTravelDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnTravel"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Perjalanan International"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:id="@+id/row5"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp">
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnTravelDomClick"  >
+		
+		            <ImageButton
+		                android:id="@+id/btnTravelDom"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnTravelDomClick"
+		                android:src="@drawable/traveldom" />
+		
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnTravelDomDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnTravelDom"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Perjalanan Domestik"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:id="@+id/row6"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnMedisafeClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnMedisafe"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnMedisafeClick"
+		                android:src="@drawable/medisafe" />
+
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnMedisafeDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnMedisafe"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Kesehatan Individu"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold"/>
+		            
+
+		        </RelativeLayout>
+		        
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:id="@+id/row7"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:visibility="gone"
+		        >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnExecutiveSafeClick"  >
+					
+		            <ImageButton
+		                android:id="@+id/btnExecutiveSafe"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnExecutiveSafeClick"
+		                android:src="@drawable/executive" />
+		            
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnExecutiveSafeDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnExecutiveSafe"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Executive Safe"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:id="@+id/row8"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"  >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnOtomateSyariahClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnOtomateSyariah"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnOtomateSyariahClick"
+		                android:src="@drawable/otomatesyariah" />
+
+		
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnOtomateSyariahDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnOtomateSyariah"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Kendaraan Otomate Syariah"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:id="@+id/row9"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnASRISyariahClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnASRISyariah"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnASRISyariahClick"
+		                android:src="@drawable/asrisyariah" />
+
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnASRISyariahDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnASRISyariah"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Rumah Idaman Syariah"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+		            
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    
+		    
+		    
+		    <LinearLayout
+		        android:id="@+id/row10"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnPAAmanahClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnPAAmanah"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnPAAmanahClick"
+		                android:src="@drawable/paamanah" />
+	
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnPAAmanahDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnPAAmanah"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="PA Amanah Syariah"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+		            
+
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    
+		    
+		    
+		    
+		    <LinearLayout
+		        android:id="@+id/row11"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:visibility="gone" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnACAMobilClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnACAMobil"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnACAMobilClick"
+		                android:src="@drawable/acamobil" />
+	
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnACAMobilDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnACAMobil"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Kendaraan Comprehensive++"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+		            
+
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		     <LinearLayout
+		        android:id="@+id/row12"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:visibility="visible" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnCargoClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnCargo"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnCargoClick"
+		                android:src="@drawable/cargo" />
+	
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnCargoDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnCargo"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Cargo"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+		            
+
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		     <LinearLayout
+		        android:id="@+id/row13"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnWellWomanClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnWellWoman"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@drawable/buttonpressed"
+		                android:onClick="btnWellWomanClick"
+		                android:src="@drawable/wellwoman" />
+	
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnWellWomanDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnWellWoman"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Well Woman"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+		            
+
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		     <LinearLayout
+				android:id="@+id/row13"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnDNOClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnDNO"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@null"
+		                android:onClick="btnDNOClick"
+		                android:src="@drawable/dno" />
+	
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnDNODescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnDNO"
+		                
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi D\u0026O"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+				</RelativeLayout>
+		    </LinearLayout>
+		    
+           <LinearLayout
+				android:id="@+id/row14"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp" >
+		
+		        <RelativeLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="true"
+		      	    android:onClick="btnConvensionalClick" >
+		
+		            <ImageButton
+		                android:id="@+id/btnConvensional"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:background="@null"
+		                android:onClick="btnConvensionalClick"
+		                android:src="@drawable/konvensional" />
+	
+		            <com.aca.amm.CustomTextViewBold                
+		                android:id="@+id/btnConvensionalDescription"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_toRightOf="@+id/btnConvensional" 
+		                android:layout_centerVertical="true"
+		                android:padding="10dp"
+		                android:text="Asuransi Kendaraan Konvensional"
+			       	    android:textColor="@color/Black"
+			       	    android:textSize="@dimen/font_large"
+		                android:textStyle="bold" />
+				</RelativeLayout>
+		    </LinearLayout>
+		    
+    	</LinearLayout>
+	</ScrollView> 
+	
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+
+
+    </RelativeLayout>
+    
+    
+</RelativeLayout>

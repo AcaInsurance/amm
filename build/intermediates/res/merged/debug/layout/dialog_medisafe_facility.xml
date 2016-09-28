@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+	            
+			<TableLayout
+	         	android:layout_width="match_parent"
+	         	android:layout_height="wrap_content"
+	         	android:stretchColumns="*"
+	         	android:shrinkColumns="*">
+		
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp">
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:padding="15dp"
+		                android:text="01. SANTUNAN RAWAT INAP DI RUMAH SAKIT - Memberikan Santunan Rawat Inap di Rumah Sakit sampai dengan Rp.1.000.000,- per hari selama maksimum 90 hari berturut-turut per perawatan atau sebesar maksimum Rp.90.000.000" />
+	
+				</TableRow>
+	           
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp">
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:padding="15dp"
+		                android:text="02. SANTUNAN PEMBEDAHAN - Memberikan penggantian biaya pembedahan selama di rawat inap di Rumah Sakit sesuai persentase yang tercantum dalam Daftar Pembedahan hingga maksimum Rp.15.000.000,- yang mencakup biaya dokter bedah, dokter anastesi dan ruang operasi." />
+	
+				</TableRow>
+				
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:padding="15dp"
+		                android:text="03. SANTUNAN PERAWATAN RUMAH SAKIT LAINNYA - Memberikan penggantian biaya pengobatan selama di rawat inap di Rumah Sakit hingga maksimum Rp.7.500.000,-. Manfaat ini mencakup biaya kunjungan dokter, obat-obatan yang dikonsumsi di Rumah Sakit, pemeriksaan laboratorium, pemeriksaan sinar X (X-ray), fisioterapi, transfusi darah, jasa ambulan dan pemeriksaan kesehatan lainnya yang terkait (sesuai kondisi Polis)." />
+	
+				</TableRow>
+				
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:padding="15dp"
+		                android:text="04. NO KLAIM BONUS sebesar 25% - dari premi yang sudah dibayar setiap tahunnya, jika tidak ada klaim selama 12 bulan periode polis" />
+	
+				</TableRow>
+	
+				<TableRow
+					android:id="@+id/tableRow2"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#FFFFFF"
+		            android:layout_margin="1dp" >
+		              
+		   			<TextView
+						android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:padding="15dp"
+		                android:text="05. GARANSI UANG KEMBALI !!! - Apabila Anda tidak puas atas kondisi polis dengan alasan apapun, Anda cukup memberitahukan kepada kami secara tertulis dalam waktu paling lambat 15 hari setelah polis diterima dan kami akan mengembalikan seluruh premi yang sudah dibayarkan." />
+	
+				</TableRow>
+				 
+	      	</TableLayout>
+			<Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="100dp"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/ok"
+	             android:layout_gravity="center_horizontal"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+		</LinearLayout>
+    	
+    </ScrollView>
+
+</RelativeLayout>

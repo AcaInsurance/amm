@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+               <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		android:padding="15dp"  
+				android:text="Perusahaan adalah setiap badan hukum yang "
+				android:textStyle="bold"
+				/>
+               
+               
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="1. Terdaftar/berdomisili di INDONESIA"
+				/>
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="2. Tidak tercatat di setiap Bursa Saham manapun atau setiap Bursa Saham manapun diluar INDONESIA"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="3. Memperoleh kurang dari 25% pendapatan kotornya dari Amerika Serikat"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="4. Mempunyai kurang dari 25% dari harta berwujud (dan dalam kondisi apapun tidak lebih dari USD 50,000,000) yang berada di Amerika Serikat"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="5. Pada awal tanggal berlakunya polis, memiliki kekayaan bersih/ ekuitas positif dan tidak ada penurunan ekuitas lebih dari 50% dari ekuitas tahun lalu"
+				/>
+            
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="6. Bukan merupakan Bank Investasi, Corporate Finance House atau pialang Surat Hutang/ Saham/Prime Broker"
+				/>
+            
+               <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"
+            	 android:layout_margin="1dp"
+            	 android:background="@color/White"
+				android:text="7. Tidak bergerak (sebagai bisnis utama) di bidang produksi atau penjualan produk tembakau atau asbes"
+				/>
+               
+			  <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+          		 android:padding="15dp"  
+            	 android:textStyle="bold"
+				android:text="dimana Jabatan Direktur dijabat"
+				/>
+            
+            
+            
+             <Button
+	             android:id="@+id/dlgOK"
+	             android:layout_width="100dp"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="20dp"
+	             android:background="@drawable/infobutton"
+	             android:drawableLeft="@drawable/ok"
+	             android:layout_gravity="center_horizontal"
+	             android:padding="10dp"
+	             android:text="OK"
+	             android:textColor="@color/White"
+	             android:textStyle="bold" />
+             
+	            
+        </LinearLayout>
+    </ScrollView>
+
+    
+	
+</LinearLayout>

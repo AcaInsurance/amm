@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_gravity="center_horizontal"
+    >
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >        
+        
+        <HorizontalScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            >
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="vertical"
+    	     >
+
+    	    <TableLayout
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:stretchColumns="*" >
+
+    	        <TableRow
+    	            android:id="@+id/tableRow1" 
+    	            android:layout_width="wrap_content"
+    	            android:layout_height="wrap_content" >
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="bottom|center_horizontal"
+    	                android:text="Jaminan"
+    	                style="@style/TextView_Cell_Grid"
+    	                android:textStyle="bold"  
+    	                />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="2"
+    	                android:gravity="center_horizontal"
+    	                android:text="Rate Premi Minimum"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="2"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="Risiko Sendiri"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	            
+    	        </TableRow>
+
+    	        <TableRow
+    	            android:id="@+id/tableRow1" 
+    	            android:layout_width="wrap_content"
+    	            android:layout_height="wrap_content" >
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal" 
+    	                android:textStyle="bold"  
+    	                style="@style/TextView_Cell_Grid"
+    	                />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="Comprehensive"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="TLO"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="Comprehensive"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="TLO"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	            
+    	        </TableRow>
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="250dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.perluasan.1"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="Merujuk Tabel D"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="Merujuk Tabel D"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="2"
+    	                android:gravity="center_horizontal" 
+    	                android:text="10% dari nilai klaim yang disetujui, minimum Rp500.000 per kejadian"  
+    	                style="@style/TextView_Cell_Grid" />
+    	        </TableRow>
+    	        
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.perluasan.2"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="Merujuk Tabel E"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="Merujuk Tabel E"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="2"
+    	                android:gravity="center_horizontal"
+    	                android:text="10% dari nilai klaim yang disetujui, minimum Rp500.000 per kejadian"  
+    	                style="@style/TextView_Cell_Grid"  />
+    	        </TableRow>
+    	        
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.perluasan.3"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.05%"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.035%"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="2"
+    	                android:gravity="center_horizontal" 
+    	                android:text="10% dari nilai klaim yang disetujui, minimum Rp500.000 per kejadian"  
+    	                style="@style/TextView_Cell_Grid" />
+    	        </TableRow>
+    	        
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.perluasan.4"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.05%"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.035%"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="2"
+    	                android:gravity="center_horizontal"  
+    	                android:text="10% dari nilai klaim yang disetujui, minimum Rp500.000 per kejadian"  
+    	                style="@style/TextView_Cell_Grid"  />
+    	        </TableRow>
+    	        
+    	        
+  	              <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content" 
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.perluasan.5a"
+    	                style="@style/TextView_Cell_Grid" />
+ 
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="4"
+    	                android:gravity="left" 
+    	                style="@style/TextView_Cell_Grid"
+    	                android:text="a. UP hingga Rp25 juta : 1%  dari UP\nb. UP > Rp25 juta s.d Rp50 juta : 0.75% dari UP\nc. UP > Rp50 juta s.d Rp100 juta : 0.50% dari UP"
+    	                  />
+    	            
+    	            
+    	        </TableRow>
+ 
+  	                  <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.perluasan.5b"
+    	                style="@style/TextView_Cell_Grid" />
+ 
+    	             
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="4"
+    	                android:gravity="left" 
+    	                style="@style/TextView_Cell_Grid"
+    	                android:text="a. UP hingga Rp25 juta : 1.50%  dari UP\nb. UP > Rp25 juta s.d Rp50 juta : 1.125% dari UP\nc. UP > Rp50 juta s.d Rp100 juta : 0.75% dari UP"
+    	                  />
+    	        </TableRow>
+    	        
+                <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content" 
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.perluasan.6"
+    	                style="@style/TextView_Cell_Grid" />
+ 
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="4"
+    	                android:gravity="left" 
+    	                style="@style/TextView_Cell_Grid"
+    	                android:text="a. Untuk Pengemudi    : 0.50% dari uang pertanggungan kecelakaan diri\nb. Untuk Penumpang   : 0.10% dari uang pertanggungan kecelakaan diri untuk setiap tempat duduk penumpang"
+    	                  />
+    	        </TableRow>
+    	        
+                  <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content" 
+    	            android:background="#FFFFFF"  
+    	            android:visibility="gone"
+    	            >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.perluasan.7"
+    	                style="@style/TextView_Cell_Grid" />
+ 
+    	            
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="4"
+    	                android:gravity="left" 
+    	                style="@style/TextView_Cell_Grid"
+    	                android:text="a. UP hingga Rp25 juta : 0.50%  dari UP\nb. UP > Rp25 juta s.d Rp50 juta : 0.375% dari UP\nc. UP > Rp50 juta s.d Rp100 juta : 0.25% dari UP"
+    	                  />
+    	        </TableRow>
+    	    </TableLayout>
+    	    
+    	    
+    	    
+   	        <TextView 
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" 
+               android:text="Tabel D"
+               android:textStyle="bold"  
+               android:layout_marginTop="10dp"
+               android:background="@color/White"
+               style="@style/TextView_Cell_Grid"
+               />
+            
+           <HorizontalScrollView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:fillViewport="true"
+	            android:background="@color/White"
+	            >
+
+    	    <TableLayout
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="fill_parent"
+    	        android:stretchColumns="*" 
+    	        android:background="@drawable/cellgrid"
+    	        >
+
+    	        <TableRow
+    	            android:id="@+id/tableRow1" 
+    	            android:layout_width="wrap_content"
+    	            android:layout_height="wrap_content"
+    	              >
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="bottom|center_horizontal"
+    	                android:text="Jaminan"
+    	                android:textStyle="bold"  
+    	                style="@style/TextView_Cell_Grid"
+    	                />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="2"
+    	                android:gravity="center_horizontal"
+    	                android:text="Tarif Premi"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+ 
+    	            
+    	            
+    	        </TableRow>
+
+    	        <TableRow
+    	            android:id="@+id/tableRow1" 
+    	            android:layout_width="wrap_content"
+    	            android:layout_height="wrap_content" >
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal" 
+    	                android:textStyle="bold"  
+    	                style="@style/TextView_Cell_Grid"
+    	                />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="Comprehensive"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="TLO"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" /> 
+    	            
+    	            
+    	        </TableRow>
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="180dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.table.premi.jaminan.1"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.075%"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.050%"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	             
+    	        </TableRow>
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.table.premi.jaminan.2"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.100%"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.075%"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	             
+    	        </TableRow>
+    	        
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.table.premi.jaminan.3"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.075%"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.050%"
+    	                style="@style/TextView_Cell_Grid" /> 
+    	        </TableRow> 
+    	    </TableLayout> 
+		</HorizontalScrollView>
+		
+           
+            <TextView 
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" 
+               android:text="Tabel E"
+               android:textStyle="bold"  
+               android:background="@color/White"
+               style="@style/TextView_Cell_Grid"
+               />
+            
+           <HorizontalScrollView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:fillViewport="true"
+	            android:background="@color/White"
+	            >
+
+    	    <TableLayout
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:stretchColumns="*" 
+    	        android:background="@drawable/cellgrid"
+    	        >
+
+    	        <TableRow
+    	            android:id="@+id/tableRow1" 
+    	            android:layout_width="wrap_content"
+    	            android:layout_height="wrap_content" >
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="bottom|center_horizontal"
+    	                android:text="Jaminan"
+    	                android:textStyle="bold"   
+    	                style="@style/TextView_Cell_Grid"
+    	                />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:layout_span="2"
+    	                android:gravity="center_horizontal"
+    	                android:text="Tarif Premi"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+ 
+    	            
+    	            
+    	        </TableRow>
+
+    	        <TableRow
+    	            android:id="@+id/tableRow1" 
+    	            android:layout_width="wrap_content"
+    	            android:layout_height="wrap_content" >
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal" 
+    	                android:textStyle="bold"  
+    	                style="@style/TextView_Cell_Grid"
+    	                />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="Comprehensive"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView 
+    	                android:layout_width="wrap_content"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"    	                
+    	                android:text="TLO"
+    	                android:textStyle="bold"
+    	                style="@style/TextView_Cell_Grid" /> 
+    	            
+    	            
+    	        </TableRow>
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="180dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.table.premi.jaminan.1"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.120%"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.085%"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	             
+    	        </TableRow>
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.table.premi.jaminan.2"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.100%"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.075%"
+    	                style="@style/TextView_Cell_Grid" />
+    	            
+    	             
+    	        </TableRow>
+    	        
+    	        
+    	        <TableRow
+    	            android:id="@+id/tableRow1"
+    	            android:layout_width="fill_parent"
+    	            android:layout_height="wrap_content"
+    	            
+    	            android:background="#FFFFFF"  >
+
+    	            <TextView
+    	                android:layout_width="120dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="left"
+    	                android:text="@string/konvensional.message.table.premi.jaminan.3"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.075%"
+    	                style="@style/TextView_Cell_Grid" />
+
+    	            
+    	            <TextView
+    	                android:layout_width="96dp"
+    	                android:layout_height="match_parent"
+    	                android:gravity="center_horizontal"
+    	                android:text="0.050%"
+    	                style="@style/TextView_Cell_Grid" /> 
+    	        </TableRow> 
+    	    </TableLayout> 
+		</HorizontalScrollView>
+
+    	    <Button
+    	        android:id="@+id/dlgOK"
+    	        android:layout_width="100dp"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center_horizontal"
+    	        android:layout_margin="20dp"
+    	        android:background="@drawable/infobutton"
+    	        android:drawableLeft="@drawable/ok"
+    	        android:padding="10dp"
+    	        android:text="OK"
+    	        android:textColor="@color/White"
+    	        android:textStyle="bold" />
+    	</LinearLayout>
+		</HorizontalScrollView>
+	</ScrollView>
+	
+</RelativeLayout>

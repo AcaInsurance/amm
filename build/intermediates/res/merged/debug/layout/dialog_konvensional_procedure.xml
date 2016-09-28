@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+	     
+	 	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="15dp"
+	        android:background="@color/White"
+	        android:layout_margin="1dp"
+	        android:text="01. Melaporkan terjadinya kerugian ke kantor cabang ACA terdekat atau Hotline ACA di 021-31999100 secara lisan/tulisan paling lambat 5 x 24 jam dari tanggal kejadian" />
+	
+	            
+	 	<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp"
+	        android:background="@color/White"
+	        android:layout_margin="1dp"
+	        android:text="02. Melengkapi dokumen pengurusan klaim" />
+	 	
+ 	 	<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp"
+	        android:background="@color/White"
+	        android:layout_margin="1dp"
+	        android:text="	&#183; Kerusakan ringan" />
+	 	<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp"
+	        android:background="@color/White"
+	        android:layout_margin="1dp"
+	        android:text="	&#183; Kerusakan berat ( CTL )" />
+	 	<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp"
+	        android:background="@color/White"
+	        android:layout_margin="1dp"
+	        android:text="	&#183; Kehilangan atau kerusakan total" />
+	 	<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp"
+	        android:background="@color/White"
+	        android:layout_margin="1dp"
+	        android:text="	&#183; Tuntutan pihak ketiga" />
+	
+	
+	 	
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp"	
+	        android:text="Dokumen Untuk Pengurusan Klaim"
+	        android:textStyle="bold"
+	         />
+	 	
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.header.1"  
+	        android:textStyle="bold"
+	        android:background="#fff"
+	        
+	         />
+ 		
+ 		
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.1.a" 
+	        android:background="#fff"
+	         />
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.1.b" 
+	        android:background="#fff"
+	         />
+ 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp"
+	        android:background="#fff"
+	        android:text="@string/otomate.message.dokumenklaim.detail.1.c" 
+	         />
+ 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp"
+	        android:background="#fff"
+	        android:text="@string/otomate.message.dokumenklaim.detail.1.d" 
+	         />
+ 		 				
+ 		 
+ 		 	
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp"  
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.header.2" 
+	        android:textStyle="bold"
+	        android:background="#fff"
+	        
+	         />
+ 		
+ 		
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.2.a" 
+	         />
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.2.b" 
+	         />
+ 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.2.c" 
+	         />
+ 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.2.d" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.2.e" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.2.f" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.2.g" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.2.h" 
+	         />
+ 		 
+ 		 
+	 	<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp"  
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.header.3" 
+	        android:textStyle="bold"
+	        android:background="#fff"
+	        
+	         />
+ 		
+ 		
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.a" 
+	         />
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.b" 
+	         />
+ 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.c" 
+	         />
+ 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.d" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.e" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.f" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.g" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.h" 
+	         />
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.i" 
+	         />
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.3.j" 
+	         />
+ 		
+	 
+	 
+	 	<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp" 
+	        android:text="@string/otomate.message.dokumenklaim.header.4" 
+	        android:textStyle="bold"
+	        android:background="#fff"
+	        
+	         />
+ 		
+ 		
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp"
+	        android:background="#fff"
+	        android:text="@string/otomate.message.dokumenklaim.detail.4.a" 
+	         />
+ 		<TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:layout_margin="1dp"
+	        android:background="#fff"
+	        android:text="@string/otomate.message.dokumenklaim.detail.4.b" 
+	         />
+ 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.4.c" 
+	         />
+ 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.4.d" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.4.e" 
+	         /> 		
+ 		 <TextView
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:padding="15dp" 
+	        android:background="#fff"
+	        android:layout_margin="1dp"
+	        android:text="@string/otomate.message.dokumenklaim.detail.4.f" 
+	         /> 		 
+	 
+		<Button
+	            android:id="@+id/dlgOK"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="20dp"
+	            android:background="@drawable/infobutton"
+	            android:drawableLeft="@drawable/ok"
+	            android:layout_gravity="center_horizontal"
+	            android:padding="10dp"
+	            android:text="OK"
+	            android:textColor="@color/White"
+	            android:textStyle="bold" />
+		
+    </LinearLayout>
+    
+    </ScrollView>
+    
+    
+    
+    
+
+</RelativeLayout>

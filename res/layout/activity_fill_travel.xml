@@ -1,0 +1,2163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    tools:context=".FillTravelActivity" >
+
+    <RelativeLayout 
+        android:id="@+id/layHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+            <ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+		        android:background="@drawable/buttonpressed"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick"
+	            android:layout_alignParentLeft="true" />
+            
+            <com.aca.amm.CustomTextViewBold
+	            android:id="@+id/lblTitle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	           	android:layout_toRightOf="@+id/btnHome"
+	           	android:layout_toLeftOf="@+id/btnDelete"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:padding="10dp"
+	            android:text="Travelsafe"
+	            android:textColor="@color/AMMC" 
+	            android:clickable="true"
+	            android:textSize="18sp"
+	            android:textStyle="bold" />
+            
+           	<ImageView
+	            android:id="@+id/btnDelete"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/delete_photo"
+	            android:clickable="true"
+		        android:background="@drawable/buttonpressed"
+	            android:onClick="btnDeleteClick"
+	            android:layout_alignParentRight="true"  />
+    
+        </RelativeLayout>
+        
+    </RelativeLayout>
+
+       <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+   		 android:background="@drawable/abg" 
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@+id/layFooter"
+        >
+        
+           
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter" 
+        android:padding="5dp"
+        android:layout_marginTop="10dp">
+        	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+            
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+            		
+                    
+
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="ID/No Nasabah"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtCustomerNo"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+	            		android:enabled="false"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="ID/No Nasabah"
+	                    android:padding="7dp">
+	                </EditText>
+
+                </TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Nama Nasabah"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+	                
+	                <EditText
+	                    android:id="@+id/txtCustomerName"
+		                android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="Nama Nasabah"
+	                    android:padding="7dp"
+	                    android:enabled="false" >
+	                </EditText>
+                </TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+					<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text=""
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                     
+                	<Button
+				        android:id="@+id/btnChooseCustomer"
+				        android:layout_marginTop="20px"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="0.5"
+				        android:layout_gravity="center_horizontal"
+				        android:gravity="center"
+				        android:background="@drawable/infobutton"
+				        android:padding="5dp"
+				        android:text="Pilih"
+				        android:textStyle="bold"
+				        android:textColor="@color/White"
+				        android:onClick="btnChooseCustomerClick" />
+
+               </TableRow>
+            </TableLayout>
+
+         <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/sectionbg"
+            android:padding="10dp"  >
+                
+	          
+               <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="No Passport Tertanggung"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtNoPass"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine|textCapCharacters"
+				    android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	                android:textSize="14sp"
+	                android:typeface="normal"
+	                android:layout_weight="0.5"
+	                android:hint="Nomor Passport Tertanggung"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+            <TableRow 
+        		android:layout_height="wrap_content"
+        		android:layout_marginBottom="2dp"	
+         		android:weightSum="1.0"
+        		android:layout_width="0dp">
+                
+           <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Anggota Keluarga"
+                android:layout_weight="0.5"
+                android:textColor="@color/White"/>
+           
+            <RadioGroup
+		        android:id="@+id/rbgIndividuOrFamily"
+		        android:layout_width="0dp"
+		        android:layout_gravity="left"
+		        android:layout_weight="0.5"
+		        android:layout_height="wrap_content" 
+		        android:orientation="vertical">
+		 
+		        <RadioButton
+		            android:id="@+id/rboIndividu"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="14sp"
+		            android:text="Individu"  
+		            android:textColor="@color/White" />
+		 
+		        <RadioButton
+		            android:id="@+id/rboFamily"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="14sp"
+		            android:text="Family"
+		            android:checked="true"
+		            android:textColor="@color/White" />
+		        
+		        <RadioButton
+		            android:id="@+id/rboGroup"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="14sp"
+		            android:text="Group"
+		            android:visibility="gone"
+		            android:checked="false"
+		            android:textColor="@color/White" />
+		 
+		    </RadioGroup>
+			 </TableRow>
+			 </TableLayout>  
+		
+         <LinearLayout
+             android:id="@+id/layoutFamily"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"   
+              >
+           <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+            
+                <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:text="Suami/Istri Dicover?"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+                <RelativeLayout 
+				    android:layout_weight="0.5"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="left"
+			    >
+				<Switch
+		            android:id="@+id/swiPasangan"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+	                android:layout_gravity="left"
+		            android:selectAllOnFocus="true"
+		            android:textOff="Tidak"
+		            android:textOn="Ya" />
+				
+				</RelativeLayout>
+				</TableRow>
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	        
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Nama Lengkap"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnama1"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:textSize="14sp"
+	                android:typeface="normal"
+	                android:layout_weight="0.5"
+	                android:hint="Nama Lengkap Pasangan"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Tgl Lahir"
+	                android:layout_weight="0.5"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp" 
+	                android:textColor="@color/White"/>
+	
+	            <EditText
+	                android:id="@+id/txttgllahir1"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:textSize="14sp"
+	                android:layout_weight="0.5"
+	                android:typeface="normal" 
+ 					android:hint="Tanggal Lahir"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="No Passport"
+	                android:layout_weight="0.5"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnopass1"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine|textCapCharacters"
+				    android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:layout_weight="0.5"
+	                android:hint="Nomor Passport "
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+		
+             </TableLayout>
+                
+			 <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+	            	
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	          
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:text="Anak ke-1 Dicover?"
+	                android:textColor="@color/White" />
+	
+	            <RelativeLayout 
+				    android:layout_weight="0.5"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="left"
+			    >
+				<Switch
+		            android:id="@+id/swiAnak1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+	                android:layout_gravity="left"
+		            android:selectAllOnFocus="true"
+		            android:textOff="Tidak"
+		            android:textOn="Ya" />
+				</RelativeLayout>
+				</TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Nama Lengkap"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnama2"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:textSize="14sp"
+	                android:typeface="normal"
+	                android:layout_weight="0.5"
+	                android:hint="Nama Lengkap Anak 1"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Tgl Lahir"
+	                android:layout_marginTop="5dp"
+	                android:layout_weight="0.5"
+	                android:textSize="14sp"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txttgllahir2"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:textSize="14sp"
+	                android:layout_weight="0.5"
+	                android:typeface="normal" 
+	                android:hint="Tanggal Lahir Anak 1"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="No Passport"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnopass2"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine|textCapCharacters"
+				    android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:layout_weight="0.5"
+	                android:hint="Nomor Passport Anak 1"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                </TableLayout>
+                
+			<TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	       
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:text="Anak ke-2 Dicover?"
+	                android:textColor="@color/White" />
+	
+	            <RelativeLayout 
+				    android:layout_weight="0.5"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="left"
+			    >
+				<Switch
+		            android:id="@+id/swiAnak2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:selectAllOnFocus="true"
+	                android:layout_gravity="left"
+		            android:textOff="Tidak"
+		            android:textOn="Ya" />
+				</RelativeLayout>
+				</TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Nama Lengkap"
+	                android:layout_marginTop="5dp"
+	                android:layout_weight="0.5"
+	                android:textSize="14sp"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnama3"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:layout_weight="0.5"
+	                android:hint="Nama Lengkap Anak 2"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Tgl Lahir"
+	                android:layout_marginTop="5dp"
+	                android:layout_weight="0.5"
+	                android:textSize="14sp"
+	                android:textColor="@color/White"/>
+	
+	            <EditText
+	                android:id="@+id/txttgllahir3"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:layout_weight="0.5"
+	                android:hint="Tanggal Lahir Anak 2"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="No Passport"
+	                android:layout_weight="0.5"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp" 
+	                android:textColor="@color/White"/>
+	
+	            <EditText
+	                android:id="@+id/txtnopass3"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine|textCapCharacters"
+				    android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:hint="Nomor Passport Anak 2"
+	                android:gravity="left"
+	                android:layout_weight="0.5"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                </TableLayout>
+                <TableLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginBottom="5dp"
+	                android:background="@drawable/sectionbg"
+	                android:padding="10dp"  >
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	        
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:text="Anak ke-3 Dicover?"
+	                android:textColor="@color/White" />
+	
+	            <RelativeLayout 
+				    android:layout_weight="0.5"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="left"
+			    >
+				<Switch
+		            android:id="@+id/swiAnak3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+	                android:layout_gravity="left"
+		            android:selectAllOnFocus="true"
+		            android:textOff="Tidak"
+		            android:textOn="Ya" />
+				</RelativeLayout>
+					
+				</TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Nama Lengkap"
+	                android:layout_marginTop="5dp"
+	                android:layout_weight="0.5"
+	                android:textSize="14sp"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnama4"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:layout_weight="0.5"
+	                android:hint="Nama Lengkap Anak 3"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Tgl Lahir"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp" 
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White"/>
+	
+	            <EditText
+	                android:id="@+id/txttgllahir4"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine"
+	                android:layout_weight="0.5"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:hint="Tanggal Lahir Anak 3"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+	            </TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="No Passport"
+	                android:layout_marginTop="5dp"
+	                android:textSize="14sp"
+	                android:layout_weight="0.5"
+	                android:textColor="@color/White" />
+	
+	            <EditText
+	                android:id="@+id/txtnopass4"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="textMultiLine|textCapCharacters"
+				    android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:hint="Nomor Passport Anak 3"
+	                android:layout_weight="0.5"
+	                android:gravity="left"
+	                android:background="@drawable/edittext"
+      				android:padding="7dp"  >
+	            </EditText>
+            </TableRow>
+            
+            </TableLayout>
+            
+           </LinearLayout>
+           
+         
+         
+         <LinearLayout
+             android:id="@+id/layoutGroup"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"   
+             android:visibility="gone"
+             >
+           <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+            
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Nama Grup Tur"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White" />
+	                
+	                
+                     <EditText android:id="@+id/txtNamaGrupTur"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:hint="Grup Tur"
+		                android:layout_weight="0.5"
+		                android:padding="7dp"
+		                android:background="@drawable/edittext"
+		                
+		                 /> 
+				</TableRow>
+				
+                 
+		  		 <LinearLayout 
+               		android:layout_height="wrap_content"
+            		android:layout_width="match_parent"
+            		android:orientation="horizontal"
+            		android:padding="7dp" 
+            		android:visibility="gone"
+            		
+            		>
+	            
+	                <Button 
+	                    android:id="@+id/btnAdd"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="1"
+	                    android:text="Add"
+	                    android:textColor="#fff"
+	                    android:background="@drawable/infobutton"
+	                    />
+					
+	                   <Button 
+	                    android:id="@+id/btnRemove"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="1"
+	                    android:text="Remove"
+	                    android:textColor="#fff"
+	                    android:background="@drawable/infobutton"
+	                    />
+	                   
+	                   <Button 
+	                    android:id="@+id/btnHide"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="1"
+	                    android:text="Hide"
+	                    android:textColor="#fff"
+	                    android:background="@drawable/infobutton"
+	                    />
+				
+				
+                  </LinearLayout>
+                  
+                
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp" 
+            		
+            		>
+            
+		  		     <TextView 
+		  		         android:layout_width="0dp"
+		  		         android:layout_height="wrap_content"
+		  		         android:layout_weight="0.5"
+		  		         android:text="Jumlah Tertanggung"
+		  		         android:textColor="@color/White" 
+		  		         />
+
+		  		     <EditText
+		  		         android:id="@+id/txtInsuredCount"
+		  		         android:layout_width="0dp"
+		  		         android:layout_height="wrap_content"
+		  		         android:layout_weight="0.5"
+		  		         android:padding="7dp"
+		  		         android:background="@drawable/edittext"  
+		  		         android:enabled="false"
+		  		         />
+		  		     		  		     
+  			     </TableRow> 
+		  		       
+                
+                
+		  		 	       
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp" 
+            		> 
+                    
+		            <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Masukkan Data Tertanggung"
+		                android:layout_marginTop="5dp"
+		                android:layout_weight="0.5"
+		                android:textSize="14sp"
+		                android:textColor="@color/White" />
+		 
+		            <Button android:id="@+id/btnInputInsuredGroup"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Masukkan"
+		                android:textStyle="bold"
+		                android:textColor="@color/White"
+		                android:background="@drawable/infobutton"
+		                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+		                />
+                    
+                </TableRow> 
+		  	
+		  		 <LinearLayout  android:id="@+id/sectionDataTertanggung"
+		  		     android:layout_width="match_parent"
+		  		     android:layout_height="wrap_content"
+		  		     android:orientation="vertical"
+		  		     android:visibility="gone"
+		  		     >
+		                    
+		               <include layout="@layout/layout_insured_name_1"/>
+		               <include layout="@layout/layout_insured_name_2"/>
+		               <include layout="@layout/layout_insured_name_3"/>
+		               <include layout="@layout/layout_insured_name_4"/>
+		               <include layout="@layout/layout_insured_name_5"/>
+		               <include layout="@layout/layout_insured_name_6"/>
+		               <include layout="@layout/layout_insured_name_7"/>
+		               <include layout="@layout/layout_insured_name_8"/>
+		               <include layout="@layout/layout_insured_name_9"/>
+		               <include layout="@layout/layout_insured_name_10"/>
+		               <include layout="@layout/layout_insured_name_11"/>
+		               <include layout="@layout/layout_insured_name_12"/>
+		               <include layout="@layout/layout_insured_name_13"/>
+		               <include layout="@layout/layout_insured_name_14"/>
+		               <include layout="@layout/layout_insured_name_15"/>
+               </LinearLayout>	 
+               
+                </TableLayout>
+               
+          </LinearLayout>
+                
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+         <TableRow 
+     		android:layout_height="wrap_content"
+     		android:layout_marginBottom="2dp"	
+      		android:weightSum="1.0"
+     		android:layout_width="0dp">
+	    
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Tujuan Perjalanan"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.5"
+                android:textSize="14sp"
+                android:textColor="@color/White" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext"
+                android:padding="7dp" 
+                />
+            
+            </TableRow>
+            
+			<TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+	            
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:text="Negara Tujuan"
+	                android:layout_marginTop="5dp"
+	                android:layout_weight="0.5"
+	                android:textSize="14sp" 
+	                android:textColor="@color/White" />
+          
+				    <RadioGroup
+				        android:id="@+id/rbgNegaraTujuan"
+				        android:layout_width="0dp"
+				        android:layout_weight="0.5"
+				        android:layout_gravity="left"
+				        android:layout_height="wrap_content" 
+				        android:orientation="vertical">
+			 
+				        <RadioButton
+				            android:id="@+id/rboAsia"
+				            android:layout_width="wrap_content"
+				            android:layout_height="match_parent"
+				            android:textSize="14sp"
+				            android:text="Asia" 
+				            android:checked="true"
+				            android:textColor="@color/White" />
+			 
+				        <RadioButton
+				            android:id="@+id/rboNonAsia"
+				            android:layout_width="wrap_content"
+				            android:layout_height="match_parent"
+				            android:textSize="14sp"
+				            android:text="Seluruh Dunia (Selain Asia)"
+				            android:textColor="@color/White" />
+				        
+				        
+			 
+				        <RadioButton
+				            android:id="@+id/rboSchengen"
+				            android:layout_width="wrap_content"
+				            android:layout_height="match_parent"
+				            android:textSize="14sp"
+				            android:text="Schengen"
+				            android:textColor="@color/White" />
+			    	</RadioGroup>
+			
+            	</TableRow>
+            
+	            <TableRow
+                  	android:layout_height="wrap_content"
+	         		android:layout_marginBottom="2dp"	
+	          		android:weightSum="1.0"
+	         		android:layout_width="0dp">
+		            
+		            <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Nama Negara 1"
+		                android:layout_weight="0.5"
+		                android:layout_marginTop="5dp"
+		                android:textSize="14sp" 
+		                android:textColor="@color/White" />
+		
+		            <LinearLayout 
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:orientation="horizontal"
+			                >
+			            <EditText
+			                android:id="@+id/txtNamaNegara1"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="textMultiLine"
+			                android:textSize="14sp"
+			                android:typeface="normal" 
+			                android:layout_weight="0.5"
+	     	                android:focusable="false"
+			                android:hint="Nama Negara"
+			                android:gravity="left"
+			                android:background="@drawable/edittext"
+			   				android:padding="7dp"  >
+			            </EditText>
+			            
+			            <ImageView 
+			                android:id="@+id/btnDeleteNegara"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/delete_photo"
+			                android:tint="#fff"
+			                />
+	            </LinearLayout>
+	            </TableRow>
+            
+	          	 
+	          	<TableRow 
+	         		android:layout_height="wrap_content"
+	         		android:layout_marginBottom="2dp"	
+	          		android:weightSum="1.0"
+	         		android:layout_width="0dp"
+	         		android:visibility="gone"
+	         		
+	         		>
+		            
+		            <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Nama Negara 2"
+		                android:layout_weight="0.5"
+		                android:layout_marginTop="5dp"
+		                android:textSize="14sp" 
+		                android:textColor="@color/White" />
+		
+		            <LinearLayout 
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:orientation="horizontal"
+			                >
+			            <EditText
+			                android:id="@+id/txtNamaNegara2"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="textMultiLine"
+			                android:textSize="14sp"
+			                android:typeface="normal" 
+			                android:layout_weight="0.5"
+	     	                android:focusable="false"
+			                android:hint="Nama Negara"
+			                android:gravity="left"
+			                android:background="@drawable/edittext"
+			   				android:padding="7dp"  >
+			            </EditText>
+			            
+			            <ImageView 
+			                android:id="@+id/btnDeleteNegara2"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/delete_photo"
+			                android:tint="#fff"
+			                />
+	            </LinearLayout>
+	            
+	            </TableRow>
+	            
+	          	 
+	          	<TableRow 
+	         		android:layout_height="wrap_content"
+	         		android:layout_marginBottom="2dp"	
+	          		android:weightSum="1.0"
+	         		android:layout_width="0dp"
+	         		android:visibility="gone">
+		            
+		            <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Nama Negara 3"
+		                android:layout_weight="0.5"
+		                android:layout_marginTop="5dp"
+		                android:textSize="14sp" 
+		                android:textColor="@color/White" />
+		
+		            <LinearLayout 
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:orientation="horizontal"
+			                >
+			            <EditText
+			                android:id="@+id/txtNamaNegara3"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="textMultiLine"
+			                android:textSize="14sp"
+			                android:typeface="normal" 
+			                android:layout_weight="0.5"
+	     	                android:focusable="false"
+			                android:hint="Nama Negara"
+			                android:gravity="left"
+			                android:background="@drawable/edittext"
+			   				android:padding="7dp"  >
+			            </EditText>
+			            
+			            <ImageView 
+			                android:id="@+id/btnDeleteNegara3"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/delete_photo"
+			                android:tint="#fff"
+			                />
+	            </LinearLayout>
+	            
+	            </TableRow>
+	            
+	          	 
+	          	<TableRow 
+	         		android:layout_height="wrap_content"
+	         		android:layout_marginBottom="2dp"	
+	          		android:weightSum="1.0"
+	         		android:visibility="gone"
+	         		android:layout_width="0dp">
+		            
+		            <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Nama Negara 4"
+		                android:layout_weight="0.5"
+		                android:layout_marginTop="5dp"
+		                android:textSize="14sp" 
+		                android:textColor="@color/White" />
+		
+		            <LinearLayout 
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:orientation="horizontal"
+			                >
+			            <EditText
+			                android:id="@+id/txtNamaNegara4"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="textMultiLine"
+			                android:textSize="14sp"
+			                android:typeface="normal" 
+			                android:layout_weight="0.5"
+	     	                android:focusable="false"
+			                android:hint="Nama Negara"
+			                android:gravity="left"
+			                android:background="@drawable/edittext"
+			   				android:padding="7dp"  >
+			            </EditText>
+			            
+			            <ImageView 
+			                android:id="@+id/btnDeleteNegara4"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/delete_photo"
+			                android:tint="#fff"
+			                />
+	            </LinearLayout>
+	            
+	            </TableRow>
+	            
+	          	 
+	          	<TableRow 
+	         		android:layout_height="wrap_content"
+	         		android:layout_marginBottom="2dp"	
+	          		android:weightSum="1.0"
+	         		android:visibility="gone"
+	         		android:layout_width="0dp">
+		            
+		            <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Nama Negara 5"
+		                android:layout_weight="0.5"
+		                android:layout_marginTop="5dp"
+		                android:textSize="14sp" 
+		                android:textColor="@color/White" />
+		
+		           <LinearLayout 
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:orientation="horizontal"
+			                >
+			            <EditText
+			                android:id="@+id/txtNamaNegara5"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="textMultiLine"
+			                android:textSize="14sp"
+			                android:typeface="normal" 
+			                android:layout_weight="0.5"
+	     	                android:focusable="false"
+			                android:hint="Nama Negara"
+			                android:gravity="left"
+			                android:background="@drawable/edittext"
+			   				android:padding="7dp"  >
+			            </EditText>
+			            
+			            <ImageView 
+			                android:id="@+id/btnDeleteNegara5"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/delete_photo"
+			                android:tint="#fff"
+			                />
+	            </LinearLayout>
+	            
+	            </TableRow>
+	            
+	          	 
+	          	<TableRow 
+	         		android:layout_height="wrap_content"
+	         		android:layout_marginBottom="2dp"	
+	          		android:weightSum="1.0"
+	         		android:visibility="gone"
+	         		android:layout_width="0dp">
+		            
+		            <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Nama Negara 6"
+		                android:layout_weight="0.5"
+		                android:layout_marginTop="5dp"
+		                android:textSize="14sp" 
+		                android:textColor="@color/White" />
+		
+		            <LinearLayout 
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:orientation="horizontal"
+			                >
+			            <EditText
+			                android:id="@+id/txtNamaNegara6"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="textMultiLine"
+			                android:textSize="14sp"
+			                android:typeface="normal" 
+			                android:layout_weight="0.5"
+	     	                android:focusable="false"
+			                android:hint="Nama Negara"
+			                android:gravity="left"
+			                android:background="@drawable/edittext"
+			   				android:padding="7dp"  >
+			            </EditText>
+			            
+			            <ImageView 
+			                android:id="@+id/btnDeleteNegara6"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/delete_photo"
+			                android:tint="#fff"
+			                />
+	            </LinearLayout>
+	            
+	            </TableRow>
+	            
+	          	  
+	          	
+	          	
+	          	<TableRow 
+	         		android:layout_height="wrap_content"
+	         		android:layout_marginBottom="2dp"	
+	          		android:weightSum="1.0"
+	         		android:layout_width="0dp"
+	         		android:visibility="gone"
+	         		>
+		            
+		            <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:text="Kode Negara"
+		                android:layout_weight="0.5"
+		                android:layout_marginTop="5dp"
+		                android:textSize="14sp" 
+		                android:textColor="@color/White" />
+		
+		            <EditText
+		                android:id="@+id/txtKodeNegara"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textMultiLine"
+		                android:textSize="14sp"
+		                android:typeface="normal" 
+		                android:layout_weight="0.5"
+		                android:hint="Nama Negara"
+		                android:gravity="left"
+		                android:enabled="false"
+		                android:background="@drawable/edittext"
+		   				android:padding="7dp"  >
+		            </EditText>
+	            
+	            </TableRow>
+            
+			</TableLayout>
+             
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+             
+             <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+	            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Ahli Waris"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.5"
+                android:textSize="14sp" 
+                android:textColor="@color/White" />
+
+            <EditText
+                android:id="@+id/txtAhliWaris"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"
+                android:typeface="normal" 
+                android:layout_weight="0.5"
+                android:hint="Nama Ahli Waris"
+                android:gravity="left"
+                android:background="@drawable/edittext"
+   				android:padding="7dp"  >
+            </EditText>
+            
+            </TableRow>
+            
+             <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+	            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="Hubungan"
+                android:textSize="14sp" 
+                android:layout_weight="0.5"
+                android:textColor="@color/White" />
+
+            <EditText
+                android:id="@+id/txtHubungan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"
+                android:layout_weight="0.5"
+                android:typeface="normal" 
+                android:hint="Hubungan dengan Ahli Waris"
+                android:gravity="left"
+                android:background="@drawable/edittext"
+   				android:padding="7dp"  >
+            </EditText>
+            
+            </TableRow>
+           
+             </TableLayout>
+             
+           <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+             <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+	            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Tanggal Keberangkatan"
+                android:layout_weight="0.5"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp" 
+                android:textColor="@color/White" />
+
+            <EditText
+                android:id="@+id/txtTglBerangkat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"
+                android:typeface="normal" 
+                android:hint="Tanggal Keberangkatan"
+                android:gravity="left"
+                android:layout_weight="0.5"
+                android:background="@drawable/edittext"
+   				android:padding="7dp"  
+   				android:focusable="false">
+            </EditText>
+            
+            </TableRow>
+            
+             <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+	            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="Tanggal Kembali"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp" 
+                android:textColor="@color/White" />
+
+            <EditText
+                android:id="@+id/txtTglKembali"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"
+                android:typeface="normal" 
+                android:hint="Tanggal Kembali"
+                android:gravity="left"
+                android:layout_weight="0.5"
+                android:background="@drawable/edittext"
+   				android:padding="7dp" 
+   				android:focusable="false"
+   				 >
+            </EditText>
+            
+            </TableRow>
+            
+            
+             <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp" 
+         		android:visibility="gone"
+         		>
+	            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="Hari Kepergian"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp" 
+                android:textColor="@color/White" />
+
+            <EditText
+                android:id="@+id/txtHariKepergian"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"
+                android:typeface="normal" 
+                android:text="0"
+                android:gravity="left"
+                android:layout_weight="0.5"
+                android:background="@drawable/edittext"
+   				android:padding="7dp"  >
+            </EditText>
+            
+            </TableRow>
+            
+            
+              <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+	            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="Annual"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp" 
+                android:textColor="@color/White" />
+            
+              <RelativeLayout 
+				    android:layout_weight="0.5"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="left"
+			    >
+				<Switch
+		            android:id="@+id/swiAnnual"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+	                android:layout_gravity="left"
+		            android:selectAllOnFocus="true"
+		            android:textOff="Tidak"
+		            android:textOn="Ya" />
+				
+				</RelativeLayout>
+				
+            </TableRow>
+             <TableRow 
+         		android:layout_height="wrap_content"
+         		android:layout_marginBottom="2dp"	
+          		android:weightSum="1.0"
+         		android:layout_width="0dp">
+	            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Plan"
+                android:layout_weight="0.5"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:textColor="@color/White" />
+			 
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                >
+			    <RadioGroup
+			        android:id="@+id/rbgPlan"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:orientation="vertical">
+			 
+			        <RadioButton
+			            android:id="@+id/rboPlan1"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="VIP" 
+			            android:textSize="12sp"
+			            android:checked="true"
+			            android:textColor="@color/White" />
+			 
+			        <RadioButton
+			            android:id="@+id/rboPlan2"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Executive" 
+			            android:textSize="12sp"
+			            android:checked="false"
+			            android:textColor="@color/White" />
+			 
+			        
+			        <RadioButton
+			            android:id="@+id/rboPlan3"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Deluxe" 
+			            android:textSize="12sp"
+			            android:checked="false" 
+			            android:textColor="@color/White" />
+			 
+			        
+			        <RadioButton
+			            android:id="@+id/rboPlan4"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Superior" 
+			            android:textSize="12sp"
+			            android:checked="false" 
+			            android:textColor="@color/White" />
+			 
+			 
+			    </RadioGroup>
+			</LinearLayout>
+            </TableRow>
+            </TableLayout>
+            
+         <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/sectionbg"
+            android:padding="10dp"  >
+            
+            <TableRow 
+        		android:layout_height="wrap_content"
+        		android:layout_marginBottom="2dp"	
+         		android:weightSum="1.0"
+        		android:layout_width="0dp">
+            
+	        <TextView
+		         android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:text="Premi atas Jumlah Hari Dipertanggungkan"
+		         android:layout_marginTop="5dp"
+                android:layout_weight="0.5"
+		         android:textSize="14sp" 
+		         android:textColor="@color/White" />
+        
+        	<LinearLayout
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+			    android:orientation="horizontal" >
+		    	
+        	    <TextView
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:visibility="gone"
+	                android:layout_weight="0.5"
+					android:text="US$"
+					android:textSize="14sp" 
+					android:textColor="@color/White" />
+        	    <EditText
+	                android:id="@+id/txtJmlHariDipertanggungkan"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:inputType="numberDecimal"
+	                android:text="0.00"
+	                android:gravity="right"
+	                android:enabled="false"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:background="@drawable/edittext"
+	                android:padding="7dp" >
+			        
+            	</EditText>
+            
+			</LinearLayout>
+			
+        	</TableRow>
+        	
+            <TableRow 
+        		android:layout_height="wrap_content"
+        		android:layout_marginBottom="2dp"	
+         		android:weightSum="1.0"
+        		android:layout_width="0dp">
+            
+        	<TextView
+	         android:layout_width="0dp"
+	         android:layout_height="wrap_content"
+	         android:text="Premi atas Tambahan Per Minggu"
+	         android:layout_marginTop="5dp"
+	         android:textSize="14sp" 
+             android:layout_weight="0.5"
+	         android:textColor="@color/White" />
+        
+        	<LinearLayout
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+			    android:orientation="horizontal" >
+		    	
+        	    <TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:text="US$"
+					android:visibility="gone"
+	                android:layout_weight="0.5"
+					android:textSize="14sp"
+					android:textColor="@color/White" />
+			 
+        	    <EditText
+	                android:id="@+id/txtTambahanPerMinggu"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="numberDecimal"
+	                android:layout_weight="0.5"
+	                android:text="0.00"
+	                android:gravity="right"
+	                android:textSize="14sp"
+	                android:enabled="false"
+	                android:typeface="normal" 
+	                android:hint="Tanggal Lahir"
+	                android:background="@drawable/edittext"
+	 				android:padding="7dp"  >
+            	</EditText>
+            
+			</LinearLayout>
+			
+        	</TableRow>
+        	
+            <TableRow 
+        		android:layout_height="wrap_content"
+        		android:layout_marginBottom="2dp"	
+         		android:weightSum="1.0"
+        		android:layout_width="0dp">
+            
+        	<TextView
+	         android:layout_width="0dp"
+	         android:layout_height="wrap_content"
+	         android:text="Loading Premi (Up to 70 thn)"
+	         android:layout_marginTop="5dp"
+	         android:textSize="14sp" 
+             android:layout_weight="0.5"
+	         android:textColor="@color/White" />
+        
+        	<LinearLayout
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+			    android:orientation="horizontal" >
+		    	
+        	    <TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:text="US$"
+	                android:layout_weight="0.5"
+					android:visibility="gone"
+					android:textSize="14sp" 
+					android:textColor="@color/White" />
+        	    <EditText
+	                android:id="@+id/txtLoadingPremi"
+	                android:layout_width="0dp"
+	                android:layout_weight="0.5"
+	                android:layout_height="wrap_content"
+	                android:inputType="numberDecimal"
+	                android:text="0.00"
+	                android:gravity="right"
+	                android:textSize="14sp"
+	                android:typeface="normal" 
+	                android:enabled="false"
+	                android:hint="Tanggal Lahir"
+	 				android:padding="7dp" 
+	 				android:background="@drawable/edittext">
+            	</EditText>
+            
+			</LinearLayout>
+            
+        	</TableRow>
+        	
+            </TableLayout>
+            
+			<TableLayout
+				android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	                
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Rate"
+		                android:textColor="@color/White"  />
+	
+		            <EditText
+		                android:id="@+id/txtRate"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:textSize="14sp"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+               
+	             </TableRow>
+        	
+            	<TableRow 
+	        		android:layout_height="wrap_content"
+	        		android:layout_marginBottom="2dp"	
+	         		android:weightSum="1.0"
+	        		android:layout_width="0dp">
+            
+        			<TextView
+				         android:layout_width="0dp"
+				         android:layout_height="match_parent"
+				         android:text="Premi (US$)"
+				         android:layout_marginTop="5dp"
+			             android:layout_weight="0.5"
+				         android:textSize="14sp" 
+				         android:textColor="@color/White" />
+        
+        			<LinearLayout
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+					    android:orientation="horizontal" >
+		    	
+	        	    	<TextView
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+			                android:layout_weight="0.5"
+							android:text="US$"
+							android:visibility="gone"
+							android:textSize="14sp" 
+							android:textColor="@color/White" />
+	        	    	<EditText
+			                android:id="@+id/txtPremi"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="numberDecimal"
+			                android:text="0.00"
+			                android:enabled="false"
+			                android:layout_weight="0.5"
+			                android:gravity="right"
+			                android:textSize="14sp"
+			                android:typeface="normal"
+			                android:background="@drawable/edittext"
+			 				android:padding="7dp"  >
+            		</EditText>
+            
+					</LinearLayout>
+        	
+       			</TableRow>
+        	
+            	
+            	<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	              	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Diskon %"
+		                android:textColor="@color/White"  />
+		
+		 			<EditText
+		                android:id="@+id/txtDiscountPct"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:hint="0.00"
+						android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+           		</TableRow>
+				
+				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+			 			
+	              	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Diskon"
+		                android:textColor="@color/White"  />
+
+		            <EditText
+		                android:id="@+id/txtDiscount"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:hint="0.00"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+           		</TableRow>  
+            	
+            	<TableRow 
+	        		android:layout_height="wrap_content"
+	        		android:layout_marginBottom="2dp"	
+	         		android:weightSum="1.0"
+	        		android:layout_width="0dp"
+	        		android:visibility="gone">
+            
+        			<TextView
+			     		android:layout_width="0dp"
+			         	android:layout_height="match_parent"
+			         	android:text="Biaya Polis"
+			        	android:layout_marginTop="5dp"
+			         	android:textSize="14sp" 
+		             	android:layout_weight="0.5"
+			         	android:textColor="@color/White" />
+        
+        			<LinearLayout
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+					    android:orientation="horizontal" >
+		    	
+		        	    <TextView
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:text="US$"
+							android:visibility="gone"
+			                android:layout_weight="0.5"
+							android:textSize="14sp" 
+							android:textColor="@color/White" />
+		        	    <EditText
+			                android:id="@+id/txtBiayaPolis"
+			                android:layout_width="0dp"
+			                android:layout_weight="0.5"
+			                android:layout_height="wrap_content"
+			                android:inputType="numberDecimal"
+			                android:text="0.00"
+			                android:enabled="false" 
+			                android:gravity="right"
+			                android:textSize="14sp"
+			                android:typeface="normal" 
+			                android:background="@drawable/edittext"
+			 				android:padding="7dp" />
+            
+					</LinearLayout>
+			
+        		</TableRow>
+        		
+        		<TableRow 
+					android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	               <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Biaya Materai"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White" />
+	
+		            <EditText
+		                android:id="@+id/txtMaterai"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:textSize="14sp"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+		        
+	             </TableRow>
+	             
+            	<TableRow 
+	        		android:layout_height="wrap_content"
+	        		android:layout_marginBottom="2dp"	
+	         		android:weightSum="1.0"
+	        		android:layout_width="0dp">
+            
+        			<TextView
+		         		android:layout_width="0dp"
+		         		android:layout_height="match_parent"
+		         		android:text="Total (US$)"
+		         		android:layout_marginTop="5dp"
+	           			android:layout_weight="0.5"
+		         		android:textSize="14sp" 
+		        		 android:textColor="@color/White" />
+        
+		        	<LinearLayout
+					    android:layout_width="0dp"
+		                android:layout_weight="0.5"
+					    android:layout_height="wrap_content"
+					    android:orientation="horizontal" >
+				    	
+		        	    <TextView
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:text="US$"
+			                android:layout_weight="0.5"
+							android:visibility="gone"
+							android:textSize="14sp" 
+							android:textColor="@color/White" />
+		        	    <EditText
+			                android:id="@+id/txtTotal"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="numberDecimal"
+			                android:text="0.00"
+			                android:layout_weight="0.5"
+			                android:enabled="false"
+			                android:gravity="right"
+			                android:textSize="14sp"
+			                android:typeface="normal" 
+			                android:hint="Tanggal Lahir"
+			                android:background="@drawable/edittext"
+			 				android:padding="7dp"  >
+		            	</EditText>
+		            
+					</LinearLayout>
+			
+        		</TableRow>
+        	
+            </TableLayout>
+        	
+        	<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            android:layout_marginTop="5dp">
+                
+                 <Button
+			        android:id="@+id/btnPrev"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			       	android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableLeft="@drawable/back"
+			        android:padding="10dp"
+			        android:text="Back"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnBackClick"
+			        android:layout_marginRight="5dp" />
+	            
+	            <Button
+			        android:id="@+id/btnNext"
+			        android:layout_marginTop="20dp"
+			        android:layout_width="100dp"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableRight="@drawable/next"
+			        android:padding="10dp"
+			        android:text="Next"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnNextClick" />
+                
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+    
+    
+	</LinearLayout>
+	
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" 
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/txtSyncSPPANo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00.00.000.00"
+            android:textColor="@color/White"
+            android:textSize="18dp"
+            android:textStyle="bold" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/txtSyncProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTOMATE"
+            android:textColor="@color/White"
+            android:textSize="18dp"
+            android:textStyle="bold" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/txtSyncCustomerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CUSTOMER NAME"
+            android:textColor="@color/White"
+            android:textSize="16dp"
+            android:textStyle="bold" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/txtSyncTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000-00000000"
+            android:textColor="@color/White"  >
+        </TextView>
+        
+ 	</LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" 
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Headline"
+            android:textColor="@color/White"
+            android:textSize="18dp"
+            android:textStyle="bold" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/txtAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:textColor="@color/White"  >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:textColor="@color/White"  >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtFax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:textColor="@color/White"  >
+        </TextView>
+        
+        
+ 	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,1002 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FillDNOActivity"
+     >
+
+    <RelativeLayout
+        android:id="@+id/layHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/White" >
+
+        <RelativeLayout  
+            android:id="@+id/layTitle2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:padding="5dp">
+            
+			<ImageView
+	            android:id="@+id/btnHome"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/logosmall"
+	            android:clickable="true"
+	            android:onClick="btnHomeClick"
+	            android:layout_alignParentLeft="true"  />
+            
+			<com.aca.amm.CustomTextViewBold
+	            android:id="@+id/lblTitle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/btnHome"
+	            android:layout_toLeftOf="@+id/btnDelete"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:padding="10dp"
+	            android:text="Directors and Officers Individual Liability"
+	            android:textColor="@color/AMMC"
+	            android:clickable="true"
+	            android:textSize="18sp"
+	            android:textStyle="bold" />
+			
+			<ImageView
+	            android:id="@+id/btnDelete"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp"
+	            android:src="@drawable/delete_photo"
+	            android:clickable="true"
+	            android:onClick="btnDeleteClick"
+	            android:layout_alignParentRight="true"  />
+        </RelativeLayout>
+       
+    </RelativeLayout>
+
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+   		 android:background="@drawable/abg" 
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@+id/layFooter"
+        >
+        
+	<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layHeader" 
+        android:layout_above="@id/layFooter"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"  >
+        	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"  >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="ID/No Nasabah"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                
+                	<EditText
+	                    android:id="@+id/txtCustomerNo"
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	            	    android:enabled="false"
+	                    android:background="@drawable/edittext"
+	                    android:hint="ID/No Nasabah"
+	                    android:padding="7dp" />
+				</TableRow>
+				
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Nama Nasabah"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                
+                	<EditText
+	                    android:id="@+id/txtCustomerName"
+		                android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	            	    android:enabled="false"
+	                    android:background="@drawable/edittext"
+	                    android:hint="Nama Nasabah"
+	                    android:padding="7dp" >
+                	</EditText>
+                </TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                
+                    <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text=""
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                     
+                	<Button
+				        android:id="@+id/btnChooseCustomer"
+				        android:layout_marginTop="20px"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="0.5"
+				        android:layout_gravity="center_horizontal"
+				        android:gravity="center"
+				        android:background="@drawable/infobutton"
+				        android:padding="5dp"
+				        android:text="Pilih"
+				        android:textStyle="bold"
+				        android:textColor="@color/White"
+				        android:onClick="btnChooseCustomerClick" />
+               </TableRow>
+			</TableLayout>
+            
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:visibility="gone"
+                android:padding="10dp"  >
+                
+           	     <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                	
+           	        <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Notifikasi Email Agent"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"/>
+                
+                	<EditText
+	                    android:id="@+id/txtEmailAgent"
+		                android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginRight="5dp"
+		                android:layout_weight="0.5"
+	                    android:background="@drawable/edittext"
+	                    android:hint="Email Agent"
+	                    android:padding="7dp" >
+                	</EditText>
+           		         
+           	     </TableRow>
+           	</TableLayout>
+           	
+           	<TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp" 
+                android:animateLayoutChanges="true"
+                 >
+                
+           	     <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+           	        android:padding="15dp"
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+           	        <Button 
+           	            android:id="@+id/btnAddMore"
+           	            android:layout_width="wrap_content"
+           	            android:layout_height="wrap_content"
+           	            android:text="Add"
+           	            android:minWidth="100dp"
+           	            android:onClick="btnAddMoreClick"
+           	            android:background="@drawable/infobutton"
+           	            /> 
+           	            
+           	        <Button 
+           	            android:id="@+id/btnRemoveMore"
+           	            android:layout_width="wrap_content"
+           	            android:layout_height="wrap_content"
+           	            android:text="Remove"
+           	            android:minWidth="100dp"
+           	            android:layout_marginLeft="15dp"
+           	            android:onClick="btnRemoveMoreClick"
+           	            android:background="@drawable/infobutton"
+           	            /> 
+           	         <EditText
+           	             android:id="@+id/txtFlagRow"
+           	             android:layout_width="wrap_content"
+           	             android:layout_height="wrap_content"
+           	             android:layout_marginLeft="15dp"
+		         		 android:background="@drawable/edittext"
+		         		 android:visibility="gone"
+           	             android:text="12321321"
+           	             android:inputType="text"
+           	             />
+           	    </TableRow>
+           	    
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan1"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName1"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:layout_weight="0.5"
+		                android:hint="Nama Perusahaan"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType1"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"/>
+
+          	  	</TableRow>
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan2"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName2"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:layout_weight="0.5"
+		                android:hint="Nama Perusahaan"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType2"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+          	  	
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan3"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName3"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:hint="Nama Perusahaan"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:layout_weight="0.5"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType3"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+           	    
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan4"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName4"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:hint="Nama Perusahaan"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:layout_weight="0.5"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType4"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan5"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName5"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:hint="Nama Perusahaan"
+		                android:layout_weight="0.5"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType5"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+           	    
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan6"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName6"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:layout_weight="0.5"
+		                android:hint="Nama Perusahaan"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType6"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+          	  	
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan7"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName7"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:hint="Nama Perusahaan"
+		                android:layout_weight="0.5"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType7"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan8"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName8"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:layout_weight="0.5"
+		                android:hint="Nama Perusahaan"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType8"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan9"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName9"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:hint="Nama Perusahaan"
+		                android:layout_weight="0.5"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType9"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+           	    
+           	    <TableRow 
+           	        android:id="@+id/trRowPerusahaan10"
+           	        android:visibility="gone"
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+               
+				    <EditText
+		                android:id="@+id/txtCompName10"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textCapCharacters|textMultiLine"  
+		                android:layout_weight="0.5"
+		                android:hint="Nama Perusahaan"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+				    
+				    <Spinner
+		                android:id="@+id/spinnerCompBusType10"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+			            android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+          	  	</TableRow>
+
+			</TableLayout>                
+            
+          	<TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                
+          	    <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+            	
+					<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="limit Polis"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White"  />
+            
+	            	<LinearLayout
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_gravity="left"
+					    android:layout_weight="0.5"
+					    android:orientation="horizontal">
+				    
+				    	<RadioGroup
+					        android:id="@+id/rbgPlan"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content" 
+					        android:orientation="vertical">
+				        
+				        	<RadioButton
+					            android:id="@+id/rboPlan1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:text="1,000,000,000"
+					            android:checked="true"
+					            android:textColor="@color/White" />
+				        
+				        	<RadioButton
+					            android:id="@+id/rboPlan2"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:text="2,000,000,000" 
+					            android:textColor="@color/White"/>
+
+				    	</RadioGroup>
+					</LinearLayout>
+				</TableRow>
+          	    
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+                	
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Mulai Asuransi" 
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White" />
+                
+                	<EditText
+		                android:id="@+id/txtfromdate"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:hint="Tanggal Mulai"
+		                android:layout_weight="0.5"
+		                android:inputType="date" 
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+                </TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+				
+					<TextView
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:text="Akhir Asuransi" 
+		                android:layout_weight="0.5"
+						android:textColor="@color/White" />
+				
+					<EditText
+		                android:id="@+id/txttodate"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:hint="Tanggal Berakhir"
+		                android:inputType="date"  
+		                android:layout_weight="0.5"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+                </TableRow>
+                
+			</TableLayout>
+                
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                    
+          		<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	                
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Rate"
+		                android:textColor="@color/White"  />
+	
+	            	<EditText
+		                android:id="@+id/txtRate"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+	          	</TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	            	
+	            	<TextView
+			         	android:layout_width="0dp"
+			         	android:layout_height="wrap_content"
+			         	android:text="Premi" 
+		                android:layout_weight="0.5"
+			         	android:textColor="@color/White" />
+				
+					<EditText
+		                android:id="@+id/txtPremi"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:text="0.00" 
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:enabled="false"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+                </TableRow>
+                
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	              	
+	              	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Diskon %"
+		                android:textColor="@color/White"  />
+		
+		 				<EditText
+			                android:id="@+id/txtDiscountPct"
+			                android:layout_width="0dp"
+			                android:layout_height="wrap_content"
+			                android:inputType="number"
+			                android:hint="0.00"
+			                android:text="0.00"
+			                android:gravity="right"
+			                android:layout_weight="0.5"
+			         		android:background="@drawable/edittext"
+		        			android:padding="7dp" />
+         		</TableRow>
+				
+				<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+			 			
+	              	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Diskon"
+		                android:textColor="@color/White"  />
+
+		            <EditText
+		                android:id="@+id/txtDiscount"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:hint="0.00"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+           		</TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+					
+					<TextView
+			         	android:layout_width="0dp"
+			         	android:layout_height="wrap_content"
+			         	android:text="Biaya Polis" 
+		                android:layout_weight="0.5"
+			         	android:textColor="@color/White" />
+				
+            		<EditText
+		                android:id="@+id/txtBiayaPolis"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:inputType="numberDecimal"
+		                android:text="0.00"
+		                android:enabled="false"
+		                android:gravity="right"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+                </TableRow>
+                
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp"
+            		android:visibility="gone">
+	               <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:text="Biaya Materai"
+		                android:layout_weight="0.5"
+		                android:textColor="@color/White" />
+	
+		            <EditText
+		                android:id="@+id/txtMaterai"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="number"
+		                android:text="0.00"
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:enabled="false"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" />
+		 		</TableRow>
+	             
+                <TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+		            
+	            	<TextView
+				    	android:layout_width="0dp"
+				      	android:layout_height="wrap_content"
+				   		android:text="Total" 
+		                android:layout_weight="0.5"
+				   		android:textColor="@color/White"/>
+            	
+	            	<EditText
+		                android:id="@+id/txtTotal"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="numberDecimal"
+		                android:text="0.00" 
+		                android:gravity="right"
+		                android:layout_weight="0.5"
+		                android:enabled="false"
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+           		</TableRow>
+          	</TableLayout>
+            
+            
+			<TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sectionbg"
+                android:padding="10dp"  >
+                    
+          		<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+                	<TextView
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:text="Apakah saat ini sedang ada proses hukum yang sedang berjalan ?"
+		                android:textColor="@color/White"  />
+     
+                	<RelativeLayout
+	                    android:layout_width="0dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.5"
+	                    android:layout_gravity="left">
+		         		
+		         		<Switch
+				            android:id="@+id/swiQ1Flag"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:selectAllOnFocus="true"      
+	      				android:padding="7dp"
+				            android:textOff="Tidak"
+				            android:textOn="Ya" />
+	            	</RelativeLayout>
+            	</TableRow>
+            	
+          		
+          		<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.5"
+		                android:text="(Jika ada) Tanggal Proses Hukum dimulai "
+		                android:textColor="@color/White"  />
+			            
+		            <EditText
+		                android:id="@+id/txtQ1Date"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="0.5"
+		                android:hint="Tanggal Proses Hukum"
+		                android:inputType="date" 
+		                android:background="@drawable/edittext"
+	      				android:padding="7dp" />
+		            
+	            </TableRow>
+          		
+          		<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.5"
+		                android:text="Jika ada jelaskan proses hukum apa"
+		                android:textColor="@color/White"  />
+                
+	                <EditText
+		                android:id="@+id/txtQ1Note"
+		                android:layout_width="0dp"
+		                android:layout_height="wrap_content"
+		                android:inputType="textMultiLine|textCapWords"
+		                android:layout_gravity="left"
+		                android:minLines="3"
+		                android:hint="Keterangan Singkat"
+		                android:layout_weight="0.5"
+		         		android:background="@drawable/edittext"
+	        			android:padding="7dp" /> 
+                </TableRow>
+
+          		<TableRow 
+            		android:layout_height="wrap_content"
+            		android:layout_marginBottom="2dp"	
+	            	android:weightSum="1.0"
+            		android:layout_width="0dp">
+	                
+	                <TextView
+		                android:layout_width="0dp"
+		                android:layout_height="match_parent"
+		                android:layout_weight="1.0"
+		         		android:background="@drawable/edittext"
+		                android:inputType="textMultiLine|textCapWords"
+	        			android:padding="7dp"
+		                android:text="Bersama dengan melanjutkan proses asuransi ini saya nasabah menyatakan bahwa segala informasi yang saya berikan adalah benar dan akurat, dan saya bersedia untuk bertanggung jawab atas kebenaran informasi yang saya berikan "
+		                android:textColor="@color/Black"  />
+                
+	                
+	                </TableRow>
+            </TableLayout>
+            
+			
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_horizontal"
+	            android:layout_marginTop="5dp">
+                
+                 <Button
+			        android:id="@+id/btnPrev"
+			        android:layout_marginTop="20dp"
+			        android:minWidth="100dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			       	android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableLeft="@drawable/back"
+			        android:padding="10dp"
+			        android:text="Back"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnBackClick"
+			        android:layout_marginRight="5dp" />
+	            
+	            <Button
+			        android:id="@+id/btnNext"
+			        android:layout_marginTop="20dp"
+			        android:minWidth="100dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:background="@drawable/infobutton"
+			        android:drawableRight="@drawable/next"
+			        android:padding="10dp"
+			        android:text="Next"
+			        android:textStyle="bold"
+			        android:textColor="@color/White"
+			        android:onClick="btnNextClick" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+	</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/layFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" >
+        
+        <TextView
+            android:id="@+id/lblFooterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:text="@string/info_aca"
+            android:textColor="@color/AMMC"
+            android:textSize="12sp"  />
+    </RelativeLayout>
+
+</RelativeLayout>

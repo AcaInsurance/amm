@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    android:id="@+id/tvTitlePopup"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:visibility="gone"
+	    android:layout_gravity="center_vertical|top"
+	    />
+	
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TableLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:shrinkColumns="*"
+                >
+                
+          <TableRow 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              >
+              
+            <TextView 
+                android:id="@+id/tvContentPopup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Karangan ini berisi gambaran mengenai suatu hal/ keadaan sehingga pembaca seolah-olah melihat, mendengar, atau merasakan hal tersebut
+                Contoh deskripsi berisi fakta:
+				Hampir semua pelosok Mentawai indah. Di empat kecamatan masih terdapat hutan yang masih perawan. Hutan ini menyimpan ratusan jenis flora dan fauna. Hutan Mentawai juga menyimpan anggrek aneka jenis dan fauna yang hanya terdapat di Mentawai. Siamang kerdil, lutung Mentawai dan beruk Simakobu adalah contoh primata yang menarik untuk bahan penelitian dan objek wisata.
+				Contoh deskripsi berupa fiksi:
+				Salju tipis melapis rumput, putih berkilau diseling warna jingga; bayang matahari senja yang memantul. Angin awal musim dingin bertiup menggigilkan, mempermainkan daun-daun sisa musim gugur dan menderaikan bulu-bulu burung berwarna kuning kecoklatan yang sedang meloncat-loncat dari satu ranting ke ranting yang lain.
+				opik yang tepat untuk deskripsi misalnya: Keindahan Bukit Kintamani Suasa pelaksanaan Promosi Kompetensi Siswa SMK Tingkat Nasional Keadaan ruang praktik Keadaan daerah yang dilanda bencana Langkah menyusun deskripsi: Tentukan objek atau tema yang akan dideskripsikan Tentukan tujuan Tentukan aspek-aspek yang akan dideskripsikan dengan melakukan pengamatan Susunlah aspek-aspek tersebut ke dalam urutan yang baik, apakah urutan lokasi, urutan waktu, 
+				atau urutan menurut kepentingan Kembangkan kerangka menjadi deskripsi"
+                android:layout_margin="1dp"
+                android:textSize="16sp"
+                />
+              
+          </TableRow>
+                    
+         </TableLayout>
+          <Button
+            	android:id="@+id/dlgOK"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="20dp"
+	            android:background="@drawable/infobutton"
+	            android:drawableLeft="@drawable/ok"
+	            android:layout_gravity="center_horizontal"
+	            android:padding="10dp"
+	            android:text="OK"
+	            android:textColor="@color/White"
+	            android:textStyle="bold" />
+          </LinearLayout>
+    </ScrollView>
+</LinearLayout>
