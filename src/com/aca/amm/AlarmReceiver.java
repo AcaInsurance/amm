@@ -16,9 +16,11 @@ import android.widget.Toast;
 public class AlarmReceiver extends BroadcastReceiver {
 	public static String ACTION_ALARM = "com.aca.amm.AlarmReceiver";
 	public static String SESSION_LOGOUT = "SESSION_LOGOUT";
-	
+	public static String SESSION_LOGOU222T = "SESSION_LOGOUT";
+
 	public static int REQUEST_CODE = 12345;
-	 
+
+
 		
 	 @Override
 	 public void onReceive(Context context, Intent intent) {
