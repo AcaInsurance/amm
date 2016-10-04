@@ -188,6 +188,10 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\ic_action_import_export.png"
     },
     {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_close.png",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\ic_close.png"
+    },
+    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_email.png",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\ic_action_email.png"
     },
@@ -290,6 +294,10 @@
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_product.png",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\ic_product.png"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img_otomate_jaminan.png",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\img_otomate_jaminan.png"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logoasri.png",

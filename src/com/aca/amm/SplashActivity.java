@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.SocketTimeoutException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
 
 import org.apache.http.conn.ConnectTimeoutException;
@@ -16,6 +18,7 @@ import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
+import com.aca.HelperClass.WebServices;
 import com.aca.amm.R;
 import com.aca.database.DBA_MASTER_ACA_MOBIL_RATE;
 import com.aca.database.DBA_MASTER_AGENT;
@@ -50,6 +53,11 @@ import com.aca.database.DBA_PRODUCT_MAIN;
 import com.aca.database.DBA_TABLE_CREATE_ALL;
 import com.aca.database.DBA_TABLE_CREATE_BIG;
 import com.aca.database.DBA_TABLE_VERSION;
+import com.aca.dbflow.PaketOtomate;
+import com.aca.dbflow.PerluasanPremi;
+import com.aca.dbflow.SettingOtomate;
+import com.aca.dbflow.StandardField;
+import com.raizlabs.android.dbflow.sql.language.Delete;
 
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -71,6 +79,7 @@ import android.content.res.Configuration;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.graphics.Color;
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
@@ -112,15 +121,17 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 	private Boolean bNeedSyncDNOBusType  = statusSync; 
 	private Boolean bNeedSyncVesselType  = statusSync;
 	private Boolean bNeedSyncVesselDetail  = statusSync;
-	
 	private Boolean bNeedSyncOtomateTPL = statusSync;
 	private Boolean bNeedSyncOtomatePA  = statusSync;
 	private Boolean bNeedSyncOtomateAOG  = statusSync;
 	private Boolean bNeedSyncKonveRate  = statusSync;
-	
-
 	private Boolean bNeedSyncCarBrandTruk = statusSync;
-	
+
+	private Boolean bNeedSyncLoadPaketOtomate = statusSync;
+	private Boolean bNeedSyncLoadPerluasan = statusSync;
+	private Boolean bNeedSyncLoadOtomateSetting = statusSync;
+	private Boolean bNeedSyncLoadStandardField = statusSync;
+
 	private Boolean bFinishCarBrand = statusFinished;
 	private Boolean bFinishCarType  = statusFinished;
 	private Boolean bFinishCity  = statusFinished;
@@ -143,13 +154,16 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 	private Boolean bFinishVesselType = statusFinished;
 	private Boolean bFinishVesselDetail = statusFinished;
 	private Boolean bFinishCarBrandTruk = statusFinished;
-
 	private Boolean bFinishOtomateTPL= statusFinished;
 	private Boolean bFinishOtomatePA = statusFinished;
 	private Boolean bFinishOtomateAOG = statusFinished;
 	private Boolean bFinishKonveRate = statusFinished;
-	
-	
+
+	private Boolean bFinishLoadOtomateSetting = statusFinished;
+	private Boolean bFinishLoadPaketOtomatee = statusFinished;
+	private Boolean bFinishLoadPerluasan = statusFinished;
+	private Boolean bFinishLoadStandardField = statusFinished;
+
 	
 	
 	private Boolean bFailLaunch = false;
@@ -172,8 +186,7 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 	private SoapObject requestretrive_Otomate_PA = null;
 	private SoapObject requestretrive_Otomate_AOG = null;
 	private SoapObject requestretrive_Konve_Rate = null;
-	
-	
+
 	
 	private SoapObject requestretrive_asri_rate = null;
 	private SoapObject requestretrive_otomate_rate = null;
@@ -187,7 +200,12 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 	private SoapObject requestretrive_sppa_status  = null;
 	private SoapObject requestretrive_acamobil_rate = null;
 	private SoapObject requestretrive_wellwoman_rate = null;
-	
+
+	private SoapObject requestretrive_LoadOtomateSetting = null;
+	private SoapObject requestretrive_LoadPaketOtomate= null;
+	private SoapObject requestretrive_LoadPerluasan = null;
+	private SoapObject requestretrive_LoadStandardField = null;
+
 
 	private SoapSerializationEnvelope envelope_latest_version = null;
     private SoapSerializationEnvelope envelope_car_brand = null;
@@ -220,7 +238,12 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
     private SoapSerializationEnvelope envelope_sppa_status = null;
     private SoapSerializationEnvelope envelope_acamobil_rate = null;
     private SoapSerializationEnvelope envelope_wellwoman_rate = null;
-    
+
+    private SoapSerializationEnvelope envelope_LoadOtomateSetting = null;
+    private SoapSerializationEnvelope envelope_LoadPaketOtomate = null;
+    private SoapSerializationEnvelope envelope_LoadPerluasan = null;
+    private SoapSerializationEnvelope envelope_LoadStandardField = null;
+
     
     private HttpTransportSE androidHttpTransport = null;
 
@@ -314,7 +337,22 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 
     private static String SOAP_ACTION_CAR_BRAND_TRUK = "http://tempuri.org/GetCarBrandTruk";     
     private static String METHOD_NAME_CAR_BRAND_TRUK = "GetCarBrandTruk";
-    
+
+    private static String SOAP_ACTION_LoadOtomateSetting = "http://tempuri.org/LoadOtomateSetting";
+    private static String METHOD_NAME_LoadOtomateSetting = "LoadOtomateSetting";
+
+
+    private static String SOAP_ACTION_LoadPaketOtomate = "http://tempuri.org/LoadPaketOtomate";
+    private static String METHOD_NAME_LoadPaketOtomate = "LoadPaketOtomate";
+
+
+    private static String SOAP_ACTION_LoadPerluasan = "http://tempuri.org/LoadPerluasan";
+    private static String METHOD_NAME_LoadPerluasan = "LoadPerluasan";
+
+
+    private static String SOAP_ACTION_LoadStandardField = "http://tempuri.org/LoadStandardField";
+    private static String METHOD_NAME_LoadStandardField = "LoadStandardField";
+
     
     
     private CarBrandWS wsCarBrand;
@@ -631,6 +669,8 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 						|| !bFinishVesselDetail		 || !bFinishOtomateTPL
 						|| !bFinishOtomatePA		 || !bFinishOtomateAOG
 						|| !bFinishKonveRate		 || !bFinishCarBrandTruk
+						|| !bFinishLoadStandardField || !bFinishLoadPaketOtomatee
+						|| !bFinishLoadPerluasan 	 || !bFinishLoadOtomateSetting
 						
 						);
 				
@@ -828,10 +868,7 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 
             	wsVersion = Integer.parseInt(tableRow.getPropertySafelyAsString("Version"));
         		wsFunctionName = tableRow.getPropertySafelyAsString("Function_Name");
-        		
-        		if (wsFunctionName.equals("PremiRateKonve")){
-        			Log.i("tag", "::SyncData:" + "");
-        		}
+
             	c = db.getAll();
            
             	if (c.moveToFirst()) {
@@ -1129,10 +1166,32 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 						}
 						else
 							bFinishProductSetting  = true;
-		
-				
-					requestretrive_sppa_status = new SoapObject(NAMESPACE, METHOD_NAME_SPPA_STATUS);
-					wsSPPAStatus.execute("");
+
+						if (bNeedSyncLoadOtomateSetting) {
+							fetchOtomateSetting();
+						}
+						else
+							bFinishLoadOtomateSetting  = true;
+
+                        if (bNeedSyncLoadPaketOtomate) {
+							fetchPaketOtomate();
+                        }
+                        else
+                            bFinishLoadPaketOtomatee= true;
+
+
+						if (bNeedSyncLoadPerluasan) {
+							fetchPerluasan();
+						}
+						else
+							bFinishLoadPerluasan= true;
+
+
+						if (bNeedSyncLoadStandardField) {
+							fetchStandardField();
+						}
+						else
+							bFinishLoadStandardField= true;
 					
 			}
 		}catch(Exception ex){
@@ -1140,6 +1199,260 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 		}
 	}
 
+	private void fetchStandardField() {
+
+		WebServices ws = new WebServices(
+				SplashActivity.this,
+				"LoadStandardField",
+				new HashMap<String, String>(),
+				SplashActivity.this.getResources().getStringArray(R.array.LoadStandardField_post),
+				SplashActivity.this.getResources().getStringArray(R.array.LoadStandardField_get)
+		) {
+			@Override
+			protected void onSuccess(@NonNull ArrayList<HashMap<String, String>> arrList) {
+				try {
+					if (arrList != null) {
+						Delete.table(StandardField.class);
+						StandardField standardField;
+						for (HashMap<String, String> map: arrList) {
+							standardField = new StandardField();
+							standardField.FieldCode = map.get("FieldCode");
+							standardField.FieldCodeDt = map.get("FieldCodeDt");
+							standardField.FieldNameDt = map.get("FieldNameDt");
+							standardField.Value = map.get("Value");
+							standardField.Description = map.get("Description");
+							standardField.IsActive = map.get("IsActive");
+							standardField.save();
+						}
+					}
+					else {
+						Toast.makeText(SplashActivity.this, "", Toast.LENGTH_SHORT).show();
+					}
+					bFinishLoadStandardField = true;
+					onFinishFetch(!bFinishLoadStandardField, "StandardField");
+				} catch (Exception e) {
+					e.printStackTrace();
+					bFinishLoadStandardField = false;
+					onFinishFetch(!bFinishLoadStandardField, "StandardField");
+				}
+			}
+
+			@Override
+			protected void onFailed(String message) {
+				try {
+					Toast.makeText(SplashActivity.this, message, Toast.LENGTH_SHORT).show();
+					bFinishLoadStandardField = false;
+					onFinishFetch(!bFinishLoadStandardField, "StandardField");
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			@Override
+			protected void onCancel() {
+
+			}
+		};
+		ws.execute();
+	}
+
+	private void fetchPerluasan() {
+
+		WebServices ws = new WebServices(
+				SplashActivity.this,
+				"LoadPerluasan",
+				new HashMap<String, String>(),
+				SplashActivity.this.getResources().getStringArray(R.array.LoadPerluasan_post),
+				SplashActivity.this.getResources().getStringArray(R.array.LoadPerluasan_get)
+		) {
+			@Override
+			protected void onSuccess(@NonNull ArrayList<HashMap<String, String>> arrList) {
+				try {
+					if (arrList != null) {
+						Delete.table(PerluasanPremi.class);
+						PerluasanPremi perluasanPremi;
+						for (HashMap<String, String> map: arrList) {
+							perluasanPremi = new PerluasanPremi();
+							perluasanPremi.Tipe = map.get("Tipe");
+							perluasanPremi.Amount = Double.parseDouble(map.get("Amount"));
+							perluasanPremi.Amount_Text = map.get("Amount_Text");
+							perluasanPremi.Premi = Double.parseDouble(map.get("Premi"));
+							perluasanPremi.Kode_Produk = map.get("Kode_Produk");
+							perluasanPremi.save();
+						}
+					}
+					else {
+						Toast.makeText(SplashActivity.this, "", Toast.LENGTH_SHORT).show();
+					}
+					bFinishLoadPerluasan = true;
+					onFinishFetch(!bFinishLoadPerluasan, "MsPremiPerluasan");
+				} catch (Exception e) {
+					e.printStackTrace();
+					bFinishLoadPerluasan = false;
+					onFinishFetch(!bFinishLoadPerluasan, "MsPremiPerluasan");
+				}
+			}
+
+			@Override
+			protected void onFailed(String message) {
+				try {
+					Toast.makeText(SplashActivity.this, message, Toast.LENGTH_SHORT).show();
+					bFinishLoadPerluasan = false;
+					onFinishFetch(!bFinishLoadPerluasan, "MsPremiPerluasan");
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			@Override
+			protected void onCancel() {
+
+			}
+		};
+		ws.execute();
+	}
+
+	private void fetchPaketOtomate() {
+
+		WebServices ws = new WebServices(
+				SplashActivity.this,
+				"LoadPaketOtomate",
+				new HashMap<String, String>(),
+				SplashActivity.this.getResources().getStringArray(R.array.LoadPaketOtomate_post),
+				SplashActivity.this.getResources().getStringArray(R.array.LoadPaketOtomate_get)
+		) {
+			@Override
+			protected void onSuccess(@NonNull ArrayList<HashMap<String, String>> arrList) {
+				try {
+					Delete.table(PaketOtomate.class);
+					PaketOtomate paketOtomate;
+					if (arrList != null) {
+						for (HashMap<String, String> map: arrList) {
+							paketOtomate = new PaketOtomate();
+							paketOtomate.KodeProduct = map.get("KodeProduct");
+							paketOtomate.Flood = map.get("Flood");
+							paketOtomate.Eq = map.get("Eq");
+							paketOtomate.save();
+						}
+					}
+					else {
+						Toast.makeText(SplashActivity.this, "", Toast.LENGTH_SHORT).show();
+					}
+
+					bFinishLoadPaketOtomatee = true;
+					onFinishFetch(!bFinishLoadPaketOtomatee, "MsPaketOtomate");
+				} catch (Exception e) {
+					e.printStackTrace();
+					bFinishLoadPaketOtomatee = false;
+					onFinishFetch(!bFinishLoadPaketOtomatee, "MsPaketOtomate");
+				}
+			}
+
+			@Override
+			protected void onFailed(String message) {
+				try {
+					Toast.makeText(SplashActivity.this, message, Toast.LENGTH_SHORT).show();
+					bFinishLoadPaketOtomatee = false;
+					onFinishFetch(!bFinishLoadPaketOtomatee, "MsPaketOtomate");
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			@Override
+			protected void onCancel() {
+
+			}
+		};
+		ws.execute();
+	}
+
+	private void fetchOtomateSetting() {
+		WebServices ws = new WebServices(
+				SplashActivity.this,
+				"LoadOtomateSetting",
+				new HashMap<String, String>(),
+				getResources().getStringArray(R.array.LoadOtomateSetting_post),
+				getResources().getStringArray(R.array.LoadOtomateSetting_get)
+		) {
+			@Override
+			protected void onSuccess(@NonNull ArrayList<HashMap<String, String>> arrList) {
+				try {
+					if (arrList != null) {
+						Delete.table(SettingOtomate.class);
+						SettingOtomate settingOtomate;
+						for (HashMap<String, String> map: arrList){
+							settingOtomate = new SettingOtomate();
+							settingOtomate.KodeProduct = map.get("KodeProduct");
+							settingOtomate.FloodDefault = map.get("FloodDefault");
+							settingOtomate.EqDefault =  map.get("EqDefault");
+							settingOtomate.IsPaket = map.get("IsPaket");
+							settingOtomate.SRCCDefault =  map.get("SRCCDefault");
+							settingOtomate.TSDefault =  map.get("TSDefault");
+							settingOtomate.IsChangeable = map.get("IsChangeable");
+							settingOtomate.BengkelDefault = map.get("BengkelDefault");
+							settingOtomate.IsChangeableBengkel = map.get("IsChangeableBengkel");
+							settingOtomate.LimitTPL = Double.parseDouble(map.get("LimitTPL"));
+							settingOtomate.LimitPA = Double.parseDouble(map.get("LimitPA"));
+							settingOtomate.save();
+
+						}
+
+					}
+					else {
+						Toast.makeText(SplashActivity.this, "", Toast.LENGTH_SHORT).show();
+					}
+					bFinishLoadOtomateSetting = true;
+					onFinishFetch(!bFinishLoadOtomateSetting, "MsSettingOtomate");
+				} catch (Exception e) {
+					e.printStackTrace();
+					bFinishLoadOtomateSetting = false;
+					onFinishFetch(!bFinishLoadOtomateSetting, "MsSettingOtomate");
+
+				}
+			}
+
+			@Override
+			protected void onFailed(String message) {
+				try {
+					Toast.makeText(SplashActivity.this, message, Toast.LENGTH_SHORT).show();
+					bFinishLoadOtomateSetting = false;
+					onFinishFetch(!bFinishLoadOtomateSetting, "MsSettingOtomate");
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			@Override
+			protected void onCancel() {
+
+			}
+		};
+		ws.execute();
+	}
+
+	private void onFinishFetch(boolean error, String functionName) {
+		try{
+			if(error){
+				DBA_TABLE_VERSION dbVersion = new DBA_TABLE_VERSION(SplashActivity.this);
+				dbVersion.open();
+				dbVersion.setNeedSync(functionName);
+				dbVersion.close();
+				Log.d("Sync. " + functionName, "Fail");
+				errorSync = true;
+			}
+			else{
+				DBA_TABLE_VERSION dbVersion = new DBA_TABLE_VERSION(SplashActivity.this);
+				dbVersion.open();
+				dbVersion.setSuccessSync(functionName);
+				dbVersion.close();
+				Log.d("Sync. " + functionName, "Success");
+			}
+
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -1198,11 +1511,18 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 			bNeedSyncKonveRate = true;
 		else if (s.equals("CarBrandTruk"))
 			bNeedSyncCarBrandTruk = true;
-		
-		
 		else if (s.equals("ProductSetting"))
 			bNeedSyncProductSetting = true;
 
+
+		else if (s.equals("MsSettingOtomate"))
+			bNeedSyncLoadOtomateSetting = true;
+		else if (s.equals("MsPaketOtomate"))
+			bNeedSyncLoadPaketOtomate = true;
+		else if (s.equals("MsPremiPerluasan"))
+			bNeedSyncLoadPerluasan = true;
+		else if (s.equals("StandardField"))
+			bNeedSyncLoadStandardField = true;
 	}
 	
 	private class CarBrandWS extends AsyncTask<String, Void, Void>{
@@ -2675,7 +2995,12 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 	            {
 	            	tableRow = (SoapObject) table.getProperty(i);
 	            	Log.d ("jnp",  tableRow.getPropertySafelyAsString("JNP").toString());
-	            	db.insert(tableRow.getPropertySafelyAsString("Kategori").toString(), tableRow.getPropertySafelyAsString("JNP").toString(), tableRow.getPropertySafelyAsString("Wilayah").toString(), Double.parseDouble(tableRow.getPropertySafelyAsString("Rate").toString()));
+	            	db.insert(tableRow.getPropertySafelyAsString("Kategori").toString(),
+                            tableRow.getPropertySafelyAsString("JNP").toString(),
+                            tableRow.getPropertySafelyAsString("Wilayah").toString(),
+                            Double.parseDouble(tableRow.getPropertySafelyAsString("Rate").toString()),
+                            tableRow.getPropertySafelyAsString("Kode_Produk").toString()
+                            );
 	            }	
 			}catch(ArrayIndexOutOfBoundsException ex){
 				ex.printStackTrace();
@@ -3831,7 +4156,11 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
 	            	
 	            	
 	            	db.insert(tableRow.getPropertySafelyAsString("Wilayah").toString(), 
-	            			tableRow.getPropertySafelyAsString("Rate").toString());
+	            			tableRow.getPropertySafelyAsString("Rate").toString(),
+	            			tableRow.getPropertySafelyAsString("Kode_Produk").toString(),
+	            			tableRow.getPropertySafelyAsString("Tipe").toString(),
+	            			tableRow.getPropertySafelyAsString("Exco").toString()
+                            );
 	            }	
 			
 			}catch(ArrayIndexOutOfBoundsException ex){

@@ -136,6 +136,10 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xhdpi\\toko.png"
     },
     {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\img_otomate_jaminan.png",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xhdpi\\img_otomate_jaminan.png"
+    },
+    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\asri.png",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xhdpi\\asri.png"
     },
@@ -226,6 +230,10 @@
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logotoko.png",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xhdpi\\logotoko.png"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close.png",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xhdpi\\ic_close.png"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\no_image.jpg",

@@ -202,8 +202,11 @@ public class SyncUnpaidActivity extends ControlListActivity implements Interface
 				 Utility.showCustomDialogInformation(SyncUnpaidActivity.this, "Informasi", "Checking validasi gagal. Hubungi IT ACA");
 			 else if (flag.equals("3")) {  
 //				 reSync(approval.i, approval.customerNo); // sppa id
-				 Utility.showCustomDialogInformation(SyncUnpaidActivity.this, "Informasi", "SPPA tidak ditemukan. Hubungi IT ACA");
+				 Utility.showCustomDialogInformation(SyncUnpaidActivity.this, "Informasi", "Dokumen belum lengkap. Hubungi IT ACA");
 			 }
+             else if (flag.equals("4")) {
+                 Utility.showCustomDialogInformation(SyncUnpaidActivity.this, "Informasi", "SPPA butuh approval. Hubungi Agensi Mitraca");
+             }
 			 else if (flag.equals("1"))
 			 {
 				validasiFlagPaid();

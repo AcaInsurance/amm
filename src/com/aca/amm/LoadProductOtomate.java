@@ -186,45 +186,45 @@ public class LoadProductOtomate extends AsyncTask<String, Void, Void>{
 			{
 				
 				dba.open();
-				dba.initialInsert(
-						SPPA_ID, 
-						otomateList.get(0).get("VEHICLE_MERK").toString(),
-						otomateList.get(0).get("VEHICLE_CATEGORY").toString(),
-						otomateList.get(0).get("VEHICLE_DESC").toString(),
-						otomateList.get(0).get("BUILT_YEAR").toString(),
-						otomateList.get(0).get("PLAT_NO_1").toString(),
-						otomateList.get(0).get("PLAT_NO_2").toString(),
-						otomateList.get(0).get("PLAT_NO_3").toString(),
-						otomateList.get(0).get("COLOUR").toString(),
-						otomateList.get(0).get("CHASSIS_NO").toString(),
-						otomateList.get(0).get("ENGINE_NO").toString(),
-						otomateList.get(0).get("ACCESORIES_FLAG").toString(),
-						otomateList.get(0).get("NON_STANDARD_ACCESORIES").toString(),
-						Integer.parseInt(otomateList.get(0).get("SEATING_CAP").toString()),
-						Utility.getFormatDate(polisList.get(0).get("EFF_DATE").toString()),
-						Utility.getFormatDate(polisList.get(0).get("EXP_DATE").toString()),
-						nf.parse(otomateList.get(0).get("SI").toString()).doubleValue(),
-						nf.parse(otomateList.get(0).get("ADD_SI").toString()).doubleValue(),
-						otomateList.get(0).get("ACT_OF_GOD").toString(),
-						otomateList.get(0).get("TPL").toString(),
-						nf.parse(otomateList.get(0).get("RATE").toString()).doubleValue(),
-						nf.parse(polisList.get(0).get("PREMIUM").toString()).doubleValue(),
-						nf.parse(polisList.get(0).get("STAMP").toString()).doubleValue(),
-						nf.parse(polisList.get(0).get("CHARGE").toString()).doubleValue(),
-						nf.parse(polisList.get(0).get("TOTAL_PREMIUM").toString()).doubleValue(),
-					
-						"",
-						"",
-						
-						"OTOMATE",
-						polisList.get(0).get("CUSTOMER_NAME").toString()
-						,""
-						,300000
-						,""
-						,""
-						,""
-						,1
-						);
+//				dba.initialInsert(
+//						SPPA_ID,
+//						otomateList.get(0).get("VEHICLE_MERK").toString(),
+//						otomateList.get(0).get("VEHICLE_CATEGORY").toString(),
+//						otomateList.get(0).get("VEHICLE_DESC").toString(),
+//						otomateList.get(0).get("BUILT_YEAR").toString(),
+//						otomateList.get(0).get("PLAT_NO_1").toString(),
+//						otomateList.get(0).get("PLAT_NO_2").toString(),
+//						otomateList.get(0).get("PLAT_NO_3").toString(),
+//						otomateList.get(0).get("COLOUR").toString(),
+//						otomateList.get(0).get("CHASSIS_NO").toString(),
+//						otomateList.get(0).get("ENGINE_NO").toString(),
+//						otomateList.get(0).get("ACCESORIES_FLAG").toString(),
+//						otomateList.get(0).get("NON_STANDARD_ACCESORIES").toString(),
+//						Integer.parseInt(otomateList.get(0).get("SEATING_CAP").toString()),
+//						Utility.getFormatDate(polisList.get(0).get("EFF_DATE").toString()),
+//						Utility.getFormatDate(polisList.get(0).get("EXP_DATE").toString()),
+//						nf.parse(otomateList.get(0).get("SI").toString()).doubleValue(),
+//						nf.parse(otomateList.get(0).get("ADD_SI").toString()).doubleValue(),
+//						otomateList.get(0).get("ACT_OF_GOD").toString(),
+//						otomateList.get(0).get("TPL").toString(),
+//						nf.parse(otomateList.get(0).get("RATE").toString()).doubleValue(),
+//						nf.parse(polisList.get(0).get("PREMIUM").toString()).doubleValue(),
+//						nf.parse(polisList.get(0).get("STAMP").toString()).doubleValue(),
+//						nf.parse(polisList.get(0).get("CHARGE").toString()).doubleValue(),
+//						nf.parse(polisList.get(0).get("TOTAL_PREMIUM").toString()).doubleValue(),
+//
+//						"",
+//						"",
+//
+//						"OTOMATE",
+//						polisList.get(0).get("CUSTOMER_NAME").toString()
+//						,""
+//						,300000
+//						,""
+//						,""
+//						,""
+//						,1
+//						);
 			}
 		}
 		catch(Exception e)

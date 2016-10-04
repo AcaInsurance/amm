@@ -29,6 +29,7 @@ import com.aca.database.DBA_PRODUCT_TOKO;
 import com.aca.database.DBA_PRODUCT_TRAVEL_DOM;
 import com.aca.database.DBA_PRODUCT_TRAVEL_SAFE;
 import com.aca.database.DBA_PRODUCT_WELLWOMAN;
+import com.aca.dbflow.PaketOtomate;
 
 import android.os.Bundle;
 import android.os.SystemClock;
@@ -82,7 +83,9 @@ public class FirstActivity extends ControlNormalActivity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_first);
-		
+
+		testingDB();
+
 	    flag = new int[] {R.drawable.ztravelsafe, R.drawable.ztravelsafedom, R.drawable.zpaamanah, 
 				R.drawable.zasrisyariah, R.drawable.zotomatesyariah, R.drawable.zotomate, R.drawable.zacamobil,
 				R.drawable.zasri, R.drawable.zmedisafe, R.drawable.zwellwoman, R.drawable.zcargo, R.drawable.zdno, R.drawable.zkonvensional
@@ -112,7 +115,13 @@ public class FirstActivity extends ControlNormalActivity {
 //		GetWSData data = new GetWSData(getBaseContext());
 //		data.run();
 	}
-	
+
+	private void testingDB() {
+		PaketOtomate paketOtomate = new PaketOtomate();
+		paketOtomate.Eq = "123";
+		paketOtomate.save();
+	}
+
 	private void clearData() {
 		try {
 			DBA_PRODUCT_CONVENSIONAL dbConven = new DBA_PRODUCT_CONVENSIONAL(this);

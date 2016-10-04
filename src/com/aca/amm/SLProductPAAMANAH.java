@@ -53,7 +53,7 @@ public class SLProductPAAMANAH extends AsyncTask<String, String, Void>{
     
     private SoapObject requestuploadimg = null;
     private SoapSerializationEnvelope envelopeuploadimg = null;
-    private static String URL_UPLOAD_IMAGE = "http://www.aca-mobile.com/WsSaveImage.asmx";
+    private static String URL_UPLOAD_IMAGE = Utility.getUrlImage();
     private static String SOAP_ACTION_UPLOAD_IMG = "http://tempuri.org/DoSaveImage";     
     private static String METHOD_NAME_UPLOAD_IMG = "DoSaveImage";
     

@@ -8,6 +8,10 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xxhdpi\\buy_now.png"
     },
     {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_otomate_jaminan.png",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xxhdpi\\img_otomate_jaminan.png"
+    },
+    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\usernameicon.png",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xxhdpi\\usernameicon.png"
     },
@@ -68,6 +72,10 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xxhdpi\\no_image.jpg"
     },
     {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_close.png",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xxhdpi\\ic_close.png"
+    },
+    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\addcustomer.png",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xxhdpi\\addcustomer.png"
     },
@@ -78,6 +86,10 @@
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cargo.png",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xxhdpi\\cargo.png"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_otomate_rate.png",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-xxhdpi\\img_otomate_rate.png"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\news.png",

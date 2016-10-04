@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InfoOtomateActivity" >
+    tools:context=".InfoOtomateActivity">
 
     <RelativeLayout
         android:id="@+id/layHeader"
@@ -10,27 +10,27 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:background="@color/White" >
+        android:background="@color/White">
 
-        <RelativeLayout  
+        <RelativeLayout
             android:id="@+id/layTitle2"
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:orientation="vertical"
-        	android:padding="5dp">
-            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
             <ImageView
-	            android:id="@+id/btnHome"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:padding="5dp"
-	            android:src="@drawable/logosmall"
-	            android:background="@drawable/buttonpressed"
-	            android:clickable="true"
-	            android:onClick="btnHomeClick" />
+                android:id="@+id/btnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonpressed"
+                android:clickable="true"
+                android:onClick="btnHomeClick"
+                android:padding="5dp"
+                android:src="@drawable/logosmall" />
 
         </RelativeLayout>
-        
+
         <com.aca.amm.CustomTextViewBold
             android:id="@+id/lblTitle"
             android:layout_width="match_parent"
@@ -44,23 +44,22 @@
             android:textStyle="bold" />
 
     </RelativeLayout>
-    
-    
-    
+
+
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/layHeader" 
         android:layout_above="@id/layFooter"
+        android:layout_below="@id/layHeader"
         android:layout_centerHorizontal="true"
-        android:padding="10dp" 
-	    android:background="@drawable/abg" >
+        android:background="@drawable/abg"
+        android:padding="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/btnRate"
@@ -88,7 +87,7 @@
                 android:gravity="left|center_vertical"
                 android:onClick="btnInsuredRiskClick"
                 android:padding="1dp"
-                android:text="Rate &amp; Resiko Dijamin"
+                android:text="Rate"
                 android:textColor="@color/White"
                 android:textStyle="bold" />
 
@@ -103,7 +102,7 @@
                 android:gravity="left|center_vertical"
                 android:onClick="btnFacilityClick"
                 android:padding="1dp"
-                android:text="Fasilitas Tambahan"
+                android:text="Jaminan &amp; Benefit"
                 android:textColor="@color/White"
                 android:textStyle="bold" />
 
@@ -137,27 +136,27 @@
                 android:textColor="@color/White"
                 android:textStyle="bold" />
 
-   			<ImageView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_gravity="center_horizontal"
-               android:padding="10dp"
-               android:src="@drawable/logootomate" />
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:src="@drawable/logootomate" />
         </LinearLayout>
-        
+
     </ScrollView>
-    
-   
-    
+
+
     <RelativeLayout
         android:id="@+id/layFooter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:background="@color/White" >
-        
+        android:background="@color/White">
+
         <TextView
             android:id="@+id/lblFooterTitle"
             android:layout_width="match_parent"
@@ -166,7 +165,7 @@
             android:padding="10dp"
             android:text="@string/info_aca"
             android:textColor="@color/AMMC"
-            android:textSize="12sp"  />
+            android:textSize="12sp" />
 
 
     </RelativeLayout>

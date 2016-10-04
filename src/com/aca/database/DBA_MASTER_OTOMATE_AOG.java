@@ -12,17 +12,26 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import android.widget.Toast;
 
 public class DBA_MASTER_OTOMATE_AOG{
 
 	public static final String WILAYAH = "WILAYAH";
     public static final String RATE = "RATE"; 
-     
+    public static final String KODE_PRODUK = "KODE_PRODUK";
+    public static final String TIPE = "TIPE";
+    public static final String EXCO = "EXCO";
+
     private static final String DATABASE_NAME = "AMM_VERSION_BIG";
     private static final String DATABASE_TABLE = "MASTER_OTOMATE_AOG";
 
      static final String DATABASE_CREATE =
-        "CREATE TABLE MASTER_OTOMATE_AOG (WILAYAH TEXT, RATE TEXT);";
+        "CREATE TABLE MASTER_OTOMATE_AOG (WILAYAH TEXT," +
+                " RATE TEXT," +
+                " KODE_PRODUK TEXT," +
+                " TIPE TEXT," +
+                " EXCO TEXT" +
+                ");";
      
         
     private final Context context;    
@@ -68,12 +77,20 @@ public class DBA_MASTER_OTOMATE_AOG{
     }
     
     //---insert a contact into the database---
-    public long insert(String wilayah, String rate) 
+    public long insert(String wilayah,
+                       String rate,
+                       String kodeProduct,
+                       String tipe,
+                       String exco
+                       )
     {
         ContentValues initialValues = new ContentValues();
         initialValues.put(WILAYAH, wilayah);
         initialValues.put(RATE, rate); 
-        
+        initialValues.put(KODE_PRODUK, kodeProduct);
+        initialValues.put(TIPE, tipe);
+        initialValues.put(EXCO, exco);
+
         return db.insert(DATABASE_TABLE, null, initialValues);
     }
 
@@ -82,12 +99,15 @@ public class DBA_MASTER_OTOMATE_AOG{
     {
         return db.delete(DATABASE_TABLE, null, null) > 0;
     }
-    
-    public Cursor getByWilayah(String wilayah) 
+
+    public Cursor getByWilayah(String wilayah, String kodeProduct, String tipe, String exco)
     {
+        String whereClause = String.format("WILAYAH = '%s' and KODE_PRODUK = '%s' and TIPE = '%s' and EXCO = '%s'",
+                wilayah,kodeProduct, tipe, exco);
+
     	return db.query(DATABASE_TABLE,  new String[] {
     			WILAYAH, 
-    			RATE }, "WILAYAH = '" + wilayah + "'", null, null, null, null);    			
+    			RATE }, whereClause, null, null, null, null);
     } 
     
     public Cursor getAll() 

@@ -19,14 +19,19 @@ public class DBA_MASTER_OTOMATE_RATE {
     public static final String JNP = "JNP";
     public static final String WILAYAH = "WILAYAH";
     public static final String RATE = "RATE";
-    
+    public static final String KODE_PRODUK = "KODE_PRODUK";
+
     private static final String TAG = "DBA_MASTER_OTOMATE_RATE";
     
     private static final String DATABASE_NAME = "AMM_VERSION_BIG";
     private static final String DATABASE_TABLE = "MASTER_OTOMATE_RATE";
 
      static final String DATABASE_CREATE =
-        "CREATE TABLE MASTER_OTOMATE_RATE (KATEGORI TEXT, JNP TEXT, WILAYAH TEXT, RATE NUMERIC);";
+        "CREATE TABLE MASTER_OTOMATE_RATE (KATEGORI TEXT," +
+                " JNP TEXT, " +
+                "WILAYAH TEXT, " +
+                "KODE_PRODUK TEXT, " +
+                "RATE NUMERIC);";
         
     private final Context context;    
 
@@ -82,14 +87,19 @@ public class DBA_MASTER_OTOMATE_RATE {
     }
     
     //---insert a contact into the database---
-    public long insert(String kategori, String jnp, String wilayah, double rate) 
+    public long insert(String kategori,
+                       String jnp,
+                       String wilayah,
+                       double rate,
+                       String kodeProduct)
     {
         ContentValues initialValues = new ContentValues();
         initialValues.put(KATEGORI, kategori);
         initialValues.put(JNP, jnp);
         initialValues.put(WILAYAH, wilayah);
         initialValues.put(RATE, rate);
-        
+        initialValues.put(KODE_PRODUK, kodeProduct);
+
         return db.insert(DATABASE_TABLE, null, initialValues);
     }
 
@@ -101,18 +111,23 @@ public class DBA_MASTER_OTOMATE_RATE {
     
     public Cursor getAll() 
     {
-    	return db.query(DATABASE_TABLE,  new String[] {KATEGORI, JNP, WILAYAH, RATE}, null, null, null, null, null);    			
+    	return db.query(DATABASE_TABLE,  new String[] {KATEGORI, JNP, WILAYAH, RATE, KODE_PRODUK}, null, null, null, null, null);
     }
     
-    public Cursor getRate(String TSI, String Wilayah) throws ParseException 
+    public Cursor getRate(String TSI, String Wilayah, String kodeProduct) throws ParseException
     {
-    	NumberFormat nf = NumberFormat.getInstance();
+    	NumberFormat nf;
     	nf = NumberFormat.getInstance();
 		nf.setMaximumFractionDigits(2);
 		nf.setMinimumFractionDigits(2);
 		
-    	
-    	String sql = "SELECT KATEGORI, JNP, RATE FROM MASTER_OTOMATE_RATE WHERE WILAYAH = '" + Wilayah + "' AND CAST(JNP as integer) >= " + String.valueOf(nf.parse(TSI).doubleValue()) + " LIMIT 1;";
+
+        String whereClause = String.format(" where wilayah = '%s' " +
+                "and cast(jnp as integer) >= %s " +
+                "and KODE_PRODUK = '%s' ", Wilayah, String.valueOf(nf.parse(TSI).doubleValue()), kodeProduct);
+
+    	String sql = "SELECT KATEGORI, JNP, RATE FROM MASTER_OTOMATE_RATE" +
+                whereClause + " LIMIT 1;";
     	return db.rawQuery(sql, null);
    
     }

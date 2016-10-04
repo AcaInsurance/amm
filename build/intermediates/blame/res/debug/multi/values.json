@@ -7,9 +7,177 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 9,
+                    "endLine": 14,
                     "endColumn": 19,
-                    "endOffset": 275
+                    "endOffset": 480
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\string_webservices.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endLine": 43,
+                        "endColumn": 19,
+                        "endOffset": 1185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 485,
+                    "endLine": 17,
+                    "endColumn": 19,
+                    "endOffset": 566
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\string_webservices.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 649,
+                        "endLine": 28,
+                        "endColumn": 19,
+                        "endOffset": 738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 571,
+                    "endLine": 23,
+                    "endColumn": 19,
+                    "endOffset": 741
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\string_webservices.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endLine": 11,
+                        "endColumn": 19,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 746,
+                    "endLine": 26,
+                    "endColumn": 19,
+                    "endOffset": 825
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\string_webservices.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 4,
+                        "endColumn": 19,
+                        "endOffset": 144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 830,
+                    "endLine": 33,
+                    "endColumn": 19,
+                    "endOffset": 1036
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\string_webservices.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 429,
+                        "endLine": 24,
+                        "endColumn": 19,
+                        "endOffset": 641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1041,
+                    "endLine": 36,
+                    "endColumn": 19,
+                    "endOffset": 1117
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\string_webservices.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endLine": 15,
+                        "endColumn": 19,
+                        "endOffset": 419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1122,
+                    "endLine": 44,
+                    "endColumn": 19,
+                    "endOffset": 1372
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\string_webservices.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1291,
+                        "endLine": 57,
+                        "endColumn": 19,
+                        "endOffset": 1548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 1377,
+                    "endLine": 47,
+                    "endColumn": 19,
+                    "endOffset": 1457
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\string_webservices.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1193,
+                        "endLine": 47,
+                        "endColumn": 19,
+                        "endOffset": 1281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 1462,
+                    "endLine": 55,
+                    "endColumn": 19,
+                    "endOffset": 1682
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -25,12 +193,12 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 280,
-                    "endLine": 17,
+                    "startOffset": 1687,
+                    "endLine": 63,
                     "endColumn": 19,
-                    "endOffset": 505
+                    "endOffset": 1912
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -46,11 +214,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 510,
+                    "startOffset": 1917,
                     "endColumn": 38,
-                    "endOffset": 544
+                    "endOffset": 1951
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -65,11 +233,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 549,
+                    "startOffset": 1956,
                     "endColumn": 46,
-                    "endOffset": 591
+                    "endOffset": 1998
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -84,11 +252,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 596,
+                    "startOffset": 2003,
                     "endColumn": 46,
-                    "endOffset": 638
+                    "endOffset": 2045
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -103,11 +271,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 643,
+                    "startOffset": 2050,
                     "endColumn": 43,
-                    "endOffset": 682
+                    "endOffset": 2089
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -122,11 +290,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 687,
+                    "startOffset": 2094,
                     "endColumn": 46,
-                    "endOffset": 729
+                    "endOffset": 2136
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -141,11 +309,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 734,
+                    "startOffset": 2141,
                     "endColumn": 38,
-                    "endOffset": 768
+                    "endOffset": 2175
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -160,11 +328,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 773,
+                    "startOffset": 2180,
                     "endColumn": 44,
-                    "endOffset": 813
+                    "endOffset": 2220
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -179,11 +347,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 818,
+                    "startOffset": 2225,
                     "endColumn": 39,
-                    "endOffset": 853
+                    "endOffset": 2260
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -198,11 +366,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 858,
+                    "startOffset": 2265,
                     "endColumn": 50,
-                    "endOffset": 904
+                    "endOffset": 2311
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -217,11 +385,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 909,
+                    "startOffset": 2316,
                     "endColumn": 51,
-                    "endOffset": 956
+                    "endOffset": 2363
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -236,11 +404,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 961,
+                    "startOffset": 2368,
                     "endColumn": 51,
-                    "endOffset": 1008
+                    "endOffset": 2415
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -255,11 +423,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 1013,
+                    "startOffset": 2420,
                     "endColumn": 39,
-                    "endOffset": 1048
+                    "endOffset": 2455
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -274,11 +442,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 1053,
+                    "startOffset": 2460,
                     "endColumn": 40,
-                    "endOffset": 1089
+                    "endOffset": 2496
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -293,11 +461,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 1094,
+                    "startOffset": 2501,
                     "endColumn": 39,
-                    "endOffset": 1129
+                    "endOffset": 2536
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -312,11 +480,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 1134,
+                    "startOffset": 2541,
                     "endColumn": 48,
-                    "endOffset": 1178
+                    "endOffset": 2585
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -331,11 +499,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 1183,
+                    "startOffset": 2590,
                     "endColumn": 38,
-                    "endOffset": 1217
+                    "endOffset": 2624
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -350,11 +518,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 1222,
+                    "startOffset": 2629,
                     "endColumn": 44,
-                    "endOffset": 1262
+                    "endOffset": 2669
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -369,11 +537,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 1267,
+                    "startOffset": 2674,
                     "endColumn": 39,
-                    "endOffset": 1302
+                    "endOffset": 2709
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -388,11 +556,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 1307,
+                    "startOffset": 2714,
                     "endColumn": 43,
-                    "endOffset": 1346
+                    "endOffset": 2753
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -407,11 +575,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 1351,
+                    "startOffset": 2758,
                     "endColumn": 43,
-                    "endOffset": 1390
+                    "endOffset": 2797
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -426,11 +594,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 1395,
+                    "startOffset": 2802,
                     "endColumn": 44,
-                    "endOffset": 1435
+                    "endOffset": 2842
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -445,11 +613,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 1440,
+                    "startOffset": 2847,
                     "endColumn": 43,
-                    "endOffset": 1479
+                    "endOffset": 2886
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -464,11 +632,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 1484,
+                    "startOffset": 2891,
                     "endColumn": 39,
-                    "endOffset": 1519
+                    "endOffset": 2926
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -483,11 +651,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 1524,
+                    "startOffset": 2931,
                     "endColumn": 48,
-                    "endOffset": 1568
+                    "endOffset": 2975
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -502,11 +670,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 1573,
+                    "startOffset": 2980,
                     "endColumn": 42,
-                    "endOffset": 1611
+                    "endOffset": 3018
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -521,11 +689,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 1616,
+                    "startOffset": 3023,
                     "endColumn": 41,
-                    "endOffset": 1653
+                    "endOffset": 3060
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -540,11 +708,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 1658,
+                    "startOffset": 3065,
                     "endColumn": 38,
-                    "endOffset": 1692
+                    "endOffset": 3099
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -559,11 +727,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 1697,
+                    "startOffset": 3104,
                     "endColumn": 42,
-                    "endOffset": 1735
+                    "endOffset": 3142
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -578,11 +746,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 1740,
+                    "startOffset": 3147,
                     "endColumn": 42,
-                    "endOffset": 1778
+                    "endOffset": 3185
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -597,11 +765,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 1783,
+                    "startOffset": 3190,
                     "endColumn": 47,
-                    "endOffset": 1826
+                    "endOffset": 3233
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -616,11 +784,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 1831,
+                    "startOffset": 3238,
                     "endColumn": 42,
-                    "endOffset": 1869
+                    "endOffset": 3276
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -635,11 +803,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 1874,
+                    "startOffset": 3281,
                     "endColumn": 43,
-                    "endOffset": 1913
+                    "endOffset": 3320
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -654,11 +822,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 1918,
+                    "startOffset": 3325,
                     "endColumn": 43,
-                    "endOffset": 1957
+                    "endOffset": 3364
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -673,11 +841,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 1962,
+                    "startOffset": 3369,
                     "endColumn": 45,
-                    "endOffset": 2003
+                    "endOffset": 3410
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -692,11 +860,11 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 2008,
+                    "startOffset": 3415,
                     "endColumn": 48,
-                    "endOffset": 2052
+                    "endOffset": 3459
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -711,11 +879,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 2057,
+                    "startOffset": 3464,
                     "endColumn": 44,
-                    "endOffset": 2097
+                    "endOffset": 3504
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -730,11 +898,11 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 2102,
+                    "startOffset": 3509,
                     "endColumn": 44,
-                    "endOffset": 2142
+                    "endOffset": 3549
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -749,11 +917,11 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 2147,
+                    "startOffset": 3554,
                     "endColumn": 41,
-                    "endOffset": 2184
+                    "endOffset": 3591
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -768,11 +936,11 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 2189,
+                    "startOffset": 3596,
                     "endColumn": 44,
-                    "endOffset": 2229
+                    "endOffset": 3636
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -787,11 +955,11 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 2234,
+                    "startOffset": 3641,
                     "endColumn": 46,
-                    "endOffset": 2276
+                    "endOffset": 3683
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -806,11 +974,11 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 2281,
+                    "startOffset": 3688,
                     "endColumn": 47,
-                    "endOffset": 2324
+                    "endOffset": 3731
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -825,11 +993,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 2329,
+                    "startOffset": 3736,
                     "endColumn": 47,
-                    "endOffset": 2372
+                    "endOffset": 3779
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -844,11 +1012,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 2377,
+                    "startOffset": 3784,
                     "endColumn": 47,
-                    "endOffset": 2420
+                    "endOffset": 3827
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -863,11 +1031,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 2425,
+                    "startOffset": 3832,
                     "endColumn": 44,
-                    "endOffset": 2465
+                    "endOffset": 3872
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -882,11 +1050,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 2470,
+                    "startOffset": 3877,
                     "endColumn": 42,
-                    "endOffset": 2508
+                    "endOffset": 3915
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -901,11 +1069,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 2513,
+                    "startOffset": 3920,
                     "endColumn": 45,
-                    "endOffset": 2554
+                    "endOffset": 3961
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -920,11 +1088,11 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 2559,
+                    "startOffset": 3966,
                     "endColumn": 41,
-                    "endOffset": 2596
+                    "endOffset": 4003
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -939,11 +1107,11 @@
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 2601,
+                    "startOffset": 4008,
                     "endColumn": 44,
-                    "endOffset": 2641
+                    "endOffset": 4048
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -958,11 +1126,11 @@
             },
             {
                 "to": {
-                    "startLine": 66,
+                    "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 2646,
+                    "startOffset": 4053,
                     "endColumn": 43,
-                    "endOffset": 2685
+                    "endOffset": 4092
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -977,11 +1145,11 @@
             },
             {
                 "to": {
-                    "startLine": 67,
+                    "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 2690,
+                    "startOffset": 4097,
                     "endColumn": 45,
-                    "endOffset": 2731
+                    "endOffset": 4138
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -996,11 +1164,11 @@
             },
             {
                 "to": {
-                    "startLine": 68,
+                    "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 2736,
+                    "startOffset": 4143,
                     "endColumn": 45,
-                    "endOffset": 2777
+                    "endOffset": 4184
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1015,11 +1183,11 @@
             },
             {
                 "to": {
-                    "startLine": 69,
+                    "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 2782,
+                    "startOffset": 4189,
                     "endColumn": 41,
-                    "endOffset": 2819
+                    "endOffset": 4226
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1034,11 +1202,11 @@
             },
             {
                 "to": {
-                    "startLine": 70,
+                    "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 2824,
+                    "startOffset": 4231,
                     "endColumn": 43,
-                    "endOffset": 2863
+                    "endOffset": 4270
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1053,11 +1221,11 @@
             },
             {
                 "to": {
-                    "startLine": 71,
+                    "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 2868,
+                    "startOffset": 4275,
                     "endColumn": 44,
-                    "endOffset": 2908
+                    "endOffset": 4315
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1072,11 +1240,11 @@
             },
             {
                 "to": {
-                    "startLine": 72,
+                    "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 2913,
+                    "startOffset": 4320,
                     "endColumn": 38,
-                    "endOffset": 2947
+                    "endOffset": 4354
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1091,11 +1259,11 @@
             },
             {
                 "to": {
-                    "startLine": 73,
+                    "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 2952,
+                    "startOffset": 4359,
                     "endColumn": 43,
-                    "endOffset": 2991
+                    "endOffset": 4398
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1110,11 +1278,11 @@
             },
             {
                 "to": {
-                    "startLine": 74,
+                    "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 2996,
+                    "startOffset": 4403,
                     "endColumn": 38,
-                    "endOffset": 3030
+                    "endOffset": 4437
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1129,11 +1297,11 @@
             },
             {
                 "to": {
-                    "startLine": 75,
+                    "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 3035,
+                    "startOffset": 4442,
                     "endColumn": 39,
-                    "endOffset": 3070
+                    "endOffset": 4477
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1148,11 +1316,11 @@
             },
             {
                 "to": {
-                    "startLine": 76,
+                    "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 3075,
+                    "startOffset": 4482,
                     "endColumn": 45,
-                    "endOffset": 3116
+                    "endOffset": 4523
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1167,11 +1335,11 @@
             },
             {
                 "to": {
-                    "startLine": 77,
+                    "startLine": 123,
                     "startColumn": 4,
-                    "startOffset": 3121,
+                    "startOffset": 4528,
                     "endColumn": 42,
-                    "endOffset": 3159
+                    "endOffset": 4566
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1186,11 +1354,11 @@
             },
             {
                 "to": {
-                    "startLine": 78,
+                    "startLine": 124,
                     "startColumn": 4,
-                    "startOffset": 3164,
+                    "startOffset": 4571,
                     "endColumn": 41,
-                    "endOffset": 3201
+                    "endOffset": 4608
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1205,11 +1373,11 @@
             },
             {
                 "to": {
-                    "startLine": 79,
+                    "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 3206,
+                    "startOffset": 4613,
                     "endColumn": 43,
-                    "endOffset": 3245
+                    "endOffset": 4652
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1224,11 +1392,11 @@
             },
             {
                 "to": {
-                    "startLine": 80,
+                    "startLine": 126,
                     "startColumn": 4,
-                    "startOffset": 3250,
+                    "startOffset": 4657,
                     "endColumn": 40,
-                    "endOffset": 3286
+                    "endOffset": 4693
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1243,11 +1411,11 @@
             },
             {
                 "to": {
-                    "startLine": 81,
+                    "startLine": 127,
                     "startColumn": 4,
-                    "startOffset": 3291,
+                    "startOffset": 4698,
                     "endColumn": 39,
-                    "endOffset": 3326
+                    "endOffset": 4733
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1262,11 +1430,11 @@
             },
             {
                 "to": {
-                    "startLine": 82,
+                    "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 3331,
+                    "startOffset": 4738,
                     "endColumn": 39,
-                    "endOffset": 3366
+                    "endOffset": 4773
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1281,11 +1449,11 @@
             },
             {
                 "to": {
-                    "startLine": 83,
+                    "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 3371,
+                    "startOffset": 4778,
                     "endColumn": 42,
-                    "endOffset": 3409
+                    "endOffset": 4816
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1300,11 +1468,11 @@
             },
             {
                 "to": {
-                    "startLine": 84,
+                    "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 3414,
+                    "startOffset": 4821,
                     "endColumn": 47,
-                    "endOffset": 3457
+                    "endOffset": 4864
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1319,11 +1487,11 @@
             },
             {
                 "to": {
-                    "startLine": 85,
+                    "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 3462,
+                    "startOffset": 4869,
                     "endColumn": 43,
-                    "endOffset": 3501
+                    "endOffset": 4908
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1338,11 +1506,11 @@
             },
             {
                 "to": {
-                    "startLine": 86,
+                    "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 3506,
+                    "startOffset": 4913,
                     "endColumn": 46,
-                    "endOffset": 3548
+                    "endOffset": 4955
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1357,11 +1525,11 @@
             },
             {
                 "to": {
-                    "startLine": 87,
+                    "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 3553,
+                    "startOffset": 4960,
                     "endColumn": 43,
-                    "endOffset": 3592
+                    "endOffset": 4999
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1376,11 +1544,11 @@
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 3597,
+                    "startOffset": 5004,
                     "endColumn": 44,
-                    "endOffset": 3637
+                    "endOffset": 5044
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1395,11 +1563,11 @@
             },
             {
                 "to": {
-                    "startLine": 89,
+                    "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 3642,
+                    "startOffset": 5049,
                     "endColumn": 43,
-                    "endOffset": 3681
+                    "endOffset": 5088
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1414,11 +1582,11 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 3686,
+                    "startOffset": 5093,
                     "endColumn": 54,
-                    "endOffset": 3736
+                    "endOffset": 5143
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1433,11 +1601,11 @@
             },
             {
                 "to": {
-                    "startLine": 91,
+                    "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 3741,
+                    "startOffset": 5148,
                     "endColumn": 44,
-                    "endOffset": 3781
+                    "endOffset": 5188
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1452,11 +1620,11 @@
             },
             {
                 "to": {
-                    "startLine": 92,
+                    "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 3786,
+                    "startOffset": 5193,
                     "endColumn": 43,
-                    "endOffset": 3825
+                    "endOffset": 5232
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1471,11 +1639,11 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 3830,
+                    "startOffset": 5237,
                     "endColumn": 43,
-                    "endOffset": 3869
+                    "endOffset": 5276
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1490,11 +1658,11 @@
             },
             {
                 "to": {
-                    "startLine": 94,
+                    "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 3874,
+                    "startOffset": 5281,
                     "endColumn": 45,
-                    "endOffset": 3915
+                    "endOffset": 5322
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1509,11 +1677,11 @@
             },
             {
                 "to": {
-                    "startLine": 95,
+                    "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 3920,
+                    "startOffset": 5327,
                     "endColumn": 47,
-                    "endOffset": 3963
+                    "endOffset": 5370
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1528,11 +1696,11 @@
             },
             {
                 "to": {
-                    "startLine": 96,
+                    "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 3968,
+                    "startOffset": 5375,
                     "endColumn": 46,
-                    "endOffset": 4010
+                    "endOffset": 5417
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1547,11 +1715,11 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 4015,
+                    "startOffset": 5422,
                     "endColumn": 48,
-                    "endOffset": 4059
+                    "endOffset": 5466
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1566,11 +1734,11 @@
             },
             {
                 "to": {
-                    "startLine": 98,
+                    "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 4064,
+                    "startOffset": 5471,
                     "endColumn": 48,
-                    "endOffset": 4108
+                    "endOffset": 5515
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1585,11 +1753,11 @@
             },
             {
                 "to": {
-                    "startLine": 99,
+                    "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 4113,
+                    "startOffset": 5520,
                     "endColumn": 45,
-                    "endOffset": 4154
+                    "endOffset": 5561
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1604,11 +1772,11 @@
             },
             {
                 "to": {
-                    "startLine": 100,
+                    "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 4159,
+                    "startOffset": 5566,
                     "endColumn": 38,
-                    "endOffset": 4193
+                    "endOffset": 5600
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1623,11 +1791,11 @@
             },
             {
                 "to": {
-                    "startLine": 101,
+                    "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 4198,
+                    "startOffset": 5605,
                     "endColumn": 43,
-                    "endOffset": 4237
+                    "endOffset": 5644
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1642,11 +1810,11 @@
             },
             {
                 "to": {
-                    "startLine": 102,
+                    "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 4242,
+                    "startOffset": 5649,
                     "endColumn": 39,
-                    "endOffset": 4277
+                    "endOffset": 5684
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1661,11 +1829,11 @@
             },
             {
                 "to": {
-                    "startLine": 103,
+                    "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 4282,
+                    "startOffset": 5689,
                     "endColumn": 41,
-                    "endOffset": 4319
+                    "endOffset": 5726
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1680,11 +1848,11 @@
             },
             {
                 "to": {
-                    "startLine": 104,
+                    "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 4324,
+                    "startOffset": 5731,
                     "endColumn": 40,
-                    "endOffset": 4360
+                    "endOffset": 5767
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1699,11 +1867,11 @@
             },
             {
                 "to": {
-                    "startLine": 105,
+                    "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 4365,
+                    "startOffset": 5772,
                     "endColumn": 50,
-                    "endOffset": 4411
+                    "endOffset": 5818
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1718,11 +1886,11 @@
             },
             {
                 "to": {
-                    "startLine": 106,
+                    "startLine": 152,
                     "startColumn": 4,
-                    "startOffset": 4416,
+                    "startOffset": 5823,
                     "endColumn": 44,
-                    "endOffset": 4456
+                    "endOffset": 5863
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1737,11 +1905,11 @@
             },
             {
                 "to": {
-                    "startLine": 107,
+                    "startLine": 153,
                     "startColumn": 4,
-                    "startOffset": 4461,
+                    "startOffset": 5868,
                     "endColumn": 46,
-                    "endOffset": 4503
+                    "endOffset": 5910
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1756,11 +1924,11 @@
             },
             {
                 "to": {
-                    "startLine": 108,
+                    "startLine": 154,
                     "startColumn": 4,
-                    "startOffset": 4508,
+                    "startOffset": 5915,
                     "endColumn": 46,
-                    "endOffset": 4550
+                    "endOffset": 5957
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1775,11 +1943,11 @@
             },
             {
                 "to": {
-                    "startLine": 109,
+                    "startLine": 155,
                     "startColumn": 4,
-                    "startOffset": 4555,
+                    "startOffset": 5962,
                     "endColumn": 48,
-                    "endOffset": 4599
+                    "endOffset": 6006
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1794,11 +1962,11 @@
             },
             {
                 "to": {
-                    "startLine": 110,
+                    "startLine": 156,
                     "startColumn": 4,
-                    "startOffset": 4604,
+                    "startOffset": 6011,
                     "endColumn": 49,
-                    "endOffset": 4649
+                    "endOffset": 6056
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1813,11 +1981,11 @@
             },
             {
                 "to": {
-                    "startLine": 111,
+                    "startLine": 157,
                     "startColumn": 4,
-                    "startOffset": 4654,
+                    "startOffset": 6061,
                     "endColumn": 51,
-                    "endOffset": 4701
+                    "endOffset": 6108
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1832,11 +2000,11 @@
             },
             {
                 "to": {
-                    "startLine": 112,
+                    "startLine": 158,
                     "startColumn": 4,
-                    "startOffset": 4706,
+                    "startOffset": 6113,
                     "endColumn": 49,
-                    "endOffset": 4751
+                    "endOffset": 6158
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1851,11 +2019,11 @@
             },
             {
                 "to": {
-                    "startLine": 113,
+                    "startLine": 159,
                     "startColumn": 4,
-                    "startOffset": 4756,
+                    "startOffset": 6163,
                     "endColumn": 49,
-                    "endOffset": 4801
+                    "endOffset": 6208
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1870,11 +2038,11 @@
             },
             {
                 "to": {
-                    "startLine": 114,
+                    "startLine": 160,
                     "startColumn": 4,
-                    "startOffset": 4806,
+                    "startOffset": 6213,
                     "endColumn": 46,
-                    "endOffset": 4848
+                    "endOffset": 6255
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1889,11 +2057,11 @@
             },
             {
                 "to": {
-                    "startLine": 115,
+                    "startLine": 161,
                     "startColumn": 4,
-                    "startOffset": 4853,
+                    "startOffset": 6260,
                     "endColumn": 43,
-                    "endOffset": 4892
+                    "endOffset": 6299
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1908,11 +2076,11 @@
             },
             {
                 "to": {
-                    "startLine": 116,
+                    "startLine": 162,
                     "startColumn": 4,
-                    "startOffset": 4897,
+                    "startOffset": 6304,
                     "endColumn": 43,
-                    "endOffset": 4936
+                    "endOffset": 6343
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1927,11 +2095,11 @@
             },
             {
                 "to": {
-                    "startLine": 117,
+                    "startLine": 163,
                     "startColumn": 4,
-                    "startOffset": 4941,
+                    "startOffset": 6348,
                     "endColumn": 42,
-                    "endOffset": 4979
+                    "endOffset": 6386
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1946,11 +2114,11 @@
             },
             {
                 "to": {
-                    "startLine": 118,
+                    "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 4984,
+                    "startOffset": 6391,
                     "endColumn": 45,
-                    "endOffset": 5025
+                    "endOffset": 6432
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1965,11 +2133,11 @@
             },
             {
                 "to": {
-                    "startLine": 119,
+                    "startLine": 165,
                     "startColumn": 4,
-                    "startOffset": 5030,
+                    "startOffset": 6437,
                     "endColumn": 38,
-                    "endOffset": 5064
+                    "endOffset": 6471
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -1984,11 +2152,11 @@
             },
             {
                 "to": {
-                    "startLine": 120,
+                    "startLine": 166,
                     "startColumn": 4,
-                    "startOffset": 5069,
+                    "startOffset": 6476,
                     "endColumn": 41,
-                    "endOffset": 5106
+                    "endOffset": 6513
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2003,11 +2171,11 @@
             },
             {
                 "to": {
-                    "startLine": 121,
+                    "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 5111,
+                    "startOffset": 6518,
                     "endColumn": 39,
-                    "endOffset": 5146
+                    "endOffset": 6553
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2022,11 +2190,11 @@
             },
             {
                 "to": {
-                    "startLine": 122,
+                    "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 5151,
+                    "startOffset": 6558,
                     "endColumn": 43,
-                    "endOffset": 5190
+                    "endOffset": 6597
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2041,11 +2209,11 @@
             },
             {
                 "to": {
-                    "startLine": 123,
+                    "startLine": 169,
                     "startColumn": 4,
-                    "startOffset": 5195,
+                    "startOffset": 6602,
                     "endColumn": 40,
-                    "endOffset": 5231
+                    "endOffset": 6638
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2060,11 +2228,11 @@
             },
             {
                 "to": {
-                    "startLine": 124,
+                    "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 5236,
+                    "startOffset": 6643,
                     "endColumn": 43,
-                    "endOffset": 5275
+                    "endOffset": 6682
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2079,11 +2247,11 @@
             },
             {
                 "to": {
-                    "startLine": 125,
+                    "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 5280,
+                    "startOffset": 6687,
                     "endColumn": 40,
-                    "endOffset": 5316
+                    "endOffset": 6723
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2098,11 +2266,11 @@
             },
             {
                 "to": {
-                    "startLine": 126,
+                    "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 5321,
+                    "startOffset": 6728,
                     "endColumn": 47,
-                    "endOffset": 5364
+                    "endOffset": 6771
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2117,11 +2285,11 @@
             },
             {
                 "to": {
-                    "startLine": 127,
+                    "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 5369,
+                    "startOffset": 6776,
                     "endColumn": 43,
-                    "endOffset": 5408
+                    "endOffset": 6815
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2136,11 +2304,11 @@
             },
             {
                 "to": {
-                    "startLine": 128,
+                    "startLine": 174,
                     "startColumn": 4,
-                    "startOffset": 5413,
+                    "startOffset": 6820,
                     "endColumn": 47,
-                    "endOffset": 5456
+                    "endOffset": 6863
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2155,11 +2323,11 @@
             },
             {
                 "to": {
-                    "startLine": 129,
+                    "startLine": 175,
                     "startColumn": 4,
-                    "startOffset": 5461,
+                    "startOffset": 6868,
                     "endColumn": 47,
-                    "endOffset": 5504
+                    "endOffset": 6911
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2174,11 +2342,11 @@
             },
             {
                 "to": {
-                    "startLine": 130,
+                    "startLine": 176,
                     "startColumn": 4,
-                    "startOffset": 5509,
+                    "startOffset": 6916,
                     "endColumn": 44,
-                    "endOffset": 5549
+                    "endOffset": 6956
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2193,11 +2361,11 @@
             },
             {
                 "to": {
-                    "startLine": 131,
+                    "startLine": 177,
                     "startColumn": 4,
-                    "startOffset": 5554,
+                    "startOffset": 6961,
                     "endColumn": 43,
-                    "endOffset": 5593
+                    "endOffset": 7000
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2212,11 +2380,11 @@
             },
             {
                 "to": {
-                    "startLine": 132,
+                    "startLine": 178,
                     "startColumn": 4,
-                    "startOffset": 5598,
+                    "startOffset": 7005,
                     "endColumn": 38,
-                    "endOffset": 5632
+                    "endOffset": 7039
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2231,11 +2399,11 @@
             },
             {
                 "to": {
-                    "startLine": 133,
+                    "startLine": 179,
                     "startColumn": 4,
-                    "startOffset": 5637,
+                    "startOffset": 7044,
                     "endColumn": 38,
-                    "endOffset": 5671
+                    "endOffset": 7078
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2250,11 +2418,11 @@
             },
             {
                 "to": {
-                    "startLine": 134,
+                    "startLine": 180,
                     "startColumn": 4,
-                    "startOffset": 5676,
+                    "startOffset": 7083,
                     "endColumn": 38,
-                    "endOffset": 5710
+                    "endOffset": 7117
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2269,11 +2437,11 @@
             },
             {
                 "to": {
-                    "startLine": 135,
+                    "startLine": 181,
                     "startColumn": 4,
-                    "startOffset": 5715,
+                    "startOffset": 7122,
                     "endColumn": 44,
-                    "endOffset": 5755
+                    "endOffset": 7162
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2288,11 +2456,11 @@
             },
             {
                 "to": {
-                    "startLine": 136,
+                    "startLine": 182,
                     "startColumn": 4,
-                    "startOffset": 5760,
+                    "startOffset": 7167,
                     "endColumn": 40,
-                    "endOffset": 5796
+                    "endOffset": 7203
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2307,11 +2475,11 @@
             },
             {
                 "to": {
-                    "startLine": 137,
+                    "startLine": 183,
                     "startColumn": 4,
-                    "startOffset": 5801,
+                    "startOffset": 7208,
                     "endColumn": 37,
-                    "endOffset": 5834
+                    "endOffset": 7241
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2326,11 +2494,11 @@
             },
             {
                 "to": {
-                    "startLine": 138,
+                    "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 5839,
+                    "startOffset": 7246,
                     "endColumn": 43,
-                    "endOffset": 5878
+                    "endOffset": 7285
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2345,11 +2513,11 @@
             },
             {
                 "to": {
-                    "startLine": 139,
+                    "startLine": 185,
                     "startColumn": 4,
-                    "startOffset": 5883,
+                    "startOffset": 7290,
                     "endColumn": 43,
-                    "endOffset": 5922
+                    "endOffset": 7329
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2364,11 +2532,11 @@
             },
             {
                 "to": {
-                    "startLine": 140,
+                    "startLine": 186,
                     "startColumn": 4,
-                    "startOffset": 5927,
+                    "startOffset": 7334,
                     "endColumn": 45,
-                    "endOffset": 5968
+                    "endOffset": 7375
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2383,11 +2551,11 @@
             },
             {
                 "to": {
-                    "startLine": 141,
+                    "startLine": 187,
                     "startColumn": 4,
-                    "startOffset": 5973,
+                    "startOffset": 7380,
                     "endColumn": 40,
-                    "endOffset": 6009
+                    "endOffset": 7416
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2402,11 +2570,11 @@
             },
             {
                 "to": {
-                    "startLine": 142,
+                    "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 6014,
+                    "startOffset": 7421,
                     "endColumn": 44,
-                    "endOffset": 6054
+                    "endOffset": 7461
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2421,11 +2589,11 @@
             },
             {
                 "to": {
-                    "startLine": 143,
+                    "startLine": 189,
                     "startColumn": 4,
-                    "startOffset": 6059,
+                    "startOffset": 7466,
                     "endColumn": 42,
-                    "endOffset": 6097
+                    "endOffset": 7504
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2440,11 +2608,11 @@
             },
             {
                 "to": {
-                    "startLine": 144,
+                    "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 6102,
+                    "startOffset": 7509,
                     "endColumn": 42,
-                    "endOffset": 6140
+                    "endOffset": 7547
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2459,11 +2627,11 @@
             },
             {
                 "to": {
-                    "startLine": 145,
+                    "startLine": 191,
                     "startColumn": 4,
-                    "startOffset": 6145,
+                    "startOffset": 7552,
                     "endColumn": 40,
-                    "endOffset": 6181
+                    "endOffset": 7588
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2478,11 +2646,11 @@
             },
             {
                 "to": {
-                    "startLine": 146,
+                    "startLine": 192,
                     "startColumn": 4,
-                    "startOffset": 6186,
+                    "startOffset": 7593,
                     "endColumn": 40,
-                    "endOffset": 6222
+                    "endOffset": 7629
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2497,11 +2665,11 @@
             },
             {
                 "to": {
-                    "startLine": 147,
+                    "startLine": 193,
                     "startColumn": 4,
-                    "startOffset": 6227,
+                    "startOffset": 7634,
                     "endColumn": 41,
-                    "endOffset": 6264
+                    "endOffset": 7671
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2516,11 +2684,11 @@
             },
             {
                 "to": {
-                    "startLine": 148,
+                    "startLine": 194,
                     "startColumn": 4,
-                    "startOffset": 6269,
+                    "startOffset": 7676,
                     "endColumn": 43,
-                    "endOffset": 6308
+                    "endOffset": 7715
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2535,11 +2703,11 @@
             },
             {
                 "to": {
-                    "startLine": 149,
+                    "startLine": 195,
                     "startColumn": 4,
-                    "startOffset": 6313,
+                    "startOffset": 7720,
                     "endColumn": 43,
-                    "endOffset": 6352
+                    "endOffset": 7759
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2554,11 +2722,11 @@
             },
             {
                 "to": {
-                    "startLine": 150,
+                    "startLine": 196,
                     "startColumn": 4,
-                    "startOffset": 6357,
+                    "startOffset": 7764,
                     "endColumn": 38,
-                    "endOffset": 6391
+                    "endOffset": 7798
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2573,11 +2741,11 @@
             },
             {
                 "to": {
-                    "startLine": 151,
+                    "startLine": 197,
                     "startColumn": 4,
-                    "startOffset": 6396,
+                    "startOffset": 7803,
                     "endColumn": 45,
-                    "endOffset": 6437
+                    "endOffset": 7844
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2592,11 +2760,11 @@
             },
             {
                 "to": {
-                    "startLine": 152,
+                    "startLine": 198,
                     "startColumn": 4,
-                    "startOffset": 6442,
+                    "startOffset": 7849,
                     "endColumn": 43,
-                    "endOffset": 6481
+                    "endOffset": 7888
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2611,11 +2779,11 @@
             },
             {
                 "to": {
-                    "startLine": 153,
+                    "startLine": 199,
                     "startColumn": 4,
-                    "startOffset": 6486,
+                    "startOffset": 7893,
                     "endColumn": 37,
-                    "endOffset": 6519
+                    "endOffset": 7926
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2630,11 +2798,11 @@
             },
             {
                 "to": {
-                    "startLine": 154,
+                    "startLine": 200,
                     "startColumn": 4,
-                    "startOffset": 6524,
+                    "startOffset": 7931,
                     "endColumn": 38,
-                    "endOffset": 6558
+                    "endOffset": 7965
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2649,11 +2817,11 @@
             },
             {
                 "to": {
-                    "startLine": 155,
+                    "startLine": 201,
                     "startColumn": 4,
-                    "startOffset": 6563,
+                    "startOffset": 7970,
                     "endColumn": 41,
-                    "endOffset": 6600
+                    "endOffset": 8007
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2668,11 +2836,11 @@
             },
             {
                 "to": {
-                    "startLine": 156,
+                    "startLine": 202,
                     "startColumn": 4,
-                    "startOffset": 6605,
+                    "startOffset": 8012,
                     "endColumn": 40,
-                    "endOffset": 6641
+                    "endOffset": 8048
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2687,11 +2855,11 @@
             },
             {
                 "to": {
-                    "startLine": 157,
+                    "startLine": 203,
                     "startColumn": 4,
-                    "startOffset": 6646,
+                    "startOffset": 8053,
                     "endColumn": 43,
-                    "endOffset": 6685
+                    "endOffset": 8092
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2706,11 +2874,11 @@
             },
             {
                 "to": {
-                    "startLine": 158,
+                    "startLine": 204,
                     "startColumn": 4,
-                    "startOffset": 6690,
+                    "startOffset": 8097,
                     "endColumn": 40,
-                    "endOffset": 6726
+                    "endOffset": 8133
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2725,11 +2893,11 @@
             },
             {
                 "to": {
-                    "startLine": 159,
+                    "startLine": 205,
                     "startColumn": 4,
-                    "startOffset": 6731,
+                    "startOffset": 8138,
                     "endColumn": 39,
-                    "endOffset": 6766
+                    "endOffset": 8173
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2744,11 +2912,11 @@
             },
             {
                 "to": {
-                    "startLine": 160,
+                    "startLine": 206,
                     "startColumn": 4,
-                    "startOffset": 6771,
+                    "startOffset": 8178,
                     "endColumn": 39,
-                    "endOffset": 6806
+                    "endOffset": 8213
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2763,11 +2931,11 @@
             },
             {
                 "to": {
-                    "startLine": 161,
+                    "startLine": 207,
                     "startColumn": 4,
-                    "startOffset": 6811,
+                    "startOffset": 8218,
                     "endColumn": 44,
-                    "endOffset": 6851
+                    "endOffset": 8258
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2782,11 +2950,11 @@
             },
             {
                 "to": {
-                    "startLine": 162,
+                    "startLine": 208,
                     "startColumn": 4,
-                    "startOffset": 6856,
+                    "startOffset": 8263,
                     "endColumn": 40,
-                    "endOffset": 6892
+                    "endOffset": 8299
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2801,11 +2969,11 @@
             },
             {
                 "to": {
-                    "startLine": 163,
+                    "startLine": 209,
                     "startColumn": 4,
-                    "startOffset": 6897,
+                    "startOffset": 8304,
                     "endColumn": 45,
-                    "endOffset": 6938
+                    "endOffset": 8345
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\colors.xml",
@@ -2820,11 +2988,11 @@
             },
             {
                 "to": {
-                    "startLine": 164,
+                    "startLine": 210,
                     "startColumn": 4,
-                    "startOffset": 6943,
+                    "startOffset": 8350,
                     "endColumn": 57,
-                    "endOffset": 6996
+                    "endOffset": 8403
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2839,11 +3007,11 @@
             },
             {
                 "to": {
-                    "startLine": 165,
+                    "startLine": 211,
                     "startColumn": 4,
-                    "startOffset": 7001,
+                    "startOffset": 8408,
                     "endColumn": 55,
-                    "endOffset": 7052
+                    "endOffset": 8459
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2858,11 +3026,11 @@
             },
             {
                 "to": {
-                    "startLine": 166,
+                    "startLine": 212,
                     "startColumn": 4,
-                    "startOffset": 7057,
+                    "startOffset": 8464,
                     "endColumn": 51,
-                    "endOffset": 7104
+                    "endOffset": 8511
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2877,11 +3045,11 @@
             },
             {
                 "to": {
-                    "startLine": 167,
+                    "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 7109,
+                    "startOffset": 8516,
                     "endColumn": 50,
-                    "endOffset": 7155
+                    "endOffset": 8562
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2896,11 +3064,11 @@
             },
             {
                 "to": {
-                    "startLine": 168,
+                    "startLine": 214,
                     "startColumn": 4,
-                    "startOffset": 7160,
+                    "startOffset": 8567,
                     "endColumn": 49,
-                    "endOffset": 7205
+                    "endOffset": 8612
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2915,11 +3083,11 @@
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 7210,
+                    "startOffset": 8617,
                     "endColumn": 41,
-                    "endOffset": 7247
+                    "endOffset": 8654
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2934,11 +3102,11 @@
             },
             {
                 "to": {
-                    "startLine": 170,
+                    "startLine": 216,
                     "startColumn": 4,
-                    "startOffset": 7252,
+                    "startOffset": 8659,
                     "endColumn": 42,
-                    "endOffset": 7290
+                    "endOffset": 8697
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2953,11 +3121,11 @@
             },
             {
                 "to": {
-                    "startLine": 171,
+                    "startLine": 217,
                     "startColumn": 4,
-                    "startOffset": 7295,
+                    "startOffset": 8702,
                     "endColumn": 42,
-                    "endOffset": 7333
+                    "endOffset": 8740
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2972,11 +3140,11 @@
             },
             {
                 "to": {
-                    "startLine": 172,
+                    "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 7338,
+                    "startOffset": 8745,
                     "endColumn": 41,
-                    "endOffset": 7375
+                    "endOffset": 8782
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\dimens.xml",
@@ -2991,11 +3159,11 @@
             },
             {
                 "to": {
-                    "startLine": 173,
+                    "startLine": 219,
                     "startColumn": 4,
-                    "startOffset": 7380,
+                    "startOffset": 8787,
                     "endColumn": 52,
-                    "endOffset": 7428
+                    "endOffset": 8835
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3010,11 +3178,11 @@
             },
             {
                 "to": {
-                    "startLine": 174,
+                    "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 7433,
+                    "startOffset": 8840,
                     "endColumn": 41,
-                    "endOffset": 7470
+                    "endOffset": 8877
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3029,11 +3197,11 @@
             },
             {
                 "to": {
-                    "startLine": 175,
+                    "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 7475,
+                    "startOffset": 8882,
                     "endColumn": 40,
-                    "endOffset": 7511
+                    "endOffset": 8918
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3048,11 +3216,11 @@
             },
             {
                 "to": {
-                    "startLine": 176,
+                    "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 7516,
+                    "startOffset": 8923,
                     "endColumn": 293,
-                    "endOffset": 7805
+                    "endOffset": 9212
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3067,11 +3235,11 @@
             },
             {
                 "to": {
-                    "startLine": 177,
+                    "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 7810,
+                    "startOffset": 9217,
                     "endColumn": 275,
-                    "endOffset": 8081
+                    "endOffset": 9488
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3086,11 +3254,11 @@
             },
             {
                 "to": {
-                    "startLine": 178,
+                    "startLine": 224,
                     "startColumn": 4,
-                    "startOffset": 8086,
+                    "startOffset": 9493,
                     "endColumn": 64,
-                    "endOffset": 8146
+                    "endOffset": 9553
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3105,11 +3273,11 @@
             },
             {
                 "to": {
-                    "startLine": 179,
+                    "startLine": 225,
                     "startColumn": 4,
-                    "startOffset": 8151,
+                    "startOffset": 9558,
                     "endColumn": 62,
-                    "endOffset": 8209
+                    "endOffset": 9616
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3124,11 +3292,11 @@
             },
             {
                 "to": {
-                    "startLine": 180,
+                    "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 8214,
+                    "startOffset": 9621,
                     "endColumn": 52,
-                    "endOffset": 8262
+                    "endOffset": 9669
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3143,11 +3311,11 @@
             },
             {
                 "to": {
-                    "startLine": 181,
+                    "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 8267,
+                    "startOffset": 9674,
                     "endColumn": 134,
-                    "endOffset": 8397
+                    "endOffset": 9804
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3162,11 +3330,11 @@
             },
             {
                 "to": {
-                    "startLine": 182,
+                    "startLine": 228,
                     "startColumn": 4,
-                    "startOffset": 8402,
+                    "startOffset": 9809,
                     "endColumn": 123,
-                    "endOffset": 8521
+                    "endOffset": 9928
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3181,11 +3349,11 @@
             },
             {
                 "to": {
-                    "startLine": 183,
+                    "startLine": 229,
                     "startColumn": 4,
-                    "startOffset": 8526,
+                    "startOffset": 9933,
                     "endColumn": 114,
-                    "endOffset": 8636
+                    "endOffset": 10043
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3200,11 +3368,11 @@
             },
             {
                 "to": {
-                    "startLine": 184,
+                    "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 8641,
+                    "startOffset": 10048,
                     "endColumn": 73,
-                    "endOffset": 8710
+                    "endOffset": 10117
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3219,11 +3387,11 @@
             },
             {
                 "to": {
-                    "startLine": 185,
+                    "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 8715,
+                    "startOffset": 10122,
                     "endColumn": 86,
-                    "endOffset": 8797
+                    "endOffset": 10204
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3238,11 +3406,11 @@
             },
             {
                 "to": {
-                    "startLine": 186,
+                    "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 8802,
+                    "startOffset": 10209,
                     "endColumn": 146,
-                    "endOffset": 8944
+                    "endOffset": 10351
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3257,11 +3425,11 @@
             },
             {
                 "to": {
-                    "startLine": 187,
+                    "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 8949,
+                    "startOffset": 10356,
                     "endColumn": 138,
-                    "endOffset": 9083
+                    "endOffset": 10490
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3276,11 +3444,11 @@
             },
             {
                 "to": {
-                    "startLine": 188,
+                    "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 9088,
+                    "startOffset": 10495,
                     "endColumn": 96,
-                    "endOffset": 9180
+                    "endOffset": 10587
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3295,11 +3463,11 @@
             },
             {
                 "to": {
-                    "startLine": 189,
+                    "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 9185,
+                    "startOffset": 10592,
                     "endColumn": 103,
-                    "endOffset": 9284
+                    "endOffset": 10691
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3314,11 +3482,11 @@
             },
             {
                 "to": {
-                    "startLine": 190,
+                    "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 9289,
+                    "startOffset": 10696,
                     "endColumn": 110,
-                    "endOffset": 9395
+                    "endOffset": 10802
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3333,11 +3501,11 @@
             },
             {
                 "to": {
-                    "startLine": 191,
+                    "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 9400,
+                    "startOffset": 10807,
                     "endColumn": 110,
-                    "endOffset": 9506
+                    "endOffset": 10913
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3352,11 +3520,11 @@
             },
             {
                 "to": {
-                    "startLine": 192,
+                    "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 9511,
+                    "startOffset": 10918,
                     "endColumn": 115,
-                    "endOffset": 9622
+                    "endOffset": 11029
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3371,11 +3539,11 @@
             },
             {
                 "to": {
-                    "startLine": 193,
+                    "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 9627,
+                    "startOffset": 11034,
                     "endColumn": 126,
-                    "endOffset": 9749
+                    "endOffset": 11156
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3390,11 +3558,11 @@
             },
             {
                 "to": {
-                    "startLine": 194,
+                    "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 9754,
+                    "startOffset": 11161,
                     "endColumn": 86,
-                    "endOffset": 9836
+                    "endOffset": 11243
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3409,11 +3577,11 @@
             },
             {
                 "to": {
-                    "startLine": 195,
+                    "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 9841,
+                    "startOffset": 11248,
                     "endColumn": 95,
-                    "endOffset": 9932
+                    "endOffset": 11339
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3428,11 +3596,11 @@
             },
             {
                 "to": {
-                    "startLine": 196,
+                    "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 9937,
+                    "startOffset": 11344,
                     "endColumn": 94,
-                    "endOffset": 10027
+                    "endOffset": 11434
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3447,11 +3615,11 @@
             },
             {
                 "to": {
-                    "startLine": 197,
+                    "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 10032,
+                    "startOffset": 11439,
                     "endColumn": 125,
-                    "endOffset": 10153
+                    "endOffset": 11560
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3466,11 +3634,11 @@
             },
             {
                 "to": {
-                    "startLine": 198,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 10158,
+                    "startOffset": 11565,
                     "endColumn": 112,
-                    "endOffset": 10266
+                    "endOffset": 11673
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3485,11 +3653,11 @@
             },
             {
                 "to": {
-                    "startLine": 199,
+                    "startLine": 245,
                     "startColumn": 4,
-                    "startOffset": 10271,
+                    "startOffset": 11678,
                     "endColumn": 90,
-                    "endOffset": 10357
+                    "endOffset": 11764
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3504,11 +3672,11 @@
             },
             {
                 "to": {
-                    "startLine": 200,
+                    "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 10362,
+                    "startOffset": 11769,
                     "endColumn": 93,
-                    "endOffset": 10451
+                    "endOffset": 11858
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3523,11 +3691,11 @@
             },
             {
                 "to": {
-                    "startLine": 201,
+                    "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 10456,
+                    "startOffset": 11863,
                     "endColumn": 80,
-                    "endOffset": 10532
+                    "endOffset": 11939
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3542,11 +3710,11 @@
             },
             {
                 "to": {
-                    "startLine": 202,
+                    "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 10537,
+                    "startOffset": 11944,
                     "endColumn": 87,
-                    "endOffset": 10620
+                    "endOffset": 12027
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3561,11 +3729,11 @@
             },
             {
                 "to": {
-                    "startLine": 203,
+                    "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 10625,
+                    "startOffset": 12032,
                     "endColumn": 98,
-                    "endOffset": 10719
+                    "endOffset": 12126
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3580,11 +3748,11 @@
             },
             {
                 "to": {
-                    "startLine": 204,
+                    "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 10724,
+                    "startOffset": 12131,
                     "endColumn": 83,
-                    "endOffset": 10803
+                    "endOffset": 12210
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3599,11 +3767,11 @@
             },
             {
                 "to": {
-                    "startLine": 205,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 10808,
+                    "startOffset": 12215,
                     "endColumn": 125,
-                    "endOffset": 10929
+                    "endOffset": 12336
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3618,11 +3786,11 @@
             },
             {
                 "to": {
-                    "startLine": 206,
+                    "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 10934,
+                    "startOffset": 12341,
                     "endColumn": 112,
-                    "endOffset": 11042
+                    "endOffset": 12449
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3637,11 +3805,11 @@
             },
             {
                 "to": {
-                    "startLine": 207,
+                    "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 11047,
+                    "startOffset": 12454,
                     "endColumn": 90,
-                    "endOffset": 11133
+                    "endOffset": 12540
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3656,11 +3824,11 @@
             },
             {
                 "to": {
-                    "startLine": 208,
+                    "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 11138,
+                    "startOffset": 12545,
                     "endColumn": 93,
-                    "endOffset": 11227
+                    "endOffset": 12634
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3675,11 +3843,11 @@
             },
             {
                 "to": {
-                    "startLine": 209,
+                    "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 11232,
+                    "startOffset": 12639,
                     "endColumn": 80,
-                    "endOffset": 11308
+                    "endOffset": 12715
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3694,11 +3862,11 @@
             },
             {
                 "to": {
-                    "startLine": 210,
+                    "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 11313,
+                    "startOffset": 12720,
                     "endColumn": 87,
-                    "endOffset": 11396
+                    "endOffset": 12803
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3713,11 +3881,11 @@
             },
             {
                 "to": {
-                    "startLine": 211,
+                    "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 11401,
+                    "startOffset": 12808,
                     "endColumn": 98,
-                    "endOffset": 11495
+                    "endOffset": 12902
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3732,11 +3900,11 @@
             },
             {
                 "to": {
-                    "startLine": 212,
+                    "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 11500,
+                    "startOffset": 12907,
                     "endColumn": 83,
-                    "endOffset": 11579
+                    "endOffset": 12986
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3751,11 +3919,11 @@
             },
             {
                 "to": {
-                    "startLine": 213,
+                    "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 11584,
+                    "startOffset": 12991,
                     "endColumn": 86,
-                    "endOffset": 11666
+                    "endOffset": 13073
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3770,11 +3938,11 @@
             },
             {
                 "to": {
-                    "startLine": 214,
+                    "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 11671,
+                    "startOffset": 13078,
                     "endColumn": 104,
-                    "endOffset": 11771
+                    "endOffset": 13178
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3789,11 +3957,11 @@
             },
             {
                 "to": {
-                    "startLine": 215,
+                    "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 11776,
+                    "startOffset": 13183,
                     "endColumn": 125,
-                    "endOffset": 11897
+                    "endOffset": 13304
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3808,11 +3976,11 @@
             },
             {
                 "to": {
-                    "startLine": 216,
+                    "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 11902,
+                    "startOffset": 13309,
                     "endColumn": 94,
-                    "endOffset": 11992
+                    "endOffset": 13399
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3827,11 +3995,11 @@
             },
             {
                 "to": {
-                    "startLine": 217,
+                    "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 11997,
+                    "startOffset": 13404,
                     "endColumn": 93,
-                    "endOffset": 12086
+                    "endOffset": 13493
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3846,11 +4014,11 @@
             },
             {
                 "to": {
-                    "startLine": 218,
+                    "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 12091,
+                    "startOffset": 13498,
                     "endColumn": 98,
-                    "endOffset": 12185
+                    "endOffset": 13592
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3865,11 +4033,11 @@
             },
             {
                 "to": {
-                    "startLine": 219,
+                    "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 12190,
+                    "startOffset": 13597,
                     "endColumn": 87,
-                    "endOffset": 12273
+                    "endOffset": 13680
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3884,11 +4052,11 @@
             },
             {
                 "to": {
-                    "startLine": 220,
+                    "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 12278,
+                    "startOffset": 13685,
                     "endColumn": 111,
-                    "endOffset": 12385
+                    "endOffset": 13792
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3903,11 +4071,11 @@
             },
             {
                 "to": {
-                    "startLine": 221,
+                    "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 12390,
+                    "startOffset": 13797,
                     "endColumn": 85,
-                    "endOffset": 12471
+                    "endOffset": 13878
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3922,11 +4090,11 @@
             },
             {
                 "to": {
-                    "startLine": 222,
+                    "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 12476,
+                    "startOffset": 13883,
                     "endColumn": 92,
-                    "endOffset": 12564
+                    "endOffset": 13971
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3941,11 +4109,11 @@
             },
             {
                 "to": {
-                    "startLine": 223,
+                    "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 12569,
+                    "startOffset": 13976,
                     "endColumn": 100,
-                    "endOffset": 12665
+                    "endOffset": 14072
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3960,11 +4128,11 @@
             },
             {
                 "to": {
-                    "startLine": 224,
+                    "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 12670,
+                    "startOffset": 14077,
                     "endColumn": 90,
-                    "endOffset": 12756
+                    "endOffset": 14163
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3979,11 +4147,11 @@
             },
             {
                 "to": {
-                    "startLine": 225,
+                    "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 12761,
+                    "startOffset": 14168,
                     "endColumn": 44,
-                    "endOffset": 12801
+                    "endOffset": 14208
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -3998,11 +4166,11 @@
             },
             {
                 "to": {
-                    "startLine": 226,
+                    "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 12806,
+                    "startOffset": 14213,
                     "endColumn": 151,
-                    "endOffset": 12953
+                    "endOffset": 14360
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4017,11 +4185,11 @@
             },
             {
                 "to": {
-                    "startLine": 227,
+                    "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 12958,
+                    "startOffset": 14365,
                     "endColumn": 83,
-                    "endOffset": 13037
+                    "endOffset": 14444
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4036,11 +4204,11 @@
             },
             {
                 "to": {
-                    "startLine": 228,
+                    "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 13042,
+                    "startOffset": 14449,
                     "endColumn": 56,
-                    "endOffset": 13094
+                    "endOffset": 14501
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4055,11 +4223,11 @@
             },
             {
                 "to": {
-                    "startLine": 229,
+                    "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 13099,
+                    "startOffset": 14506,
                     "endColumn": 77,
-                    "endOffset": 13172
+                    "endOffset": 14579
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4074,11 +4242,11 @@
             },
             {
                 "to": {
-                    "startLine": 230,
+                    "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 13177,
+                    "startOffset": 14584,
                     "endColumn": 77,
-                    "endOffset": 13250
+                    "endOffset": 14657
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4093,11 +4261,11 @@
             },
             {
                 "to": {
-                    "startLine": 231,
+                    "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 13255,
+                    "startOffset": 14662,
                     "endColumn": 82,
-                    "endOffset": 13333
+                    "endOffset": 14740
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4112,11 +4280,11 @@
             },
             {
                 "to": {
-                    "startLine": 232,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 13338,
+                    "startOffset": 14745,
                     "endColumn": 80,
-                    "endOffset": 13414
+                    "endOffset": 14821
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4131,11 +4299,11 @@
             },
             {
                 "to": {
-                    "startLine": 233,
+                    "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 13419,
+                    "startOffset": 14826,
                     "endColumn": 79,
-                    "endOffset": 13494
+                    "endOffset": 14901
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4150,11 +4318,11 @@
             },
             {
                 "to": {
-                    "startLine": 234,
+                    "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 13499,
+                    "startOffset": 14906,
                     "endColumn": 81,
-                    "endOffset": 13576
+                    "endOffset": 14983
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4169,11 +4337,11 @@
             },
             {
                 "to": {
-                    "startLine": 235,
+                    "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 13581,
+                    "startOffset": 14988,
                     "endColumn": 95,
-                    "endOffset": 13672
+                    "endOffset": 15079
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4188,11 +4356,11 @@
             },
             {
                 "to": {
-                    "startLine": 236,
+                    "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 13677,
+                    "startOffset": 15084,
                     "endColumn": 81,
-                    "endOffset": 13754
+                    "endOffset": 15161
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4207,11 +4375,11 @@
             },
             {
                 "to": {
-                    "startLine": 237,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 13759,
+                    "startOffset": 15166,
                     "endColumn": 86,
-                    "endOffset": 13841
+                    "endOffset": 15248
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4226,11 +4394,11 @@
             },
             {
                 "to": {
-                    "startLine": 238,
+                    "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 13846,
+                    "startOffset": 15253,
                     "endColumn": 86,
-                    "endOffset": 13928
+                    "endOffset": 15335
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4245,11 +4413,11 @@
             },
             {
                 "to": {
-                    "startLine": 239,
+                    "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 13933,
+                    "startOffset": 15340,
                     "endColumn": 66,
-                    "endOffset": 13995
+                    "endOffset": 15402
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4264,11 +4432,11 @@
             },
             {
                 "to": {
-                    "startLine": 240,
+                    "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 14000,
+                    "startOffset": 15407,
                     "endColumn": 71,
-                    "endOffset": 14067
+                    "endOffset": 15474
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4283,11 +4451,11 @@
             },
             {
                 "to": {
-                    "startLine": 241,
+                    "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 14072,
+                    "startOffset": 15479,
                     "endColumn": 68,
-                    "endOffset": 14136
+                    "endOffset": 15543
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4302,11 +4470,11 @@
             },
             {
                 "to": {
-                    "startLine": 242,
+                    "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 14141,
+                    "startOffset": 15548,
                     "endColumn": 77,
-                    "endOffset": 14214
+                    "endOffset": 15621
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4321,11 +4489,11 @@
             },
             {
                 "to": {
-                    "startLine": 243,
+                    "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 14219,
+                    "startOffset": 15626,
                     "endColumn": 69,
-                    "endOffset": 14284
+                    "endOffset": 15691
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4340,11 +4508,11 @@
             },
             {
                 "to": {
-                    "startLine": 244,
+                    "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 14289,
+                    "startOffset": 15696,
                     "endColumn": 84,
-                    "endOffset": 14369
+                    "endOffset": 15776
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4359,11 +4527,11 @@
             },
             {
                 "to": {
-                    "startLine": 245,
+                    "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 14374,
+                    "startOffset": 15781,
                     "endColumn": 71,
-                    "endOffset": 14441
+                    "endOffset": 15848
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4378,11 +4546,11 @@
             },
             {
                 "to": {
-                    "startLine": 246,
+                    "startLine": 292,
                     "startColumn": 4,
-                    "startOffset": 14446,
+                    "startOffset": 15853,
                     "endColumn": 86,
-                    "endOffset": 14528
+                    "endOffset": 15935
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4397,11 +4565,11 @@
             },
             {
                 "to": {
-                    "startLine": 247,
+                    "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 14533,
+                    "startOffset": 15940,
                     "endColumn": 67,
-                    "endOffset": 14596
+                    "endOffset": 16003
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4416,11 +4584,11 @@
             },
             {
                 "to": {
-                    "startLine": 248,
+                    "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 14601,
+                    "startOffset": 16008,
                     "endColumn": 79,
-                    "endOffset": 14676
+                    "endOffset": 16083
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4435,11 +4603,11 @@
             },
             {
                 "to": {
-                    "startLine": 249,
+                    "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 14681,
+                    "startOffset": 16088,
                     "endColumn": 86,
-                    "endOffset": 14763
+                    "endOffset": 16170
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4454,11 +4622,11 @@
             },
             {
                 "to": {
-                    "startLine": 250,
+                    "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 14768,
+                    "startOffset": 16175,
                     "endColumn": 69,
-                    "endOffset": 14833
+                    "endOffset": 16240
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4473,11 +4641,11 @@
             },
             {
                 "to": {
-                    "startLine": 251,
+                    "startLine": 297,
                     "startColumn": 4,
-                    "startOffset": 14838,
+                    "startOffset": 16245,
                     "endColumn": 75,
-                    "endOffset": 14909
+                    "endOffset": 16316
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4492,11 +4660,11 @@
             },
             {
                 "to": {
-                    "startLine": 252,
+                    "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 14914,
+                    "startOffset": 16321,
                     "endColumn": 90,
-                    "endOffset": 15000
+                    "endOffset": 16407
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4511,11 +4679,11 @@
             },
             {
                 "to": {
-                    "startLine": 253,
+                    "startLine": 299,
                     "startColumn": 4,
-                    "startOffset": 15005,
+                    "startOffset": 16412,
                     "endColumn": 77,
-                    "endOffset": 15078
+                    "endOffset": 16485
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4530,11 +4698,11 @@
             },
             {
                 "to": {
-                    "startLine": 254,
+                    "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 15083,
+                    "startOffset": 16490,
                     "endColumn": 69,
-                    "endOffset": 15148
+                    "endOffset": 16555
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4549,11 +4717,11 @@
             },
             {
                 "to": {
-                    "startLine": 255,
+                    "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 15153,
+                    "startOffset": 16560,
                     "endColumn": 73,
-                    "endOffset": 15222
+                    "endOffset": 16629
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4568,11 +4736,11 @@
             },
             {
                 "to": {
-                    "startLine": 256,
+                    "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 15227,
+                    "startOffset": 16634,
                     "endColumn": 80,
-                    "endOffset": 15303
+                    "endOffset": 16710
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4587,11 +4755,11 @@
             },
             {
                 "to": {
-                    "startLine": 257,
+                    "startLine": 303,
                     "startColumn": 4,
-                    "startOffset": 15308,
+                    "startOffset": 16715,
                     "endColumn": 80,
-                    "endOffset": 15384
+                    "endOffset": 16791
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4606,11 +4774,11 @@
             },
             {
                 "to": {
-                    "startLine": 258,
+                    "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 15389,
+                    "startOffset": 16796,
                     "endColumn": 62,
-                    "endOffset": 15447
+                    "endOffset": 16854
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4625,11 +4793,11 @@
             },
             {
                 "to": {
-                    "startLine": 259,
+                    "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 15452,
+                    "startOffset": 16859,
                     "endColumn": 77,
-                    "endOffset": 15525
+                    "endOffset": 16932
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4644,11 +4812,11 @@
             },
             {
                 "to": {
-                    "startLine": 260,
+                    "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 15530,
+                    "startOffset": 16937,
                     "endColumn": 77,
-                    "endOffset": 15603
+                    "endOffset": 17010
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4663,11 +4831,11 @@
             },
             {
                 "to": {
-                    "startLine": 261,
+                    "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 15608,
+                    "startOffset": 17015,
                     "endColumn": 69,
-                    "endOffset": 15673
+                    "endOffset": 17080
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4682,11 +4850,11 @@
             },
             {
                 "to": {
-                    "startLine": 262,
+                    "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 15678,
+                    "startOffset": 17085,
                     "endColumn": 82,
-                    "endOffset": 15756
+                    "endOffset": 17163
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4701,11 +4869,11 @@
             },
             {
                 "to": {
-                    "startLine": 263,
+                    "startLine": 309,
                     "startColumn": 4,
-                    "startOffset": 15761,
+                    "startOffset": 17168,
                     "endColumn": 71,
-                    "endOffset": 15828
+                    "endOffset": 17235
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4720,11 +4888,11 @@
             },
             {
                 "to": {
-                    "startLine": 264,
+                    "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 15833,
+                    "startOffset": 17240,
                     "endColumn": 67,
-                    "endOffset": 15896
+                    "endOffset": 17303
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4739,11 +4907,11 @@
             },
             {
                 "to": {
-                    "startLine": 265,
+                    "startLine": 311,
                     "startColumn": 4,
-                    "startOffset": 15901,
+                    "startOffset": 17308,
                     "endColumn": 79,
-                    "endOffset": 15976
+                    "endOffset": 17383
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4758,11 +4926,11 @@
             },
             {
                 "to": {
-                    "startLine": 266,
+                    "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 15981,
+                    "startOffset": 17388,
                     "endColumn": 85,
-                    "endOffset": 16062
+                    "endOffset": 17469
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4777,11 +4945,11 @@
             },
             {
                 "to": {
-                    "startLine": 267,
+                    "startLine": 313,
                     "startColumn": 4,
-                    "startOffset": 16067,
+                    "startOffset": 17474,
                     "endColumn": 77,
-                    "endOffset": 16140
+                    "endOffset": 17547
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4796,11 +4964,11 @@
             },
             {
                 "to": {
-                    "startLine": 268,
+                    "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 16145,
+                    "startOffset": 17552,
                     "endColumn": 75,
-                    "endOffset": 16216
+                    "endOffset": 17623
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4815,11 +4983,11 @@
             },
             {
                 "to": {
-                    "startLine": 269,
+                    "startLine": 315,
                     "startColumn": 4,
-                    "startOffset": 16221,
+                    "startOffset": 17628,
                     "endColumn": 90,
-                    "endOffset": 16307
+                    "endOffset": 17714
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4834,11 +5002,11 @@
             },
             {
                 "to": {
-                    "startLine": 270,
+                    "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 16312,
+                    "startOffset": 17719,
                     "endColumn": 77,
-                    "endOffset": 16385
+                    "endOffset": 17792
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4853,11 +5021,11 @@
             },
             {
                 "to": {
-                    "startLine": 271,
+                    "startLine": 317,
                     "startColumn": 4,
-                    "startOffset": 16390,
+                    "startOffset": 17797,
                     "endColumn": 69,
-                    "endOffset": 16455
+                    "endOffset": 17862
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4872,11 +5040,11 @@
             },
             {
                 "to": {
-                    "startLine": 272,
+                    "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 16460,
+                    "startOffset": 17867,
                     "endColumn": 73,
-                    "endOffset": 16529
+                    "endOffset": 17936
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4891,11 +5059,11 @@
             },
             {
                 "to": {
-                    "startLine": 273,
+                    "startLine": 319,
                     "startColumn": 4,
-                    "startOffset": 16534,
+                    "startOffset": 17941,
                     "endColumn": 80,
-                    "endOffset": 16610
+                    "endOffset": 18017
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4910,11 +5078,11 @@
             },
             {
                 "to": {
-                    "startLine": 274,
+                    "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 16615,
+                    "startOffset": 18022,
                     "endColumn": 80,
-                    "endOffset": 16691
+                    "endOffset": 18098
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4929,11 +5097,11 @@
             },
             {
                 "to": {
-                    "startLine": 275,
+                    "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 16696,
+                    "startOffset": 18103,
                     "endColumn": 62,
-                    "endOffset": 16754
+                    "endOffset": 18161
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4948,11 +5116,11 @@
             },
             {
                 "to": {
-                    "startLine": 276,
+                    "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 16759,
+                    "startOffset": 18166,
                     "endColumn": 60,
-                    "endOffset": 16815
+                    "endOffset": 18222
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4967,11 +5135,11 @@
             },
             {
                 "to": {
-                    "startLine": 277,
+                    "startLine": 323,
                     "startColumn": 4,
-                    "startOffset": 16820,
+                    "startOffset": 18227,
                     "endColumn": 71,
-                    "endOffset": 16887
+                    "endOffset": 18294
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4986,11 +5154,11 @@
             },
             {
                 "to": {
-                    "startLine": 278,
+                    "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 16892,
+                    "startOffset": 18299,
                     "endColumn": 60,
-                    "endOffset": 16948
+                    "endOffset": 18355
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5005,11 +5173,11 @@
             },
             {
                 "to": {
-                    "startLine": 279,
+                    "startLine": 325,
                     "startColumn": 4,
-                    "startOffset": 16953,
+                    "startOffset": 18360,
                     "endColumn": 69,
-                    "endOffset": 17018
+                    "endOffset": 18425
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5024,11 +5192,11 @@
             },
             {
                 "to": {
-                    "startLine": 280,
+                    "startLine": 326,
                     "startColumn": 4,
-                    "startOffset": 17023,
+                    "startOffset": 18430,
                     "endColumn": 71,
-                    "endOffset": 17090
+                    "endOffset": 18497
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5043,11 +5211,11 @@
             },
             {
                 "to": {
-                    "startLine": 281,
+                    "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 17095,
+                    "startOffset": 18502,
                     "endColumn": 71,
-                    "endOffset": 17162
+                    "endOffset": 18569
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5062,11 +5230,11 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 17167,
+                    "startOffset": 18574,
                     "endColumn": 65,
-                    "endOffset": 17228
+                    "endOffset": 18635
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5081,11 +5249,11 @@
             },
             {
                 "to": {
-                    "startLine": 283,
+                    "startLine": 329,
                     "startColumn": 4,
-                    "startOffset": 17233,
+                    "startOffset": 18640,
                     "endColumn": 68,
-                    "endOffset": 17297
+                    "endOffset": 18704
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5100,11 +5268,11 @@
             },
             {
                 "to": {
-                    "startLine": 284,
+                    "startLine": 330,
                     "startColumn": 4,
-                    "startOffset": 17302,
+                    "startOffset": 18709,
                     "endColumn": 84,
-                    "endOffset": 17382
+                    "endOffset": 18789
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5119,11 +5287,11 @@
             },
             {
                 "to": {
-                    "startLine": 285,
+                    "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 17387,
+                    "startOffset": 18794,
                     "endColumn": 66,
-                    "endOffset": 17449
+                    "endOffset": 18856
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5138,11 +5306,11 @@
             },
             {
                 "to": {
-                    "startLine": 286,
+                    "startLine": 332,
                     "startColumn": 4,
-                    "startOffset": 17454,
+                    "startOffset": 18861,
                     "endColumn": 70,
-                    "endOffset": 17520
+                    "endOffset": 18927
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5157,11 +5325,11 @@
             },
             {
                 "to": {
-                    "startLine": 287,
+                    "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 17525,
+                    "startOffset": 18932,
                     "endColumn": 92,
-                    "endOffset": 17613
+                    "endOffset": 19020
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5176,11 +5344,11 @@
             },
             {
                 "to": {
-                    "startLine": 288,
+                    "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 17618,
+                    "startOffset": 19025,
                     "endColumn": 60,
-                    "endOffset": 17674
+                    "endOffset": 19081
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5195,11 +5363,11 @@
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 17679,
+                    "startOffset": 19086,
                     "endColumn": 60,
-                    "endOffset": 17735
+                    "endOffset": 19142
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5214,11 +5382,11 @@
             },
             {
                 "to": {
-                    "startLine": 290,
+                    "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 17740,
+                    "startOffset": 19147,
                     "endColumn": 81,
-                    "endOffset": 17817
+                    "endOffset": 19224
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5233,11 +5401,11 @@
             },
             {
                 "to": {
-                    "startLine": 291,
+                    "startLine": 337,
                     "startColumn": 4,
-                    "startOffset": 17822,
+                    "startOffset": 19229,
                     "endColumn": 73,
-                    "endOffset": 17891
+                    "endOffset": 19298
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5252,11 +5420,11 @@
             },
             {
                 "to": {
-                    "startLine": 292,
+                    "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 17896,
+                    "startOffset": 19303,
                     "endColumn": 73,
-                    "endOffset": 17965
+                    "endOffset": 19372
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5271,11 +5439,11 @@
             },
             {
                 "to": {
-                    "startLine": 293,
+                    "startLine": 339,
                     "startColumn": 4,
-                    "startOffset": 17970,
+                    "startOffset": 19377,
                     "endColumn": 64,
-                    "endOffset": 18030
+                    "endOffset": 19437
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5290,11 +5458,11 @@
             },
             {
                 "to": {
-                    "startLine": 294,
+                    "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 18035,
+                    "startOffset": 19442,
                     "endColumn": 75,
-                    "endOffset": 18106
+                    "endOffset": 19513
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5309,11 +5477,11 @@
             },
             {
                 "to": {
-                    "startLine": 295,
+                    "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 18111,
+                    "startOffset": 19518,
                     "endColumn": 52,
-                    "endOffset": 18159
+                    "endOffset": 19566
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5328,11 +5496,11 @@
             },
             {
                 "to": {
-                    "startLine": 296,
+                    "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 18164,
+                    "startOffset": 19571,
                     "endColumn": 52,
-                    "endOffset": 18212
+                    "endOffset": 19619
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5347,11 +5515,11 @@
             },
             {
                 "to": {
-                    "startLine": 297,
+                    "startLine": 343,
                     "startColumn": 4,
-                    "startOffset": 18217,
+                    "startOffset": 19624,
                     "endColumn": 52,
-                    "endOffset": 18265
+                    "endOffset": 19672
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5366,11 +5534,11 @@
             },
             {
                 "to": {
-                    "startLine": 298,
+                    "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 18270,
+                    "startOffset": 19677,
                     "endColumn": 244,
-                    "endOffset": 18510
+                    "endOffset": 19917
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5385,11 +5553,11 @@
             },
             {
                 "to": {
-                    "startLine": 299,
+                    "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 18515,
+                    "startOffset": 19922,
                     "endColumn": 300,
-                    "endOffset": 18811
+                    "endOffset": 20218
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5404,11 +5572,11 @@
             },
             {
                 "to": {
-                    "startLine": 300,
+                    "startLine": 346,
                     "startColumn": 4,
-                    "startOffset": 18816,
+                    "startOffset": 20223,
                     "endColumn": 561,
-                    "endOffset": 19373
+                    "endOffset": 20780
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5423,11 +5591,11 @@
             },
             {
                 "to": {
-                    "startLine": 301,
+                    "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 19378,
+                    "startOffset": 20785,
                     "endColumn": 542,
-                    "endOffset": 19916
+                    "endOffset": 21323
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5442,11 +5610,11 @@
             },
             {
                 "to": {
-                    "startLine": 302,
+                    "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 19921,
+                    "startOffset": 21328,
                     "endColumn": 374,
-                    "endOffset": 20291
+                    "endOffset": 21698
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5461,11 +5629,11 @@
             },
             {
                 "to": {
-                    "startLine": 303,
+                    "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 20296,
+                    "startOffset": 21703,
                     "endColumn": 304,
-                    "endOffset": 20596
+                    "endOffset": 22003
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5480,11 +5648,11 @@
             },
             {
                 "to": {
-                    "startLine": 304,
+                    "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 20601,
+                    "startOffset": 22008,
                     "endColumn": 164,
-                    "endOffset": 20761
+                    "endOffset": 22168
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5499,11 +5667,11 @@
             },
             {
                 "to": {
-                    "startLine": 305,
+                    "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 20766,
+                    "startOffset": 22173,
                     "endColumn": 249,
-                    "endOffset": 21011
+                    "endOffset": 22418
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5518,11 +5686,11 @@
             },
             {
                 "to": {
-                    "startLine": 306,
+                    "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 21016,
+                    "startOffset": 22423,
                     "endColumn": 288,
-                    "endOffset": 21300
+                    "endOffset": 22707
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5537,11 +5705,11 @@
             },
             {
                 "to": {
-                    "startLine": 307,
+                    "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 21305,
+                    "startOffset": 22712,
                     "endColumn": 244,
-                    "endOffset": 21545
+                    "endOffset": 22952
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5556,11 +5724,11 @@
             },
             {
                 "to": {
-                    "startLine": 308,
+                    "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 21550,
+                    "startOffset": 22957,
                     "endColumn": 186,
-                    "endOffset": 21732
+                    "endOffset": 23139
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5575,11 +5743,11 @@
             },
             {
                 "to": {
-                    "startLine": 309,
+                    "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 21737,
+                    "startOffset": 23144,
                     "endColumn": 266,
-                    "endOffset": 21999
+                    "endOffset": 23406
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5594,11 +5762,11 @@
             },
             {
                 "to": {
-                    "startLine": 310,
+                    "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 22004,
+                    "startOffset": 23411,
                     "endColumn": 235,
-                    "endOffset": 22235
+                    "endOffset": 23642
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5613,11 +5781,11 @@
             },
             {
                 "to": {
-                    "startLine": 311,
+                    "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 22240,
+                    "startOffset": 23647,
                     "endColumn": 188,
-                    "endOffset": 22424
+                    "endOffset": 23831
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5632,11 +5800,11 @@
             },
             {
                 "to": {
-                    "startLine": 312,
+                    "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 22429,
+                    "startOffset": 23836,
                     "endColumn": 187,
-                    "endOffset": 22612
+                    "endOffset": 24019
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5651,11 +5819,11 @@
             },
             {
                 "to": {
-                    "startLine": 313,
+                    "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 22617,
+                    "startOffset": 24024,
                     "endColumn": 199,
-                    "endOffset": 22812
+                    "endOffset": 24219
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5670,11 +5838,11 @@
             },
             {
                 "to": {
-                    "startLine": 314,
+                    "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 22817,
+                    "startOffset": 24224,
                     "endColumn": 211,
-                    "endOffset": 23024
+                    "endOffset": 24431
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5689,11 +5857,11 @@
             },
             {
                 "to": {
-                    "startLine": 315,
+                    "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 23029,
+                    "startOffset": 24436,
                     "endColumn": 176,
-                    "endOffset": 23201
+                    "endOffset": 24608
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5708,11 +5876,11 @@
             },
             {
                 "to": {
-                    "startLine": 316,
+                    "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 23206,
+                    "startOffset": 24613,
                     "endColumn": 229,
-                    "endOffset": 23431
+                    "endOffset": 24838
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5727,11 +5895,11 @@
             },
             {
                 "to": {
-                    "startLine": 317,
+                    "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 23436,
+                    "startOffset": 24843,
                     "endColumn": 283,
-                    "endOffset": 23715
+                    "endOffset": 25122
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5746,11 +5914,11 @@
             },
             {
                 "to": {
-                    "startLine": 318,
+                    "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 23720,
+                    "startOffset": 25127,
                     "endColumn": 228,
-                    "endOffset": 23944
+                    "endOffset": 25351
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5765,11 +5933,11 @@
             },
             {
                 "to": {
-                    "startLine": 319,
+                    "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 23949,
+                    "startOffset": 25356,
                     "endColumn": 163,
-                    "endOffset": 24108
+                    "endOffset": 25515
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5784,11 +5952,11 @@
             },
             {
                 "to": {
-                    "startLine": 320,
+                    "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 24113,
+                    "startOffset": 25520,
                     "endColumn": 200,
-                    "endOffset": 24309
+                    "endOffset": 25716
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5803,11 +5971,11 @@
             },
             {
                 "to": {
-                    "startLine": 321,
+                    "startLine": 367,
                     "startColumn": 4,
-                    "startOffset": 24314,
+                    "startOffset": 25721,
                     "endColumn": 151,
-                    "endOffset": 24461
+                    "endOffset": 25868
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5822,11 +5990,11 @@
             },
             {
                 "to": {
-                    "startLine": 322,
+                    "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 24466,
+                    "startOffset": 25873,
                     "endColumn": 279,
-                    "endOffset": 24741
+                    "endOffset": 26148
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5841,11 +6009,11 @@
             },
             {
                 "to": {
-                    "startLine": 323,
+                    "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 24746,
+                    "startOffset": 26153,
                     "endColumn": 202,
-                    "endOffset": 24944
+                    "endOffset": 26351
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5860,11 +6028,11 @@
             },
             {
                 "to": {
-                    "startLine": 324,
+                    "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 24949,
+                    "startOffset": 26356,
                     "endColumn": 227,
-                    "endOffset": 25172
+                    "endOffset": 26579
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5879,11 +6047,11 @@
             },
             {
                 "to": {
-                    "startLine": 325,
+                    "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 25177,
+                    "startOffset": 26584,
                     "endColumn": 109,
-                    "endOffset": 25282
+                    "endOffset": 26689
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5898,11 +6066,11 @@
             },
             {
                 "to": {
-                    "startLine": 326,
+                    "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 25287,
+                    "startOffset": 26694,
                     "endColumn": 141,
-                    "endOffset": 25424
+                    "endOffset": 26831
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5917,11 +6085,11 @@
             },
             {
                 "to": {
-                    "startLine": 327,
+                    "startLine": 373,
                     "startColumn": 4,
-                    "startOffset": 25429,
+                    "startOffset": 26836,
                     "endColumn": 92,
-                    "endOffset": 25517
+                    "endOffset": 26924
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5936,11 +6104,11 @@
             },
             {
                 "to": {
-                    "startLine": 328,
+                    "startLine": 374,
                     "startColumn": 4,
-                    "startOffset": 25522,
+                    "startOffset": 26929,
                     "endColumn": 83,
-                    "endOffset": 25601
+                    "endOffset": 27008
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5955,11 +6123,11 @@
             },
             {
                 "to": {
-                    "startLine": 329,
+                    "startLine": 375,
                     "startColumn": 4,
-                    "startOffset": 25606,
+                    "startOffset": 27013,
                     "endColumn": 70,
-                    "endOffset": 25672
+                    "endOffset": 27079
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5974,11 +6142,11 @@
             },
             {
                 "to": {
-                    "startLine": 330,
+                    "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 25677,
+                    "startOffset": 27084,
                     "endColumn": 87,
-                    "endOffset": 25760
+                    "endOffset": 27167
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5993,11 +6161,11 @@
             },
             {
                 "to": {
-                    "startLine": 331,
+                    "startLine": 377,
                     "startColumn": 4,
-                    "startOffset": 25765,
+                    "startOffset": 27172,
                     "endColumn": 98,
-                    "endOffset": 25859
+                    "endOffset": 27266
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6012,11 +6180,11 @@
             },
             {
                 "to": {
-                    "startLine": 332,
+                    "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 25864,
+                    "startOffset": 27271,
                     "endColumn": 110,
-                    "endOffset": 25970
+                    "endOffset": 27377
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6031,11 +6199,11 @@
             },
             {
                 "to": {
-                    "startLine": 333,
+                    "startLine": 379,
                     "startColumn": 4,
-                    "startOffset": 25975,
+                    "startOffset": 27382,
                     "endColumn": 126,
-                    "endOffset": 26097
+                    "endOffset": 27504
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6050,11 +6218,11 @@
             },
             {
                 "to": {
-                    "startLine": 334,
+                    "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 26102,
+                    "startOffset": 27509,
                     "endColumn": 138,
-                    "endOffset": 26236
+                    "endOffset": 27643
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6069,11 +6237,11 @@
             },
             {
                 "to": {
-                    "startLine": 335,
+                    "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 26241,
+                    "startOffset": 27648,
                     "endColumn": 129,
-                    "endOffset": 26366
+                    "endOffset": 27773
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6088,11 +6256,11 @@
             },
             {
                 "to": {
-                    "startLine": 336,
+                    "startLine": 382,
                     "startColumn": 4,
-                    "startOffset": 26371,
+                    "startOffset": 27778,
                     "endColumn": 130,
-                    "endOffset": 26497
+                    "endOffset": 27904
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6107,11 +6275,11 @@
             },
             {
                 "to": {
-                    "startLine": 337,
+                    "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 26502,
+                    "startOffset": 27909,
                     "endColumn": 103,
-                    "endOffset": 26601
+                    "endOffset": 28008
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6126,11 +6294,11 @@
             },
             {
                 "to": {
-                    "startLine": 338,
+                    "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 26606,
+                    "startOffset": 28013,
                     "endColumn": 51,
-                    "endOffset": 26653
+                    "endOffset": 28060
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6145,11 +6313,11 @@
             },
             {
                 "to": {
-                    "startLine": 339,
+                    "startLine": 385,
                     "startColumn": 4,
-                    "startOffset": 26658,
+                    "startOffset": 28065,
                     "endColumn": 51,
-                    "endOffset": 26705
+                    "endOffset": 28112
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6164,12 +6332,12 @@
             },
             {
                 "to": {
-                    "startLine": 340,
+                    "startLine": 386,
                     "startColumn": 4,
-                    "startOffset": 26710,
-                    "endLine": 346,
+                    "startOffset": 28117,
+                    "endLine": 392,
                     "endColumn": 12,
-                    "endOffset": 26996
+                    "endOffset": 28403
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",
@@ -6185,12 +6353,12 @@
             },
             {
                 "to": {
-                    "startLine": 347,
+                    "startLine": 393,
                     "startColumn": 4,
-                    "startOffset": 27001,
-                    "endLine": 349,
+                    "startOffset": 28408,
+                    "endLine": 395,
                     "endColumn": 12,
-                    "endOffset": 27156
+                    "endOffset": 28563
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",
@@ -6206,12 +6374,12 @@
             },
             {
                 "to": {
-                    "startLine": 350,
+                    "startLine": 396,
                     "startColumn": 4,
-                    "startOffset": 27161,
-                    "endLine": 354,
+                    "startOffset": 28568,
+                    "endLine": 400,
                     "endColumn": 12,
-                    "endOffset": 27371
+                    "endOffset": 28778
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",
@@ -6227,12 +6395,12 @@
             },
             {
                 "to": {
-                    "startLine": 355,
+                    "startLine": 401,
                     "startColumn": 4,
-                    "startOffset": 27376,
-                    "endLine": 358,
+                    "startOffset": 28783,
+                    "endLine": 404,
                     "endColumn": 12,
-                    "endOffset": 27580
+                    "endOffset": 28987
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",
@@ -6248,12 +6416,12 @@
             },
             {
                 "to": {
-                    "startLine": 359,
+                    "startLine": 405,
                     "startColumn": 4,
-                    "startOffset": 27585,
-                    "endLine": 361,
+                    "startOffset": 28992,
+                    "endLine": 407,
                     "endColumn": 12,
-                    "endOffset": 27709
+                    "endOffset": 29116
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",

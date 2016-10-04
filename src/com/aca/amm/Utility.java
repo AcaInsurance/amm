@@ -114,24 +114,38 @@ public class Utility  {
 	private static String specialChars = "/*!@#$%^&*()\"{}_[]|\\?/<>,.";
 	private static String anytypeStr = "anytype{}";
 	
-	private static final int DATABASE_VERSION = 7;
-	private static final int DATABASE_VERSION_BIG = 3;
+	private static final int DATABASE_VERSION = 8;
+	private static final int DATABASE_VERSION_BIG = 5;
 
-	
-//	private static final String URL = "http://110.35.81.227/wsgetdata/service.asmx"; 
-	private static final String URL = "http://182.23.65.68/wsgetdata/service.asmx";
+	private static final String namespace = "http://tempuri.org/";
+	private static final String soapAction = "http://tempuri.org/";
+
+	//	private static final String URL = "http://110.35.81.227/wsgetdata/service.asmx";
+//	private static final String URL = "http://182.23.65.68/wsgetdata/service.asmx";
+	private static final String URL = "http://172.16.88.31/wsgetdatatest/service.asmx";
+//    private static final String URL_IMAGE = "http://www.aca-mobile.com/wssaveimage.asmx";
+    private static final String URL_IMAGE = "http://172.16.88.31/mobiletest/wssaveimage.asmx";
+
 	@SuppressWarnings("unused")
 	private static final String TAG = "com.aca.amm.Utility";
 	
 	public static String getURL () {
 		return URL;
 	}
-	
-//	U_ID	U_PASS	U_NAME	BRANCH_ID	BRANCH_NAME	OFFICE_ID	OFFICE_ID_SYARIAH	OFFICE_NAME	SIGN_PLACE	DEFAULT_IP_ADDRESS	DEFAULT_MAC_ADDRESS	MKT_CODE	EMAIL	CRE_DATE	CRE_BY	CRE_IP_ADDRESS	MOD_DATE	MOD_BY	MOD_IP_ADDRESS	STATUS	MID	TID	MAX_ROW	STATUS_USER	USER_EXP_DATE	EMAIL_ADDRESS	PHONE_NO	USER_NAME	COMMISION	CUSTOMER_ID	BANK_ACCOUNT	BANK_NAME
-//	068899	aca32!	TEST USER	00	00	3	A	Kantor Cabang Khusus	JAKARTA	172.16.99.6		M8		2009-07-16 09:12:50.767	000000	172.16.88.219	2015-05-08 10:23:08.917	068899		M	000001008347700	31572509	15	1	9999-12-31 00:00:00.000	vera.fakiman@acains.com	08128393126                                       	ADMIN	1		NULL	NULL	public SLProductOtomate(Context ctx, long SPPA_ID, Activity a)
 
-	
-	  public static void setAutoDateTime(Context context) {
+    public static String getUrlImage() {
+        return URL_IMAGE;
+    }
+	public static String getNamespace() {
+		return namespace;
+	}
+
+	public static String getSoapAction() {
+		return soapAction;
+	}
+
+
+	public static void setAutoDateTime(Context context) {
 	        Settings.System.putInt(context.getContentResolver(),
 	                Settings.System.AUTO_TIME, 1);
 

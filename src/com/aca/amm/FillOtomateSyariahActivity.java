@@ -12,7 +12,9 @@ import com.aca.database.DBA_MASTER_OTOMATE_AOG;
 import com.aca.database.DBA_MASTER_OTOMATE_RATE;
 import com.aca.database.DBA_MASTER_PRODUCT_SETTING;
 import com.aca.database.DBA_PRODUCT_MAIN;
-import com.aca.database.DBA_PRODUCT_OTOMATE_SYARIAH; 
+import com.aca.database.DBA_PRODUCT_OTOMATE_SYARIAH;
+import com.aca.dbflow.GeneralSetting;
+import com.aca.util.Var;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -1437,7 +1439,7 @@ public class FillOtomateSyariahActivity extends ControlNormalActivity {
 
 			try {
 				dba.open();
-				c = dba.getByWilayah(wilayah);
+//				c = dba.getByWilayah(wilayah, );
 
 				if (!c.moveToFirst()) return 0;
 				
@@ -1601,10 +1603,11 @@ public class FillOtomateSyariahActivity extends ControlNormalActivity {
 		try {
 
 			Wilayah = cekPlat(plat1);
+            String kodeProduct = GeneralSetting.getParameterValue(Var.GN_OTOMATE_PICKED);
 			
 			dba = new DBA_MASTER_OTOMATE_RATE(getBaseContext());
 			dba.open();
-			c = dba.getRate(String.valueOf(nf.format(v_tsi)), Wilayah);
+			c = dba.getRate(String.valueOf(nf.format(v_tsi)), Wilayah, kodeProduct);
 			
  
 			if (c.moveToFirst()) 

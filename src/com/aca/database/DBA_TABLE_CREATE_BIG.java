@@ -37,42 +37,38 @@ public class DBA_TABLE_CREATE_BIG   {
         public void onCreate(SQLiteDatabase db) 
         {
         	try {
-//        		db.execSQL(DBA_MASTER_ACA_MOBIL_RATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_ASRI_RATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_BUSINESS_TYPE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_CAR_BRAND.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_CAR_TYPE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_CITY_PROVINCE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_COUNTRY.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_EXECUTIVE_SAFE_RATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_JENIS_TOKO.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_LOB.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_MEDISAFE_RATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_OCCUPATION.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_OTOMATE_RATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_PA_AMANAH_RATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_PRODUCT_SETTING.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_TOKO_RATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_TRAVELSAFE_DOM_RATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_TRAVELSAFE_INT_RATE.DATABASE_CREATE);	
-//        		
-//        		db.execSQL(DBA_MASTER_VESSEL_TYPE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_VESSEL_DETAIL.DATABASE_CREATE);	        		
-//        		db.execSQL(DBA_MASTER_WELLWOMAN_RATE.DATABASE_CREATE);	
-//        		
-//        		db.execSQL(DBA_RATE_ASRI.DATABASE_CREATE);	
-//        		db.execSQL(DBA_RATE_OTOMATE.DATABASE_CREATE);	
-//        		db.execSQL(DBA_TABLE_VERSION.DATABASE_CREATE);	
-//
-//        		db.execSQL(DBA_MASTER_OTOMATE_TPL.DATABASE_CREATE);	
-//        		db.execSQL(DBA_MASTER_OTOMATE_PA.DATABASE_CREATE);	
+        	/*	db.execSQL(DBA_MASTER_ACA_MOBIL_RATE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_ASRI_RATE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_BUSINESS_TYPE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_CAR_BRAND.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_CAR_TYPE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_CITY_PROVINCE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_COUNTRY.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_EXECUTIVE_SAFE_RATE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_JENIS_TOKO.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_LOB.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_MEDISAFE_RATE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_OCCUPATION.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_OTOMATE_RATE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_PA_AMANAH_RATE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_PRODUCT_SETTING.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_TOKO_RATE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_TRAVELSAFE_DOM_RATE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_TRAVELSAFE_INT_RATE.DATABASE_CREATE);
 
-//        		db.execSQL(DBA_MASTER_OTOMATE_AOG.DATABASE_CREATE);	
-        		
-        		
-        		
-        
+        		db.execSQL(DBA_MASTER_VESSEL_TYPE.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_VESSEL_DETAIL.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_WELLWOMAN_RATE.DATABASE_CREATE);
 
+        		db.execSQL(DBA_RATE_ASRI.DATABASE_CREATE);
+        		db.execSQL(DBA_RATE_OTOMATE.DATABASE_CREATE);
+        		db.execSQL(DBA_TABLE_VERSION.DATABASE_CREATE);
+
+        		db.execSQL(DBA_MASTER_OTOMATE_TPL.DATABASE_CREATE);
+        		db.execSQL(DBA_MASTER_OTOMATE_PA.DATABASE_CREATE);
+
+        		db.execSQL(DBA_MASTER_OTOMATE_AOG.DATABASE_CREATE);
+        		 */
     			Log.d("DBA_BIG", "ON CREATE sukses all");
         	} catch (SQLException e) {
         		e.printStackTrace();
@@ -83,12 +79,12 @@ public class DBA_TABLE_CREATE_BIG   {
 		@Override
 		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 			// TODO Auto-generated method stub
-			if (oldVersion < 3 ) {
-//        		db.execSQL(DBA_MASTER_CAR_BRAND_SYARIAH.DATABASE_CREATE);
-//    			Log.d("DBA_BIG", "ON CREATE dba car brand syariah sukses");
-//    			
-//        		db.execSQL(DBA_MASTER_CAR_TYPE_SYARIAH.DATABASE_CREATE);
-//    			Log.d("DBA_BIG", "ON CREATE dba car type syariah sukses");
+			if (oldVersion < 4) {
+                db.execSQL("ALTER TABLE MASTER_OTOMATE_AOG ADD COLUMN KODE_PRODUK TEXT");
+                db.execSQL("ALTER TABLE MASTER_OTOMATE_AOG ADD COLUMN TIPE TEXT");
+                db.execSQL("ALTER TABLE MASTER_OTOMATE_AOG ADD COLUMN EXCO TEXT");
+
+                db.execSQL("ALTER TABLE MASTER_OTOMATE_RATE ADD COLUMN KODE_PRODUK TEXT");
 			}
 			
 		}		

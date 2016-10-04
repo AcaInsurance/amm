@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="LoadPaketOtomate_post">
+        <item></item>
+    </string-array>
+
+    <string-array name="LoadPaketOtomate_get">
+        <item>ID</item>
+        <item>KodeProduct</item>
+        <item>Flood</item>
+        <item>Eq</item>
+    </string-array>
+
+    <string-array name="LoadPerluasan_post">
+        <item></item>
+    </string-array>
+
+
+    <string-array name="LoadPerluasan_get">
+        <item>Tipe</item>
+        <item>Amount</item>
+        <item>Amount_Text</item>
+        <item>Premi</item>
+        <item>Kode_Produk</item>
+    </string-array>
+
+    <string-array name="LoadOtomateSetting_post">
+        <item></item>
+    </string-array>
+
+
+    <string-array name="LoadOtomateSetting_get">
+        <item>KodeProduct</item>
+        <item>FloodDefault</item>
+        <item>EqDefault</item>
+        <item>IsPaket</item>
+        <item>SRCCDefault</item>
+        <item>TSDefault</item>
+        <item>IsChangeable</item>
+        <item>BengkelDefault</item>
+        <item>IsChangeableBengkel</item>
+        <item>LimitTPL</item>
+        <item>LimitPA</item>
+    </string-array>
+
+    <string-array name="LoadStandardField_post">
+        <item></item>
+    </string-array>
+
+
+    <string-array name="LoadStandardField_get">
+        <item>FieldCode</item>
+        <item>FieldCodeDt</item>
+        <item>FieldNameDt</item>
+        <item>Value</item>
+        <item>Description</item>
+        <item>IsActive</item>
+    </string-array>
+
+
+
+
+
+</resources>

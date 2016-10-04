@@ -129,8 +129,8 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 		agentcode = (EditText)findViewById(R.id.txtUserName);
 		password = (EditText)findViewById(R.id.txtPassword);
 		
-//		agentcode.setText("068899");
-//		password.setText("aca32@@"); 
+		agentcode.setText("068899");
+		password.setText("aca32@@");
 		
 	} 
 

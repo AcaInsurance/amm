@@ -116,7 +116,7 @@ public class DBA_MASTER_PRODUCT_SETTING {
         return db.delete(DATABASE_TABLE, null, null) > 0;
     }
     
-    public Cursor getRow(String lob) 
+    public Cursor getRow(String kodeProduk)
     {
     	return db.query(DATABASE_TABLE,  new String[] {
     			LOB,		
@@ -126,7 +126,7 @@ public class DBA_MASTER_PRODUCT_SETTING {
     			MAX_TSI,	//4
     			MIN_PREMI,
     			MAX_PREMI,
-    			IS_DISCOUNTABLE}, LOB + "='" + lob + "'", null, null, null, null);    			
+    			IS_DISCOUNTABLE}, LOB + "='" + kodeProduk + "'", null, null, null, null);
     }
     
     public Cursor getAll() 

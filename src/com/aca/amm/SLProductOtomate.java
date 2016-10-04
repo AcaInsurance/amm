@@ -15,6 +15,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import org.apache.http.conn.ConnectTimeoutException;
+import org.kobjects.util.Util;
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
@@ -51,8 +52,8 @@ public class SLProductOtomate extends AsyncTask<String, String, Void>{
     
     private SoapObject requestuploadimg = null;
     private SoapSerializationEnvelope envelopeuploadimg = null;
-    private static String URL_UPLOAD_IMAGE = "http://www.aca-mobile.com/WsSaveImage.asmx";
-    private static String SOAP_ACTION_UPLOAD_IMG = "http://tempuri.org/DoSaveImage";     
+    private static String URL_UPLOAD_IMAGE = Utility.getUrlImage();
+    private static String SOAP_ACTION_UPLOAD_IMG = "http://tempuri.org/DoSaveImage";
     private static String METHOD_NAME_UPLOAD_IMG = "DoSaveImage";
     
     private String E_SPPA_NO = "";
@@ -221,10 +222,17 @@ public class SLProductOtomate extends AsyncTask<String, String, Void>{
     		
     		requestinsert.addProperty(Utility.GetPropertyInfo("SI", String.valueOf(cProductOtomate.getLong(15)), String.class));
     		requestinsert.addProperty(Utility.GetPropertyInfo("AddSI",String.valueOf(cProductOtomate.getLong(16)), String.class));
-    		requestinsert.addProperty(Utility.GetPropertyInfo("ActOfGod", cProductOtomate.getString(17), String.class));
+//    		requestinsert.addProperty(Utility.GetPropertyInfo("ActOfGod", cProductOtomate.getString(17), String.class));
     		requestinsert.addProperty(Utility.GetPropertyInfo("TPL", cProductOtomate.getString(18), String.class));
-    		requestinsert.addProperty(Utility.GetPropertyInfo("PA", cProductOtomate.getString(30), String.class));
-    		
+    		requestinsert.addProperty(Utility.GetPropertyInfo("PA",  String.format("%.0f",  cProductOtomate.getDouble(30)), String.class));
+
+    		requestinsert.addProperty(Utility.GetPropertyInfo("Flood", cProductOtomate.getString(36), String.class));
+    		requestinsert.addProperty(Utility.GetPropertyInfo("EQ", cProductOtomate.getString(37), String.class));
+    		requestinsert.addProperty(Utility.GetPropertyInfo("SRCC", cProductOtomate.getString(38), String.class));
+    		requestinsert.addProperty(Utility.GetPropertyInfo("TS", cProductOtomate.getString(39), String.class));
+    		requestinsert.addProperty(Utility.GetPropertyInfo("KodeProduk", cProductOtomate.getString(40), String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("BengkelAuth", cProductOtomate.getString(41), String.class));
+
     		
     		requestinsert.addProperty(Utility.GetPropertyInfo("VehicleMerk", cProductOtomate.getString(2), String.class));
     		requestinsert.addProperty(Utility.GetPropertyInfo("VehicleMerkDesc",cProductOtomate.getString(28),String.class));

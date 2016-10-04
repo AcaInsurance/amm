@@ -96,12 +96,12 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_cargo_riskinsured.xml"
     },
     {
-        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_customer_for_buy.xml",
-        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_customer_for_buy.xml"
-    },
-    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_cargo_dijamin.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_cargo_dijamin.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_customer_for_buy.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_choose_customer_for_buy.xml"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_executive_safe_facility.xml",
@@ -196,6 +196,10 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_change_password.xml"
     },
     {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\simple_spinner_item.xml"
+    },
+    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_procedure.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_procedure.xml"
     },
@@ -276,12 +280,12 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_well_woman_procedure.xml"
     },
     {
-        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sppa.xml",
-        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_sppa.xml"
-    },
-    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\row_item.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\row_item.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sppa.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_sppa.xml"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_news.xml",
@@ -302,6 +306,10 @@
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_well_woman_facility.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_well_woman_facility.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_touch_image.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_touch_image.xml"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_dno.xml",
@@ -396,6 +404,10 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_signature.xml"
     },
     {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_choose_product.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_choose_product.xml"
+    },
+    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_konvensional_choose_product.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_konvensional_choose_product.xml"
     },
@@ -486,6 +498,10 @@
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_5.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_5.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_syariah_choose_product.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_syariah_choose_product.xml"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_otomate_riskinsured.xml",
@@ -618,6 +634,10 @@
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_7.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_7.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item_white_text.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\simple_spinner_item_white_text.xml"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_well_woman_riskinsured.xml",

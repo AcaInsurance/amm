@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\libs\ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\exploded-aar\com.github.Raizlabs.DBFlow\dbflow\3.0.0-beta5\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="d6e6d14301616c866b7eff210ece6579299417ec">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.5.8-jar-with-dependencies_1d845ad09baac34b23a6d85249ab11e1e2115f00.jar" />
-    </item>
-    <item
-        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="0596ba8fc9684e6518b3977c270bdb10cffeb535">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\instant-run_7eb194a3dc9514d9e75516ad6626d4861c7079a8.jar" />
+        sha1="1c22a78d3134f31a72ab20f24f1736906f1da611">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\com.github.Raizlabs.DBFlow-dbflow-3.0.0-beta5_32dc3fbf5d7308cae4258a681ff735a50cbdfb29.jar" />
     </item>
     <item
         jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\libs\joda-time-2.3.jar"
@@ -26,8 +19,43 @@
         jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="4668030745d4740452fcebc8acb2491bbf7b26fb">
+        sha1="747f57edebbf721db51199e701ecc06e57f99637">
         <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3766a92a6ee0e8ffb860f0eaa35cdf1982a28def.jar" />
+    </item>
+    <item
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_609950e701d403f658cad5ef3aefeb2b92944fd6.jar" />
+    </item>
+    <item
+        jar="D:\Android Java\.gradle\caches\modules-2\files-2.1\com.github.Raizlabs.DBFlow\dbflow-core\3.0.0-beta5\25f731527e77fec5e8ddcefda575d32656922a7d\dbflow-core-3.0.0-beta5.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="25f731527e77fec5e8ddcefda575d32656922a7d">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\dbflow-core-3.0.0-beta5_e283f8292ca7a73a72f47d76627c49a1db63f226.jar" />
+    </item>
+    <item
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\libs\ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d6e6d14301616c866b7eff210ece6579299417ec">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.5.8-jar-with-dependencies_1d845ad09baac34b23a6d85249ab11e1e2115f00.jar" />
+    </item>
+    <item
+        jar="D:\Android Java\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\butterknife-7.0.1_053f39f21dede3686d3a2514ccbcbf0ae75b0942.jar" />
+    </item>
+    <item
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6b0ecbc278ecb51b8464fe1154e1dc7acef6c272">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\instant-run_7eb194a3dc9514d9e75516ad6626d4861c7079a8.jar" />
     </item>
     <item
         jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\libs\android-support-v4.jar"
