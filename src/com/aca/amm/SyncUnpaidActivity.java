@@ -11,6 +11,7 @@ import java.util.concurrent.TimeoutException;
 import com.aca.amm.CheckVehicleWS.CheckVehicle;
 import com.aca.amm.R;
 import com.aca.amm.R.color;
+import com.aca.dal.Scalar;
 import com.aca.database.DBA_MASTER_AGENT;
 import com.aca.database.DBA_PRODUCT_ASRI;
 import com.aca.database.DBA_PRODUCT_ASRI_SYARIAH;
@@ -783,7 +784,8 @@ public class SyncUnpaidActivity extends ControlListActivity implements Interface
 						        super.setViewText(v, c.getString(5).toUpperCase());
 						        break;  
 							case R.id.txtSyncProductName:
-								super.setViewText(v, c.getString(3).toUpperCase());
+                                String productName = Scalar.getProdukName(SyncUnpaidActivity.this, c.getString(3), c.getLong(0)).toUpperCase();
+								super.setViewText(v, productName);
 							    break;
 							case R.id.txtSyncCustomerName:
 								super.setViewText(v, c.getString(2).toUpperCase());

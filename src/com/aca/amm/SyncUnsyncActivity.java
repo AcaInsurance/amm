@@ -9,6 +9,7 @@ import java.util.concurrent.TimeoutException;
 
 import com.aca.amm.CheckVehicleWS.CheckVehicle;
 import com.aca.amm.R;
+import com.aca.dal.Scalar;
 import com.aca.database.DBA_MASTER_AGENT;
 import com.aca.database.DBA_PRODUCT_MAIN;
 import com.aca.database.DBA_PRODUCT_OTOMATE;
@@ -86,7 +87,8 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 
 					switch (v.getId()) {
 						case R.id.txtSyncProductName:
-					        super.setViewText(v, c.getString(3).toUpperCase());
+                            String productName = Scalar.getProdukName(SyncUnsyncActivity.this, c.getString(3), c.getLong(0)).toUpperCase();
+                            super.setViewText(v, productName);
 					        break;  
 						case R.id.txtSyncCustomerCode:
 							super.setViewText(v, c.getString(1).toUpperCase());

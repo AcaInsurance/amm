@@ -6,8 +6,12 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 import com.aca.amm.R;
+import com.aca.dal.Scalar;
+import com.aca.database.DBA_MASTER_PRODUCT_SETTING;
 import com.aca.database.DBA_PRODUCT_MAIN;
+import com.aca.database.DBA_PRODUCT_OTOMATE;
 
+import android.database.SQLException;
 import android.os.Bundle;
 import android.app.AlertDialog;
 import android.app.ListActivity;
@@ -89,7 +93,8 @@ public class SyncIncompleteActivity extends ControlListActivity {
 			public void setViewText(TextView v, String text) {
 				switch (v.getId()) {
 					case R.id.txtSyncProductName:
-				        super.setViewText(v, c.getString(3).toUpperCase());
+                        String productName = Scalar.getProdukName(SyncIncompleteActivity.this, c.getString(3), c.getLong(0)).toUpperCase();
+				        super.setViewText(v, productName);
 				        break;  
 					case R.id.txtSyncCustomerCode:
 						super.setViewText(v, c.getString(1).toUpperCase());
@@ -148,9 +153,9 @@ public class SyncIncompleteActivity extends ControlListActivity {
 			}
 		});
 	}
-	
 
-	private AlertDialog showConfirmDelete(final Context ctx, final String rowId, final String noPolis) {
+
+    private AlertDialog showConfirmDelete(final Context ctx, final String rowId, final String noPolis) {
 	    AlertDialog myQuittingDialogBox = new AlertDialog.Builder(this)
 	        .setTitle("Hapus") 
 	        .setMessage("Hapus data ini sekarang?") 

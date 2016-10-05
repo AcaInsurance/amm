@@ -3,6 +3,7 @@ package com.aca.amm;
 import java.text.NumberFormat;
 
 import com.aca.amm.R;
+import com.aca.dal.Scalar;
 import com.aca.database.DBA_PRODUCT_CARGO;
 import com.aca.database.DBA_PRODUCT_MAIN;
 import com.aca.database.DBA_PRODUCT_TRAVEL_SAFE;
@@ -121,10 +122,10 @@ public class ConfirmActivity extends ControlNormalActivity {
 			c = dba.getRow(SPPA_ID);
 			c.moveToFirst();
 
-			
+			String productName = Scalar.getProdukName(this, c.getString(3), SPPA_ID).toUpperCase();
 			
 			nama.setText(c.getString(2));
-			product.setText(c.getString(3));
+			product.setText(productName);
 			periode.setText(c.getString(12));
 			periode2.setText(c.getString(13));
 			premi.setText(nf.format(c.getDouble(6)));

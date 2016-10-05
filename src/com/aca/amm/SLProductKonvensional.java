@@ -24,6 +24,7 @@ import com.aca.database.DBA_MASTER_AGENT;
 import com.aca.database.DBA_PRODUCT_CONVENSIONAL;
 import com.aca.database.DBA_PRODUCT_MAIN; 
 import com.aca.database.DBA_PRODUCT_OTOMATE_SYARIAH;
+import com.aca.util.Var;
 
 
 public class SLProductKonvensional extends AsyncTask<String, String, Void>{
@@ -94,7 +95,7 @@ public class SLProductKonvensional extends AsyncTask<String, String, Void>{
 		envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11); 
 		envelope.implicitTypes = true;
     	envelope.dotNet = true;	//used only if we use the webservice from a dot net file (asmx)
-		androidHttpTransport = new HttpTransportSE(URL);
+		androidHttpTransport = new HttpTransportSE(URL, Var.BASIC_TIMEOUT);
 		requestinsert = new SoapObject(NAMESPACE, METHOD_NAME_INSERT);
 	}
 	
@@ -372,7 +373,7 @@ public class SLProductKonvensional extends AsyncTask<String, String, Void>{
 		    		envelopeuploadimg = new SoapSerializationEnvelope(SoapEnvelope.VER11); 
 		    		envelopeuploadimg.implicitTypes = true;
 		        	envelopeuploadimg.dotNet = true;	//used only if we use the webservice from a dot net file (asmx)
-		    		androidHttpTransport = new HttpTransportSE(URL_UPLOAD_IMAGE);
+		    		androidHttpTransport = new HttpTransportSE(URL_UPLOAD_IMAGE, Var.BASIC_TIMEOUT);
 		    		requestuploadimg = new SoapObject(NAMESPACE, METHOD_NAME_UPLOAD_IMG);
 		    	
 		    		String fpath = folder + File.separator + files[i].getName().toString().trim();

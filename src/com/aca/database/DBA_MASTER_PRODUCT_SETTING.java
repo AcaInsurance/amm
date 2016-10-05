@@ -118,15 +118,16 @@ public class DBA_MASTER_PRODUCT_SETTING {
     
     public Cursor getRow(String kodeProduk)
     {
-    	return db.query(DATABASE_TABLE,  new String[] {
-    			LOB,		
-    			PRODUCT_NAME,
-    			IS_RENEWABLE,
+    	Cursor c = db.query(DATABASE_TABLE,  new String[] {
+    			LOB,		//0
+    			PRODUCT_NAME,//1
+    			IS_RENEWABLE,//2
     			MIN_TSI,	//3
     			MAX_TSI,	//4
     			MIN_PREMI,
     			MAX_PREMI,
     			IS_DISCOUNTABLE}, LOB + "='" + kodeProduk + "'", null, null, null, null);
+        return c;
     }
     
     public Cursor getAll() 

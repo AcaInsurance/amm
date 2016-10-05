@@ -60,6 +60,7 @@ android {
     }
     dexOptions {
 //        incremental true
-        javaMaxHeapSize "4096M"
+        javaMaxHeapSize "4g"
+        maxProcessCount 4
     }
 }

@@ -9,6 +9,7 @@ import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
 import com.aca.database.DBA_PRODUCT_MAIN;
+import com.aca.util.Var;
 
 
 import android.app.ProgressDialog;
@@ -116,7 +117,7 @@ public class SyncImage extends AsyncTask<Void, String, Void>
 						envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11); 
 						envelope.implicitTypes = true;
 						envelope.dotNet = true;	//used only if we use the webservice from a dot net file (asmx)
-						androidHttpTransport = new HttpTransportSE(URL);
+						androidHttpTransport = new HttpTransportSE(URL, Var.BASIC_TIMEOUT);
 						requestinsert = new SoapObject(NAMESPACE, METHOD_NAME_INSERT);
 
 						requestinsert.addProperty(Utility.GetPropertyInfo("SPPANo", E_SPPA_NO, String.class));
@@ -143,7 +144,7 @@ public class SyncImage extends AsyncTask<Void, String, Void>
 							envelopeuploadimg = new SoapSerializationEnvelope(SoapEnvelope.VER11); 
 							envelopeuploadimg.implicitTypes = true;
 							envelopeuploadimg.dotNet = true;	//used only if we use the webservice from a dot net file (asmx)
-							androidHttpTransport = new HttpTransportSE(URL_UPLOAD_IMAGE);
+							androidHttpTransport = new HttpTransportSE(URL_UPLOAD_IMAGE, Var.BASIC_TIMEOUT);
 							requestuploadimg = new SoapObject(NAMESPACE, METHOD_NAME_UPLOAD_IMG);
 
 							String fpath = folder + File.separator + files[i].getName().toString().trim();
