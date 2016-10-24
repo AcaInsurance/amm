@@ -12,10 +12,12 @@ import com.aca.database.DBA_MASTER_OTOMATE_AOG;
 import com.aca.database.DBA_MASTER_OTOMATE_RATE;
 import com.aca.database.DBA_MASTER_PRODUCT_SETTING;
 import com.aca.database.DBA_PRODUCT_MAIN;
+import com.aca.database.DBA_PRODUCT_OTOMATE;
 import com.aca.database.DBA_PRODUCT_OTOMATE_SYARIAH;
 import com.aca.dbflow.GeneralSetting;
 import com.aca.util.Var;
 
+import android.database.SQLException;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.R.integer;
@@ -132,10 +134,10 @@ public class FillOtomateSyariahActivity extends ControlNormalActivity {
 	private Spinner spnTpl, 
 					spnPA, 
 					spnPenggunaan;
+    private String kodeProduk;
 
- 
 
-	@Override
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -145,6 +147,7 @@ public class FillOtomateSyariahActivity extends ControlNormalActivity {
 		nf = NumberFormat.getInstance();
 		
 
+        getKodeProduk();
 		InitEditText();
 		RegisterListener();
 		init();
@@ -1588,6 +1591,28 @@ public class FillOtomateSyariahActivity extends ControlNormalActivity {
 		return tahunToday - tahunKend;
 	}
 
+
+    private void getKodeProduk() {
+        try {
+            Cursor cursor;
+
+            DBA_PRODUCT_OTOMATE_SYARIAH dba = new DBA_PRODUCT_OTOMATE_SYARIAH(this);
+            dba.open();
+
+            if (SPPA_ID != 0L) {
+                cursor = dba.getRow(SPPA_ID);
+                cursor.moveToFirst();
+                kodeProduk = cursor.getString(cursor.getColumnIndex(DBA_PRODUCT_OTOMATE_SYARIAH.KODE_PRODUK));
+            } else {
+                kodeProduk = GeneralSetting.getParameterValue(Var.GN_OTOMATE_PICKED);
+            }
+
+            kodeProduk = TextUtils.isEmpty(kodeProduk) ? Var.OTOMATE_SYARIAH : kodeProduk;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 	private double getRate() throws InterruptedException, ParseException {
 		DBA_MASTER_OTOMATE_RATE dba = null;
 		Cursor c = null;

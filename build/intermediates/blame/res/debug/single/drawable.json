@@ -48,10 +48,6 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable\\sectionbg.xml"
     },
     {
-        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_customer.xml",
-        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable\\activity_customer.xml"
-    },
-    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable\\textviewtop.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable\\textviewtop.xml"
     },

@@ -58,6 +58,7 @@ import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
+import org.w3c.dom.Text;
 
 import java.text.NumberFormat;
 import java.text.ParseException;
@@ -195,6 +196,8 @@ public class FillOtomateActivity extends ControlNormalActivity {
                 kodeProduk = GeneralSetting.getParameterValue(Var.GN_OTOMATE_PICKED);
             }
 
+            kodeProduk = TextUtils.isEmpty(kodeProduk) ? Var.OTOMATE : kodeProduk;
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -234,7 +237,15 @@ public class FillOtomateActivity extends ControlNormalActivity {
                 SPPA_ID = b.getLong("SPPA_ID");
                 LoadDB();
                 disableView();
-            } else {
+            }
+            else if (PRODUCT_ACTION.equalsIgnoreCase("SYNC")) {
+                SPPA_ID = b.getLong("SPPA_ID");
+                LoadDB();
+                insertDB();
+                setResult(RESULT_OK);
+                this.finish();
+            }
+            else {
                 findViewById(R.id.btnDelete).setVisibility(View.GONE);
             }
 
@@ -1125,10 +1136,15 @@ public class FillOtomateActivity extends ControlNormalActivity {
             FloodBind.select(spnFlood, c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.FLOOD)));
             EqBind.select(spnEq, c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.EQ)));
 
-            swiSRCC.setChecked(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.SRCC)).equalsIgnoreCase("1") ? true : false );
-            swiTS.setChecked(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.TS)).equalsIgnoreCase("1") ? true : false );
-            swiBengkel.setChecked(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.BENGKEL)).equalsIgnoreCase("1") ? true : false );
-
+            if (!TextUtils.isEmpty(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.SRCC)))) {
+                swiSRCC.setChecked(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.SRCC)).equalsIgnoreCase("1") ? true : false);
+            }
+            if (!TextUtils.isEmpty(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.TS)))) {
+                swiTS.setChecked(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.TS)).equalsIgnoreCase("1") ? true : false);
+            }
+            if (!TextUtils.isEmpty(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.TS)))) {
+                swiBengkel.setChecked(c.getString(c.getColumnIndex(DBA_PRODUCT_OTOMATE.BENGKEL)).equalsIgnoreCase("1") ? true : false);
+            }
             TPLBind.select(spnTpl, String.valueOf(c.getDouble(18)));
             PABind.select(spnPA, c.getString(30));
             SpinnerGenericAdapter a;
@@ -2233,11 +2249,13 @@ public class FillOtomateActivity extends ControlNormalActivity {
                     );
                 }
 
-                Intent i = new Intent(getBaseContext(), ConfirmActivity.class);
-                b.putLong("SPPA_ID", SPPA_ID);
-                i.putExtras(b);
-                startActivity(i);
-                FillOtomateActivity.this.finish();
+                if (!PRODUCT_ACTION.equalsIgnoreCase("SYNC")) {
+                    Intent i = new Intent(getBaseContext(), ConfirmActivity.class);
+                    b.putLong("SPPA_ID", SPPA_ID);
+                    i.putExtras(b);
+                    startActivity(i);
+                    FillOtomateActivity.this.finish();
+                }
             }
 
         } catch (Exception ex) {

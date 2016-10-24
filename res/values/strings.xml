@@ -187,4 +187,16 @@
     <string name="otomate.message.dokumenklaim.detail.4.f">f. Surat pernyataan tidak memiliki Asuransi</string>
     <string name="title_activity_fill_insured_group">FillInsuredGroupActivity</string>
 
+    <string-array name="function_39">
+        <item>MsPaketOtomate</item>
+        <item>MsPremiPerluasan</item>
+        <item>MsSettingOtomate</item>
+        <item>PremiAOGOtomate</item>
+        <item>PremiPAOtomate</item>
+        <item>PremiRateKonve</item>
+        <item>PremiTPLOtomate</item>
+        <item>ProductSetting</item>
+        <item>RateOtomate</item>
+        <item>StandardField</item>
+    </string-array>
 </resources>

@@ -8,33 +8,35 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 import com.aca.amm.CheckVehicleWS.CheckVehicle;
-import com.aca.amm.R;
 import com.aca.dal.Scalar;
 import com.aca.database.DBA_MASTER_AGENT;
 import com.aca.database.DBA_PRODUCT_MAIN;
 import com.aca.database.DBA_PRODUCT_OTOMATE;
 import com.aca.database.DBA_PRODUCT_OTOMATE_SYARIAH;
+import com.aca.dbflow.VersionAndroid;
+import com.aca.util.UtilDate;
+import com.raizlabs.android.dbflow.sql.language.Select;
 
 import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-import android.app.Dialog;
-import android.app.ListActivity;
 import android.database.Cursor;
 import android.support.v4.widget.SimpleCursorAdapter;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.DialogInterface.OnDismissListener;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
+
+import org.joda.time.LocalDate;
 
 public class SyncUnsyncActivity extends ControlListActivity implements InterfaceCustomer, CheckVehicle {
 
@@ -46,8 +48,9 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 	private NumberFormat nf;
 	private long sppaID = 0;
 	protected String kodeproduk;
+    private Toast toast;
 
-	@Override
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_sync_unsync);
@@ -295,23 +298,51 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 							SLProductASRI asri = new SLProductASRI(ctx, sppaID, SyncUnsyncActivity.this);
 							asri.execute();
 						}
-						else if(pro_name.toUpperCase().equals("OTOMATE")){
-							kodeproduk = "03";
-							
-							HashMap<String, String> map = getData(sppaID, kodeproduk);							
-							CheckVehicleWS ws = new CheckVehicleWS(ctx, map);
-							ws.mCallBack = SyncUnsyncActivity.this;
-							ws.execute();
-						
-						}
+						else if(pro_name.toUpperCase().equals("OTOMATE")) {
+                            kodeproduk = Scalar.getProdukKode(SyncUnsyncActivity.this, sppaID);
+
+                            if (!Scalar.isNewSppa(SyncUnsyncActivity.this, i)) {
+                                toast = Toast.makeText(SyncUnsyncActivity.this, "Proses sinkronisasi tidak bisa diproses untuk sppa otomate yang dibuat pada versi aplikasi sebelumnya", Toast.LENGTH_SHORT);
+                                toast.show();
+                                return;
+                            }
+
+                            HashMap<String, String> map = getData(sppaID, kodeproduk, pro_name);
+                            CheckVehicleWS ws = new CheckVehicleWS(ctx, map);
+                            ws.mCallBack = SyncUnsyncActivity.this;
+                            ws.execute();
+
+                         /*   if (needSync()) {
+                                Intent i = new Intent(SyncUnsyncActivity.this, FillOtomateActivity.class);
+                                Bundle b = new Bundle();
+
+                                b.putString("PRODUCT_ACTION", "SYNC");
+                                b.putLong("SPPA_ID", sppaID);
+                                i.putExtras(b);
+                                startActivityForResult(i, 100);
+                            }
+                            else {
+                                HashMap<String, String> map = getData(sppaID, kodeproduk);
+                                CheckVehicleWS ws = new CheckVehicleWS(ctx, map);
+                                ws.mCallBack = SyncUnsyncActivity.this;
+                                ws.execute();
+                            }
+						}*/
+                        }
 						else if(pro_name.toUpperCase().equals("ASRISYARIAH")){
 							SLProductASRISyariah asri_syariah = new SLProductASRISyariah(ctx,sppaID, SyncUnsyncActivity.this);
 							asri_syariah.execute();
 						}
 						else if(pro_name.toUpperCase().equals("OTOMATESYARIAH")){
 							kodeproduk = "09";
+
+                            if (!Scalar.isNewSppa(SyncUnsyncActivity.this, i)) {
+                                toast = Toast.makeText(SyncUnsyncActivity.this, "Proses sinkronisasi tidak bisa diproses untuk sppa otomate yang dibuat pada versi aplikasi sebelumnya", Toast.LENGTH_SHORT);
+                                toast.show();
+                                return;
+                            }
 							
-							HashMap<String, String> map = getData(sppaID, kodeproduk);							
+							HashMap<String, String> map = getData(sppaID, kodeproduk, pro_name);
 							CheckVehicleWS ws = new CheckVehicleWS(ctx, map);
 							ws.mCallBack = SyncUnsyncActivity.this;
 							ws.execute();
@@ -380,9 +411,45 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 	        .create();
 	        return myQuittingDialogBox;	
 	}
-	
-	@SuppressWarnings("finally")
-	protected HashMap<String, String> getData(long SPPA_ID, String kodeproduk) {
+
+    private boolean needSync() {
+        try {
+            VersionAndroid versionAndroid = new Select().from(VersionAndroid.class).querySingle();
+
+            DBA_PRODUCT_MAIN dbMain = new DBA_PRODUCT_MAIN(SyncUnsyncActivity.this);
+            dbMain.open();
+            Cursor cMain = dbMain.getRow(sppaID);
+            if(cMain.moveToFirst()) {
+                String entryDate = cMain.getString(cMain.getColumnIndex(DBA_PRODUCT_MAIN.ENTRY_DATE));
+                if (TextUtils.isEmpty(entryDate)) {
+                    return false;
+                }
+                LocalDate mEntryDate = UtilDate.toDate(entryDate, UtilDate.STANDARD_DATE);
+                dbMain.close();
+                if (versionAndroid.Version >= 36 && mEntryDate.isBefore(UtilDate.toDate(versionAndroid.DateTime)) ){
+                    return true;
+                }
+            }
+            dbMain.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 200 && resultCode == RESULT_OK) {
+            HashMap<String, String> map = getData(sppaID, kodeproduk, "OTOMATE");
+            CheckVehicleWS ws = new CheckVehicleWS(SyncUnsyncActivity.this, map);
+            ws.mCallBack = SyncUnsyncActivity.this;
+            ws.execute();
+        }
+    }
+
+    @SuppressWarnings("finally")
+	protected HashMap<String, String> getData(long SPPA_ID, String kodeproduk, String productName) {
 		
 		DBA_PRODUCT_MAIN dbProductMain = null;
 		DBA_PRODUCT_OTOMATE dbProductOtomate = null;
@@ -406,8 +473,13 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 			dbAgent.open();
 			cAgent = dbAgent.getRow();
 			cAgent.moveToFirst();
-			
-			if (kodeproduk.equalsIgnoreCase("03")) {
+
+            /*dbProductOtomate = new DBA_PRODUCT_OTOMATE(this);
+            dbProductOtomate.open();
+            cProductOtomate = dbProductOtomate.getRow(SPPA_ID);
+            cProductOtomate.moveToFirst();
+			*/
+			if (productName.equalsIgnoreCase("OTOMATE")) {
 				dbProductOtomate = new DBA_PRODUCT_OTOMATE(this);
 				dbProductOtomate.open();	
 				cProductOtomate = dbProductOtomate.getRow(SPPA_ID);
@@ -418,7 +490,7 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 				dbProductOtomateSyariah.open();
 				cProductOtomate = dbProductOtomateSyariah.getRow(SPPA_ID);
 				cProductOtomate.moveToFirst();
-			} 
+			}
 				
 			
 			map = new HashMap<String, String>();
@@ -584,6 +656,11 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 	@Override
 	public void CheckVehicleListener(Boolean result) {
 		if (result) {
+            SLProductOtomate otomate = new SLProductOtomate(this ,sppaID , SyncUnsyncActivity.this);
+            otomate.execute();
+
+
+            /*
 			if (kodeproduk.equals("03")) {
 				SLProductOtomate otomate = new SLProductOtomate(this ,sppaID , SyncUnsyncActivity.this);
 				otomate.execute();
@@ -591,7 +668,7 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 			else {
 				SLProductOtomateSyariah otomate_syariah = new SLProductOtomateSyariah(this, sppaID, SyncUnsyncActivity.this);
 				otomate_syariah.execute();				
-			}			
+			}			*/
 		}
 		else {
 			

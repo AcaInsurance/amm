@@ -256,12 +256,12 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_otomate.xml"
     },
     {
-        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_travel_dom_riskinsured.xml",
-        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_travel_dom_riskinsured.xml"
-    },
-    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_edit.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_customer_edit.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_travel_dom_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_travel_dom_riskinsured.xml"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\search_layout.xml",

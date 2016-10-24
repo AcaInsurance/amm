@@ -86,7 +86,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="forgot password?"
-        android:layout_below="@+id/btnLogin"
         android:gravity="center_horizontal"
         android:visibility="gone"
         

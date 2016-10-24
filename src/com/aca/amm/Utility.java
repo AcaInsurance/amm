@@ -126,6 +126,7 @@ public class Utility  {
 //    private static final String URL_IMAGE = "http://www.aca-mobile.com/wssaveimage.asmx";
     private static final String URL_IMAGE = "http://172.16.88.31/mobiletest/wssaveimage.asmx";
 
+    
 	@SuppressWarnings("unused")
 	private static final String TAG = "com.aca.amm.Utility";
 	
@@ -700,8 +701,8 @@ public class Utility  {
 		List<SpinnerGenericItem> spinnerGenericList = new LinkedList<SpinnerGenericItem>();
 		SpinnerGenericAdapter spinnerGenericAdapter = new SpinnerGenericAdapter(spinnerGenericList, act);
 
-		spinnerGenericList.add(new SpinnerGenericItem("D","DINAS"));
-		spinnerGenericList.add(new SpinnerGenericItem("N","PRIBADI")); 
+		spinnerGenericList.add(new SpinnerGenericItem("N","PRIBADI"));
+        spinnerGenericList.add(new SpinnerGenericItem("D","DINAS"));
 
 		
 		s.setAdapter(spinnerGenericAdapter);
@@ -749,8 +750,8 @@ public class Utility  {
 		List<SpinnerGenericItem> spinnerGenericList = new LinkedList<SpinnerGenericItem>();
 		SpinnerGenericAdapter spinnerGenericAdapter = new SpinnerGenericAdapter(spinnerGenericList, act);
 
-		spinnerGenericList.add(new SpinnerGenericItem("D","DINAS"));
 		spinnerGenericList.add(new SpinnerGenericItem("N","PRIBADI"));
+        spinnerGenericList.add(new SpinnerGenericItem("D","DINAS"));
 //		spinnerGenericList.add(new SpinnerGenericItem("C","KOMERSIL"));
 
 		

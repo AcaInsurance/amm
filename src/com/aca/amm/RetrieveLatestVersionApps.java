@@ -12,6 +12,9 @@ import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
 import com.aca.amm.R.layout;
+import com.aca.dbflow.VersionAndroid;
+import com.aca.util.UtilDate;
+import com.raizlabs.android.dbflow.sql.language.Delete;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -65,8 +68,10 @@ public class RetrieveLatestVersionApps extends AsyncTask<String, Void, HashMap<S
             responseBody = (SoapObject) envelope.getResponse();
             responseBody = (SoapObject) responseBody.getProperty(1);
         	
-            HashMap<String, String> map = new HashMap<String, String>(); 
-        	
+            HashMap<String, String> map = new HashMap<String, String>();
+
+            Delete.table(VersionAndroid.class);
+            VersionAndroid versionAndroid;
             if(responseBody.getPropertyCount() > 0) {
             	table = (SoapObject) responseBody.getProperty(0);
             	tableRow = (SoapObject) table.getProperty(0);
@@ -74,8 +79,11 @@ public class RetrieveLatestVersionApps extends AsyncTask<String, Void, HashMap<S
             	map.put("Version", tableRow.getPropertySafelyAsString("Version"));
             	map.put("Datetime", tableRow.getPropertySafelyAsString("Datetime"));
             	map.put("Maintenance", tableRow.getPropertySafelyAsString("Maintenance"));
-            	
-            	
+
+                versionAndroid = new VersionAndroid();
+                versionAndroid.Version = Integer.parseInt(map.get("Version"));
+                versionAndroid.DateTime = UtilDate.parseUTC(map.get("Datetime")).toDate();
+                versionAndroid.save();
             }
             else {
             	error = true;

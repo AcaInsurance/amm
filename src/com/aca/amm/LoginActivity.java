@@ -507,8 +507,8 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 //			            
 			            table = (SoapObject) responseBody.getProperty(0);
 			            tableRow = (SoapObject) table.getProperty(0);
-			            
-			           
+
+
 			            dbaDC = new DBA_MASTER_DISC_COMM(getBaseContext());
 			            dbaDC.open();
 			            dbaDC.deleteAll();
@@ -526,17 +526,7 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 				            		, Double.parseDouble(tableRow.getPropertySafelyAsString("COMMISION").toString()));
 			            }	
 			            error = false;
-			            
-//			            800120
-//			            800150
-//			            800325
-//			            800368
-//			            800370
-//			            809800
-//			            820800
-//			            880113
-//			            880124
-//			            887400
+
 		            }		            
 	        	
 	        	}}

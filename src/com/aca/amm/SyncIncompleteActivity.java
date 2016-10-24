@@ -228,7 +228,8 @@ public class SyncIncompleteActivity extends ControlListActivity {
 			}
 		};
 	}
-	
+
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.sync_incomplete, menu);
@@ -237,6 +238,7 @@ public class SyncIncompleteActivity extends ControlListActivity {
 	
 	private Intent NextActivity(long id, String act, String action, String cust_code, String cust_name)
 	{
+
 		Intent i = null;
 		Bundle b = new Bundle();
 

@@ -61,6 +61,8 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.PagerAdapter;
 
+import static android.R.attr.width;
+
 
 public class FirstActivity extends ControlNormalActivity {
 
@@ -84,7 +86,6 @@ public class FirstActivity extends ControlNormalActivity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_first);
 
-		testingDB();
 
 	    flag = new int[] {R.drawable.ztravelsafe, R.drawable.ztravelsafedom, R.drawable.zpaamanah, 
 				R.drawable.zasrisyariah, R.drawable.zotomatesyariah, R.drawable.zotomate, R.drawable.zacamobil,
@@ -116,13 +117,7 @@ public class FirstActivity extends ControlNormalActivity {
 //		data.run();
 	}
 
-	private void testingDB() {
-		PaketOtomate paketOtomate = new PaketOtomate();
-		paketOtomate.Eq = "123";
-		paketOtomate.save();
-	}
-
-	private void clearData() {
+    private void clearData() {
 		try {
 			DBA_PRODUCT_CONVENSIONAL dbConven = new DBA_PRODUCT_CONVENSIONAL(this);
 			DBA_PRODUCT_CARGO dbCargo = new DBA_PRODUCT_CARGO(this);

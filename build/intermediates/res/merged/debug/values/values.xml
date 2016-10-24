@@ -46,6 +46,18 @@
     <string-array name="LoadStandardField_post">
         <item/>
     </string-array>
+    <string-array name="function_39">
+        <item>MsPaketOtomate</item>
+        <item>MsPremiPerluasan</item>
+        <item>MsSettingOtomate</item>
+        <item>PremiAOGOtomate</item>
+        <item>PremiPAOtomate</item>
+        <item>PremiRateKonve</item>
+        <item>PremiTPLOtomate</item>
+        <item>ProductSetting</item>
+        <item>RateOtomate</item>
+        <item>StandardField</item>
+    </string-array>
     <string-array name="vehicle_merk">
         <item>BMW</item>
         <item>Daihatsu</item>

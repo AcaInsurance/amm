@@ -470,7 +470,6 @@
 		                android:textColor="@color/White"/>
                     
                    	<TextView
-		                android:id="@+id/txtConditionWarranties"
 		                android:hint="Kondisi dan Warranty"
 		                android:layout_width="0dp"
 		                android:layout_height="wrap_content"

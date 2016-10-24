@@ -21,7 +21,7 @@ import java.util.HashMap;
  * Created by Marsel on 16/11/2015.
  */
 
-public class WebServicesNonAsync  {
+public class WebServicesNonAsync {
     private String NAMESPACE = Utility.getNamespace();
     private String URL = Utility.getURL();
     private String SOAP_ACTION = Utility.getSoapAction();
@@ -61,7 +61,6 @@ public class WebServicesNonAsync  {
     }
 
 
-
     public WebServicesNonAsync(@NonNull Context context
             , @NonNull String methodName
             , @NonNull HashMap<String, String> propertyParam
@@ -74,6 +73,7 @@ public class WebServicesNonAsync  {
         this.propertyParam = propertyParam;
         this.propertyName = propertyName;
         this.responseArray = responseArray;
+
         this.loadingDialog = loadingDialog;
         this.loadingMessage = UtilService.getLoadingMessage();
 
@@ -135,7 +135,7 @@ public class WebServicesNonAsync  {
     }
 
 
-    public  ArrayList<HashMap<String, String>> doInBackground() {
+    public ArrayList<HashMap<String, String>> doInBackground() {
 
         SoapObject table;                        // Contains table of dataset that returned through SoapObject
         SoapObject tableRow;                     // Contains row of table
@@ -183,7 +183,7 @@ public class WebServicesNonAsync  {
             error = false;
 
         } catch (Exception ex) {
-            UtilException exClass =  new UtilException();
+            UtilException exClass = new UtilException();
 
             ex.printStackTrace();
             error = true;
@@ -215,7 +215,6 @@ public class WebServicesNonAsync  {
 //    protected abstract void onSuccess(@NonNull ArrayList<HashMap<String, String>> arrList);
 //    protected abstract void onFailed(String message);
 //    protected abstract void onCancel();
-
 
 
 }

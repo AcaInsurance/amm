@@ -27,7 +27,7 @@
 	         	>
 	         	
 				<TableRow
-		  			android:id="@+id/tableRow1" 
+		  			 
 		            android:layout_width="match_parent"
 					android:layout_height="wrap_content">
 					
@@ -56,7 +56,7 @@
 				</TableRow>
 	           	
 				<TableRow
-					android:id="@+id/tableRow1"
+					
 	                android:layout_width="fill_parent"
 	                android:layout_height="wrap_content"
 	                android:background="#FFFFFF"
@@ -85,7 +85,7 @@
 	           	</TableRow>
 	              
 	           	<TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"
@@ -114,7 +114,7 @@
 	           	</TableRow>
 	           	
 	           	<TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"
@@ -143,7 +143,7 @@
 	           	</TableRow>
 	           	
 	           	<TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"
@@ -172,7 +172,7 @@
 	           	</TableRow>
 	           	
 	           	<TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"
@@ -201,7 +201,7 @@
 	           	</TableRow>
 	           
 	           	<TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"
@@ -231,7 +231,7 @@
 	           	
 	           	
 	           	<TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"
@@ -260,7 +260,7 @@
 	           	</TableRow>
 	
 	            <TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"
@@ -289,7 +289,7 @@
 	           	</TableRow>
 	           	
 	            <TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"
@@ -318,7 +318,7 @@
 	           	</TableRow>
 	           	
 	            <TableRow
-	                 android:id="@+id/tableRow1"
+	                 
 	                 android:layout_width="fill_parent"
 	                 android:layout_height="wrap_content"
 	                 android:background="#FFFFFF"

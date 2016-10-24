@@ -50,8 +50,16 @@ public class DBA_PRODUCT_OTOMATE_SYARIAH{
 	public static final String KETERANGAN_KERUSAKAN = "KETERANGAN_KERUSAKAN";
 	public static final String PILIHAN_LOADING  	= "PILIHAN_LOADING";
 	public static final String PA 					= "PA";
-	 
-    
+
+    public static final String FLOOD = "FLOOD";
+    public static final String EQ = "EQ";
+    public static final String SRCC = "SRCC";
+    public static final String TS = "TS";
+    public static final String KODE_PRODUK = "KODE_PRODUK";
+    public static final String BENGKEL = "BENGKEL";
+    public static final String IS_NEW_SPPA = "IS_NEW_SPPA";
+
+
     private static final String DATABASE_NAME = "AMM_VERSION_2";
     private static final String DATABASE_TABLE = "PRODUCT_OTOMATE_SYARIAH";
 
@@ -88,7 +96,14 @@ public class DBA_PRODUCT_OTOMATE_SYARIAH{
             "KERUSAKAN TEXT," +
             "PENGGUNAAN TEXT," +
             "KETERANGAN_KERUSAKAN TEXT," +
-            "PILIHAN_LOADING" +
+            "PILIHAN_LOADING," +
+            "FLOOD TEXT, " +
+            "EQ TEXT, " +
+            "SRCC TEXT, " +
+            "TS TEXT, " +
+            "KODE_PRODUK TEXT, " +
+            "BENGKEL TEXT, " +
+            "IS_NEW_SPPA TEXT " +
             ");";
     
     private final Context context;    
@@ -216,9 +231,10 @@ public class DBA_PRODUCT_OTOMATE_SYARIAH{
         initialValues.put(RISIKO_SENDIRI, risiko); 
         initialValues.put(PENGGUNAAN, penggunaan); 
         initialValues.put(KERUSAKAN, kerusakan); 
-        initialValues.put(KETERANGAN_KERUSAKAN, keteranganKerusakan); 
-        
-        
+        initialValues.put(KETERANGAN_KERUSAKAN, keteranganKerusakan);
+        initialValues.put(IS_NEW_SPPA, Boolean.TRUE);
+
+
         return db.insert(DATABASE_TABLE, null, initialValues);
     }
 
@@ -395,8 +411,13 @@ public class DBA_PRODUCT_OTOMATE_SYARIAH{
     			PENGGUNAAN,					//32
     			KERUSAKAN,					//33
     			KETERANGAN_KERUSAKAN,		//34
-    			PILIHAN_LOADING				//35
-        		
+    			PILIHAN_LOADING,				//35
+                FLOOD,                            //36
+                EQ,                            //37
+                SRCC,                            //38
+                TS,                                //39
+                KODE_PRODUK,                    //40
+                BENGKEL                        //41
     			}, 
         		PRODUCT_MAIN_ID + "=" + product_main_id, null, null, null, null);
     }
