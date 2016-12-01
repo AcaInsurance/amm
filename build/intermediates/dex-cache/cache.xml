@@ -8,7 +8,7 @@
         optimize="true"
         revision="23.0.2"
         sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\joda-time-2.3_8b120678070f36d4a9d4501446bfbb85383db910.jar" />
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\release\joda-time-2.3_8b120678070f36d4a9d4501446bfbb85383db910.jar" />
     </item>
     <item
         is-multidex="false"
@@ -26,7 +26,7 @@
         optimize="true"
         revision="23.0.2"
         sha1="25f731527e77fec5e8ddcefda575d32656922a7d">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\dbflow-core-3.0.0-beta5_e283f8292ca7a73a72f47d76627c49a1db63f226.jar" />
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\release\dbflow-core-3.0.0-beta5_e283f8292ca7a73a72f47d76627c49a1db63f226.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,7 +53,7 @@
         optimize="true"
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_609950e701d403f658cad5ef3aefeb2b92944fd6.jar" />
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\release\support-annotations-23.1.1_609950e701d403f658cad5ef3aefeb2b92944fd6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e3a09aff543473da7dfe00d4067b15d5447d3601">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3766a92a6ee0e8ffb860f0eaa35cdf1982a28def.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="true"
         optimize="true"
@@ -89,7 +98,16 @@
         optimize="true"
         revision="23.0.2"
         sha1="1c22a78d3134f31a72ab20f24f1736906f1da611">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\com.github.Raizlabs.DBFlow-dbflow-3.0.0-beta5_32dc3fbf5d7308cae4258a681ff735a50cbdfb29.jar" />
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\release\com.github.Raizlabs.DBFlow-dbflow-3.0.0-beta5_32dc3fbf5d7308cae4258a681ff735a50cbdfb29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cbd080e7c5ca80de91b410a577d84705c8fccfbd">
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\instant-run_7eb194a3dc9514d9e75516ad6626d4861c7079a8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -98,7 +116,7 @@
         optimize="true"
         revision="23.0.2"
         sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\butterknife-7.0.1_053f39f21dede3686d3a2514ccbcbf0ae75b0942.jar" />
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\release\butterknife-7.0.1_053f39f21dede3686d3a2514ccbcbf0ae75b0942.jar" />
     </item>
     <item
         is-multidex="false"
@@ -107,7 +125,7 @@
         optimize="true"
         revision="23.0.2"
         sha1="d6e6d14301616c866b7eff210ece6579299417ec">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.5.8-jar-with-dependencies_1d845ad09baac34b23a6d85249ab11e1e2115f00.jar" />
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\release\ksoap2-android-assembly-2.5.8-jar-with-dependencies_1d845ad09baac34b23a6d85249ab11e1e2115f00.jar" />
     </item>
     <item
         is-multidex="false"
@@ -125,7 +143,7 @@
         optimize="true"
         revision="23.0.2"
         sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
-        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\debug\android-support-v4_be46033a92ddff7edfa285bc65e6e52edb898d00.jar" />
+        <dex dex="D:\Android Java\Workspace\AMM NO DRAWER\AMM\build\intermediates\pre-dexed\release\android-support-v4_be46033a92ddff7edfa285bc65e6e52edb898d00.jar" />
     </item>
 
 </items>
