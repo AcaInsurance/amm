@@ -52,6 +52,11 @@
         <item>Lain-lain</item>
     </string-array>
 
+    <string-array name="gender">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+
     <string name="title_activity_info_asri">InfoASRIActivity</string>
     <string name="title_activity_info_asri_syriah">InfoAsriSyriahActivity</string>
     <string name="title_activity_info_otomate_syariah">InfoOtomateSyariahActivity</string>
@@ -186,6 +191,18 @@
     <string name="otomate.message.dokumenklaim.detail.4.e">e. Surat musyawarah</string>
     <string name="otomate.message.dokumenklaim.detail.4.f">f. Surat pernyataan tidak memiliki Asuransi</string>
     <string name="title_activity_fill_insured_group">FillInsuredGroupActivity</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+
+
+    <string name="text_kuestioner_4">Dengan ini, saya menyatakan dan menyetujui bahwa:
+        \n\n1. Keterangan- keterangan di atas dibuat dengan sejujur- jujurnya, lengkap dan sesuai dengan keadaan sebenarnya dan akan digunakan sebagai dasar serta merupakan bagian yang tidak terpisahkan dari polis yang diterbitkan.
+        \n\n2. Jika ada keterangan yang diberikan tidak benar, akan mengakibatkan batalnya pertanggungan, klaim tidak akan dibayarkan oleh Penanggung dan premi tidak dikembalikan.
+        \n\n3. Memberi kuasa kepada pihak ACA untuk meminta keterangan data apapun yang ada kepada pihak terkait seperti dokter, rumah sakit, puskesmas, perusahaan asuransi, atau organisasi lainnya. Juga, menyetujui pihak terkait untuk memberikan keterangan yang diperlukan pihak ACA.
+        \n\n4. Ketentuan- ketentuan yang terlampir sudah dibaca dan disetujui penerapannya</string>
+    <string name="message_validate_empty">Isi semua keterangan yang diminta</string>
+    <string name="message_validate_setuju">Anda harus setuju dengan semua ketentuan</string>
+    <string name="keterangan">Jika ya, jelaskan</string>
 
     <string-array name="function_39">
         <item>MsPaketOtomate</item>

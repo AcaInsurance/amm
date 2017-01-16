@@ -479,7 +479,6 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
         ws.mCallbackListener = this;
         ws.execute();
 
-
     }
 
     @Override

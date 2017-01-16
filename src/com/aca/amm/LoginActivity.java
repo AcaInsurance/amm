@@ -58,41 +58,13 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static android.R.attr.id;
+import static android.provider.ContactsContract.CommonDataKinds.Identity.NAMESPACE;
+import static com.aca.amm.R.id.progressBar;
+
 public class LoginActivity extends Activity implements InterfaceLogin, ResetPassword, GetuserdataListener{
-	private static String NAMESPACE = "http://tempuri.org/";     
-    private static String URL = Utility.getURL(); 
-     	
-    private static String SOAP_ACTION = "http://tempuri.org/ValidateLoginAgentNew";     
-    private static String METHOD_NAME = "ValidateLoginAgentNew";
-    
-    private static String SOAP_ACTION_DETAIL = "http://tempuri.org/GetAgentInfo";     
-    private static String METHOD_NAME_DETAIL = "GetAgentInfo";
-    
-    private static String SOAP_ACTION_DISC_COMM = "http://tempuri.org/GetDiscCommAll";     
-    private static String METHOD_NAME_DISC_COMM= "GetDiscCommAll";
-    
-    private static String SOAP_ACTION_EMAIL_AGENT = "http://tempuri.org/GetEmailAgent";     
-    private static String METHOD_NAME_EMAIL_AGENT= "GetEmailAgent";
-    
-    
-    private ProgressDialog progressBar;
-    
-    private PropertyInfo id, pass;
-    
-    private HttpTransportSE androidHttpTransport = null;
-    
-    private SoapObject requestretrive = null;
-    private SoapSerializationEnvelope envelope = null;
-   
-    private SoapObject requestretrive2 = null;
-    private SoapSerializationEnvelope envelope2 = null;
-    
-    private SoapObject requestretrive3 = null;
-    private SoapSerializationEnvelope envelope3 = null;
-    
-    private SoapObject requestretrive4 = null;
-    private SoapSerializationEnvelope envelope4 = null;
-    
+
+
 
     private boolean error;
     private String errorMessage = "";
@@ -128,10 +100,11 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 	private void initControl(){
 		agentcode = (EditText)findViewById(R.id.txtUserName);
 		password = (EditText)findViewById(R.id.txtPassword);
-		
-//		agentcode.setText("068899");
-//		password.setText("aca32@@");
-		
+
+        if (BuildConfig.DEBUG) {
+            agentcode.setText("068899");
+            password.setText("aca32@@");
+        }
 	} 
 
 	@Override
@@ -302,11 +275,7 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 
 	
 	public void btnLoginClick(View v) {
-		
-		boolean isConnect = Utility.cekInternetConnection(getApplicationContext());
-//		if (!isConnect)
-//			return;
-		
+
 		boolean bError = false;
 		String sError = "";
 		
@@ -329,20 +298,13 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 		}
 		else
 		{
-			requestretrive = new SoapObject(NAMESPACE, METHOD_NAME);
-			requestretrive2 = new SoapObject(NAMESPACE, METHOD_NAME_DETAIL);
-			requestretrive3 = new SoapObject(NAMESPACE, METHOD_NAME_DISC_COMM);
-			
 
-    		
-			id = new PropertyInfo();
-			pass = new PropertyInfo();
-			
-			sc = new RetrieveAccount();
+			sc = new RetrieveAccount(this, agentcode.getText().toString(), password.getText().toString());
+            sc.interfaceLogin = this;
 			sc.execute();
 		}
 	}
-	
+	/*
 
 	private class RetrieveAccount extends AsyncTask<String, Void, Void>{
 
@@ -588,7 +550,8 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 				
 			}
 		}
-	}
+	}*/
+
 	public ArrayList<HashMap<String, String>> getCurrentNews (Context ctx) throws InterruptedException {
 	
 		CurrentNews news = new CurrentNews(ctx);
@@ -656,12 +619,11 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 		int textViewId = dialog.getContext().getResources().getIdentifier("android:id/title", null, null);
 		TextView tv = (TextView) dialog.findViewById(textViewId);
 		tv.setTextColor(getResources().getColor(R.color.Black));
-		
- 
+
+
 		Button dialogButtonOK = (Button) dialog.findViewById(buttonOKId);
 		Button dialogButtonCancel = (Button) dialog.findViewById(buttonCancelId);
 
-				
 		dialogButtonOK.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -736,9 +698,13 @@ public class LoginActivity extends Activity implements InterfaceLogin, ResetPass
 	@Override
 	public void loginUser(boolean login) {
 		if(login) {
-			dropDatabase();
+/*			dropDatabase();
 			startActivity(new Intent(LoginActivity.this, SplashActivity.class));
-			LoginActivity.this.finish();
+			LoginActivity.this.finish();*/
+
+            Intent i = new Intent(LoginActivity.this,  FirstActivity.class);
+            startActivity(i);
+            finish();
 		}
 		
 	}

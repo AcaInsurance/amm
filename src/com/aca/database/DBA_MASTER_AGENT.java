@@ -204,7 +204,8 @@ public class DBA_MASTER_AGENT {
         		EMAIL_ADDRESS, 	//10
         		PHONE_NO, 	//11
         		USER_NAME, 	//12
-        		U_NAME 		//13
+        		U_NAME 		,//13
+                U_PASS
         		
         		
         		}, 	

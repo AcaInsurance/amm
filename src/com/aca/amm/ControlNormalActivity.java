@@ -43,46 +43,46 @@ public class ControlNormalActivity extends Activity {
 		@Override
 		public boolean onKeyDown(int keyCode, KeyEvent event) {
 			// TODO Auto-generated method stub
-			
-				
+
 			return super.onKeyDown(keyCode, event);
 		}
 
-//		@Override
-//	    public void onUserInteraction()
-//	    {
-//	        super.onUserInteraction();
-////	        getApp().touch();
-////	        waiter.touch();
-////	        
-//	        
-//	        Log.d(TAG, "User interaction to "+this.toString());
-//	        
-//	        SharedPreferences sharedPreferences = this.getSharedPreferences("com.aca.amm", Context.MODE_PRIVATE);
-//	        long sessionBefore =  sharedPreferences.getLong("SESSION", System.currentTimeMillis());
-//			long sessionNow = System.currentTimeMillis();
-//			
-//			sharedPreferences
-//				.edit()
-//				.putLong("SESSION", sessionNow)
-//				.apply();
-//			
-//			if ((sessionNow - sessionBefore) > (5*1000)) {
-//				Log.i("Session timeout", "logout is triggered");
-//				
-//				DBA_MASTER_AGENT dba = new DBA_MASTER_AGENT(ControlActivity.this);
-//				dba.open();
-//				dba.updateStatusLogout();
-//				dba.close();
-//				
-//				Intent i = new Intent(ControlActivity.this, LoginActivity.class);
-//				i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//				i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//				startActivity(i);
-//								
-//			}
-//	      
-//	    }
+    /*
+		@Override
+	    public void onUserInteraction()
+	    {
+	        super.onUserInteraction();
+//	        getApp().touch();
+//	        waiter.touch();
+//
+
+	        Log.d(TAG, "User interaction to "+this.toString());
+
+	        SharedPreferences sharedPreferences = this.getSharedPreferences("com.aca.amm", Context.MODE_PRIVATE);
+	        long sessionBefore =  sharedPreferences.getLong("SESSION", System.currentTimeMillis());
+			long sessionNow = System.currentTimeMillis();
+
+			sharedPreferences
+				.edit()
+				.putLong("SESSION", sessionNow)
+				.apply();
+
+			if ((sessionNow - sessionBefore) > (5*1000)) {
+				Log.i("Session timeout", "logout is triggered");
+
+				DBA_MASTER_AGENT dba = new DBA_MASTER_AGENT(ControlActivity.this);
+				dba.open();
+				dba.updateStatusLogout();
+				dba.close();
+
+				Intent i = new Intent(ControlActivity.this, LoginActivity.class);
+				i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+				i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				startActivity(i);
+
+			}
+
+	    }*/
 
 		@Override
 		protected void onPause() {
@@ -121,7 +121,7 @@ public class ControlNormalActivity extends Activity {
 			Log.i ("session shared preference", sessionBefore + "");
 			
 			
-			if ((sessionNow - sessionBefore) > (SESSION_TIME)) {
+			/*if ((sessionNow - sessionBefore) > (SESSION_TIME)) {
 				Log.i("Session timeout", "logout is triggered");
 				
 				DBA_MASTER_AGENT dba = new DBA_MASTER_AGENT(ControlNormalActivity.this);
@@ -134,7 +134,7 @@ public class ControlNormalActivity extends Activity {
 				i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 				startActivity(i);
 				
-			}
+			}*/
 		}
 		
 		

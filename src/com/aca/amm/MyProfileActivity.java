@@ -350,8 +350,27 @@ public class MyProfileActivity extends ControlNormalActivity implements Interfac
 	}	
 
 	public void btnSignOutClick (View v) {
-	    Utility.ConfirmDialog(MyProfileActivity.this, "Konfirmasi", "Anda yakin ingin keluar dari aplikasi ini?", "Ya", "Tidak");
-	}
+//	    Utility.ConfirmDialog(MyProfileActivity.this, "Konfirmasi", "Anda yakin ingin keluar dari aplikasi ini?", "Ya", "Tidak");
+
+        DBA_MASTER_AGENT dba = new DBA_MASTER_AGENT(getBaseContext());
+        try {
+            dba.open();
+            if (dba.getRow().getCount() != 0) {
+//                dba.updateStatusLogout();
+                dba.deleteAll();
+                Toast.makeText(this, "Anda sudah logout", Toast.LENGTH_SHORT).show();
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        } finally {
+            if (dba != null)
+                dba.close();
+
+            finish();
+        }
+    }
 	
 
 	@Override
@@ -376,9 +395,6 @@ public class MyProfileActivity extends ControlNormalActivity implements Interfac
 	
 	private void Back(){
 		try{
-			Intent i = new Intent(getBaseContext(),  FirstActivity.class);
-			
-			startActivity(i);
 			this.finish();
 		}
 		catch(Exception ex){
@@ -390,7 +406,6 @@ public class MyProfileActivity extends ControlNormalActivity implements Interfac
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
 		super.onBackPressed();
-		
 		Back();
 	}
 	
@@ -400,8 +415,6 @@ public class MyProfileActivity extends ControlNormalActivity implements Interfac
 	}
 	
 	private void Home(){
-		Intent i = new Intent(getBaseContext(),  FirstActivity.class);
-		startActivity(i);
 		this.finish();
 	}
 

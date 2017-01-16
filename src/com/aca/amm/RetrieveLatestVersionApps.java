@@ -61,13 +61,13 @@ public class RetrieveLatestVersionApps extends AsyncTask<String, Void, HashMap<S
 			SoapObject responseBody = null;					// Contains XML content of dataset
 			SoapObject table = null;					// Contains XML content of dataset
 			SoapObject tableRow = null;					// Contains XML content of dataset
-	        
+
 	    	envelope.setOutputSoapObject(requestRetrieve);
-    		androidHttpTransport.call(SOAP_ACTION, envelope);  
-    		
+    		androidHttpTransport.call(SOAP_ACTION, envelope);
+
             responseBody = (SoapObject) envelope.getResponse();
             responseBody = (SoapObject) responseBody.getProperty(1);
-        	
+
             HashMap<String, String> map = new HashMap<String, String>();
 
             Delete.table(VersionAndroid.class);
@@ -75,7 +75,7 @@ public class RetrieveLatestVersionApps extends AsyncTask<String, Void, HashMap<S
             if(responseBody.getPropertyCount() > 0) {
             	table = (SoapObject) responseBody.getProperty(0);
             	tableRow = (SoapObject) table.getProperty(0);
-            	
+
             	map.put("Version", tableRow.getPropertySafelyAsString("Version"));
             	map.put("Datetime", tableRow.getPropertySafelyAsString("Datetime"));
             	map.put("Maintenance", tableRow.getPropertySafelyAsString("Maintenance"));
@@ -90,9 +90,9 @@ public class RetrieveLatestVersionApps extends AsyncTask<String, Void, HashMap<S
             	errorMessage = "Data tidak ditemukan";
             	return null;
             }
-            
+
             return map ;
-		}	
+		}
 		catch (Exception e) {
     		error = true;
     		e.printStackTrace();	        		

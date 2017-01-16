@@ -35,6 +35,9 @@ import com.aca.database.DBA_PRODUCT_TOKO;
 import com.aca.database.DBA_PRODUCT_TRAVEL_DOM;
 import com.aca.database.DBA_PRODUCT_TRAVEL_SAFE;
 import com.aca.database.DBA_PRODUCT_WELLWOMAN;
+import com.aca.dbflow.MedisafeKuestioner;
+import com.aca.dbflow.MedisafeKuestioner_Table;
+import com.raizlabs.android.dbflow.sql.language.Select;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
@@ -417,6 +420,11 @@ public class SyncUnpaidActivity extends ControlListActivity implements Interface
                     dbProduct.open();
                     dbProduct.delete(pos);
                     dbProduct.close();
+
+                    new Select().from(MedisafeKuestioner.class)
+                            .where(MedisafeKuestioner_Table.SppaNo.eq(pos+""))
+                            .querySingle()
+                            .delete();
                 } else if (pro_name.toUpperCase().equals("EXECUTIVESAFE")) {
                     DBA_PRODUCT_EXECUTIVE_SAFE dbProduct = new DBA_PRODUCT_EXECUTIVE_SAFE(getListView().getContext());
                     dbProduct.open();

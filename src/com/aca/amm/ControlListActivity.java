@@ -64,7 +64,7 @@ public class ControlListActivity extends ListActivity {
 			Log.i ("session shared preference", sessionBefore + "");
 			
 			
-			if ((sessionNow - sessionBefore) > (SESSION_TIME)) {
+			/*if ((sessionNow - sessionBefore) > (SESSION_TIME)) {
 				Log.i("Session timeout", "logout is triggered");
 				
 				DBA_MASTER_AGENT dba = new DBA_MASTER_AGENT(ControlListActivity.this);
@@ -77,7 +77,7 @@ public class ControlListActivity extends ListActivity {
 				i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 				startActivity(i);
 				
-			}
+			}*/
 		}
 		
 		

@@ -31,6 +31,7 @@ import com.aca.database.DBA_PRODUCT_TRAVEL_SAFE;
 import com.aca.database.DBA_PRODUCT_WELLWOMAN;
 import com.aca.dbflow.PaketOtomate;
 
+import android.database.SQLException;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.app.Activity;
@@ -38,6 +39,7 @@ import android.app.AlarmManager;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.PendingIntent;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -64,7 +66,7 @@ import android.support.v4.view.PagerAdapter;
 import static android.R.attr.width;
 
 
-public class FirstActivity extends ControlNormalActivity {
+public class FirstActivity extends ControlNormalActivity implements InterfaceLogin {
 
 	ViewPager viewPager;    
 	PagerAdapter adapter;
@@ -109,7 +111,10 @@ public class FirstActivity extends ControlNormalActivity {
 		if(Utility.cekLogin(getBaseContext()) && cekPopup()) 
 		{
 			ShowDialogPopupNews();
-		}		
+		}
+        else {
+            autoLogin();
+        }
 		
 		clearData();
 		
@@ -535,14 +540,14 @@ public class FirstActivity extends ControlNormalActivity {
 		{
 			Intent i = new Intent(getBaseContext(),  MyProfileActivity.class);
 			startActivity(i);
-			this.finish();
 		}	
 	}
 	
 	public void  btnLogoutClick(View v) {
 	    Utility.ConfirmDialog(FirstActivity.this, "Konfirmasi", "Anda yakin ingin keluar dari aplikasi ini?", "Ya", "Tidak");
 	}
-	
+
+/*
 	@Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
 
@@ -550,6 +555,54 @@ public class FirstActivity extends ControlNormalActivity {
     		Utility.ConfirmDialog(FirstActivity.this, "Konfirmasi", "Anda yakin ingin keluar dari aplikasi ini?", "Ya", "Tidak");
     	}
     	return false;
+    }
+*/
+
+
+    public boolean autoLogin(){
+        DBA_MASTER_AGENT agent = new DBA_MASTER_AGENT(getBaseContext());
+        Cursor cAgent = null;
+        try {
+            agent.open();
+            cAgent = agent.getRow();
+            if (!cAgent.moveToFirst()) return false;
+
+
+
+/*
+            if (!Utility.cekLogin(getBaseContext()))
+                return false;
+*/
+
+            String userName = cAgent.getString(cAgent.getColumnIndex(DBA_MASTER_AGENT.USER_ID));
+            String pass = cAgent.getString(cAgent.getColumnIndex(DBA_MASTER_AGENT.U_PASS));
+
+            if (!TextUtils.isEmpty(userName) && !TextUtils.isEmpty(pass)) {
+
+                RetrieveAccount sc = new RetrieveAccount(this, userName, pass);
+                sc.interfaceLogin = this;
+                sc.execute();
+                return true;
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            agent.close();
+            cAgent.close();
+        }
+        return false;
+    }
+
+
+    @Override
+    public void loginUser(boolean login) {
+        if (login) {
+            Toast.makeText(this, "Selamat datang kembali", Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Toast.makeText(this, "Percobaan login gagal", Toast.LENGTH_SHORT).show();
+        }
     }
 
 }

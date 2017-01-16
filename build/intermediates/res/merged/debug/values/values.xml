@@ -58,6 +58,10 @@
         <item>RateOtomate</item>
         <item>StandardField</item>
     </string-array>
+    <string-array name="gender">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
     <string-array name="vehicle_merk">
         <item>BMW</item>
         <item>Daihatsu</item>
@@ -238,6 +242,7 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="hello_world">Hello world!</string>
     <string name="info_aca">Untuk info lebih detail, hubungi kami di 02131999100 atau mengirimkan email di cust-aca@aca.co.id</string>
+    <string name="keterangan">Jika ya, jelaskan</string>
     <string name="konvensional.message.perluasan.1">1. Angin Topan, Badai, Hujan Es, Banjir dan atau Tanah Longsor</string>
     <string name="konvensional.message.perluasan.2">2. Gempa Bumi, Tsunami dan atau Letusan Gunung Berapi</string>
     <string name="konvensional.message.perluasan.3">3. Huru-hara</string>
@@ -249,6 +254,8 @@
     <string name="konvensional.message.table.premi.jaminan.1">1. Wilayah 1: Sumatera dan Kepulauannya</string>
     <string name="konvensional.message.table.premi.jaminan.2">2. Wilayah 2: Jakarta, Banten dan Jabar</string>
     <string name="konvensional.message.table.premi.jaminan.3">3. Wilayah 3: Selain Wilayah 1 dan Wilayah 2</string>
+    <string name="message_validate_empty">Isi semua keterangan yang diminta</string>
+    <string name="message_validate_setuju">Anda harus setuju dengan semua ketentuan</string>
     <string name="otomate.message.dokumenklaim.detail.1.a">	a. Mengisi LKKB ( Laporan Kecelakaan Kendaraan Bermotor )</string>
     <string name="otomate.message.dokumenklaim.detail.1.b">	b. Fotocopy polis</string>
     <string name="otomate.message.dokumenklaim.detail.1.c">	c. Fotocopy STNK kendaraan</string>
@@ -284,6 +291,12 @@
     <string name="search_hint">Cari</string>
     <string name="sync_message_init">First time initialization.\n It may takes few minutes depend on your internet connection.\n Please wait..</string>
     <string name="sync_message_not_init">Synchronize data is in progress..</string>
+    <string name="text_kuestioner_4">Dengan ini, saya menyatakan dan menyetujui bahwa:
+        \n\n1. Keterangan- keterangan di atas dibuat dengan sejujur- jujurnya, lengkap dan sesuai dengan keadaan sebenarnya dan akan digunakan sebagai dasar serta merupakan bagian yang tidak terpisahkan dari polis yang diterbitkan.
+        \n\n2. Jika ada keterangan yang diberikan tidak benar, akan mengakibatkan batalnya pertanggungan, klaim tidak akan dibayarkan oleh Penanggung dan premi tidak dikembalikan.
+        \n\n3. Memberi kuasa kepada pihak ACA untuk meminta keterangan data apapun yang ada kepada pihak terkait seperti dokter, rumah sakit, puskesmas, perusahaan asuransi, atau organisasi lainnya. Juga, menyetujui pihak terkait untuk memberikan keterangan yang diperlukan pihak ACA.
+        \n\n4. Ketentuan- ketentuan yang terlampir sudah dibaca dan disetujui penerapannya</string>
+    <string name="tidak">Tidak</string>
     <string name="title_activity_aaaaaa">Aaaaaa</string>
     <string name="title_activity_capture_signature">CaptureSignature</string>
     <string name="title_activity_choos_product">ChoosProductActivity</string>
@@ -396,6 +409,7 @@
     <string name="travelsafe.message.pengecualian.9">9. Alkohol dan penyalahgunaan obat-obatan</string>
     <string name="vessel.code">vessel code</string>
     <string name="vessel.name">vessel name</string>
+    <string name="ya">Ya</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

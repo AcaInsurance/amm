@@ -217,8 +217,26 @@ public class DBA_TABLE_CREATE_ALL   {
                 db.execSQL("ALTER TABLE PRODUCT_OTOMATE_SYARIAH ADD COLUMN BENGKEL TEXT");
                 db.execSQL("ALTER TABLE PRODUCT_OTOMATE_SYARIAH ADD COLUMN IS_NEW_SPPA TEXT");
 			}
-		}		
-    }    
+            if (oldVersion < 9) {
+                alterTable(db, DBA_PRODUCT_MEDISAFE.DATABASE_TABLE, DBA_PRODUCT_MEDISAFE.GENDER_1);
+                alterTable(db, DBA_PRODUCT_MEDISAFE.DATABASE_TABLE, DBA_PRODUCT_MEDISAFE.GENDER_2);
+                alterTable(db, DBA_PRODUCT_MEDISAFE.DATABASE_TABLE, DBA_PRODUCT_MEDISAFE.GENDER_3);
+                alterTable(db, DBA_PRODUCT_MEDISAFE.DATABASE_TABLE, DBA_PRODUCT_MEDISAFE.GENDER_4);
+
+/*
+                db.execSQL(String.format("ALTER TABLE %s ADD COLUMN %s TEXT", DBA_PRODUCT_MEDISAFE.DATABASE_TABLE, DBA_PRODUCT_MEDISAFE.GENDER_1));
+                db.execSQL(String.format("ALTER TABLE %s ADD COLUMN %s TEXT", DBA_PRODUCT_MEDISAFE.DATABASE_TABLE, DBA_PRODUCT_MEDISAFE.GENDER_2));
+                db.execSQL(String.format("ALTER TABLE %s ADD COLUMN %s TEXT", DBA_PRODUCT_MEDISAFE.DATABASE_TABLE, DBA_PRODUCT_MEDISAFE.GENDER_3));
+                db.execSQL(String.format("ALTER TABLE %s ADD COLUMN %s TEXT", DBA_PRODUCT_MEDISAFE.DATABASE_TABLE, DBA_PRODUCT_MEDISAFE.GENDER_4));
+*/
+            }
+		}
+
+        private void alterTable(SQLiteDatabase db, String table, String column) {
+            db.execSQL(String.format("ALTER TABLE %s ADD COLUMN %s TEXT", table, column));
+        }
+    }
+
 
     //---opens the database---
     public DBA_TABLE_CREATE_ALL open() throws SQLException 

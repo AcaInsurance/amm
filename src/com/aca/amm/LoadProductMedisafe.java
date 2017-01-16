@@ -195,7 +195,7 @@ public class LoadProductMedisafe extends AsyncTask<String, Void, Void>{
 				if (mediasafeList.get(0).get("Q2_FLAG").toString().toLowerCase().contains("anytype"))
 					q2 = 0;
 				
-				dba.initialInsert(
+				/*dba.initialInsert(
 						SPPA_ID,
 						
 						//anak1
@@ -251,7 +251,7 @@ public class LoadProductMedisafe extends AsyncTask<String, Void, Void>{
 						mediasafeList.get(0).get("Q1_NOTE").toString(),
 						mediasafeList.get(0).get("Q2_NOTE").toString()
 						
-					);
+					);*/
 			}
 		}
 		catch(Exception e)

@@ -286,7 +286,7 @@ public class ChooseCustomerForBuyActivity extends ControlListActivity {
 			
 			
 			progressBar = new ProgressDialog(ChooseCustomerForBuyActivity.this);
-			progressBar.setCancelable(false);
+			progressBar.setCancelable(true);
 			progressBar.setMessage("Please wait ...");
 			progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
 			progressBar.show();

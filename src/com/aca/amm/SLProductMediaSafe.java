@@ -23,7 +23,56 @@ import org.ksoap2.transport.HttpTransportSE;
 import com.aca.database.DBA_MASTER_AGENT;
 import com.aca.database.DBA_PRODUCT_MAIN;
 import com.aca.database.DBA_PRODUCT_MEDISAFE;
+import com.aca.dbflow.MedisafeKuestioner;
+import com.aca.dbflow.MedisafeKuestioner_Table;
 import com.aca.util.Var;
+import com.raizlabs.android.dbflow.sql.language.Select;
+
+import static android.os.Build.VERSION_CODES.M;
+import static com.aca.database.DBA_PRODUCT_CARGO.TSI;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesA1;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesA2;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesA3;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesA4;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB1;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB2i;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB2ii;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB2iii;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB2iv;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB2v;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB2vi;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB3;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB4;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB5i;
+import static com.aca.dbflow.MedisafeKuestioner_Table.IsYesB5ii;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganA2;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganA3;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganA4;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB1;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB2i;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB2ii;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB2iii;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB2iv;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB2v;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB2vi;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB31;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB32;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB33;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB34;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB4;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB5i;
+import static com.aca.dbflow.MedisafeKuestioner_Table.KeteranganB5ii;
+import static com.aca.dbflow.MedisafeKuestioner_Table.NamaPerusahaan1;
+import static com.aca.dbflow.MedisafeKuestioner_Table.NamaPerusahaan2;
+import static com.aca.dbflow.MedisafeKuestioner_Table.NamaPerusahaan3;
+import static com.aca.dbflow.MedisafeKuestioner_Table.NamaPerusahaan4;
+import static com.aca.dbflow.MedisafeKuestioner_Table.NoPolis1;
+import static com.aca.dbflow.MedisafeKuestioner_Table.NoPolis2;
+import static com.aca.dbflow.MedisafeKuestioner_Table.NoPolis3;
+import static com.aca.dbflow.MedisafeKuestioner_Table.NoPolis4;
+import static com.aca.dbflow.MedisafeKuestioner_Table.SppaNo;
+import static com.aca.dbflow.PerluasanPremi_Table.Premi;
+import static com.aca.dbflow.StandardField_Table.IsActive;
 
 
 public class SLProductMediaSafe extends AsyncTask<String, String, Void>{
@@ -93,55 +142,6 @@ public class SLProductMediaSafe extends AsyncTask<String, String, Void>{
 	
 	@Override
 	protected Void doInBackground(String... arg0) {
-		/*
-		00 - _id,
-		01 - PRODUCT_MAIN_ID,
-		
-		02 - NAMA_PASANGAN,
-		03 - TGL_LAHIR_PASANGAN,
-		04 - NO_KTP_PASANGAN,
-		
-		05 - NAMA_ANAK_1,
-		06 - TGL_LAHIR_ANAK_1,
-		07 - NO_KTP_ANAK_1,
-		
-		08 - NAMA_ANAK_2,
-		09 - TGL_LAHIR_ANAK_2,
-		10 - NO_KTP_ANAK_2,
-		
-		11 - NAMA_ANAK_3,
-		12 - TGL_LAHIR_ANAK_3,
-		13 - NO_KTP_ANAK_3,
-		
-		14 - NOREK,
-		15 - BANK,
-		16 - PEMEGANG_REKENING,
-		
-		17 - TGL_MULAI,
-		18 - TGL_AKHIR,
-		19 - PLAN,
-		
-		20 - PREMI,
-		21 - BIAYA_POLIS,
-		22 - TOTAL,
-		23 - PRODUCT_NAME,
-		24 - CUSTOMER_NAME,
-		
-		25 - PREMI_PASANGAN,
-		26 - PREMI_ANAK_1,
-		27 - PREMI_ANAK_2,
-		28 - PREMI_ANAK_3,
-		
-		29 - IS_PASANGAN,
-		30 - IS_ANAK_1,
-		31 - IS_ANAK_2,
-		32 - IS_ANAK_3 
-		
-		33 - IS_PERAWATAN,
-        34 - IS_PENYAKIT,
-        35 - PERAWATAN_DESC,
-        36 - PENYAKIT_DESC
-		*/
 		error = false;
 		
 		Cursor cProductMain = null;
@@ -208,21 +208,25 @@ public class SLProductMediaSafe extends AsyncTask<String, String, Void>{
 			requestinsert.addProperty(Utility.GetPropertyInfo("DOB1",cProductMediaSafe.getString(3), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("IDNo1", cProductMediaSafe.getString(4),String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("Premi1",nf.format(cProductMediaSafe.getDouble(25)), String.class));
+			requestinsert.addProperty(Utility.GetPropertyInfo("Gender1",cProductMediaSafe.getString(cProductMediaSafe.getColumnIndex(DBA_PRODUCT_MEDISAFE.GENDER_1)), String.class));
 
 			requestinsert.addProperty(Utility.GetPropertyInfo("Name2", cProductMediaSafe.getString(5), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("DOB2", cProductMediaSafe.getString(6), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("IDNo2", cProductMediaSafe.getString(7), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("Premi2", nf.format(cProductMediaSafe.getDouble(26)), String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("Gender2",cProductMediaSafe.getString(cProductMediaSafe.getColumnIndex(DBA_PRODUCT_MEDISAFE.GENDER_2)), String.class));
 
 			requestinsert.addProperty(Utility.GetPropertyInfo("Name3", cProductMediaSafe.getString(8), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("DOB3", cProductMediaSafe.getString(9), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("IDNo3", cProductMediaSafe.getString(10), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("Premi3",nf.format( cProductMediaSafe.getDouble(27)), String.class));
-			
-			requestinsert.addProperty(Utility.GetPropertyInfo("Name4", cProductMediaSafe.getString(11), String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("Gender3",cProductMediaSafe.getString(cProductMediaSafe.getColumnIndex(DBA_PRODUCT_MEDISAFE.GENDER_3)), String.class));
+
+            requestinsert.addProperty(Utility.GetPropertyInfo("Name4", cProductMediaSafe.getString(11), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("DOB4", cProductMediaSafe.getString(12), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("IDNo4", cProductMediaSafe.getString(13), String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("Premi4",nf.format( cProductMediaSafe.getDouble(28)), String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("Gender4",cProductMediaSafe.getString(cProductMediaSafe.getColumnIndex(DBA_PRODUCT_MEDISAFE.GENDER_4)), String.class));
 
 			requestinsert.addProperty(Utility.GetPropertyInfo("PaymentMethod", "", String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("PaymentProofNo", "", String.class));
@@ -233,7 +237,52 @@ public class SLProductMediaSafe extends AsyncTask<String, String, Void>{
 			requestinsert.addProperty(Utility.GetPropertyInfo("CCSecretCode", "", String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("CCType", "", String.class));
 
-    		envelope.setOutputSoapObject(requestinsert);
+            MedisafeKuestioner kuestioner = new Select()
+                    .from(MedisafeKuestioner.class)
+                    .where(SppaNo.eq(String.valueOf(SPPA_ID)))
+                    .querySingle();
+
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesA1", String.valueOf(kuestioner.IsYesA1),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesA2", String.valueOf(kuestioner.IsYesA2),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesA3", String.valueOf(kuestioner.IsYesA3),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesA4", String.valueOf(kuestioner.IsYesA4),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB1", String.valueOf(kuestioner.IsYesB1),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB2i", String.valueOf(kuestioner.IsYesB2i),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB2ii", String.valueOf(kuestioner.IsYesB2ii),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB2iii", String.valueOf(kuestioner.IsYesB2iii),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB2iv", String.valueOf(kuestioner.IsYesB2iv),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB2v", String.valueOf(kuestioner.IsYesB2v),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB2vi", String.valueOf(kuestioner.IsYesB2vi),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB3", String.valueOf(kuestioner.IsYesB3),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB4", String.valueOf(kuestioner.IsYesB4),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB5i", String.valueOf(kuestioner.IsYesB5i),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("IsYesB5ii", String.valueOf(kuestioner.IsYesB5ii),String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("NamaPerusahaan1",kuestioner.NamaPerusahaan1,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("NamaPerusahaan2",kuestioner.NamaPerusahaan2,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("NamaPerusahaan3",kuestioner.NamaPerusahaan3,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("NamaPerusahaan4",kuestioner.NamaPerusahaan4,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("NoPolis1",kuestioner.NoPolis1,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("NoPolis2",kuestioner.NoPolis2,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("NoPolis3",kuestioner.NoPolis3,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("NoPolis4",kuestioner.NoPolis4,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganA2",kuestioner.KeteranganA2,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganA3",kuestioner.KeteranganA3,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganA4",kuestioner.KeteranganA4,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB1",kuestioner.KeteranganB1,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB2i",kuestioner.KeteranganB2i,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB2ii",kuestioner.KeteranganB2ii,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB2iii",kuestioner.KeteranganB2iii,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB2iv",kuestioner.KeteranganB2iv,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB2v",kuestioner.KeteranganB2v,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB2vi",kuestioner.KeteranganB2vi,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB31",kuestioner.KeteranganB31,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB32",kuestioner.KeteranganB32,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB33",kuestioner.KeteranganB33,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB34",kuestioner.KeteranganB34,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB4",kuestioner.KeteranganB4,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB5i",kuestioner.KeteranganB5i,String.class));
+            requestinsert.addProperty(Utility.GetPropertyInfo("KeteranganB5ii",kuestioner.KeteranganB5ii,String.class));
+            envelope.setOutputSoapObject(requestinsert);
     		androidHttpTransport.call(SOAP_ACTION_INSERT, envelope);  
 
     		SoapObject result = (SoapObject)envelope.bodyIn;

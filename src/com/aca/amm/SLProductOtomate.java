@@ -208,11 +208,8 @@ public class SLProductOtomate extends AsyncTask<String, String, Void>{
     		
     		NumberFormat nf = NumberFormat.getInstance();
     		String thepremi = (nf.format(cProductMain.getDouble(6)));
-    		Log.i(TAG, "::doInBackground:" + "premi:" +  thepremi );
     		
     		requestinsert.addProperty(Utility.GetPropertyInfo("Premi",thepremi + "", String.class));
-    		
-    		
     		requestinsert.addProperty(Utility.GetPropertyInfo("TotalPremi", nf.format(cProductMain.getDouble(9)), String.class));
     		requestinsert.addProperty(Utility.GetPropertyInfo("Stamp", cProductMain.getString(7), String.class));
     		requestinsert.addProperty(Utility.GetPropertyInfo("Charge", cProductMain.getString(8), String.class));
