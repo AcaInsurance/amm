@@ -2,5 +2,17 @@
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\no_image.jpg",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\no_image.jpg"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img_labbaik_premi.jpg",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\img_labbaik_premi.jpg"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img_labbaik_manfaat.jpg",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\img_labbaik_manfaat.jpg"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\img_labbaik_ketentuan.jpg",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\drawable-hdpi\\img_labbaik_ketentuan.jpg"
     }
 ]

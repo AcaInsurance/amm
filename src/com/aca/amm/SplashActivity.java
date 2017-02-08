@@ -26,6 +26,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.aca.HelperClass.WebServices;
+import com.aca.Retrofit.TravelService;
 import com.aca.database.DBA_MASTER_ACA_MOBIL_RATE;
 import com.aca.database.DBA_MASTER_AGENT;
 import com.aca.database.DBA_MASTER_ASRI_RATE;
@@ -65,6 +66,11 @@ import com.aca.dbflow.PaketOtomate;
 import com.aca.dbflow.PerluasanPremi;
 import com.aca.dbflow.SettingOtomate;
 import com.aca.dbflow.StandardField;
+import com.aca.dbflow.SubProduct;
+import com.aca.dbflow.SubProductPlan;
+import com.aca.dbflow.SubProductPlanAdd;
+import com.aca.dbflow.SubProductPlanBDA;
+import com.aca.dbflow.SubProductPlanBasic;
 import com.aca.dbflow.VersionAndroid;
 import com.aca.util.Var;
 import com.raizlabs.android.dbflow.sql.language.Delete;
@@ -85,7 +91,15 @@ import java.io.IOException;
 import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
+
+import rx.Observable;
+import rx.Observer;
+import rx.functions.Func5;
+import rx.functions.Func6;
+import rx.observers.Observers;
+import rx.schedulers.Schedulers;
 
 public class SplashActivity extends Activity implements RetriveLastVersionAppsListener {
 
@@ -122,11 +136,12 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
     private Boolean bNeedSyncOtomateAOG = statusSync;
     private Boolean bNeedSyncKonveRate = statusSync;
     private Boolean bNeedSyncCarBrandTruk = statusSync;
-
     private Boolean bNeedSyncLoadPaketOtomate = statusSync;
     private Boolean bNeedSyncLoadPerluasan = statusSync;
     private Boolean bNeedSyncLoadOtomateSetting = statusSync;
     private Boolean bNeedSyncLoadStandardField = statusSync;
+
+    private Boolean bNeedSyncLabbaikMaster = statusSync;
 
     private Boolean bFinishCarBrand = statusFinished;
     private Boolean bFinishCarType = statusFinished;
@@ -154,11 +169,12 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
     private Boolean bFinishOtomatePA = statusFinished;
     private Boolean bFinishOtomateAOG = statusFinished;
     private Boolean bFinishKonveRate = statusFinished;
-
     private Boolean bFinishLoadOtomateSetting = statusFinished;
     private Boolean bFinishLoadPaketOtomatee = statusFinished;
     private Boolean bFinishLoadPerluasan = statusFinished;
     private Boolean bFinishLoadStandardField = statusFinished;
+
+    private Boolean bFinishLoadLabbaikMaster = statusFinished;
 
 
     private Boolean bFailLaunch = false;
@@ -196,12 +212,6 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
     private SoapObject requestretrive_acamobil_rate = null;
     private SoapObject requestretrive_wellwoman_rate = null;
 
-    private SoapObject requestretrive_LoadOtomateSetting = null;
-    private SoapObject requestretrive_LoadPaketOtomate = null;
-    private SoapObject requestretrive_LoadPerluasan = null;
-    private SoapObject requestretrive_LoadStandardField = null;
-
-
     private SoapSerializationEnvelope envelope_latest_version = null;
     private SoapSerializationEnvelope envelope_car_brand = null;
     private SoapSerializationEnvelope envelope_car_type = null;
@@ -233,11 +243,6 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
     private SoapSerializationEnvelope envelope_sppa_status = null;
     private SoapSerializationEnvelope envelope_acamobil_rate = null;
     private SoapSerializationEnvelope envelope_wellwoman_rate = null;
-
-    private SoapSerializationEnvelope envelope_LoadOtomateSetting = null;
-    private SoapSerializationEnvelope envelope_LoadPaketOtomate = null;
-    private SoapSerializationEnvelope envelope_LoadPerluasan = null;
-    private SoapSerializationEnvelope envelope_LoadStandardField = null;
 
 
     private HttpTransportSE androidHttpTransport = null;
@@ -333,21 +338,6 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
     private static String SOAP_ACTION_CAR_BRAND_TRUK = "http://tempuri.org/GetCarBrandTruk";
     private static String METHOD_NAME_CAR_BRAND_TRUK = "GetCarBrandTruk";
 
-    private static String SOAP_ACTION_LoadOtomateSetting = "http://tempuri.org/LoadOtomateSetting";
-    private static String METHOD_NAME_LoadOtomateSetting = "LoadOtomateSetting";
-
-
-    private static String SOAP_ACTION_LoadPaketOtomate = "http://tempuri.org/LoadPaketOtomate";
-    private static String METHOD_NAME_LoadPaketOtomate = "LoadPaketOtomate";
-
-
-    private static String SOAP_ACTION_LoadPerluasan = "http://tempuri.org/LoadPerluasan";
-    private static String METHOD_NAME_LoadPerluasan = "LoadPerluasan";
-
-
-    private static String SOAP_ACTION_LoadStandardField = "http://tempuri.org/LoadStandardField";
-    private static String METHOD_NAME_LoadStandardField = "LoadStandardField";
-
 
     private CarBrandWS wsCarBrand;
     private CarTypeWS wsCarType;
@@ -393,12 +383,6 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_splash);
 
-
-        /********LAUNCH FIRST ACTIVITY**********
-         startActivity(new Intent(getBaseContext(), FirstActivity.class));
-         this.finish();
-
-         /********************************************/
 
         Locale locale = new Locale("en");
         Locale.setDefault(locale);
@@ -626,6 +610,7 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
                         || !bFinishKonveRate || !bFinishCarBrandTruk
                         || !bFinishLoadStandardField || !bFinishLoadPaketOtomatee
                         || !bFinishLoadPerluasan || !bFinishLoadOtomateSetting
+                        || !bFinishLoadLabbaikMaster
 
                         );
 
@@ -1134,9 +1119,105 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
                 } else
                     bFinishLoadStandardField = true;
 
+                if (bNeedSyncLabbaikMaster) {
+                    fetchLabbaikMaster();
+                } else
+                    bFinishLoadLabbaikMaster = true;
+
             }
         } catch (Exception ex) {
             ex.printStackTrace();
+        }
+    }
+
+    private void fetchLabbaikMaster(){
+        Observable.zip(
+                TravelService.createMasterService(null).SubProduct().subscribeOn(Schedulers.newThread()),
+                TravelService.createMasterService(null).SubProductPlan().subscribeOn(Schedulers.newThread()),
+                TravelService.createMasterService(null).SubProductPlanAdd().subscribeOn(Schedulers.newThread()),
+                TravelService.createMasterService(null).SubProductPlanBasic().subscribeOn(Schedulers.newThread()),
+                TravelService.createMasterService(null).SubProductPlanBDA().subscribeOn(Schedulers.newThread()),
+                new Func5<List<SubProduct>, List<SubProductPlan>, List<SubProductPlanAdd>, List<SubProductPlanBasic>, List<SubProductPlanBDA>, Object>() {
+                    @Override
+                    public Object call(List<SubProduct> subProducts,
+                                       List<SubProductPlan> subProductPlen, List<SubProductPlanAdd> subProductPlanAdds,
+                                       List<SubProductPlanBasic> subProductPlanBasics, List<SubProductPlanBDA> subProductPlanBDAs) {
+                        insertSubProcuct(subProducts);
+                        insertSubProductPlan(subProductPlen);
+                        insertSubProductPlanAdd(subProductPlanAdds);
+                        insertSubProductPlanBasic(subProductPlanBasics);
+                        insertSubProductPlanBDA(subProductPlanBDAs);
+
+                        bFinishLoadLabbaikMaster = true;
+                        onFinishFetch(!bFinishLoadLabbaikMaster, "LabbaikMaster");
+
+                        return null;
+                    }
+                }
+        ).subscribe(
+                new Observer<Object>() {
+
+                    @Override
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        e.printStackTrace();
+                        bFinishLoadLabbaikMaster = false;
+                        onFinishFetch(!bFinishLoadLabbaikMaster, "LabbaikMaster");
+                    }
+
+                    @Override
+                    public void onNext(Object o) {
+
+                    }
+                }
+
+        );
+    }
+
+
+    private void insertSubProductPlanBDA(List<SubProductPlanBDA> subProductPlanBDAs) {
+        Delete.table(SubProductPlanBDA.class);
+
+        for (SubProductPlanBDA spp : subProductPlanBDAs) {
+            spp.save();
+        }
+    }
+
+
+    private void insertSubProductPlanBasic(List<SubProductPlanBasic> subProductPlanBasics) {
+        Delete.table(SubProductPlanBasic.class);
+
+        for (SubProductPlanBasic spp : subProductPlanBasics) {
+            spp.save();
+        }
+    }
+
+    private void insertSubProductPlanAdd(List<SubProductPlanAdd> subProductPlanAdds) {
+        Delete.table(SubProductPlanAdd.class);
+
+        for (SubProductPlanAdd spp : subProductPlanAdds) {
+            spp.save();
+        }
+
+    }
+
+    private void insertSubProductPlan(List<SubProductPlan> subProductPlen) {
+        Delete.table(SubProductPlan.class);
+
+        for (SubProductPlan spp : subProductPlen) {
+            spp.save();
+        }
+    }
+
+    private void insertSubProcuct(List<SubProduct> subProducts) {
+        Delete.table(SubProduct.class);
+
+        for (SubProduct sp : subProducts) {
+            sp.save();
         }
     }
 
@@ -1459,6 +1540,8 @@ public class SplashActivity extends Activity implements RetriveLastVersionAppsLi
             bNeedSyncLoadPerluasan = true;
         else if (s.equals("StandardField"))
             bNeedSyncLoadStandardField = true;
+        else if (s.equalsIgnoreCase("LabbaikMaster"))
+            bNeedSyncLabbaikMaster = true;
     }
 
     private class CarBrandWS extends AsyncTask<String, Void, Void> {

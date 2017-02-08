@@ -254,8 +254,12 @@
     <string name="konvensional.message.table.premi.jaminan.1">1. Wilayah 1: Sumatera dan Kepulauannya</string>
     <string name="konvensional.message.table.premi.jaminan.2">2. Wilayah 2: Jakarta, Banten dan Jabar</string>
     <string name="konvensional.message.table.premi.jaminan.3">3. Wilayah 3: Selain Wilayah 1 dan Wilayah 2</string>
+    <string name="label_jumlah_hari_yang_dipertanggungkan">Jumlah hari yang dipertanggungkan(%d hari)</string>
+    <string name="label_tambahan_per_minggu">Tambahan Per Minggu(%d minggu)</string>
     <string name="message_validate_empty">Isi semua keterangan yang diminta</string>
+    <string formatted="false" name="message_validate_max_day">Lama perjalanan maksimal %d hari</string>
     <string name="message_validate_setuju">Anda harus setuju dengan semua ketentuan</string>
+    <string formatted="false" name="message_validate_umur">Peserta asuransi minimal %d tahun dan maksimal %d tahun</string>
     <string name="otomate.message.dokumenklaim.detail.1.a">	a. Mengisi LKKB ( Laporan Kecelakaan Kendaraan Bermotor )</string>
     <string name="otomate.message.dokumenklaim.detail.1.b">	b. Fotocopy polis</string>
     <string name="otomate.message.dokumenklaim.detail.1.c">	c. Fotocopy STNK kendaraan</string>
@@ -336,6 +340,7 @@
     <string name="title_activity_info_dno">InfoDNOActivity</string>
     <string name="title_activity_info_executive">InfoExecutiveActivity</string>
     <string name="title_activity_info_konvensional">InfoKonvensionalActivity</string>
+    <string name="title_activity_info_labbaik">InfoLabbaikActivity</string>
     <string name="title_activity_info_medisafe">InfoMedisafeActivity</string>
     <string name="title_activity_info_otomate">InfoOtomateActivity</string>
     <string name="title_activity_info_otomate_syariah">InfoOtomateSyariahActivity</string>

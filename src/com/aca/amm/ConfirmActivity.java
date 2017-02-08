@@ -7,6 +7,7 @@ import com.aca.dal.Scalar;
 import com.aca.database.DBA_PRODUCT_CARGO;
 import com.aca.database.DBA_PRODUCT_MAIN;
 import com.aca.database.DBA_PRODUCT_TRAVEL_SAFE;
+import com.aca.util.Var;
 
 import android.opengl.Visibility;
 import android.os.Bundle;
@@ -97,7 +98,8 @@ public class ConfirmActivity extends ControlNormalActivity {
 		premicargolbl.setTextSize(size);
 		premicargotxt.setTextSize(size);
 		
-		if (PRODUCT_TYPE.equals("TRAVELSAFE")) {
+		if (PRODUCT_TYPE.equalsIgnoreCase("TRAVELSAFE") ||
+            PRODUCT_TYPE.equalsIgnoreCase(Var.LABBAIK)) {
 			((TableRow)findViewById(R.id.tRowPremiUS)).setVisibility(View.VISIBLE);
 		}
 		
@@ -135,17 +137,16 @@ public class ConfirmActivity extends ControlNormalActivity {
 			catatan.setText("");
 			
 		
-			if (PRODUCT_TYPE.equals("TRAVELSAFE")) {
+			if (PRODUCT_TYPE.equals("TRAVELSAFE") ||
+                PRODUCT_TYPE.equalsIgnoreCase(Var.LABBAIK)) {
 				dba2 = new DBA_PRODUCT_TRAVEL_SAFE(getBaseContext());
 				dba2.open();
 				
 				cm = dba2.getRow(SPPA_ID);
 				cm.moveToFirst();
-				
+
 				premiUS.setText(nf.format(cm.getDouble(26)));
 			}
-			
-			
 			if (c.getDouble(24) == 0)
 			{
 				TableRow trDisc = (TableRow)findViewById(R.id.trDisc);
@@ -319,6 +320,11 @@ public class ConfirmActivity extends ControlNormalActivity {
 			}
 			else if(act.equalsIgnoreCase("KONVENSIONAL")){
 				i = new Intent(getBaseContext(),  FillKonvensionalActivity.class);
+				b.putString("PRODUCT_ACTION", PRODUCT_ACTION);
+				i.putExtras(b);
+			}
+			else if(act.equalsIgnoreCase(Var.LABBAIK)){
+				i = new Intent(getBaseContext(),  FillLabbaikActivity.class);
 				b.putString("PRODUCT_ACTION", PRODUCT_ACTION);
 				i.putExtras(b);
 			}

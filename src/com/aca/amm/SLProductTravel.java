@@ -94,60 +94,7 @@ public class SLProductTravel extends AsyncTask<String, String, Void>{
 	
 	@Override
 	protected Void doInBackground(String... arg0) {
-		
-			/*
-			 * 1.	FAMILY, //1
-		2.	PRODUCT_MAIN_ID, //2
-		3.	NAMA_PASANGAN, //3
-		4.	TGL_LAHIR_PASANGAN, //4
-		5.	NO_PASSPORT_PASANGAN, //5
-		6.	NAMA_ANAK_1, //6
-		7.	TGL_LAHIR_ANAK_1,//7
-		8.	NO_PASSPORT_ANAK_1,//8
-		9.	NAMA_ANAK_2,//9
-		10.	TGL_LAHIR_ANAK_2,//10
-		11.	NO_PASSPORT_ANAK_2,//11
-		12.	NAMA_ANAK_3,//12
-		13.	TGL_LAHIR_ANAK_3,//13
-		14.	NO_PASSPORT_ANAK_3,//14
-		15.	TUJUAN_PERJALANAN,//15
-		16.	NEGARA_TUJUAN,//16
-		17.	NAMA_NEGARA,//17
-		18.	AHLI_WARIS,//18
-		19.	HUBUNGAN,//19
-		20.	TGL_KEBERANGKATAN,//20
-		21.	TGL_KEMBALI,//21
-		22.	PLAN,//22
-		23.	JUMLAH_HARI_DIPERTANGGUNGKAN,//23
-		24.	TAMBAHAN_PER_MINGGU,//24
-		25.	LOADING_PREMI,//25
-		26.	PREMI,//26
-		27.	BIAYA_POLIS,//27
-		28.	TOTAL,
-		29.	PRODUCT_NAME,
-		30.	CUSTOMER_NAME,
-		31.	PREMI_PASANGAN,
-		32.	PREMI_ANAK_1,
-		33.	PREMI_ANAK_2,
-		34.	PREMI_ANAK_3,
-		35.	IS_PASANGAN,
-		36.	IS_ANAK_1,
-		37.	IS_ANAK_2,
-		38.	IS_ANAK_3,
-		39.	KODE_NEGARA,
-		40.	IS_ANNUAL,
-		41.	EXCH_RATE,
-		42.	ACOD,
-		43.	CCOD ,
-		44.	DCOD ,
-		45.	PREMIDAYS ,
-		46.	PREMIWEEKS,
-		47.	MAXBENEFIT,
-		48.	TOTALDAYS ,
-		49.	TOTALWEEKS}, //28
 
-	 */
-		
 		error = false;
 		
 		Cursor cProductMain = null;
@@ -312,8 +259,7 @@ public class SLProductTravel extends AsyncTask<String, String, Void>{
 			requestinsert.addProperty(Utility.GetPropertyInfo("CCSecretCode", "", String.class));
 			requestinsert.addProperty(Utility.GetPropertyInfo("CCType", "", String.class));
 
-//			DoSaveTravelSafeInt{BranchID=00; UserID=068899; SignPlace=JAKARTA; MKTCode=M8; CurrentIPAddress=127.0.0.2; OfficeID=3; Status=M; CustomerNo=0009000042; PrevPolisBranch=; PrevPolisYear=; PrevPolisNo=; TSI=0; DiscountPct=0.0; Discount=0.0; CommissionPct=0; Commission=0; Premi=19.5; TotalPremi=19.5; Stamp=0; Charge=0; DepartureDate=27/07/2015; ArrivalDate=28/07/2015; TravelAlokasi=5.475; MaxBenefit=235,050; TravelNote=LIBURAN; TravelCountryFlag=1; TravelPassportNo=ASDSA; TravelCountryName=BAHRAIN; TravelCountryCode=BH; AnnualFlag=0; ExchangeRate=13615; Name2=; DOB2=; IDNo2=; Premi2=0; Name3=; DOB3=; IDNo3=; Premi3=0; Name4=; DOB4=; IDNo4=; Premi4=0; Name5=; DOB5=; IDNo5=; Premi5=0; Plan1=0; Plan2=0; BeneName=AA; BeneRelation=SDASDASD; TotalDays=2; PremiDays=13; TotalWeeks=0; PremiWeeks=0; CCOD=49V; DCOD=1; ACOD=1; PaymentMethod=; PaymentProofNo=; CCNo=; CCName=; CCMonth=; CCYear=; CCSecretCode=; CCType=; }
-    		
+
     		envelope.setOutputSoapObject(requestinsert);
     		androidHttpTransport.call(SOAP_ACTION_INSERT, envelope);  
     		//SoapPrimitive response = (SoapPrimitive)envelope.getResponse();

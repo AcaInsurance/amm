@@ -24,6 +24,9 @@ import android.widget.TextView;
 import com.aca.amm.AlphabetListAdapter.Item;
 import com.aca.amm.AlphabetListAdapter.Row;
 import com.aca.amm.AlphabetListAdapter.Section;
+import com.aca.util.Var;
+
+import static com.aca.amm.R.id.flag;
 
 public class ChooseCountryActivity extends ControlListActivity {
 
@@ -63,8 +66,15 @@ public class ChooseCountryActivity extends ControlListActivity {
 		b = i.getExtras();
 		
         mGestureDetector = new GestureDetector(this, new SideIndexGestureListener());
+        int negaraTujuan = b.getInt("NEGARA_TUJUAN", 1);
 
-        List<Utility.Country> countries = populateCountries(b.getInt("NEGARA_TUJUAN", 1));
+        List<Utility.Country> countries;
+
+        if (negaraTujuan == Var.LABBAIK_DEFAULT_NEGARA_TUJUAN)
+            countries = populateCountries();
+        else
+            countries = populateCountries(negaraTujuan);
+
         Collections.sort(countries);
         
 
@@ -226,7 +236,13 @@ public class ChooseCountryActivity extends ControlListActivity {
     private List<Utility.Country> populateCountries(int flag) {
         List<Utility.Country> countries = new ArrayList<Utility.Country>();
         Utility.BindNegaraTujuan(countries, getBaseContext(), flag);
-        
+        return countries;
+    }
+
+    private List<Utility.Country> populateCountries() {
+        List<Utility.Country> countries = new ArrayList<Utility.Country>();
+        Utility.BindNegaraTujuan(countries, getBaseContext(), 1);
+        Utility.BindNegaraTujuan(countries, getBaseContext(), 2);
         return countries;
     }
 

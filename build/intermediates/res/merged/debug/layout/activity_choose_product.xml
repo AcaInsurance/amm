@@ -641,7 +641,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@null"
-                        android:onClick="btnConvensionalClick"
+                        android:onClick="btnLabbaikClick"
                         android:src="@drawable/labbaik" />
 
                     <com.aca.amm.CustomTextViewBold
@@ -651,7 +651,7 @@
                         android:layout_toRightOf="@+id/btnLabbaik"
                         android:layout_centerVertical="true"
                         android:padding="10dp"
-                        android:text="Labbaik"
+                        android:text="Asuransi Labbaik"
                         android:textColor="@color/Black"
                         android:textSize="@dimen/font_large"
                         android:textStyle="bold" />

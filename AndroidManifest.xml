@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.aca.amm"
-          android:versionCode="40"
-          android:versionName="4.1">
+          android:versionCode="41"
+          android:versionName="4.2">
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -415,6 +415,15 @@
         </activity>
         <activity android:name=".FillKuestioner4Activity">
         </activity>
+        <activity
+            android:name=".InfoLabbaikActivity"
+            android:label="@string/title_activity_info_labbaik">
+        </activity>
+        <activity
+            android:name=".FillLabbaikActivity"
+            android:label="@string/title_activity_info_labbaik">
+        </activity>
+
     </application>
 
 </manifest>

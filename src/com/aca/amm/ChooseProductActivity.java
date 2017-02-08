@@ -373,4 +373,15 @@ public class ChooseProductActivity extends ControlNormalActivity {
     }
 
 
+    public void btnLabbaikClick(View v) {
+        Intent i = new Intent(getBaseContext(),  InfoLabbaikActivity.class);
+        Bundle b = new Bundle();
+        b.putString("PRODUCT_TYPE", Var.LABBAIK);
+        b.putString("PRODUCT_ACTION", "NEW");
+        i.putExtras(b);
+        startActivity(i);
+        this.finish();
+    }
+
+
 }

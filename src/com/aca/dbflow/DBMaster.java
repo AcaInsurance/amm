@@ -9,5 +9,5 @@ import com.raizlabs.android.dbflow.annotation.Database;
  public class DBMaster {
 
     public static final String NAME = "MM";
-    public static final int VERSION = 2;
+    public static final int VERSION = 3;
 }

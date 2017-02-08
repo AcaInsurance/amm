@@ -3,6 +3,7 @@ package com.aca.amm;
 
 import android.content.Intent;
 import android.database.Cursor;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.text.TextUtils;
@@ -37,6 +38,7 @@ import com.aca.database.DBA_PRODUCT_TRAVEL_SAFE;
 import com.aca.database.DBA_PRODUCT_WELLWOMAN;
 import com.aca.dbflow.MedisafeKuestioner;
 import com.aca.dbflow.MedisafeKuestioner_Table;
+import com.aca.util.Var;
 import com.raizlabs.android.dbflow.sql.language.Select;
 
 import java.text.NumberFormat;
@@ -373,6 +375,11 @@ public class SyncUnpaidActivity extends ControlListActivity implements Interface
     @Override
     public void getFlagPaidApproval(String flag) {
 //		starting #1 
+/*
+
+        if (BuildConfig.DEBUG)
+            flag = "1";
+*/
 
         if (flag.equals("1")) {
             Utility.showCustomDialogInformation(SyncUnpaidActivity.this, "Informasi", "SPPA ini sudah dibayar");
@@ -461,6 +468,12 @@ public class SyncUnpaidActivity extends ControlListActivity implements Interface
                     dbProduct.delete(pos);
                     dbProduct.close();
                 }
+                else if (pro_name.toUpperCase().equalsIgnoreCase(Var.LABBAIK)) {
+                    DBA_PRODUCT_TRAVEL_SAFE dbProduct = new DBA_PRODUCT_TRAVEL_SAFE(getListView().getContext());
+                    dbProduct.open();
+                    dbProduct.delete(pos);
+                    dbProduct.close();
+                }
 
 
                 dba = new DBA_PRODUCT_MAIN(getListView().getContext());
@@ -489,7 +502,7 @@ public class SyncUnpaidActivity extends ControlListActivity implements Interface
 
 
     private void validasiFlagPaid() {
-        GetFlagPaidDokumen app = null;
+        GetFlagPaidDokumen app;
 
         app = new GetFlagPaidDokumen(SyncUnpaidActivity.this, approval.sppano);
         app.interfaceFlagPaid = this;
@@ -651,6 +664,10 @@ public class SyncUnpaidActivity extends ControlListActivity implements Interface
                 b.putString("TIPE_KONVENSIONAL", "");
                 i.putExtras(b);
                 this.finish();
+            }else if (act.equalsIgnoreCase(Var.LABBAIK)) {
+                i = new Intent(getBaseContext(), FillLabbaikActivity.class);
+                i.putExtras(b);
+                this.finish();
             }
 
         } catch (Exception ex) {
@@ -796,8 +813,8 @@ public class SyncUnpaidActivity extends ControlListActivity implements Interface
                         approval.sppano = cx.getString(5);
 
                         if (productNameString.equals("OTOMATE") ||
-                                productNameString.equals("OTOMATESYARIAH") ||
-                                productNameString.equals("DNO")) {
+                            productNameString.equals("OTOMATESYARIAH") ||
+                            productNameString.equals("DNO")) {
                             validasiApproval();
                         } else if (productNameString.equals("WELLWOMAN")) {
                             boolean needApprove = cekTheFlag(pos);

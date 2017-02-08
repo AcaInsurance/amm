@@ -107,6 +107,7 @@
     <string name="vessel.code">vessel code</string>
     <string name="title_activity_fill_comprehensive">FillKonvensionalActivity</string>
     <string name="title_activity_info_konvensional">InfoKonvensionalActivity</string>
+    <string name="title_activity_info_labbaik">InfoLabbaikActivity</string>
     <string name="travelsafe.message.benefit.1"><b>1. Kematian dan Cacat Tetap</b>\nPerlindungan terhadap Resiko Kematian dan Cacat Tetap Akibat Kecelakaan</string>
     <string name="travelsafe.message.benefit.2"><b>2. Biaya-biaya Medis (akibat sakit/kecelakaan)</b>\nPenggantian Atas Biaya-Biaya Medis yang dikeluarkan Tertanggung untuk Mendapatkan Perawatan Medis yang Dibutuhkan Akibat Sakit/Kecelakaan</string>
     <string name="travelsafe.message.benefit.3"><b>3. Biaya Medis Lanjutan di Indonesia</b>\nPenggantian atas Biaya-Biaya Medis Lanjutan yang Dikeluarkan Tertanggung untuk Mendapatkan Perawatan Medis yang Dibutuhkan Akibat Sakit atau Kecelakaan yang Terjadi Selama di Luar Negeri</string>
@@ -203,6 +204,11 @@
     <string name="message_validate_empty">Isi semua keterangan yang diminta</string>
     <string name="message_validate_setuju">Anda harus setuju dengan semua ketentuan</string>
     <string name="keterangan">Jika ya, jelaskan</string>
+
+    <string name="label_jumlah_hari_yang_dipertanggungkan">Jumlah hari yang dipertanggungkan(%d hari)</string>
+    <string name="label_tambahan_per_minggu">Tambahan Per Minggu(%d minggu)</string>
+    <string name="message_validate_umur" formatted="false">Peserta asuransi minimal %d tahun dan maksimal %d tahun</string>
+    <string name="message_validate_max_day" formatted="false">Lama perjalanan maksimal %d hari</string>
 
     <string-array name="function_39">
         <item>MsPaketOtomate</item>

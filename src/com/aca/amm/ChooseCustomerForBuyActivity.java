@@ -15,6 +15,7 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import com.aca.amm.R;
 import com.aca.database.DBA_MASTER_AGENT;
+import com.aca.util.Var;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -264,9 +265,10 @@ public class ChooseCustomerForBuyActivity extends ControlListActivity {
 			else if(act.equalsIgnoreCase("KONVENSIONAL")){
 				i = new Intent(getBaseContext(),  FillKonvensionalActivity.class);
 			}
-			
-			
-			
+			else if(act.equalsIgnoreCase(Var.LABBAIK)){
+				i = new Intent(getBaseContext(),  FillLabbaikActivity.class);
+			}
+
 		}
 		catch(Exception ex){
 			ex.printStackTrace();
@@ -458,7 +460,9 @@ public class ChooseCustomerForBuyActivity extends ControlListActivity {
 		    				else if (b.getString("PRODUCT_TYPE").equals("DNO"))
 		    					i = new Intent(getBaseContext(), FillDNOActivity.class);
 		    				else if (b.getString("PRODUCT_TYPE").equals("KONVENSIONAL"))
-		    					i = new Intent(getBaseContext(), FillKonvensionalActivity.class);		 
+		    					i = new Intent(getBaseContext(), FillKonvensionalActivity.class);
+		    				else if (b.getString("PRODUCT_TYPE").equals(Var.LABBAIK))
+		    					i = new Intent(getBaseContext(), FillLabbaikActivity.class);
 		    				
 		    				
 		    				i.putExtras(b);

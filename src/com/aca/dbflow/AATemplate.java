@@ -23,3 +23,6 @@ public class AATemplate extends BaseModel {
     public AATemplate() {
     }
 }
+
+
+

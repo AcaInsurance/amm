@@ -1,21 +1,17 @@
 buildscript {
     repositories {
         jcenter()
-        maven { url 'https://maven.fabric.io/public' }
 
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
-        classpath 'io.fabric.tools:gradle:1.+'
 
     }
 }
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 apply plugin: 'com.neenbedankt.android-apt'
-apply plugin: 'io.fabric'
-
 def dbflow_version = "3.0.0-beta5"
 
 allprojects {
@@ -32,9 +28,14 @@ dependencies {
     compile "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'joda-time:joda-time:2.3'
-    compile('com.crashlytics.sdk.android:crashlytics:2.6.5@aar') {
-        transitive = true;
-    }
+
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta3'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta3'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta3'
+    compile 'com.squareup.okhttp3:okhttp:3.0.1'
+    compile 'com.squareup.okhttp3:okhttp-urlconnection:3.0.1'
+    compile 'org.parceler:parceler-api:1.0.4'
+    compile 'com.google.code.gson:gson:2.7'
 }
 
 android {
@@ -47,9 +48,6 @@ android {
         }
 
         debug {
-            ext.alwaysUpdateBuildId = false
-            ext.enableCrashlytics = false
-//            applicationIdSuffix ".debug"
         }
 
     }
@@ -85,6 +83,6 @@ android {
     }
     dexOptions {
 //        incremental true
-        javaMaxHeapSize "512m"
+//        javaMaxHeapSize "512m"
     }
 }

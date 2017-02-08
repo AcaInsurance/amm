@@ -3,6 +3,7 @@ package com.aca.dbflow;
 import com.raizlabs.android.dbflow.annotation.Column;
 import com.raizlabs.android.dbflow.annotation.PrimaryKey;
 import com.raizlabs.android.dbflow.annotation.Table;
+import com.raizlabs.android.dbflow.sql.language.Select;
 import com.raizlabs.android.dbflow.structure.BaseModel;
 
 
@@ -31,4 +32,23 @@ public class StandardField extends BaseModel {
 
     public StandardField() {
     }
+
+    public static StandardField getStandardField (String fieldNameDt) {
+        StandardField standardField = new Select()
+                .from(StandardField.class)
+                .where(StandardField_Table.FieldNameDt.eq(fieldNameDt))
+                    .and(StandardField_Table.IsActive.eq(String.valueOf(true)))
+                .querySingle();
+        return standardField;
+    }
+
+    public static StandardField getStandardFieldByDescription (String description) {
+        StandardField standardField = new Select()
+                .from(StandardField.class)
+                .where(StandardField_Table.Description.eq(description))
+                .and(StandardField_Table.IsActive.eq(String.valueOf(true)))
+                .querySingle();
+        return standardField;
+    }
+
 }

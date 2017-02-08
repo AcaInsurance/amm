@@ -182,12 +182,12 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 206,
+                        "startLine": 212,
                         "startColumn": 4,
-                        "startOffset": 21353,
-                        "endLine": 217,
+                        "startOffset": 21860,
+                        "endLine": 223,
                         "endColumn": 19,
-                        "endOffset": 21779
+                        "endOffset": 22286
                     }
                 }
             },
@@ -3381,11 +3381,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 204,
+                        "startLine": 205,
                         "startColumn": 4,
-                        "startOffset": 21293,
+                        "startOffset": 21370,
                         "endColumn": 56,
-                        "endOffset": 21345
+                        "endOffset": 21422
                     }
                 }
             },
@@ -3400,11 +3400,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 149,
+                        "startLine": 150,
                         "startColumn": 4,
-                        "startOffset": 15654,
+                        "startOffset": 15731,
                         "endColumn": 123,
-                        "endOffset": 15773
+                        "endOffset": 15850
                     }
                 }
             },
@@ -3419,11 +3419,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 150,
+                        "startLine": 151,
                         "startColumn": 4,
-                        "startOffset": 15779,
+                        "startOffset": 15856,
                         "endColumn": 114,
-                        "endOffset": 15889
+                        "endOffset": 15966
                     }
                 }
             },
@@ -3438,11 +3438,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 151,
+                        "startLine": 152,
                         "startColumn": 4,
-                        "startOffset": 15895,
+                        "startOffset": 15972,
                         "endColumn": 73,
-                        "endOffset": 15964
+                        "endOffset": 16041
                     }
                 }
             },
@@ -3457,11 +3457,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 152,
+                        "startLine": 153,
                         "startColumn": 4,
-                        "startOffset": 15970,
+                        "startOffset": 16047,
                         "endColumn": 86,
-                        "endOffset": 16052
+                        "endOffset": 16129
                     }
                 }
             },
@@ -3476,11 +3476,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 153,
+                        "startLine": 154,
                         "startColumn": 4,
-                        "startOffset": 16058,
+                        "startOffset": 16135,
                         "endColumn": 146,
-                        "endOffset": 16200
+                        "endOffset": 16277
                     }
                 }
             },
@@ -3495,11 +3495,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 154,
+                        "startLine": 155,
                         "startColumn": 4,
-                        "startOffset": 16206,
+                        "startOffset": 16283,
                         "endColumn": 138,
-                        "endOffset": 16340
+                        "endOffset": 16417
                     }
                 }
             },
@@ -3514,11 +3514,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 155,
+                        "startLine": 156,
                         "startColumn": 4,
-                        "startOffset": 16346,
+                        "startOffset": 16423,
                         "endColumn": 96,
-                        "endOffset": 16438
+                        "endOffset": 16515
                     }
                 }
             },
@@ -3533,11 +3533,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 156,
+                        "startLine": 157,
                         "startColumn": 4,
-                        "startOffset": 16444,
+                        "startOffset": 16521,
                         "endColumn": 103,
-                        "endOffset": 16543
+                        "endOffset": 16620
                     }
                 }
             },
@@ -3552,11 +3552,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 157,
+                        "startLine": 158,
                         "startColumn": 4,
-                        "startOffset": 16549,
+                        "startOffset": 16626,
                         "endColumn": 110,
-                        "endOffset": 16655
+                        "endOffset": 16732
                     }
                 }
             },
@@ -3571,11 +3571,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 158,
+                        "startLine": 159,
                         "startColumn": 4,
-                        "startOffset": 16661,
+                        "startOffset": 16738,
                         "endColumn": 110,
-                        "endOffset": 16767
+                        "endOffset": 16844
                     }
                 }
             },
@@ -3590,11 +3590,11 @@
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 159,
+                        "startLine": 160,
                         "startColumn": 4,
-                        "startOffset": 16773,
+                        "startOffset": 16850,
                         "endColumn": 115,
-                        "endOffset": 16884
+                        "endOffset": 16961
                     }
                 }
             },
@@ -3603,17 +3603,17 @@
                     "startLine": 256,
                     "startColumn": 4,
                     "startOffset": 11618,
-                    "endColumn": 84,
-                    "endOffset": 11698
+                    "endColumn": 110,
+                    "endOffset": 11724
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 202,
+                        "startLine": 207,
                         "startColumn": 4,
-                        "startOffset": 21113,
-                        "endColumn": 84,
-                        "endOffset": 21193
+                        "startOffset": 21430,
+                        "endColumn": 110,
+                        "endOffset": 21536
                     }
                 }
             },
@@ -3621,18 +3621,18 @@
                 "to": {
                     "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 11703,
-                    "endColumn": 92,
-                    "endOffset": 11791
+                    "startOffset": 11729,
+                    "endColumn": 84,
+                    "endOffset": 11809
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 203,
+                        "startLine": 208,
                         "startColumn": 4,
-                        "startOffset": 21199,
-                        "endColumn": 92,
-                        "endOffset": 21287
+                        "startOffset": 21542,
+                        "endColumn": 84,
+                        "endOffset": 21622
                     }
                 }
             },
@@ -3640,18 +3640,18 @@
                 "to": {
                     "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 11796,
-                    "endColumn": 126,
-                    "endOffset": 11918
+                    "startOffset": 11814,
+                    "endColumn": 84,
+                    "endOffset": 11894
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 164,
+                        "startLine": 203,
                         "startColumn": 4,
-                        "startOffset": 17265,
-                        "endColumn": 126,
-                        "endOffset": 17387
+                        "startOffset": 21190,
+                        "endColumn": 84,
+                        "endOffset": 21270
                     }
                 }
             },
@@ -3659,18 +3659,18 @@
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 11923,
-                    "endColumn": 86,
-                    "endOffset": 12005
+                    "startOffset": 11899,
+                    "endColumn": 103,
+                    "endOffset": 11998
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 165,
+                        "startLine": 210,
                         "startColumn": 4,
-                        "startOffset": 17393,
-                        "endColumn": 86,
-                        "endOffset": 17475
+                        "startOffset": 21753,
+                        "endColumn": 103,
+                        "endOffset": 21852
                     }
                 }
             },
@@ -3678,18 +3678,18 @@
                 "to": {
                     "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 12010,
-                    "endColumn": 95,
-                    "endOffset": 12101
+                    "startOffset": 12003,
+                    "endColumn": 92,
+                    "endOffset": 12091
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 166,
+                        "startLine": 204,
                         "startColumn": 4,
-                        "startOffset": 17481,
-                        "endColumn": 95,
-                        "endOffset": 17572
+                        "startOffset": 21276,
+                        "endColumn": 92,
+                        "endOffset": 21364
                     }
                 }
             },
@@ -3697,18 +3697,18 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 12106,
-                    "endColumn": 94,
-                    "endOffset": 12196
+                    "startOffset": 12096,
+                    "endColumn": 123,
+                    "endOffset": 12215
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 167,
+                        "startLine": 209,
                         "startColumn": 4,
-                        "startOffset": 17578,
-                        "endColumn": 94,
-                        "endOffset": 17668
+                        "startOffset": 21628,
+                        "endColumn": 123,
+                        "endOffset": 21747
                     }
                 }
             },
@@ -3716,18 +3716,18 @@
                 "to": {
                     "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 12201,
-                    "endColumn": 125,
-                    "endOffset": 12322
+                    "startOffset": 12220,
+                    "endColumn": 126,
+                    "endOffset": 12342
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 168,
+                        "startLine": 165,
                         "startColumn": 4,
-                        "startOffset": 17674,
-                        "endColumn": 125,
-                        "endOffset": 17795
+                        "startOffset": 17342,
+                        "endColumn": 126,
+                        "endOffset": 17464
                     }
                 }
             },
@@ -3735,18 +3735,18 @@
                 "to": {
                     "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 12327,
-                    "endColumn": 112,
-                    "endOffset": 12435
+                    "startOffset": 12347,
+                    "endColumn": 86,
+                    "endOffset": 12429
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 169,
+                        "startLine": 166,
                         "startColumn": 4,
-                        "startOffset": 17801,
-                        "endColumn": 112,
-                        "endOffset": 17909
+                        "startOffset": 17470,
+                        "endColumn": 86,
+                        "endOffset": 17552
                     }
                 }
             },
@@ -3754,18 +3754,18 @@
                 "to": {
                     "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 12440,
-                    "endColumn": 90,
-                    "endOffset": 12526
+                    "startOffset": 12434,
+                    "endColumn": 95,
+                    "endOffset": 12525
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 170,
+                        "startLine": 167,
                         "startColumn": 4,
-                        "startOffset": 17915,
-                        "endColumn": 90,
-                        "endOffset": 18001
+                        "startOffset": 17558,
+                        "endColumn": 95,
+                        "endOffset": 17649
                     }
                 }
             },
@@ -3773,18 +3773,18 @@
                 "to": {
                     "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 12531,
-                    "endColumn": 93,
+                    "startOffset": 12530,
+                    "endColumn": 94,
                     "endOffset": 12620
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 171,
+                        "startLine": 168,
                         "startColumn": 4,
-                        "startOffset": 18007,
-                        "endColumn": 93,
-                        "endOffset": 18096
+                        "startOffset": 17655,
+                        "endColumn": 94,
+                        "endOffset": 17745
                     }
                 }
             },
@@ -3793,17 +3793,17 @@
                     "startLine": 266,
                     "startColumn": 4,
                     "startOffset": 12625,
-                    "endColumn": 80,
-                    "endOffset": 12701
+                    "endColumn": 125,
+                    "endOffset": 12746
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 172,
+                        "startLine": 169,
                         "startColumn": 4,
-                        "startOffset": 18102,
-                        "endColumn": 80,
-                        "endOffset": 18178
+                        "startOffset": 17751,
+                        "endColumn": 125,
+                        "endOffset": 17872
                     }
                 }
             },
@@ -3811,18 +3811,18 @@
                 "to": {
                     "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 12706,
-                    "endColumn": 87,
-                    "endOffset": 12789
+                    "startOffset": 12751,
+                    "endColumn": 112,
+                    "endOffset": 12859
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 173,
+                        "startLine": 170,
                         "startColumn": 4,
-                        "startOffset": 18184,
-                        "endColumn": 87,
-                        "endOffset": 18267
+                        "startOffset": 17878,
+                        "endColumn": 112,
+                        "endOffset": 17986
                     }
                 }
             },
@@ -3830,18 +3830,18 @@
                 "to": {
                     "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 12794,
-                    "endColumn": 98,
-                    "endOffset": 12888
+                    "startOffset": 12864,
+                    "endColumn": 90,
+                    "endOffset": 12950
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 174,
+                        "startLine": 171,
                         "startColumn": 4,
-                        "startOffset": 18273,
-                        "endColumn": 98,
-                        "endOffset": 18367
+                        "startOffset": 17992,
+                        "endColumn": 90,
+                        "endOffset": 18078
                     }
                 }
             },
@@ -3849,18 +3849,18 @@
                 "to": {
                     "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 12893,
-                    "endColumn": 83,
-                    "endOffset": 12972
+                    "startOffset": 12955,
+                    "endColumn": 93,
+                    "endOffset": 13044
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 175,
+                        "startLine": 172,
                         "startColumn": 4,
-                        "startOffset": 18373,
-                        "endColumn": 83,
-                        "endOffset": 18452
+                        "startOffset": 18084,
+                        "endColumn": 93,
+                        "endOffset": 18173
                     }
                 }
             },
@@ -3868,18 +3868,18 @@
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 12977,
-                    "endColumn": 125,
-                    "endOffset": 13098
+                    "startOffset": 13049,
+                    "endColumn": 80,
+                    "endOffset": 13125
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 176,
+                        "startLine": 173,
                         "startColumn": 4,
-                        "startOffset": 18458,
-                        "endColumn": 125,
-                        "endOffset": 18579
+                        "startOffset": 18179,
+                        "endColumn": 80,
+                        "endOffset": 18255
                     }
                 }
             },
@@ -3887,18 +3887,18 @@
                 "to": {
                     "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 13103,
-                    "endColumn": 112,
-                    "endOffset": 13211
+                    "startOffset": 13130,
+                    "endColumn": 87,
+                    "endOffset": 13213
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 177,
+                        "startLine": 174,
                         "startColumn": 4,
-                        "startOffset": 18585,
-                        "endColumn": 112,
-                        "endOffset": 18693
+                        "startOffset": 18261,
+                        "endColumn": 87,
+                        "endOffset": 18344
                     }
                 }
             },
@@ -3906,18 +3906,18 @@
                 "to": {
                     "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 13216,
-                    "endColumn": 90,
-                    "endOffset": 13302
+                    "startOffset": 13218,
+                    "endColumn": 98,
+                    "endOffset": 13312
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 178,
+                        "startLine": 175,
                         "startColumn": 4,
-                        "startOffset": 18699,
-                        "endColumn": 90,
-                        "endOffset": 18785
+                        "startOffset": 18350,
+                        "endColumn": 98,
+                        "endOffset": 18444
                     }
                 }
             },
@@ -3925,18 +3925,18 @@
                 "to": {
                     "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 13307,
-                    "endColumn": 93,
+                    "startOffset": 13317,
+                    "endColumn": 83,
                     "endOffset": 13396
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 179,
+                        "startLine": 176,
                         "startColumn": 4,
-                        "startOffset": 18791,
-                        "endColumn": 93,
-                        "endOffset": 18880
+                        "startOffset": 18450,
+                        "endColumn": 83,
+                        "endOffset": 18529
                     }
                 }
             },
@@ -3945,17 +3945,17 @@
                     "startLine": 274,
                     "startColumn": 4,
                     "startOffset": 13401,
-                    "endColumn": 80,
-                    "endOffset": 13477
+                    "endColumn": 125,
+                    "endOffset": 13522
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 180,
+                        "startLine": 177,
                         "startColumn": 4,
-                        "startOffset": 18886,
-                        "endColumn": 80,
-                        "endOffset": 18962
+                        "startOffset": 18535,
+                        "endColumn": 125,
+                        "endOffset": 18656
                     }
                 }
             },
@@ -3963,18 +3963,18 @@
                 "to": {
                     "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 13482,
-                    "endColumn": 87,
-                    "endOffset": 13565
+                    "startOffset": 13527,
+                    "endColumn": 112,
+                    "endOffset": 13635
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 181,
+                        "startLine": 178,
                         "startColumn": 4,
-                        "startOffset": 18968,
-                        "endColumn": 87,
-                        "endOffset": 19051
+                        "startOffset": 18662,
+                        "endColumn": 112,
+                        "endOffset": 18770
                     }
                 }
             },
@@ -3982,18 +3982,18 @@
                 "to": {
                     "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 13570,
-                    "endColumn": 98,
-                    "endOffset": 13664
+                    "startOffset": 13640,
+                    "endColumn": 90,
+                    "endOffset": 13726
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 182,
+                        "startLine": 179,
                         "startColumn": 4,
-                        "startOffset": 19057,
-                        "endColumn": 98,
-                        "endOffset": 19151
+                        "startOffset": 18776,
+                        "endColumn": 90,
+                        "endOffset": 18862
                     }
                 }
             },
@@ -4001,18 +4001,18 @@
                 "to": {
                     "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 13669,
-                    "endColumn": 83,
-                    "endOffset": 13748
+                    "startOffset": 13731,
+                    "endColumn": 93,
+                    "endOffset": 13820
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 183,
+                        "startLine": 180,
                         "startColumn": 4,
-                        "startOffset": 19157,
-                        "endColumn": 83,
-                        "endOffset": 19236
+                        "startOffset": 18868,
+                        "endColumn": 93,
+                        "endOffset": 18957
                     }
                 }
             },
@@ -4020,18 +4020,18 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 13753,
-                    "endColumn": 86,
-                    "endOffset": 13835
+                    "startOffset": 13825,
+                    "endColumn": 80,
+                    "endOffset": 13901
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 184,
+                        "startLine": 181,
                         "startColumn": 4,
-                        "startOffset": 19242,
-                        "endColumn": 86,
-                        "endOffset": 19324
+                        "startOffset": 18963,
+                        "endColumn": 80,
+                        "endOffset": 19039
                     }
                 }
             },
@@ -4039,18 +4039,18 @@
                 "to": {
                     "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 13840,
-                    "endColumn": 104,
-                    "endOffset": 13940
+                    "startOffset": 13906,
+                    "endColumn": 87,
+                    "endOffset": 13989
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 185,
+                        "startLine": 182,
                         "startColumn": 4,
-                        "startOffset": 19330,
-                        "endColumn": 104,
-                        "endOffset": 19430
+                        "startOffset": 19045,
+                        "endColumn": 87,
+                        "endOffset": 19128
                     }
                 }
             },
@@ -4058,18 +4058,18 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 13945,
-                    "endColumn": 125,
-                    "endOffset": 14066
+                    "startOffset": 13994,
+                    "endColumn": 98,
+                    "endOffset": 14088
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 186,
+                        "startLine": 183,
                         "startColumn": 4,
-                        "startOffset": 19436,
-                        "endColumn": 125,
-                        "endOffset": 19557
+                        "startOffset": 19134,
+                        "endColumn": 98,
+                        "endOffset": 19228
                     }
                 }
             },
@@ -4077,18 +4077,18 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 14071,
-                    "endColumn": 94,
-                    "endOffset": 14161
+                    "startOffset": 14093,
+                    "endColumn": 83,
+                    "endOffset": 14172
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 187,
+                        "startLine": 184,
                         "startColumn": 4,
-                        "startOffset": 19563,
-                        "endColumn": 94,
-                        "endOffset": 19653
+                        "startOffset": 19234,
+                        "endColumn": 83,
+                        "endOffset": 19313
                     }
                 }
             },
@@ -4096,18 +4096,18 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 14166,
-                    "endColumn": 93,
-                    "endOffset": 14255
+                    "startOffset": 14177,
+                    "endColumn": 86,
+                    "endOffset": 14259
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 188,
+                        "startLine": 185,
                         "startColumn": 4,
-                        "startOffset": 19659,
-                        "endColumn": 93,
-                        "endOffset": 19748
+                        "startOffset": 19319,
+                        "endColumn": 86,
+                        "endOffset": 19401
                     }
                 }
             },
@@ -4115,18 +4115,18 @@
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 14260,
-                    "endColumn": 98,
-                    "endOffset": 14354
+                    "startOffset": 14264,
+                    "endColumn": 104,
+                    "endOffset": 14364
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 189,
+                        "startLine": 186,
                         "startColumn": 4,
-                        "startOffset": 19754,
-                        "endColumn": 98,
-                        "endOffset": 19848
+                        "startOffset": 19407,
+                        "endColumn": 104,
+                        "endOffset": 19507
                     }
                 }
             },
@@ -4134,18 +4134,18 @@
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 14359,
-                    "endColumn": 87,
-                    "endOffset": 14442
+                    "startOffset": 14369,
+                    "endColumn": 125,
+                    "endOffset": 14490
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 190,
+                        "startLine": 187,
                         "startColumn": 4,
-                        "startOffset": 19854,
-                        "endColumn": 87,
-                        "endOffset": 19937
+                        "startOffset": 19513,
+                        "endColumn": 125,
+                        "endOffset": 19634
                     }
                 }
             },
@@ -4153,18 +4153,18 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 14447,
-                    "endColumn": 111,
-                    "endOffset": 14554
+                    "startOffset": 14495,
+                    "endColumn": 94,
+                    "endOffset": 14585
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 191,
+                        "startLine": 188,
                         "startColumn": 4,
-                        "startOffset": 19943,
-                        "endColumn": 111,
-                        "endOffset": 20050
+                        "startOffset": 19640,
+                        "endColumn": 94,
+                        "endOffset": 19730
                     }
                 }
             },
@@ -4172,18 +4172,18 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 14559,
-                    "endColumn": 85,
-                    "endOffset": 14640
+                    "startOffset": 14590,
+                    "endColumn": 93,
+                    "endOffset": 14679
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 160,
+                        "startLine": 189,
                         "startColumn": 4,
-                        "startOffset": 16890,
-                        "endColumn": 85,
-                        "endOffset": 16971
+                        "startOffset": 19736,
+                        "endColumn": 93,
+                        "endOffset": 19825
                     }
                 }
             },
@@ -4191,18 +4191,18 @@
                 "to": {
                     "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 14645,
-                    "endColumn": 92,
-                    "endOffset": 14733
+                    "startOffset": 14684,
+                    "endColumn": 98,
+                    "endOffset": 14778
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 161,
+                        "startLine": 190,
                         "startColumn": 4,
-                        "startOffset": 16977,
-                        "endColumn": 92,
-                        "endOffset": 17065
+                        "startOffset": 19831,
+                        "endColumn": 98,
+                        "endOffset": 19925
                     }
                 }
             },
@@ -4210,18 +4210,18 @@
                 "to": {
                     "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 14738,
-                    "endColumn": 100,
-                    "endOffset": 14834
+                    "startOffset": 14783,
+                    "endColumn": 87,
+                    "endOffset": 14866
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 162,
+                        "startLine": 191,
                         "startColumn": 4,
-                        "startOffset": 17071,
-                        "endColumn": 100,
-                        "endOffset": 17167
+                        "startOffset": 19931,
+                        "endColumn": 87,
+                        "endOffset": 20014
                     }
                 }
             },
@@ -4229,18 +4229,18 @@
                 "to": {
                     "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 14839,
-                    "endColumn": 90,
-                    "endOffset": 14925
+                    "startOffset": 14871,
+                    "endColumn": 111,
+                    "endOffset": 14978
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 163,
+                        "startLine": 192,
                         "startColumn": 4,
-                        "startOffset": 17173,
-                        "endColumn": 90,
-                        "endOffset": 17259
+                        "startOffset": 20020,
+                        "endColumn": 111,
+                        "endOffset": 20127
                     }
                 }
             },
@@ -4248,9 +4248,85 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 14930,
+                    "startOffset": 14983,
+                    "endColumn": 85,
+                    "endOffset": 15064
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 16967,
+                        "endColumn": 85,
+                        "endOffset": 17048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 15069,
+                    "endColumn": 92,
+                    "endOffset": 15157
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 17054,
+                        "endColumn": 92,
+                        "endOffset": 17142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 15162,
+                    "endColumn": 100,
+                    "endOffset": 15258
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 17148,
+                        "endColumn": 100,
+                        "endOffset": 17244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 15263,
+                    "endColumn": 90,
+                    "endOffset": 15349
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 17250,
+                        "endColumn": 90,
+                        "endOffset": 17336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 15354,
                     "endColumn": 44,
-                    "endOffset": 14970
+                    "endOffset": 15394
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4265,11 +4341,11 @@
             },
             {
                 "to": {
-                    "startLine": 291,
+                    "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 14975,
+                    "startOffset": 15399,
                     "endColumn": 151,
-                    "endOffset": 15122
+                    "endOffset": 15546
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4284,11 +4360,11 @@
             },
             {
                 "to": {
-                    "startLine": 292,
+                    "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 15127,
+                    "startOffset": 15551,
                     "endColumn": 83,
-                    "endOffset": 15206
+                    "endOffset": 15630
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4303,51 +4379,51 @@
             },
             {
                 "to": {
-                    "startLine": 293,
+                    "startLine": 297,
                     "startColumn": 4,
-                    "startOffset": 15211,
-                    "endLine": 297,
+                    "startOffset": 15635,
+                    "endLine": 301,
                     "endColumn": 99,
-                    "endOffset": 16090
+                    "endOffset": 16514
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 197,
+                        "startLine": 198,
                         "startColumn": 4,
-                        "startOffset": 20224,
-                        "endLine": 201,
+                        "startOffset": 20301,
+                        "endLine": 202,
                         "endColumn": 99,
-                        "endOffset": 21107
+                        "endOffset": 21184
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 298,
+                    "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 16095,
+                    "startOffset": 16519,
                     "endColumn": 39,
-                    "endOffset": 16130
+                    "endOffset": 16554
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 194,
+                        "startLine": 195,
                         "startColumn": 4,
-                        "startOffset": 20179,
+                        "startOffset": 20256,
                         "endColumn": 39,
-                        "endOffset": 20214
+                        "endOffset": 20291
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 299,
+                    "startLine": 303,
                     "startColumn": 4,
-                    "startOffset": 16135,
+                    "startOffset": 16559,
                     "endColumn": 56,
-                    "endOffset": 16187
+                    "endOffset": 16611
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4362,11 +4438,11 @@
             },
             {
                 "to": {
-                    "startLine": 300,
+                    "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 16192,
+                    "startOffset": 16616,
                     "endColumn": 77,
-                    "endOffset": 16265
+                    "endOffset": 16689
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4381,11 +4457,11 @@
             },
             {
                 "to": {
-                    "startLine": 301,
+                    "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 16270,
+                    "startOffset": 16694,
                     "endColumn": 77,
-                    "endOffset": 16343
+                    "endOffset": 16767
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4400,11 +4476,11 @@
             },
             {
                 "to": {
-                    "startLine": 302,
+                    "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 16348,
+                    "startOffset": 16772,
                     "endColumn": 82,
-                    "endOffset": 16426
+                    "endOffset": 16850
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4419,11 +4495,11 @@
             },
             {
                 "to": {
-                    "startLine": 303,
+                    "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 16431,
+                    "startOffset": 16855,
                     "endColumn": 80,
-                    "endOffset": 16507
+                    "endOffset": 16931
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4438,11 +4514,11 @@
             },
             {
                 "to": {
-                    "startLine": 304,
+                    "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 16512,
+                    "startOffset": 16936,
                     "endColumn": 79,
-                    "endOffset": 16587
+                    "endOffset": 17011
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4457,11 +4533,11 @@
             },
             {
                 "to": {
-                    "startLine": 305,
+                    "startLine": 309,
                     "startColumn": 4,
-                    "startOffset": 16592,
+                    "startOffset": 17016,
                     "endColumn": 81,
-                    "endOffset": 16669
+                    "endOffset": 17093
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4476,11 +4552,11 @@
             },
             {
                 "to": {
-                    "startLine": 306,
+                    "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 16674,
+                    "startOffset": 17098,
                     "endColumn": 95,
-                    "endOffset": 16765
+                    "endOffset": 17189
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4495,11 +4571,11 @@
             },
             {
                 "to": {
-                    "startLine": 307,
+                    "startLine": 311,
                     "startColumn": 4,
-                    "startOffset": 16770,
+                    "startOffset": 17194,
                     "endColumn": 81,
-                    "endOffset": 16847
+                    "endOffset": 17271
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4514,11 +4590,11 @@
             },
             {
                 "to": {
-                    "startLine": 308,
+                    "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 16852,
+                    "startOffset": 17276,
                     "endColumn": 86,
-                    "endOffset": 16934
+                    "endOffset": 17358
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4533,11 +4609,11 @@
             },
             {
                 "to": {
-                    "startLine": 309,
+                    "startLine": 313,
                     "startColumn": 4,
-                    "startOffset": 16939,
+                    "startOffset": 17363,
                     "endColumn": 86,
-                    "endOffset": 17021
+                    "endOffset": 17445
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4552,11 +4628,11 @@
             },
             {
                 "to": {
-                    "startLine": 310,
+                    "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 17026,
+                    "startOffset": 17450,
                     "endColumn": 66,
-                    "endOffset": 17088
+                    "endOffset": 17512
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4571,11 +4647,11 @@
             },
             {
                 "to": {
-                    "startLine": 311,
+                    "startLine": 315,
                     "startColumn": 4,
-                    "startOffset": 17093,
+                    "startOffset": 17517,
                     "endColumn": 71,
-                    "endOffset": 17160
+                    "endOffset": 17584
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4590,11 +4666,11 @@
             },
             {
                 "to": {
-                    "startLine": 312,
+                    "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 17165,
+                    "startOffset": 17589,
                     "endColumn": 68,
-                    "endOffset": 17229
+                    "endOffset": 17653
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4609,11 +4685,11 @@
             },
             {
                 "to": {
-                    "startLine": 313,
+                    "startLine": 317,
                     "startColumn": 4,
-                    "startOffset": 17234,
+                    "startOffset": 17658,
                     "endColumn": 77,
-                    "endOffset": 17307
+                    "endOffset": 17731
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4628,11 +4704,11 @@
             },
             {
                 "to": {
-                    "startLine": 314,
+                    "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 17312,
+                    "startOffset": 17736,
                     "endColumn": 69,
-                    "endOffset": 17377
+                    "endOffset": 17801
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4647,11 +4723,11 @@
             },
             {
                 "to": {
-                    "startLine": 315,
+                    "startLine": 319,
                     "startColumn": 4,
-                    "startOffset": 17382,
+                    "startOffset": 17806,
                     "endColumn": 84,
-                    "endOffset": 17462
+                    "endOffset": 17886
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4666,11 +4742,11 @@
             },
             {
                 "to": {
-                    "startLine": 316,
+                    "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 17467,
+                    "startOffset": 17891,
                     "endColumn": 71,
-                    "endOffset": 17534
+                    "endOffset": 17958
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4685,11 +4761,11 @@
             },
             {
                 "to": {
-                    "startLine": 317,
+                    "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 17539,
+                    "startOffset": 17963,
                     "endColumn": 86,
-                    "endOffset": 17621
+                    "endOffset": 18045
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4704,11 +4780,11 @@
             },
             {
                 "to": {
-                    "startLine": 318,
+                    "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 17626,
+                    "startOffset": 18050,
                     "endColumn": 67,
-                    "endOffset": 17689
+                    "endOffset": 18113
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4723,11 +4799,11 @@
             },
             {
                 "to": {
-                    "startLine": 319,
+                    "startLine": 323,
                     "startColumn": 4,
-                    "startOffset": 17694,
+                    "startOffset": 18118,
                     "endColumn": 79,
-                    "endOffset": 17769
+                    "endOffset": 18193
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4742,30 +4818,30 @@
             },
             {
                 "to": {
-                    "startLine": 320,
+                    "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 17774,
+                    "startOffset": 18198,
                     "endColumn": 86,
-                    "endOffset": 17856
+                    "endOffset": 18280
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 192,
+                        "startLine": 193,
                         "startColumn": 4,
-                        "startOffset": 20056,
+                        "startOffset": 20133,
                         "endColumn": 86,
-                        "endOffset": 20138
+                        "endOffset": 20215
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 321,
+                    "startLine": 325,
                     "startColumn": 4,
-                    "startOffset": 17861,
+                    "startOffset": 18285,
                     "endColumn": 69,
-                    "endOffset": 17926
+                    "endOffset": 18350
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4780,11 +4856,11 @@
             },
             {
                 "to": {
-                    "startLine": 322,
+                    "startLine": 326,
                     "startColumn": 4,
-                    "startOffset": 17931,
+                    "startOffset": 18355,
                     "endColumn": 75,
-                    "endOffset": 18002
+                    "endOffset": 18426
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4799,11 +4875,11 @@
             },
             {
                 "to": {
-                    "startLine": 323,
+                    "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 18007,
+                    "startOffset": 18431,
                     "endColumn": 90,
-                    "endOffset": 18093
+                    "endOffset": 18517
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4818,11 +4894,11 @@
             },
             {
                 "to": {
-                    "startLine": 324,
+                    "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 18098,
+                    "startOffset": 18522,
                     "endColumn": 77,
-                    "endOffset": 18171
+                    "endOffset": 18595
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4837,11 +4913,11 @@
             },
             {
                 "to": {
-                    "startLine": 325,
+                    "startLine": 329,
                     "startColumn": 4,
-                    "startOffset": 18176,
+                    "startOffset": 18600,
                     "endColumn": 69,
-                    "endOffset": 18241
+                    "endOffset": 18665
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4856,11 +4932,11 @@
             },
             {
                 "to": {
-                    "startLine": 326,
+                    "startLine": 330,
                     "startColumn": 4,
-                    "startOffset": 18246,
+                    "startOffset": 18670,
                     "endColumn": 73,
-                    "endOffset": 18315
+                    "endOffset": 18739
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4875,11 +4951,11 @@
             },
             {
                 "to": {
-                    "startLine": 327,
+                    "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 18320,
+                    "startOffset": 18744,
                     "endColumn": 80,
-                    "endOffset": 18396
+                    "endOffset": 18820
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4894,11 +4970,11 @@
             },
             {
                 "to": {
-                    "startLine": 328,
+                    "startLine": 332,
                     "startColumn": 4,
-                    "startOffset": 18401,
+                    "startOffset": 18825,
                     "endColumn": 80,
-                    "endOffset": 18477
+                    "endOffset": 18901
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4913,11 +4989,11 @@
             },
             {
                 "to": {
-                    "startLine": 329,
+                    "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 18482,
+                    "startOffset": 18906,
                     "endColumn": 62,
-                    "endOffset": 18540
+                    "endOffset": 18964
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4932,11 +5008,11 @@
             },
             {
                 "to": {
-                    "startLine": 330,
+                    "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 18545,
+                    "startOffset": 18969,
                     "endColumn": 77,
-                    "endOffset": 18618
+                    "endOffset": 19042
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4951,11 +5027,11 @@
             },
             {
                 "to": {
-                    "startLine": 331,
+                    "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 18623,
+                    "startOffset": 19047,
                     "endColumn": 77,
-                    "endOffset": 18696
+                    "endOffset": 19120
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4970,11 +5046,11 @@
             },
             {
                 "to": {
-                    "startLine": 332,
+                    "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 18701,
+                    "startOffset": 19125,
                     "endColumn": 69,
-                    "endOffset": 18766
+                    "endOffset": 19190
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -4989,11 +5065,11 @@
             },
             {
                 "to": {
-                    "startLine": 333,
+                    "startLine": 337,
                     "startColumn": 4,
-                    "startOffset": 18771,
+                    "startOffset": 19195,
                     "endColumn": 82,
-                    "endOffset": 18849
+                    "endOffset": 19273
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5008,11 +5084,11 @@
             },
             {
                 "to": {
-                    "startLine": 334,
+                    "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 18854,
+                    "startOffset": 19278,
                     "endColumn": 71,
-                    "endOffset": 18921
+                    "endOffset": 19345
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5027,11 +5103,11 @@
             },
             {
                 "to": {
-                    "startLine": 335,
+                    "startLine": 339,
                     "startColumn": 4,
-                    "startOffset": 18926,
+                    "startOffset": 19350,
                     "endColumn": 67,
-                    "endOffset": 18989
+                    "endOffset": 19413
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5046,11 +5122,11 @@
             },
             {
                 "to": {
-                    "startLine": 336,
+                    "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 18994,
+                    "startOffset": 19418,
                     "endColumn": 79,
-                    "endOffset": 19069
+                    "endOffset": 19493
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5065,11 +5141,11 @@
             },
             {
                 "to": {
-                    "startLine": 337,
+                    "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 19074,
+                    "startOffset": 19498,
                     "endColumn": 85,
-                    "endOffset": 19155
+                    "endOffset": 19579
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5084,11 +5160,30 @@
             },
             {
                 "to": {
-                    "startLine": 338,
+                    "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 19160,
+                    "startOffset": 19584,
+                    "endColumn": 75,
+                    "endOffset": 19655
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 7278,
+                        "endColumn": 75,
+                        "endOffset": 7349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 19660,
                     "endColumn": 77,
-                    "endOffset": 19233
+                    "endOffset": 19733
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5103,11 +5198,11 @@
             },
             {
                 "to": {
-                    "startLine": 339,
+                    "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 19238,
+                    "startOffset": 19738,
                     "endColumn": 75,
-                    "endOffset": 19309
+                    "endOffset": 19809
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5122,11 +5217,11 @@
             },
             {
                 "to": {
-                    "startLine": 340,
+                    "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 19314,
+                    "startOffset": 19814,
                     "endColumn": 90,
-                    "endOffset": 19400
+                    "endOffset": 19900
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5141,11 +5236,11 @@
             },
             {
                 "to": {
-                    "startLine": 341,
+                    "startLine": 346,
                     "startColumn": 4,
-                    "startOffset": 19405,
+                    "startOffset": 19905,
                     "endColumn": 77,
-                    "endOffset": 19478
+                    "endOffset": 19978
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5160,11 +5255,11 @@
             },
             {
                 "to": {
-                    "startLine": 342,
+                    "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 19483,
+                    "startOffset": 19983,
                     "endColumn": 69,
-                    "endOffset": 19548
+                    "endOffset": 20048
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5179,11 +5274,11 @@
             },
             {
                 "to": {
-                    "startLine": 343,
+                    "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 19553,
+                    "startOffset": 20053,
                     "endColumn": 73,
-                    "endOffset": 19622
+                    "endOffset": 20122
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5198,11 +5293,11 @@
             },
             {
                 "to": {
-                    "startLine": 344,
+                    "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 19627,
+                    "startOffset": 20127,
                     "endColumn": 80,
-                    "endOffset": 19703
+                    "endOffset": 20203
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5217,11 +5312,11 @@
             },
             {
                 "to": {
-                    "startLine": 345,
+                    "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 19708,
+                    "startOffset": 20208,
                     "endColumn": 80,
-                    "endOffset": 19784
+                    "endOffset": 20284
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5236,11 +5331,11 @@
             },
             {
                 "to": {
-                    "startLine": 346,
+                    "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 19789,
+                    "startOffset": 20289,
                     "endColumn": 62,
-                    "endOffset": 19847
+                    "endOffset": 20347
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5255,11 +5350,11 @@
             },
             {
                 "to": {
-                    "startLine": 347,
+                    "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 19852,
+                    "startOffset": 20352,
                     "endColumn": 60,
-                    "endOffset": 19908
+                    "endOffset": 20408
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5274,11 +5369,11 @@
             },
             {
                 "to": {
-                    "startLine": 348,
+                    "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 19913,
+                    "startOffset": 20413,
                     "endColumn": 71,
-                    "endOffset": 19980
+                    "endOffset": 20480
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5293,11 +5388,11 @@
             },
             {
                 "to": {
-                    "startLine": 349,
+                    "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 19985,
+                    "startOffset": 20485,
                     "endColumn": 60,
-                    "endOffset": 20041
+                    "endOffset": 20541
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5312,11 +5407,11 @@
             },
             {
                 "to": {
-                    "startLine": 350,
+                    "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 20046,
+                    "startOffset": 20546,
                     "endColumn": 69,
-                    "endOffset": 20111
+                    "endOffset": 20611
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5331,11 +5426,11 @@
             },
             {
                 "to": {
-                    "startLine": 351,
+                    "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 20116,
+                    "startOffset": 20616,
                     "endColumn": 71,
-                    "endOffset": 20183
+                    "endOffset": 20683
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5350,11 +5445,11 @@
             },
             {
                 "to": {
-                    "startLine": 352,
+                    "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 20188,
+                    "startOffset": 20688,
                     "endColumn": 71,
-                    "endOffset": 20255
+                    "endOffset": 20755
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5369,11 +5464,11 @@
             },
             {
                 "to": {
-                    "startLine": 353,
+                    "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 20260,
+                    "startOffset": 20760,
                     "endColumn": 65,
-                    "endOffset": 20321
+                    "endOffset": 20821
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5388,11 +5483,11 @@
             },
             {
                 "to": {
-                    "startLine": 354,
+                    "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 20326,
+                    "startOffset": 20826,
                     "endColumn": 68,
-                    "endOffset": 20390
+                    "endOffset": 20890
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5407,11 +5502,11 @@
             },
             {
                 "to": {
-                    "startLine": 355,
+                    "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 20395,
+                    "startOffset": 20895,
                     "endColumn": 84,
-                    "endOffset": 20475
+                    "endOffset": 20975
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5426,11 +5521,11 @@
             },
             {
                 "to": {
-                    "startLine": 356,
+                    "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 20480,
+                    "startOffset": 20980,
                     "endColumn": 66,
-                    "endOffset": 20542
+                    "endOffset": 21042
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5445,11 +5540,11 @@
             },
             {
                 "to": {
-                    "startLine": 357,
+                    "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 20547,
+                    "startOffset": 21047,
                     "endColumn": 70,
-                    "endOffset": 20613
+                    "endOffset": 21113
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5464,11 +5559,11 @@
             },
             {
                 "to": {
-                    "startLine": 358,
+                    "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 20618,
+                    "startOffset": 21118,
                     "endColumn": 92,
-                    "endOffset": 20706
+                    "endOffset": 21206
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5483,11 +5578,11 @@
             },
             {
                 "to": {
-                    "startLine": 359,
+                    "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 20711,
+                    "startOffset": 21211,
                     "endColumn": 60,
-                    "endOffset": 20767
+                    "endOffset": 21267
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5502,11 +5597,11 @@
             },
             {
                 "to": {
-                    "startLine": 360,
+                    "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 20772,
+                    "startOffset": 21272,
                     "endColumn": 60,
-                    "endOffset": 20828
+                    "endOffset": 21328
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5521,11 +5616,11 @@
             },
             {
                 "to": {
-                    "startLine": 361,
+                    "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 20833,
+                    "startOffset": 21333,
                     "endColumn": 81,
-                    "endOffset": 20910
+                    "endOffset": 21410
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5540,11 +5635,11 @@
             },
             {
                 "to": {
-                    "startLine": 362,
+                    "startLine": 367,
                     "startColumn": 4,
-                    "startOffset": 20915,
+                    "startOffset": 21415,
                     "endColumn": 73,
-                    "endOffset": 20984
+                    "endOffset": 21484
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5559,11 +5654,11 @@
             },
             {
                 "to": {
-                    "startLine": 363,
+                    "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 20989,
+                    "startOffset": 21489,
                     "endColumn": 73,
-                    "endOffset": 21058
+                    "endOffset": 21558
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5578,11 +5673,11 @@
             },
             {
                 "to": {
-                    "startLine": 364,
+                    "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 21063,
+                    "startOffset": 21563,
                     "endColumn": 64,
-                    "endOffset": 21123
+                    "endOffset": 21623
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5597,11 +5692,11 @@
             },
             {
                 "to": {
-                    "startLine": 365,
+                    "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 21128,
+                    "startOffset": 21628,
                     "endColumn": 75,
-                    "endOffset": 21199
+                    "endOffset": 21699
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5616,11 +5711,11 @@
             },
             {
                 "to": {
-                    "startLine": 366,
+                    "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 21204,
+                    "startOffset": 21704,
                     "endColumn": 52,
-                    "endOffset": 21252
+                    "endOffset": 21752
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5635,11 +5730,11 @@
             },
             {
                 "to": {
-                    "startLine": 367,
+                    "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 21257,
+                    "startOffset": 21757,
                     "endColumn": 52,
-                    "endOffset": 21305
+                    "endOffset": 21805
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5654,11 +5749,11 @@
             },
             {
                 "to": {
-                    "startLine": 368,
+                    "startLine": 373,
                     "startColumn": 4,
-                    "startOffset": 21310,
+                    "startOffset": 21810,
                     "endColumn": 52,
-                    "endOffset": 21358
+                    "endOffset": 21858
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -5673,115 +5768,20 @@
             },
             {
                 "to": {
-                    "startLine": 369,
+                    "startLine": 374,
                     "startColumn": 4,
-                    "startOffset": 21363,
+                    "startOffset": 21863,
                     "endColumn": 244,
-                    "endOffset": 21603
-                },
-                "from": {
-                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 143,
-                        "startColumn": 4,
-                        "startOffset": 13317,
-                        "endColumn": 244,
-                        "endOffset": 13557
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 370,
-                    "startColumn": 4,
-                    "startOffset": 21608,
-                    "endColumn": 300,
-                    "endOffset": 21904
+                    "endOffset": 22103
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 144,
                         "startColumn": 4,
-                        "startOffset": 13563,
-                        "endColumn": 300,
-                        "endOffset": 13859
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 371,
-                    "startColumn": 4,
-                    "startOffset": 21909,
-                    "endColumn": 561,
-                    "endOffset": 22466
-                },
-                "from": {
-                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 145,
-                        "startColumn": 4,
-                        "startOffset": 13865,
-                        "endColumn": 561,
-                        "endOffset": 14422
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 372,
-                    "startColumn": 4,
-                    "startOffset": 22471,
-                    "endColumn": 542,
-                    "endOffset": 23009
-                },
-                "from": {
-                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 146,
-                        "startColumn": 4,
-                        "startOffset": 14428,
-                        "endColumn": 542,
-                        "endOffset": 14966
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 373,
-                    "startColumn": 4,
-                    "startOffset": 23014,
-                    "endColumn": 374,
-                    "endOffset": 23384
-                },
-                "from": {
-                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 147,
-                        "startColumn": 4,
-                        "startOffset": 14972,
-                        "endColumn": 374,
-                        "endOffset": 15342
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 374,
-                    "startColumn": 4,
-                    "startOffset": 23389,
-                    "endColumn": 304,
-                    "endOffset": 23689
-                },
-                "from": {
-                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 148,
-                        "startColumn": 4,
-                        "startOffset": 15348,
-                        "endColumn": 304,
-                        "endOffset": 15648
+                        "startOffset": 13394,
+                        "endColumn": 244,
+                        "endOffset": 13634
                     }
                 }
             },
@@ -5789,18 +5789,18 @@
                 "to": {
                     "startLine": 375,
                     "startColumn": 4,
-                    "startOffset": 23694,
-                    "endColumn": 164,
-                    "endOffset": 23854
+                    "startOffset": 22108,
+                    "endColumn": 300,
+                    "endOffset": 22404
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 109,
+                        "startLine": 145,
                         "startColumn": 4,
-                        "startOffset": 7278,
-                        "endColumn": 164,
-                        "endOffset": 7438
+                        "startOffset": 13640,
+                        "endColumn": 300,
+                        "endOffset": 13936
                     }
                 }
             },
@@ -5808,18 +5808,18 @@
                 "to": {
                     "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 23859,
-                    "endColumn": 249,
-                    "endOffset": 24104
+                    "startOffset": 22409,
+                    "endColumn": 561,
+                    "endOffset": 22966
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 110,
+                        "startLine": 146,
                         "startColumn": 4,
-                        "startOffset": 7444,
-                        "endColumn": 249,
-                        "endOffset": 7689
+                        "startOffset": 13942,
+                        "endColumn": 561,
+                        "endOffset": 14499
                     }
                 }
             },
@@ -5827,18 +5827,18 @@
                 "to": {
                     "startLine": 377,
                     "startColumn": 4,
-                    "startOffset": 24109,
-                    "endColumn": 288,
-                    "endOffset": 24393
+                    "startOffset": 22971,
+                    "endColumn": 542,
+                    "endOffset": 23509
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 111,
+                        "startLine": 147,
                         "startColumn": 4,
-                        "startOffset": 7695,
-                        "endColumn": 288,
-                        "endOffset": 7979
+                        "startOffset": 14505,
+                        "endColumn": 542,
+                        "endOffset": 15043
                     }
                 }
             },
@@ -5846,18 +5846,18 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 24398,
-                    "endColumn": 244,
-                    "endOffset": 24638
+                    "startOffset": 23514,
+                    "endColumn": 374,
+                    "endOffset": 23884
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 112,
+                        "startLine": 148,
                         "startColumn": 4,
-                        "startOffset": 7985,
-                        "endColumn": 244,
-                        "endOffset": 8225
+                        "startOffset": 15049,
+                        "endColumn": 374,
+                        "endOffset": 15419
                     }
                 }
             },
@@ -5865,18 +5865,18 @@
                 "to": {
                     "startLine": 379,
                     "startColumn": 4,
-                    "startOffset": 24643,
-                    "endColumn": 186,
-                    "endOffset": 24825
+                    "startOffset": 23889,
+                    "endColumn": 304,
+                    "endOffset": 24189
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 113,
+                        "startLine": 149,
                         "startColumn": 4,
-                        "startOffset": 8231,
-                        "endColumn": 186,
-                        "endOffset": 8413
+                        "startOffset": 15425,
+                        "endColumn": 304,
+                        "endOffset": 15725
                     }
                 }
             },
@@ -5884,18 +5884,18 @@
                 "to": {
                     "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 24830,
-                    "endColumn": 266,
-                    "endOffset": 25092
+                    "startOffset": 24194,
+                    "endColumn": 164,
+                    "endOffset": 24354
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 114,
+                        "startLine": 110,
                         "startColumn": 4,
-                        "startOffset": 8419,
-                        "endColumn": 266,
-                        "endOffset": 8681
+                        "startOffset": 7355,
+                        "endColumn": 164,
+                        "endOffset": 7515
                     }
                 }
             },
@@ -5903,18 +5903,18 @@
                 "to": {
                     "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 25097,
-                    "endColumn": 235,
-                    "endOffset": 25328
+                    "startOffset": 24359,
+                    "endColumn": 249,
+                    "endOffset": 24604
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 115,
+                        "startLine": 111,
                         "startColumn": 4,
-                        "startOffset": 8687,
-                        "endColumn": 235,
-                        "endOffset": 8918
+                        "startOffset": 7521,
+                        "endColumn": 249,
+                        "endOffset": 7766
                     }
                 }
             },
@@ -5922,18 +5922,18 @@
                 "to": {
                     "startLine": 382,
                     "startColumn": 4,
-                    "startOffset": 25333,
-                    "endColumn": 188,
-                    "endOffset": 25517
+                    "startOffset": 24609,
+                    "endColumn": 288,
+                    "endOffset": 24893
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 116,
+                        "startLine": 112,
                         "startColumn": 4,
-                        "startOffset": 8924,
-                        "endColumn": 188,
-                        "endOffset": 9108
+                        "startOffset": 7772,
+                        "endColumn": 288,
+                        "endOffset": 8056
                     }
                 }
             },
@@ -5941,18 +5941,18 @@
                 "to": {
                     "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 25522,
-                    "endColumn": 187,
-                    "endOffset": 25705
+                    "startOffset": 24898,
+                    "endColumn": 244,
+                    "endOffset": 25138
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 117,
+                        "startLine": 113,
                         "startColumn": 4,
-                        "startOffset": 9114,
-                        "endColumn": 187,
-                        "endOffset": 9297
+                        "startOffset": 8062,
+                        "endColumn": 244,
+                        "endOffset": 8302
                     }
                 }
             },
@@ -5960,18 +5960,18 @@
                 "to": {
                     "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 25710,
-                    "endColumn": 199,
-                    "endOffset": 25905
+                    "startOffset": 25143,
+                    "endColumn": 186,
+                    "endOffset": 25325
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 118,
+                        "startLine": 114,
                         "startColumn": 4,
-                        "startOffset": 9303,
-                        "endColumn": 199,
-                        "endOffset": 9498
+                        "startOffset": 8308,
+                        "endColumn": 186,
+                        "endOffset": 8490
                     }
                 }
             },
@@ -5979,18 +5979,18 @@
                 "to": {
                     "startLine": 385,
                     "startColumn": 4,
-                    "startOffset": 25910,
-                    "endColumn": 211,
-                    "endOffset": 26117
+                    "startOffset": 25330,
+                    "endColumn": 266,
+                    "endOffset": 25592
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 127,
+                        "startLine": 115,
                         "startColumn": 4,
-                        "startOffset": 11253,
-                        "endColumn": 211,
-                        "endOffset": 11460
+                        "startOffset": 8496,
+                        "endColumn": 266,
+                        "endOffset": 8758
                     }
                 }
             },
@@ -5998,18 +5998,18 @@
                 "to": {
                     "startLine": 386,
                     "startColumn": 4,
-                    "startOffset": 26122,
-                    "endColumn": 176,
-                    "endOffset": 26294
+                    "startOffset": 25597,
+                    "endColumn": 235,
+                    "endOffset": 25828
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 128,
+                        "startLine": 116,
                         "startColumn": 4,
-                        "startOffset": 11466,
-                        "endColumn": 176,
-                        "endOffset": 11638
+                        "startOffset": 8764,
+                        "endColumn": 235,
+                        "endOffset": 8995
                     }
                 }
             },
@@ -6017,18 +6017,18 @@
                 "to": {
                     "startLine": 387,
                     "startColumn": 4,
-                    "startOffset": 26299,
-                    "endColumn": 229,
-                    "endOffset": 26524
+                    "startOffset": 25833,
+                    "endColumn": 188,
+                    "endOffset": 26017
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 129,
+                        "startLine": 117,
                         "startColumn": 4,
-                        "startOffset": 11644,
-                        "endColumn": 229,
-                        "endOffset": 11869
+                        "startOffset": 9001,
+                        "endColumn": 188,
+                        "endOffset": 9185
                     }
                 }
             },
@@ -6036,18 +6036,18 @@
                 "to": {
                     "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 26529,
-                    "endColumn": 283,
-                    "endOffset": 26808
+                    "startOffset": 26022,
+                    "endColumn": 187,
+                    "endOffset": 26205
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 119,
+                        "startLine": 118,
                         "startColumn": 4,
-                        "startOffset": 9504,
-                        "endColumn": 283,
-                        "endOffset": 9783
+                        "startOffset": 9191,
+                        "endColumn": 187,
+                        "endOffset": 9374
                     }
                 }
             },
@@ -6055,18 +6055,18 @@
                 "to": {
                     "startLine": 389,
                     "startColumn": 4,
-                    "startOffset": 26813,
-                    "endColumn": 228,
-                    "endOffset": 27037
+                    "startOffset": 26210,
+                    "endColumn": 199,
+                    "endOffset": 26405
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 120,
+                        "startLine": 119,
                         "startColumn": 4,
-                        "startOffset": 9789,
-                        "endColumn": 228,
-                        "endOffset": 10013
+                        "startOffset": 9380,
+                        "endColumn": 199,
+                        "endOffset": 9575
                     }
                 }
             },
@@ -6074,18 +6074,18 @@
                 "to": {
                     "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 27042,
-                    "endColumn": 163,
-                    "endOffset": 27201
+                    "startOffset": 26410,
+                    "endColumn": 211,
+                    "endOffset": 26617
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 121,
+                        "startLine": 128,
                         "startColumn": 4,
-                        "startOffset": 10019,
-                        "endColumn": 163,
-                        "endOffset": 10178
+                        "startOffset": 11330,
+                        "endColumn": 211,
+                        "endOffset": 11537
                     }
                 }
             },
@@ -6093,18 +6093,18 @@
                 "to": {
                     "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 27206,
-                    "endColumn": 200,
-                    "endOffset": 27402
+                    "startOffset": 26622,
+                    "endColumn": 176,
+                    "endOffset": 26794
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 122,
+                        "startLine": 129,
                         "startColumn": 4,
-                        "startOffset": 10184,
-                        "endColumn": 200,
-                        "endOffset": 10380
+                        "startOffset": 11543,
+                        "endColumn": 176,
+                        "endOffset": 11715
                     }
                 }
             },
@@ -6112,18 +6112,18 @@
                 "to": {
                     "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 27407,
-                    "endColumn": 151,
-                    "endOffset": 27554
+                    "startOffset": 26799,
+                    "endColumn": 229,
+                    "endOffset": 27024
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 123,
+                        "startLine": 130,
                         "startColumn": 4,
-                        "startOffset": 10386,
-                        "endColumn": 151,
-                        "endOffset": 10533
+                        "startOffset": 11721,
+                        "endColumn": 229,
+                        "endOffset": 11946
                     }
                 }
             },
@@ -6131,18 +6131,18 @@
                 "to": {
                     "startLine": 393,
                     "startColumn": 4,
-                    "startOffset": 27559,
-                    "endColumn": 279,
-                    "endOffset": 27834
+                    "startOffset": 27029,
+                    "endColumn": 283,
+                    "endOffset": 27308
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 124,
+                        "startLine": 120,
                         "startColumn": 4,
-                        "startOffset": 10539,
-                        "endColumn": 279,
-                        "endOffset": 10814
+                        "startOffset": 9581,
+                        "endColumn": 283,
+                        "endOffset": 9860
                     }
                 }
             },
@@ -6150,18 +6150,18 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 27839,
-                    "endColumn": 202,
-                    "endOffset": 28037
+                    "startOffset": 27313,
+                    "endColumn": 228,
+                    "endOffset": 27537
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 125,
+                        "startLine": 121,
                         "startColumn": 4,
-                        "startOffset": 10820,
-                        "endColumn": 202,
-                        "endOffset": 11018
+                        "startOffset": 9866,
+                        "endColumn": 228,
+                        "endOffset": 10090
                     }
                 }
             },
@@ -6169,18 +6169,18 @@
                 "to": {
                     "startLine": 395,
                     "startColumn": 4,
-                    "startOffset": 28042,
-                    "endColumn": 227,
-                    "endOffset": 28265
+                    "startOffset": 27542,
+                    "endColumn": 163,
+                    "endOffset": 27701
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 126,
+                        "startLine": 122,
                         "startColumn": 4,
-                        "startOffset": 11024,
-                        "endColumn": 227,
-                        "endOffset": 11247
+                        "startOffset": 10096,
+                        "endColumn": 163,
+                        "endOffset": 10255
                     }
                 }
             },
@@ -6188,18 +6188,18 @@
                 "to": {
                     "startLine": 396,
                     "startColumn": 4,
-                    "startOffset": 28270,
-                    "endColumn": 109,
-                    "endOffset": 28375
+                    "startOffset": 27706,
+                    "endColumn": 200,
+                    "endOffset": 27902
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 130,
+                        "startLine": 123,
                         "startColumn": 4,
-                        "startOffset": 11875,
-                        "endColumn": 109,
-                        "endOffset": 11980
+                        "startOffset": 10261,
+                        "endColumn": 200,
+                        "endOffset": 10457
                     }
                 }
             },
@@ -6207,18 +6207,18 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 28380,
-                    "endColumn": 141,
-                    "endOffset": 28517
+                    "startOffset": 27907,
+                    "endColumn": 151,
+                    "endOffset": 28054
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 139,
+                        "startLine": 124,
                         "startColumn": 4,
-                        "startOffset": 12923,
-                        "endColumn": 141,
-                        "endOffset": 13060
+                        "startOffset": 10463,
+                        "endColumn": 151,
+                        "endOffset": 10610
                     }
                 }
             },
@@ -6226,18 +6226,18 @@
                 "to": {
                     "startLine": 398,
                     "startColumn": 4,
-                    "startOffset": 28522,
-                    "endColumn": 92,
-                    "endOffset": 28610
+                    "startOffset": 28059,
+                    "endColumn": 279,
+                    "endOffset": 28334
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 140,
+                        "startLine": 125,
                         "startColumn": 4,
-                        "startOffset": 13066,
-                        "endColumn": 92,
-                        "endOffset": 13154
+                        "startOffset": 10616,
+                        "endColumn": 279,
+                        "endOffset": 10891
                     }
                 }
             },
@@ -6245,18 +6245,18 @@
                 "to": {
                     "startLine": 399,
                     "startColumn": 4,
-                    "startOffset": 28615,
-                    "endColumn": 83,
-                    "endOffset": 28694
+                    "startOffset": 28339,
+                    "endColumn": 202,
+                    "endOffset": 28537
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 141,
+                        "startLine": 126,
                         "startColumn": 4,
-                        "startOffset": 13160,
-                        "endColumn": 83,
-                        "endOffset": 13239
+                        "startOffset": 10897,
+                        "endColumn": 202,
+                        "endOffset": 11095
                     }
                 }
             },
@@ -6264,18 +6264,18 @@
                 "to": {
                     "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 28699,
-                    "endColumn": 70,
+                    "startOffset": 28542,
+                    "endColumn": 227,
                     "endOffset": 28765
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 142,
+                        "startLine": 127,
                         "startColumn": 4,
-                        "startOffset": 13245,
-                        "endColumn": 70,
-                        "endOffset": 13311
+                        "startOffset": 11101,
+                        "endColumn": 227,
+                        "endOffset": 11324
                     }
                 }
             },
@@ -6284,17 +6284,17 @@
                     "startLine": 401,
                     "startColumn": 4,
                     "startOffset": 28770,
-                    "endColumn": 87,
-                    "endOffset": 28853
+                    "endColumn": 109,
+                    "endOffset": 28875
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 131,
                         "startColumn": 4,
-                        "startOffset": 11986,
-                        "endColumn": 87,
-                        "endOffset": 12069
+                        "startOffset": 11952,
+                        "endColumn": 109,
+                        "endOffset": 12057
                     }
                 }
             },
@@ -6302,18 +6302,18 @@
                 "to": {
                     "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 28858,
-                    "endColumn": 98,
-                    "endOffset": 28952
+                    "startOffset": 28880,
+                    "endColumn": 141,
+                    "endOffset": 29017
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 132,
+                        "startLine": 140,
                         "startColumn": 4,
-                        "startOffset": 12075,
-                        "endColumn": 98,
-                        "endOffset": 12169
+                        "startOffset": 13000,
+                        "endColumn": 141,
+                        "endOffset": 13137
                     }
                 }
             },
@@ -6321,18 +6321,18 @@
                 "to": {
                     "startLine": 403,
                     "startColumn": 4,
-                    "startOffset": 28957,
-                    "endColumn": 110,
-                    "endOffset": 29063
+                    "startOffset": 29022,
+                    "endColumn": 92,
+                    "endOffset": 29110
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 133,
+                        "startLine": 141,
                         "startColumn": 4,
-                        "startOffset": 12175,
-                        "endColumn": 110,
-                        "endOffset": 12281
+                        "startOffset": 13143,
+                        "endColumn": 92,
+                        "endOffset": 13231
                     }
                 }
             },
@@ -6340,18 +6340,18 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 29068,
-                    "endColumn": 126,
-                    "endOffset": 29190
+                    "startOffset": 29115,
+                    "endColumn": 83,
+                    "endOffset": 29194
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 134,
+                        "startLine": 142,
                         "startColumn": 4,
-                        "startOffset": 12287,
-                        "endColumn": 126,
-                        "endOffset": 12409
+                        "startOffset": 13237,
+                        "endColumn": 83,
+                        "endOffset": 13316
                     }
                 }
             },
@@ -6359,18 +6359,18 @@
                 "to": {
                     "startLine": 405,
                     "startColumn": 4,
-                    "startOffset": 29195,
-                    "endColumn": 138,
-                    "endOffset": 29329
+                    "startOffset": 29199,
+                    "endColumn": 70,
+                    "endOffset": 29265
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 135,
+                        "startLine": 143,
                         "startColumn": 4,
-                        "startOffset": 12415,
-                        "endColumn": 138,
-                        "endOffset": 12549
+                        "startOffset": 13322,
+                        "endColumn": 70,
+                        "endOffset": 13388
                     }
                 }
             },
@@ -6378,18 +6378,18 @@
                 "to": {
                     "startLine": 406,
                     "startColumn": 4,
-                    "startOffset": 29334,
-                    "endColumn": 129,
-                    "endOffset": 29459
+                    "startOffset": 29270,
+                    "endColumn": 87,
+                    "endOffset": 29353
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 136,
+                        "startLine": 132,
                         "startColumn": 4,
-                        "startOffset": 12555,
-                        "endColumn": 129,
-                        "endOffset": 12680
+                        "startOffset": 12063,
+                        "endColumn": 87,
+                        "endOffset": 12146
                     }
                 }
             },
@@ -6397,18 +6397,18 @@
                 "to": {
                     "startLine": 407,
                     "startColumn": 4,
-                    "startOffset": 29464,
-                    "endColumn": 130,
-                    "endOffset": 29590
+                    "startOffset": 29358,
+                    "endColumn": 98,
+                    "endOffset": 29452
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 137,
+                        "startLine": 133,
                         "startColumn": 4,
-                        "startOffset": 12686,
-                        "endColumn": 130,
-                        "endOffset": 12812
+                        "startOffset": 12152,
+                        "endColumn": 98,
+                        "endOffset": 12246
                     }
                 }
             },
@@ -6416,18 +6416,18 @@
                 "to": {
                     "startLine": 408,
                     "startColumn": 4,
-                    "startOffset": 29595,
-                    "endColumn": 103,
-                    "endOffset": 29694
+                    "startOffset": 29457,
+                    "endColumn": 110,
+                    "endOffset": 29563
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 138,
+                        "startLine": 134,
                         "startColumn": 4,
-                        "startOffset": 12818,
-                        "endColumn": 103,
-                        "endOffset": 12917
+                        "startOffset": 12252,
+                        "endColumn": 110,
+                        "endOffset": 12358
                     }
                 }
             },
@@ -6435,9 +6435,104 @@
                 "to": {
                     "startLine": 409,
                     "startColumn": 4,
-                    "startOffset": 29699,
+                    "startOffset": 29568,
+                    "endColumn": 126,
+                    "endOffset": 29690
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 12364,
+                        "endColumn": 126,
+                        "endOffset": 12486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 29695,
+                    "endColumn": 138,
+                    "endOffset": 29829
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 12492,
+                        "endColumn": 138,
+                        "endOffset": 12626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 29834,
+                    "endColumn": 129,
+                    "endOffset": 29959
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 12632,
+                        "endColumn": 129,
+                        "endOffset": 12757
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 412,
+                    "startColumn": 4,
+                    "startOffset": 29964,
+                    "endColumn": 130,
+                    "endOffset": 30090
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 12763,
+                        "endColumn": 130,
+                        "endOffset": 12889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 413,
+                    "startColumn": 4,
+                    "startOffset": 30095,
+                    "endColumn": 103,
+                    "endOffset": 30194
+                },
+                "from": {
+                    "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 12895,
+                        "endColumn": 103,
+                        "endOffset": 12994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 414,
+                    "startColumn": 4,
+                    "startOffset": 30199,
                     "endColumn": 51,
-                    "endOffset": 29746
+                    "endOffset": 30246
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6452,11 +6547,11 @@
             },
             {
                 "to": {
-                    "startLine": 410,
+                    "startLine": 415,
                     "startColumn": 4,
-                    "startOffset": 29751,
+                    "startOffset": 30251,
                     "endColumn": 51,
-                    "endOffset": 29798
+                    "endOffset": 30298
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
@@ -6471,31 +6566,31 @@
             },
             {
                 "to": {
-                    "startLine": 411,
+                    "startLine": 416,
                     "startColumn": 4,
-                    "startOffset": 29803,
+                    "startOffset": 30303,
                     "endColumn": 33,
-                    "endOffset": 29832
+                    "endOffset": 30332
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 193,
+                        "startLine": 194,
                         "startColumn": 4,
-                        "startOffset": 20144,
+                        "startOffset": 20221,
                         "endColumn": 33,
-                        "endOffset": 20173
+                        "endOffset": 20250
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 412,
+                    "startLine": 417,
                     "startColumn": 4,
-                    "startOffset": 29837,
-                    "endLine": 418,
+                    "startOffset": 30337,
+                    "endLine": 423,
                     "endColumn": 12,
-                    "endOffset": 30123
+                    "endOffset": 30623
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",
@@ -6511,12 +6606,12 @@
             },
             {
                 "to": {
-                    "startLine": 419,
+                    "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 30128,
-                    "endLine": 421,
+                    "startOffset": 30628,
+                    "endLine": 426,
                     "endColumn": 12,
-                    "endOffset": 30283
+                    "endOffset": 30783
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",
@@ -6532,12 +6627,12 @@
             },
             {
                 "to": {
-                    "startLine": 422,
+                    "startLine": 427,
                     "startColumn": 4,
-                    "startOffset": 30288,
-                    "endLine": 426,
+                    "startOffset": 30788,
+                    "endLine": 431,
                     "endColumn": 12,
-                    "endOffset": 30498
+                    "endOffset": 30998
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",
@@ -6553,12 +6648,12 @@
             },
             {
                 "to": {
-                    "startLine": 427,
+                    "startLine": 432,
                     "startColumn": 4,
-                    "startOffset": 30503,
-                    "endLine": 430,
+                    "startOffset": 31003,
+                    "endLine": 435,
                     "endColumn": 12,
-                    "endOffset": 30707
+                    "endOffset": 31207
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",
@@ -6574,12 +6669,12 @@
             },
             {
                 "to": {
-                    "startLine": 431,
+                    "startLine": 436,
                     "startColumn": 4,
-                    "startOffset": 30712,
-                    "endLine": 433,
+                    "startOffset": 31212,
+                    "endLine": 438,
                     "endColumn": 12,
-                    "endOffset": 30836
+                    "endOffset": 31336
                 },
                 "from": {
                     "file": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\values\\styles.xml",

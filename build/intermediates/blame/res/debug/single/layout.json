@@ -96,6 +96,10 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_medisafe_riskinsured.xml"
     },
     {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info_labbaik.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_info_labbaik.xml"
+    },
+    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_cargo_riskinsured.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_cargo_riskinsured.xml"
     },
@@ -420,6 +424,10 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_otomate_choose_product.xml"
     },
     {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fill_labbaik.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\activity_fill_labbaik.xml"
+    },
+    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_konvensional_choose_product.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_konvensional_choose_product.xml"
     },
@@ -656,12 +664,12 @@
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\layout_insured_name_7.xml"
     },
     {
-        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_well_woman_riskinsured.xml",
-        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_well_woman_riskinsured.xml"
-    },
-    {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item_white_text.xml",
         "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\simple_spinner_item_white_text.xml"
+    },
+    {
+        "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_well_woman_riskinsured.xml",
+        "source": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\res\\layout\\dialog_well_woman_riskinsured.xml"
     },
     {
         "merged": "D:\\Android Java\\Workspace\\AMM NO DRAWER\\AMM\\build\\intermediates\\res\\merged\\debug\\layout\\layout_insured_name_4.xml",

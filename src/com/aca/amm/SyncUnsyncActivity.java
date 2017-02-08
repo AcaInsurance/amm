@@ -15,6 +15,7 @@ import com.aca.database.DBA_PRODUCT_OTOMATE;
 import com.aca.database.DBA_PRODUCT_OTOMATE_SYARIAH;
 import com.aca.dbflow.VersionAndroid;
 import com.aca.util.UtilDate;
+import com.aca.util.Var;
 import com.raizlabs.android.dbflow.sql.language.Select;
 
 import android.os.Bundle;
@@ -393,7 +394,12 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 							SLProductKonvensional konve = new SLProductKonvensional(ctx, sppaID, SyncUnsyncActivity.this);
 							konve.execute();	
 						}
-		            	
+
+						else if(pro_name.toUpperCase().equalsIgnoreCase(Var.LABBAIK)){
+							SLProductLabbaik slProductLabbaik = new SLProductLabbaik(ctx, sppaID, SyncUnsyncActivity.this);
+                            slProductLabbaik.execute();
+						}
+
 	            	}
 	            	finally {
 						BindListView();
@@ -641,6 +647,11 @@ public class SyncUnsyncActivity extends ControlListActivity implements Interface
 			else if(act.equalsIgnoreCase("KONVENSIONAL")){
 				i = new Intent(getBaseContext(),  FillKonvensionalActivity.class);
 				b.putString("TIPE_KONVENSIONAL", "");
+				i.putExtras(b);
+				this.finish();
+			}
+			else if(act.equalsIgnoreCase(Var.LABBAIK)){
+				i = new Intent(getBaseContext(),  FillLabbaikActivity.class);
 				i.putExtras(b);
 				this.finish();
 			}
